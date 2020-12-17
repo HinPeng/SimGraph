@@ -1,0 +1,351 @@
+tower_0/v/cg/dropout0_1/dropout/dropout/random_uniform/RandomUniform
+	22.4375
+tower_0/v/gradients/tower_0/v/cg/conv1/Relu_grad/ReluGrad
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv1/conv2d/kernel/ApplyGradientDescent
+v/cg/conv2/conv2d/kernel
+tower_0/v/gradients/tower_0/v/cg/mpool1/MaxPool_grad/MaxPoolGrad
+	766.7314453125
+tower_0/v/gradients/tower_0/v/cg/conv1/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1.171875
+	1.171875
+	3818.2314453125
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv3/conv2d/Conv2D_grad/ShapeN-matshapes-1
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv2/conv2d/kernel/ApplyGradientDescent
+tower_0/v/cg/Reshape
+tower_0/v/l2_loss/L2Loss_10
+	0.000244140625
+	0.0087890625
+tower_0/v/cg/conv4/Relu
+v/cg/conv3/biases
+v/cg/conv1/conv2d/kernel/read
+tower_0/v/gradients/AddN_5
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv4/conv2d/kernel/ApplyGradientDescent
+main_fetch_group
+tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/num_present
+tower_0/v/gradients/AddN_4
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_1_grad/mul
+	0.000244140625
+tower_0/v/cg/affine2/xw_plus_b
+tower_0/v/gradients/tower_0/v/cg/affine0/xw_plus_b_grad/BiasAddGrad
+	0.015625
+tower_0/v/cg/mpool2/MaxPool
+	50.484375
+v/cg/affine2/weights
+tower_0/v/cg/dropout0/dropout/dropout/truediv
+tower_0/v/gpu_cached_inputs/read
+_SOURCE
+main_fetch_group/_38
+tower_0/v/cg/affine1/xw_plus_b/MatMul
+	22.4375
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_14_grad/mul
+	15.640625
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_13_grad/mul
+	0.015625
+tower_0/v/cg/conv1/conv2d/Conv2D
+	766.7314453125
+	1.171875
+	1576.7734375
+tower_0/v/cg/dropout0/dropout/dropout/Cast
+	39.265625
+v/cg/conv3/conv2d/kernel/read
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv0/conv2d/kernel/ApplyGradientDescent
+v/cg/conv0/biases/read
+tower_0/v/cg/affine1/affine1
+ConstantFolding/average_loss/Mean/input_const_axis
+tower_0/v/cg/Reshape/shape
+tower_0/v/cg/conv1/BiasAdd
+tower_0/v/l2_loss/L2Loss_6
+	0.000244140625
+	0.0087890625
+tower_0/v/gradients/tower_0/v/cg/affine2/xw_plus_b_grad/BiasAddGrad
+	0.005615234375
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv2/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/gradients/tower_0/v/cg/affine1/xw_plus_b/MatMul_grad/MatMul
+	22.4375
+tower_0/v/gradients/tower_0/v/cg/dropout0/dropout/dropout/mul_1_grad/Mul
+tower_0/v/cg/conv0/conv2d/Conv2D
+	1060.5224609375
+	0.088623046875
+	0.017333984375
+tower_0/v/add
+tower_0/v/gradients/tower_0/v/cg/mpool2/MaxPool_grad/MaxPoolGrad
+	236.99609375
+tower_0/v/gradients/tower_0/v/cg/dropout0/dropout/dropout/mul_grad/Mul
+v/cg/conv2/biases/read
+tower_0/v/gradients/tower_0/v/cg/dropout0_1/dropout/dropout/mul_grad/Mul
+append_apply_gradient_ops/GradientDescent/update_v/cg/affine1/biases/ApplyGradientDescent
+v/cg/affine0/weights
+tower_0/v/gradients/AddN_14
+tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/xentropy/xentropy
+	0.005615234375
+	0.005615234375
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv3/conv2d/kernel/ApplyGradientDescent
+v/cg/affine2/weights/read
+v/cg/affine1/biases/read
+tower_0/v/l2_loss/L2Loss_4
+	0.000244140625
+	0.0087890625
+tower_0/v/alexnet_synthetic_labels
+	0.005615234375
+tower_0/v/mul/x
+tower_0/v/alexnet_synthetic_labels/min
+tower_0/v/cg/dropout0_1/dropout/dropout/Cast
+	22.4375
+v/cg/affine2/biases
+tower_0/v/cg/conv3/Relu
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv4/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/gradients/AddN_2
+v/cg/conv3/conv2d/kernel
+tower_0/v/cg/conv2/conv2d/Conv2D
+	355.494140625
+	2.53125
+	1214.15625
+v/cg/conv2/biases
+v/cg/affine0/biases
+tower_0/v/gradients/AddN_15
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_15_grad/mul
+	0.00390625
+tower_0/v/gradients/tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/xentropy/xentropy_grad/mul
+append_apply_gradient_ops/GradientDescent/update_v/cg/affine2/weights/ApplyGradientDescent
+tower_0/v/cg/affine2/xw_plus_b/MatMul
+	5.609375
+append_apply_gradient_ops/GradientDescent/update_v/cg/affine2/biases/ApplyGradientDescent
+v/cg/conv1/biases
+tower_0/v/gradients/AddN_8
+tower_0/v/mul
+tower_0/v/gradients/AddN_7
+tower_0/v/cg/dropout0_1/dropout/dropout/random_uniform/mul
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv3/biases/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/affine1/affine1_grad/ReluGrad
+tower_0/v/l2_loss/L2Loss_13
+	0.000244140625
+tower_0/v/gradients/AddN_1
+learning_rate_tensor/input
+tower_0/v/gradients/tower_0/v/cg/conv4/Relu_grad/ReluGrad
+tower_0/v/cg/dropout0_1/dropout/dropout/GreaterEqual
+	5.609375
+tower_0/v/cg/dropout0/dropout/dropout/Shape
+tower_0/v/l2_loss/L2Loss_9
+	0.000244140625
+append_apply_gradient_ops/GradientDescent
+append_apply_gradient_ops/GradientDescent/update_v/cg/affine0/biases/ApplyGradientDescent
+tower_0/v/alexnet_synthetic_labels/max
+gpu_compute_stage_ops_group
+tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/Mul
+tower_0/v/gradients/tower_0/v/cg/conv3/conv2d/Conv2D_grad/Conv2DBackpropInput
+	355.494140625
+	5.0625
+	355.494140625
+	1540.6875
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv0/biases/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/conv2/Relu_grad/ReluGrad
+v/cg/conv4/conv2d/kernel/read
+tower_0/v/gradients/AddN_12
+tower_0/v/cg/conv2/Relu
+tower_0/v/l2_loss/L2Loss_3
+	0.000244140625
+tower_0/v/gradients/tower_0/v/cg/conv4/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	3.375
+	3.375
+	2256.37109375
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv1/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/l2_loss/L2Loss
+	0.000244140625
+	0.000244140625
+tower_0/v/gradients/tower_0/v/cg/conv2/conv2d/Conv2D_grad/Conv2DBackpropInput
+	177.7470703125
+	2.53125
+	177.7470703125
+	1376.15625
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_12_grad/mul
+	64.0
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv1/biases/ApplyGradientDescent
+v/cg/affine1/weights/read
+tower_0/v/cg/dropout0_1/dropout/dropout/mul
+	22.4375
+tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/Const_1
+tower_0/v/cg/dropout0/dropout/dropout/mul
+	22.4375
+tower_0/v/gradients/AddN_13
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_9_grad/mul
+	0.0009765625
+tower_0/v/cg/dropout0_1/dropout/dropout/mul_1
+tower_0/v/gradients/tower_0/v/cg/Reshape_grad/Reshape
+tower_0/v/l2_loss/L2Loss_8
+	0.000244140625
+	0.0087890625
+tower_0/v/cg/conv3/BiasAdd
+tower_0/v/cg/affine0/affine0
+tower_0/v/gradients/tower_0/v/cg/conv0/Relu_grad/ReluGrad
+tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/value
+append_apply_gradient_ops/GradientDescent/update_v/cg/affine0/weights/ApplyGradientDescent
+tower_0/v/gradients/AddN_11
+tower_0/v/gradients/tower_0/v/cg/Reshape_grad/Shape
+tower_0/v/cg/conv0/Relu
+tower_0/v/gradients/tower_0/v/cg/conv4/BiasAdd_grad/BiasAddGrad
+	0.0009765625
+	236.99609375
+	0.03125
+v/cg/affine0/weights/read
+v/cg/conv4/biases/read
+tower_0/v/transpose
+	846.81298828125
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv3/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/gradients/tower_0/v/cg/conv4/conv2d/Conv2D_grad/Conv2DBackpropInput
+	431.48046875
+	3.375
+	355.494140625
+	1215.0
+tower_0/v/transpose/perm
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_11_grad/mul
+	0.015625
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv4/biases/ApplyGradientDescent
+tower_0/v/l2_loss/L2Loss_11
+	0.000244140625
+tower_0/v/gradients/tower_0/v/cg/affine0/affine0_grad/ReluGrad
+tower_0/v/l2_loss/L2Loss_5
+	0.000244140625
+v/cg/affine1/biases
+tower_0/v/cg/affine1/xw_plus_b
+tower_0/v/l2_loss/L2Loss_1
+	0.000244140625
+average_loss/Mean/input
+v/cg/conv1/biases/read
+tower_0/v/gradients/AddN
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_7_grad/mul
+	0.00146484375
+tower_0/v/cg/dropout0/dropout/dropout/random_uniform/mul
+tower_0/v/gradients/AddN_3
+tower_0/v/gradients/tower_0/v/cg/affine1/xw_plus_b_grad/BiasAddGrad
+	0.015625
+train_ops_group
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_10_grad/mul
+	144.0
+tower_0/v/gradients/tower_0/v/cg/affine1/xw_plus_b/MatMul_grad/MatMul_1
+	64.0
+tower_0/v/gradients/tower_0/v/cg/conv0/BiasAdd_grad/BiasAddGrad
+	0.000244140625
+	1060.5224609375
+	0.000244140625
+	0.0078125
+tower_0/v/gradients/AddN_10
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_8_grad/mul
+	3.375
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_5_grad/mul
+	0.00146484375
+tower_0/v/l2_loss/AddN
+tower_0/v/gradients/tower_0/v/cg/conv2/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	2.53125
+	2.53125
+	2172.931640625
+v/cg/conv0/biases
+tower_0/v/cg/affine0/xw_plus_b/MatMul
+	22.4375
+tower_0/v/gradients/tower_0/v/cg/dropout0_1/dropout/dropout/mul_1_grad/Mul
+tower_0/v/cg/conv1/Relu
+v/cg/conv0/conv2d/kernel
+append_apply_gradient_ops/GradientDescent/update_v/cg/affine1/weights/ApplyGradientDescent
+tower_0/v/cg/dropout0/dropout/dropout/random_uniform/RandomUniform
+	22.4375
+tower_0/v/cg/mpool1/MaxPool
+	177.7470703125
+tower_0/v/l2_loss/L2Loss_2
+	0.000244140625
+	0.0087890625
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_6_grad/mul
+	5.0625
+tower_0/v/gpu_cached_inputs
+tower_0/v/l2_loss/L2Loss_7
+	0.000244140625
+average_loss/Mean
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_2_grad/mul
+	1.171875
+tower_0/v/cg/dropout0/dropout/dropout/rate
+tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/Sum
+	0.000244140625
+v/cg/conv1/conv2d/kernel
+tower_0/v/gradients/AddN_6
+tower_0/v/cg/mpool0/MaxPool
+	255.5771484375
+average_loss/Mean/_42
+tower_0/v/gradients/tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/xentropy/xentropy_grad/ExpandDims
+v/cg/conv4/conv2d/kernel
+tower_0/v/gradients/tower_0/v/cg/conv0/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	0.088623046875
+	0.088623046875
+	0.04052734375
+tower_0/v/cg/dropout0/dropout/dropout/GreaterEqual
+	5.609375
+tower_0/v/gradients/tower_0/v/cg/conv1/BiasAdd_grad/BiasAddGrad
+	0.000732421875
+	766.7314453125
+	0.0234375
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_grad/mul
+	0.088623046875
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv2/biases/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/affine2/xw_plus_b/MatMul_grad/MatMul
+	22.4375
+v/cg/conv4/biases
+tower_0/v/gradients/tower_0/v/cg/affine0/xw_plus_b/MatMul_grad/MatMul
+	64.01611328125
+tower_0/v/gradients/tower_0/v/cg/conv1/conv2d/Conv2D_grad/Conv2DBackpropInput
+	255.5771484375
+	1.171875
+	255.5771484375
+	1576.7734375
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_4_grad/mul
+	2.53125
+tower_0/v/cg/conv4/conv2d/Conv2D
+	236.99609375
+	5.609375
+	1431.0
+tower_0/v/gradients/tower_0/v/cg/conv2/BiasAdd_grad/BiasAddGrad
+	0.001953125
+	355.494140625
+	0.046875
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_3_grad/mul
+	0.000732421875
+tower_0/v/cg/conv4/BiasAdd
+tower_0/v/gradients/tower_0/v/cg/conv3/BiasAdd_grad/BiasAddGrad
+	0.00146484375
+	355.494140625
+	0.046875
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv0/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/alexnet_synthetic_labels/shape
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv1/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/cg/dropout0/dropout/dropout/mul_1
+tower_0/v/gradients/tower_0/v/cg/affine0/xw_plus_b/MatMul_grad/MatMul_1
+	144.0
+tower_0/v/cg/affine0/xw_plus_b
+tower_0/v/gradients/tower_0/v/cg/mpool0/MaxPool_grad/MaxPoolGrad
+	1060.5224609375
+tower_0/v/l2_loss/L2Loss_12
+	0.000244140625
+	0.0087890625
+tower_0/v/gradients/AddN_9
+v/cg/affine2/biases/read
+tower_0/v/gradients/tower_0/v/cg/conv3/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	5.0625
+	5.0625
+	2778.744140625
+tower_0/v/gradients/tower_0/v/cg/conv3/Relu_grad/ReluGrad
+tower_0/v/gradients/tower_0/v/cg/affine2/xw_plus_b/MatMul_grad/MatMul_1
+	15.640625
+tower_0/v/cg/conv3/conv2d/Conv2D
+	355.494140625
+	5.609375
+	1540.6875
+tower_0/v/cg/conv2/BiasAdd
+v/cg/conv2/conv2d/kernel/read
+tower_0/v/l2_loss/L2Loss_14
+	0.000244140625
+	0.0087890625
+v/cg/affine0/biases/read
+v/cg/conv0/conv2d/kernel/read
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv2/conv2d/Conv2D_grad/ShapeN-matshapes-1
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv4/conv2d/Conv2D_grad/ShapeN-matshapes-0
+v/cg/affine1/weights
+tower_0/v/cg/conv0/BiasAdd
+v/cg/conv3/biases/read
+tower_0/v/l2_loss/L2Loss_15
+	0.000244140625

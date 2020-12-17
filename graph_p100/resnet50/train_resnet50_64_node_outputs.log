@@ -1,0 +1,3707 @@
+v/cg/resnet_v15/conv18/conv2d/kernel/read
+0	0.25	GPU_0_bfc
+tower_0/v/cg/resnet_v114/conv47/batchnorm47/AssignMovingAvg_1/mul
+0	0.001953125	GPU_0_bfc
+v/cg/conv0/batchnorm0/beta/read
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v10/conv4/batchnorm4/gamma/read
+0	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v10/conv3/conv2d/kernel/ApplyGradientDescent
+0	0.140625	GPU_0_bfc
+learning_rate/PiecewiseConstant/case/cond/cond/cond/cond/Switch_1
+1	0.000244140625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v112/conv41/batchnorm41/gamma/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v11/conv6/batchnorm6/moving_mean/read
+0	0.000244140625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v19/conv31/batchnorm31/gamma/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v12/conv10/batchnorm10/AssignMovingAvg/mul
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v16/conv22/conv2d/Conv2D
+0	24.5	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v113/conv43/batchnorm43/gamma/ApplyGradientDescent
+0	0.0078125	GPU_0_bfc
+v/cg/resnet_v13/conv12/conv2d/kernel
+0	0.125	GPU_0_bfc
+v/cg/resnet_v19/conv33/conv2d/kernel
+0	1.0	GPU_0_bfc
+tower_0/v/cg/resnet_v115/conv52/batchnorm52/AssignMovingAvg_1/mul
+0	0.0078125	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv13/Relu
+0	24.5	GPU_0_bfc
+v/cg/resnet_v10/conv3/batchnorm3/beta/read
+0	0.000244140625	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_29
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv3/batchnorm3/FusedBatchNormV3
+0	49.0	GPU_0_bfc
+1	0.000244140625	GPU_0_bfc
+2	0.000244140625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v14/conv16/Relu
+0	24.501953125	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv3/batchnorm3/AssignMovingAvg
+0	0.000244140625	GPU_0_bfc
+learning_rate/Less
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v113/conv46/batchnorm46/moving_mean/read
+0	0.0078125	GPU_0_bfc
+tower_0/v/cg/resnet_v12/conv10/conv2d/Conv2D
+0	196.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_54_grad/mul
+0	0.00390625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv0/batchnorm0/beta/ApplyGradientDescent
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v18/conv30/batchnorm30/AssignMovingAvg
+0	0.00390625	GPU_0_bfc
+learning_rate/Cast
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v13/conv11/batchnorm11/moving_variance/read
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v13/conv14/batchnorm14/beta/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_9
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v12/conv10/batchnorm10/AssignMovingAvg_1/mul
+0	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v112/conv40/conv2d/kernel/ApplyGradientDescent
+0	1.0	GPU_0_bfc
+tower_0/v/cg/resnet_v18/conv30/conv2d/Conv2D
+0	49.0	GPU_0_bfc
+tower_0/v/cg/resnet_v11/conv7/batchnorm7/AssignMovingAvg_1/mul
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v112/conv41/batchnorm41/moving_mean/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/value
+0	0.000244140625	GPU_0_bfc
+v/cg/conv0/batchnorm0/moving_mean/read
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv45/batchnorm45/AssignMovingAvg_1/mul
+0	0.001953125	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_2
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv26/batchnorm26/FusedBatchNormV3
+0	12.25	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.0009765625	GPU_0_bfc
+4	0.0009765625	GPU_0_bfc
+v/cg/resnet_v11/conv5/batchnorm5/beta
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v16/conv23/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	0.25	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v19/conv32/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	2.25048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv24/batchnorm24/AssignMovingAvg_1/sub_1
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v111/conv37/batchnorm37/AssignMovingAvg_1/mul
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v12/conv10/batchnorm10/gamma
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v16/conv23/batchnorm23/beta
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v113/conv45/batchnorm45/beta/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_14
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v18/conv28/conv2d/kernel/read
+0	1.0	GPU_0_bfc
+v/cg/resnet_v14/conv16/conv2d/kernel
+0	0.5625	GPU_0_bfc
+v/cg/resnet_v114/conv48/batchnorm48/beta
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v112/conv41/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	4.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v12/conv8/conv2d/kernel/ApplyGradientDescent
+0	0.0625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv44/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	49.0	GPU_0_bfc
+v/cg/resnet_v112/conv42/batchnorm42/moving_variance/read
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v115/conv52/batchnorm52/gamma/read
+0	0.0078125	GPU_0_bfc
+tower_0/v/gradients/AddN_36
+0	1.0	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv1/batchnorm1/FusedBatchNormV3
+0	196.0	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.0009765625	GPU_0_bfc
+4	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v110/conv34/batchnorm34/FusedBatchNormV3
+0	12.25	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.0009765625	GPU_0_bfc
+4	0.0009765625	GPU_0_bfc
+v/cg/resnet_v17/conv24/batchnorm24/beta
+0	0.00390625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v12/conv8/Relu_grad/ReluGrad
+0	49.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v111/conv38/batchnorm38/gamma/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v19/conv33/conv2d/kernel/ApplyGradientDescent
+0	1.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v111/conv38/batchnorm38/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	13.000732421875	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+v/cg/resnet_v18/conv29/batchnorm29/gamma
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v112/conv41/Relu
+0	12.25	GPU_0_bfc
+v/cg/resnet_v114/conv49/batchnorm49/moving_variance/read
+0	0.0078125	GPU_0_bfc
+tower_0/v/mul
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v114/conv48/batchnorm48/moving_variance
+0	0.001953125	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_20
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v15/conv18/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	98.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v11/conv7/batchnorm7/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	196.0	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+v/cg/resnet_v16/conv21/batchnorm21/beta/read
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v111/conv38/batchnorm38/AssignMovingAvg/sub_1
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv43/batchnorm43/AssignMovingAvg_1/mul
+0	0.0078125	GPU_0_bfc
+tower_0/v/cg/resnet_v12/conv8/conv2d/Conv2D
+0	49.0	GPU_0_bfc
+v/cg/resnet_v114/conv47/batchnorm47/gamma
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v13/conv14/batchnorm14/gamma/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv44/batchnorm44/AssignMovingAvg_1/sub_1
+0	0.001953125	GPU_0_bfc
+average_loss/Mean
+0	0.000244140625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v17/conv25/batchnorm25/beta/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv4/batchnorm4/AssignMovingAvg_1/sub_1
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v16/conv22/batchnorm22/beta
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v18/conv28/conv2d/kernel
+0	1.0	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv27/batchnorm27/AssignMovingAvg/mul
+0	0.005859375	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v17/conv24/conv2d/kernel/ApplyGradientDescent
+0	2.0	GPU_0_bfc
+v/cg/resnet_v111/conv38/batchnorm38/moving_mean/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv12/batchnorm12/AssignMovingAvg_1/sub_1
+0	0.00048828125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_3_grad/mul
+0	0.140625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v111/conv37/batchnorm37/beta/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v17/conv24/batchnorm24/gamma/ApplyGradientDescent
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v16/conv23/batchnorm23/gamma
+0	0.001953125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v115/conv50/batchnorm50/gamma/ApplyGradientDescent
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv1/batchnorm1/AssignMovingAvg
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v13/conv12/conv2d/kernel/read
+0	0.125	GPU_0_bfc
+v/cg/resnet_v19/conv31/batchnorm31/gamma/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_40
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v111/conv38/batchnorm38/gamma/read
+0	0.0009765625	GPU_0_bfc
+learning_rate/Const_4
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v18/conv28/batchnorm28/AssignMovingAvg/mul
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv3/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	0.140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_34_grad/mul
+0	1.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v114/conv49/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	9.00048828125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv25/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	134.765625	GPU_0_bfc
+v/cg/resnet_v110/conv34/batchnorm34/beta
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v114/conv47/conv2d/kernel/read
+0	4.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v110/conv34/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	1.0	GPU_0_bfc
+v/cg/resnet_v11/conv5/conv2d/kernel
+0	0.0625	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_50
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v10/Relu
+0	196.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v13/conv14/batchnorm14/gamma/ApplyGradientDescent
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v19/conv31/batchnorm31/AssignMovingAvg/mul
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v111/conv39/batchnorm39/AssignMovingAvg_1
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v114/conv47/batchnorm47/AssignMovingAvg_1
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v10/add
+0	196.0	GPU_0_bfc
+v/cg/resnet_v113/conv46/batchnorm46/beta
+0	0.0078125	GPU_0_bfc
+tower_0/v/gradients/AddN_27
+0	1.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v15/conv18/batchnorm18/gamma/ApplyGradientDescent
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v15/conv20/batchnorm20/FusedBatchNormV3
+0	98.0	GPU_0_bfc
+1	0.001953125	GPU_0_bfc
+2	0.001953125	GPU_0_bfc
+3	0.001953125	GPU_0_bfc
+4	0.001953125	GPU_0_bfc
+v/cg/resnet_v17/conv24/batchnorm24/moving_variance
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v17/conv26/batchnorm26/beta/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/AddN_47
+0	0.25	GPU_0_bfc
+tower_0/v/cg/resnet_v16/conv23/conv2d/Conv2D
+0	98.0	GPU_0_bfc
+tower_0/v/gradients/AddN_19
+0	1.0	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_23
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v16/conv22/batchnorm22/beta/read
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v14/conv15/conv2d/kernel/read
+0	0.25	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v17/conv26/batchnorm26/beta/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v114/conv49/batchnorm49/FusedBatchNormV3
+0	24.5	GPU_0_bfc
+1	0.0078125	GPU_0_bfc
+2	0.0078125	GPU_0_bfc
+3	0.0078125	GPU_0_bfc
+4	0.0078125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_19_grad/mul
+0	0.5625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v18/conv29/Relu_grad/ReluGrad
+0	12.25	GPU_0_bfc
+v/cg/resnet_v110/conv36/batchnorm36/moving_mean/read
+0	0.00390625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v115/Relu_grad/ReluGrad
+0	24.5	GPU_0_bfc
+v/cg/resnet_v13/conv14/conv2d/kernel
+0	0.25	GPU_0_bfc
+tower_0/v/cg/resnet_v111/conv37/batchnorm37/AssignMovingAvg
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v17/conv25/batchnorm25/gamma/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v19/conv32/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	14.0009765625	GPU_0_bfc
+v/cg/resnet_v113/conv46/batchnorm46/gamma/read
+0	0.0078125	GPU_0_bfc
+v/cg/resnet_v110/conv36/batchnorm36/moving_variance
+0	0.00390625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v14/conv15/conv2d/kernel/ApplyGradientDescent
+0	0.25	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v114/conv47/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	4.00048828125	GPU_0_bfc
+v/cg/resnet_v13/conv12/batchnorm12/moving_variance
+0	0.00048828125	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v114/conv48/batchnorm48/AssignMovingAvg_1/mul
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v19/conv32/batchnorm32/moving_mean
+0	0.0009765625	GPU_0_bfc
+learning_rate/PiecewiseConstant/case/preds_c
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_10_grad/mul
+0	0.0625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_21_grad/mul
+0	0.25	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv1/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	49.0	GPU_0_bfc
+learning_rate/cond/Merge
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_28_grad/mul
+0	1.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v110/conv35/conv2d/kernel/ApplyGradientDescent
+0	2.25	GPU_0_bfc
+tower_0/v/cg/resnet_v115/conv51/Relu
+0	6.125	GPU_0_bfc
+tower_0/v/cg/resnet_v110/conv36/conv2d/Conv2D
+0	49.0	GPU_0_bfc
+tower_0/v/gradients/AddN_32
+0	2.25048828125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v19/conv31/batchnorm31/beta/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_30_grad/mul
+0	1.0	GPU_0_bfc
+tower_0/v/cg/resnet_v14/conv15/batchnorm15/AssignMovingAvg_1/sub_1
+0	0.00048828125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v19/Relu_grad/ReluGrad
+0	49.0	GPU_0_bfc
+v/cg/resnet_v14/conv16/batchnorm16/moving_variance
+0	0.00048828125	GPU_0_bfc
+learning_rate/PiecewiseConstant/Greater
+0	0.000244140625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v110/conv36/batchnorm36/gamma/ApplyGradientDescent
+0	0.00390625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v115/conv51/batchnorm51/beta/ApplyGradientDescent
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v112/Relu
+0	49.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v14/conv15/batchnorm15/gamma/ApplyGradientDescent
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v114/conv47/batchnorm47/AssignMovingAvg
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v17/conv25/batchnorm25/moving_mean/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v12/conv8/Relu
+0	49.0	GPU_0_bfc
+v/cg/resnet_v13/conv13/conv2d/kernel
+0	0.5625	GPU_0_bfc
+tower_0/v/cg/resnet_v19/add
+0	49.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v112/conv40/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	1.0	GPU_0_bfc
+learning_rate/PiecewiseConstant/case/cond/cond/cond/Switch_1
+1	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv12/batchnorm12/AssignMovingAvg
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v114/conv49/batchnorm49/AssignMovingAvg/mul
+0	0.0078125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v12/conv10/batchnorm10/gamma/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_1
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v110/conv34/conv2d/Conv2D
+0	12.25	GPU_0_bfc
+tower_0/v/cg/resnet_v114/conv48/batchnorm48/AssignMovingAvg_1
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv12/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	269.5078125	GPU_0_bfc
+tower_0/v/cg/resnet_v11/conv7/batchnorm7/AssignMovingAvg_1
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v110/conv36/batchnorm36/AssignMovingAvg_1/sub_1
+0	0.00390625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v10/conv3/batchnorm3/beta/ApplyGradientDescent
+0	0.000244140625	GPU_0_bfc
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/spatial_mean0_grad/truediv_recip
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv27/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	12.25	GPU_0_bfc
+tower_0/v/gradients/AddN_56
+0	0.125	GPU_0_bfc
+tower_0/v/cg/resnet_v16/conv23/batchnorm23/AssignMovingAvg
+0	0.001953125	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_38
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v112/conv40/batchnorm40/AssignMovingAvg_1
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v15/conv19/batchnorm19/moving_variance
+0	0.00048828125	GPU_0_bfc
+tower_0/v/gradients/AddN_2
+0	7.81298828125	GPU_0_bfc
+tower_0/v/gradients/AddN_13
+0	49.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v13/conv14/batchnorm14/beta/ApplyGradientDescent
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v110/conv36/batchnorm36/gamma/read
+0	0.00390625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v10/conv4/batchnorm4/gamma/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v16/conv22/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	24.5	GPU_0_bfc
+v/cg/resnet_v10/conv3/batchnorm3/moving_variance/read
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v11/conv5/batchnorm5/gamma/read
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv27/batchnorm27/AssignMovingAvg_1/sub_1
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v12/conv8/batchnorm8/AssignMovingAvg_1
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v111/conv37/batchnorm37/AssignMovingAvg_1/sub_1
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v14/conv15/batchnorm15/beta/read
+0	0.00048828125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v16/Relu_grad/ReluGrad
+0	98.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v14/conv16/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	0.5625	GPU_0_bfc
+v/cg/resnet_v16/conv21/conv2d/kernel/read
+0	0.25	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v111/conv37/Relu_grad/ReluGrad
+0	12.25	GPU_0_bfc
+tower_0/v/cg/conv0/batchnorm0/AssignMovingAvg_1/sub_1
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v15/conv18/conv2d/kernel
+0	0.25	GPU_0_bfc
+v/cg/affine0/biases
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v114/conv47/batchnorm47/FusedBatchNormV3
+0	6.125	GPU_0_bfc
+1	0.001953125	GPU_0_bfc
+2	0.001953125	GPU_0_bfc
+3	0.001953125	GPU_0_bfc
+4	0.001953125	GPU_0_bfc
+v/cg/resnet_v18/conv28/batchnorm28/moving_variance
+0	0.0009765625	GPU_0_bfc
+tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/num_present
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v17/conv27/batchnorm27/moving_mean
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v12/conv8/batchnorm8/moving_mean/read
+0	0.000244140625	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_34
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv1/batchnorm1/AssignMovingAvg/sub_1
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv11/batchnorm11/AssignMovingAvg
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/spatial_mean0
+0	0.5	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_47_grad/mul
+0	4.0	GPU_0_bfc
+tower_0/v/cg/resnet_v110/Relu
+0	49.0	GPU_0_bfc
+v/cg/resnet_v17/conv25/conv2d/kernel
+0	0.5	GPU_0_bfc
+learning_rate/PiecewiseConstant/LessEqual
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v111/conv39/batchnorm39/AssignMovingAvg_1/sub_1
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v113/conv45/batchnorm45/moving_mean/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v19/conv32/batchnorm32/AssignMovingAvg/sub_1
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v112/conv42/batchnorm42/AssignMovingAvg
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v110/conv35/batchnorm35/moving_mean
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v16/conv21/conv2d/kernel
+0	0.25	GPU_0_bfc
+v/cg/resnet_v13/conv11/batchnorm11/moving_variance
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/AddN_64
+0	0.0625	GPU_0_bfc
+v/cg/resnet_v115/conv51/conv2d/kernel
+0	9.0	GPU_0_bfc
+tower_0/v/cg/resnet_v112/conv42/batchnorm42/AssignMovingAvg_1
+0	0.00390625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv0/conv2d/kernel/ApplyGradientDescent
+0	0.035888671875	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv24/batchnorm24/AssignMovingAvg/sub_1
+0	0.00390625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v110/Relu_grad/ReluGrad
+0	49.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v110/conv36/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	12.25	GPU_0_bfc
+tower_0/v/gradients/AddN_8
+0	24.5	GPU_0_bfc
+tower_0/v/cg/resnet_v114/conv49/batchnorm49/AssignMovingAvg/sub_1
+0	0.0078125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_33_grad/mul
+0	1.0	GPU_0_bfc
+tower_0/v/cg/resnet_v15/conv20/batchnorm20/AssignMovingAvg_1
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/affine0/xw_plus_b/MatMul_grad/MatMul
+0	0.5	GPU_0_bfc
+v/cg/resnet_v11/conv5/batchnorm5/gamma
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v115/conv51/batchnorm51/AssignMovingAvg/sub_1
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v19/conv31/batchnorm31/moving_mean/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v115/conv51/batchnorm51/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	6.125	GPU_0_bfc
+1	0.001953125	GPU_0_bfc
+2	0.001953125	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v112/conv40/batchnorm40/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	12.25	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v114/conv48/batchnorm48/gamma/ApplyGradientDescent
+0	0.001953125	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_47
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv46/batchnorm46/AssignMovingAvg_1
+0	0.0078125	GPU_0_bfc
+v/cg/resnet_v13/conv14/batchnorm14/gamma
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v113/conv46/conv2d/kernel/read
+0	4.0	GPU_0_bfc
+v/cg/resnet_v112/conv42/conv2d/kernel/read
+0	1.0	GPU_0_bfc
+v/cg/resnet_v111/conv37/batchnorm37/moving_mean/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v110/conv34/Relu
+0	12.25	GPU_0_bfc
+tower_0/v/cg/resnet_v11/conv5/batchnorm5/AssignMovingAvg/mul
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v19/conv31/batchnorm31/gamma
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v10/conv3/batchnorm3/moving_mean
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/affine0/xw_plus_b
+0	0.244384765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v12/conv9/conv2d/kernel/ApplyGradientDescent
+0	0.140625	GPU_0_bfc
+tower_0/v/cg/resnet_v18/conv29/batchnorm29/AssignMovingAvg/mul
+0	0.0009765625	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_27
+0	0.000244140625	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_43
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v111/conv37/batchnorm37/AssignMovingAvg_1
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v115/conv51/batchnorm51/moving_variance/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv12/batchnorm12/AssignMovingAvg/sub_1
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v15/conv18/conv2d/Conv2D
+0	24.5	GPU_0_bfc
+tower_0/v/cg/resnet_v18/conv29/batchnorm29/AssignMovingAvg
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv46/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	4.00048828125	GPU_0_bfc
+v/cg/resnet_v111/conv38/conv2d/kernel/read
+0	2.25	GPU_0_bfc
+v/cg/resnet_v15/conv20/batchnorm20/moving_mean/read
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v13/conv14/batchnorm14/moving_mean/read
+0	0.001953125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v18/conv30/batchnorm30/gamma/ApplyGradientDescent
+0	0.00390625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v111/Relu_grad/ReluGrad
+0	49.0	GPU_0_bfc
+tower_0/v/cg/resnet_v15/conv20/batchnorm20/AssignMovingAvg_1/mul
+0	0.001953125	GPU_0_bfc
+learning_rate/Const_6
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_51_grad/mul
+0	9.0	GPU_0_bfc
+tower_0/v/cg/resnet_v18/conv28/batchnorm28/AssignMovingAvg
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/AddN_10
+0	9.0	GPU_0_bfc
+tower_0/v/cg/resnet_v115/conv52/batchnorm52/AssignMovingAvg_1/sub_1
+0	0.0078125	GPU_0_bfc
+v/cg/resnet_v110/conv36/batchnorm36/moving_mean
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v12/conv10/batchnorm10/AssignMovingAvg/sub_1
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/conv0/Relu_grad/ReluGrad
+0	196.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v14/conv17/conv2d/kernel/ApplyGradientDescent
+0	0.25	GPU_0_bfc
+v/cg/resnet_v16/conv22/batchnorm22/moving_variance
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v19/conv33/batchnorm33/AssignMovingAvg_1/mul
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv45/conv2d/Conv2D
+0	6.125	GPU_0_bfc
+tower_0/v/cg/resnet_v19/conv32/conv2d/Conv2D
+0	12.25	GPU_0_bfc
+tower_0/v/cg/conv0/batchnorm0/AssignMovingAvg_1/mul
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v16/conv21/batchnorm21/gamma
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v11/conv5/batchnorm5/beta/read
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v111/conv37/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	49.0	GPU_0_bfc
+tower_0/v/cg/resnet_v16/conv23/batchnorm23/AssignMovingAvg/sub_1
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v112/conv40/batchnorm40/AssignMovingAvg/sub_1
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv44/batchnorm44/AssignMovingAvg/mul
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v114/conv49/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	4.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv25/batchnorm25/AssignMovingAvg_1/mul
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v14/conv15/batchnorm15/AssignMovingAvg_1/mul
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v115/conv50/batchnorm50/AssignMovingAvg_1/sub_1
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v11/conv6/batchnorm6/moving_variance/read
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/AddN_24
+0	2.251220703125	GPU_0_bfc
+tower_0/v/cg/resnet_v12/conv9/conv2d/Conv2D
+0	49.0	GPU_0_bfc
+v/cg/resnet_v114/conv49/conv2d/kernel/read
+0	4.0	GPU_0_bfc
+tower_0/v/cg/resnet_v18/conv30/batchnorm30/AssignMovingAvg_1/mul
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv46/batchnorm46/AssignMovingAvg
+0	0.0078125	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv44/batchnorm44/AssignMovingAvg
+0	0.001953125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v15/conv19/conv2d/kernel/ApplyGradientDescent
+0	0.5625	GPU_0_bfc
+v/cg/resnet_v17/conv24/batchnorm24/gamma/read
+0	0.00390625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v11/conv5/batchnorm5/gamma/ApplyGradientDescent
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv44/batchnorm44/FusedBatchNormV3
+0	6.125	GPU_0_bfc
+1	0.001953125	GPU_0_bfc
+2	0.001953125	GPU_0_bfc
+3	0.001953125	GPU_0_bfc
+4	0.001953125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_50_grad/mul
+0	4.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v18/conv28/batchnorm28/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	12.25	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v112/conv41/batchnorm41/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	12.25	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v13/conv11/batchnorm11/beta/ApplyGradientDescent
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v18/conv28/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	49.0	GPU_0_bfc
+v/cg/resnet_v113/conv43/batchnorm43/moving_variance/read
+0	0.0078125	GPU_0_bfc
+v/cg/resnet_v16/conv21/batchnorm21/moving_mean/read
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv46/batchnorm46/AssignMovingAvg_1/sub_1
+0	0.0078125	GPU_0_bfc
+v/cg/resnet_v18/conv29/conv2d/kernel/read
+0	2.25	GPU_0_bfc
+v/cg/resnet_v16/conv23/batchnorm23/gamma/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v18/Relu_grad/ReluGrad
+0	49.0	GPU_0_bfc
+tower_0/v/cg/resnet_v17/Relu
+0	49.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv13/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	24.5	GPU_0_bfc
+v/cg/resnet_v12/conv10/batchnorm10/moving_mean/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v111/conv37/batchnorm37/AssignMovingAvg/mul
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv43/batchnorm43/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	24.5	GPU_0_bfc
+1	0.0078125	GPU_0_bfc
+2	0.0078125	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+v/cg/resnet_v112/conv40/conv2d/kernel/read
+0	1.0	GPU_0_bfc
+v/cg/resnet_v18/conv28/batchnorm28/gamma/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v18/conv29/Relu
+0	12.25390625	GPU_0_bfc
+v/cg/resnet_v19/conv31/conv2d/kernel/read
+0	1.0	GPU_0_bfc
+v/cg/resnet_v13/conv12/batchnorm12/gamma
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v18/conv30/batchnorm30/moving_variance/read
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v13/conv13/batchnorm13/moving_variance/read
+0	0.00048828125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v115/conv50/conv2d/kernel/ApplyGradientDescent
+0	4.0	GPU_0_bfc
+tower_0/v/cg/resnet_v115/add
+0	24.5	GPU_0_bfc
+v/cg/resnet_v112/conv41/conv2d/kernel
+0	2.25	GPU_0_bfc
+v/cg/resnet_v17/conv27/batchnorm27/moving_mean/read
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v16/conv21/batchnorm21/moving_mean
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v112/conv40/conv2d/kernel
+0	1.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/affine0/biases/ApplyGradientDescent
+0	0.00390625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v110/conv35/batchnorm35/beta/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v113/conv46/conv2d/kernel/ApplyGradientDescent
+0	4.0	GPU_0_bfc
+tower_0/v/cg/resnet_v18/conv29/batchnorm29/AssignMovingAvg_1/sub_1
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v18/conv29/batchnorm29/moving_mean
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v111/conv37/batchnorm37/FusedBatchNormV3
+0	12.25	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.0009765625	GPU_0_bfc
+4	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v17/conv26/batchnorm26/gamma/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v17/conv26/conv2d/kernel/ApplyGradientDescent
+0	2.25	GPU_0_bfc
+tower_0/v/gradients/AddN_25
+0	49.0	GPU_0_bfc
+v/cg/resnet_v112/conv41/batchnorm41/moving_variance/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv24/batchnorm24/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	49.0	GPU_0_bfc
+1	0.00439453125	GPU_0_bfc
+2	0.005859375	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+v/cg/resnet_v11/conv7/conv2d/kernel
+0	0.0625	GPU_0_bfc
+v/cg/resnet_v11/conv7/batchnorm7/beta/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v115/conv51/batchnorm51/AssignMovingAvg/mul
+0	0.001953125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v17/conv27/batchnorm27/gamma/ApplyGradientDescent
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv4/batchnorm4/AssignMovingAvg_1
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v110/conv35/batchnorm35/AssignMovingAvg/mul
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v15/conv20/conv2d/kernel
+0	0.25	GPU_0_bfc
+tower_0/v/cg/resnet_v16/conv22/batchnorm22/FusedBatchNormV3
+0	24.5	GPU_0_bfc
+1	0.00048828125	GPU_0_bfc
+2	0.00048828125	GPU_0_bfc
+3	0.00048828125	GPU_0_bfc
+4	0.00048828125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v16/conv22/Relu_grad/ReluGrad
+0	24.5	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv11/batchnorm11/AssignMovingAvg_1/mul
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v12/conv10/batchnorm10/moving_variance
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v110/conv34/batchnorm34/moving_mean
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v115/conv52/batchnorm52/AssignMovingAvg/mul
+0	0.0078125	GPU_0_bfc
+v/cg/resnet_v11/conv5/batchnorm5/moving_variance/read
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v17/conv26/batchnorm26/moving_variance/read
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v114/conv47/batchnorm47/beta
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v16/conv21/conv2d/Conv2D
+0	24.5	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_11_grad/mul
+0	0.5	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv0/batchnorm0/gamma/ApplyGradientDescent
+0	0.000244140625	GPU_0_bfc
+v/cg/conv0/batchnorm0/gamma/read
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv26/batchnorm26/AssignMovingAvg
+0	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v14/conv15/batchnorm15/beta/ApplyGradientDescent
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v12/conv10/batchnorm10/AssignMovingAvg_1/sub_1
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v12/conv9/batchnorm9/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	49.0	GPU_0_bfc
+1	0.000244140625	GPU_0_bfc
+2	0.000244140625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/AddN_12
+0	9.0	GPU_0_bfc
+tower_0/v/cg/resnet_v19/conv32/batchnorm32/FusedBatchNormV3
+0	12.25	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.0009765625	GPU_0_bfc
+4	0.0009765625	GPU_0_bfc
+v/cg/resnet_v112/conv40/batchnorm40/moving_variance
+0	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v10/conv2/conv2d/kernel/ApplyGradientDescent
+0	0.015625	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv13/batchnorm13/AssignMovingAvg_1
+0	0.00048828125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v110/conv35/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	13.000732421875	GPU_0_bfc
+tower_0/v/cg/resnet_v115/conv52/batchnorm52/AssignMovingAvg_1
+0	0.0078125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v111/conv39/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	12.25	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v113/conv43/conv2d/kernel/ApplyGradientDescent
+0	8.0	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv14/batchnorm14/FusedBatchNormV3
+0	98.0	GPU_0_bfc
+1	0.001953125	GPU_0_bfc
+2	0.001953125	GPU_0_bfc
+3	0.001953125	GPU_0_bfc
+4	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v112/conv41/batchnorm41/AssignMovingAvg_1
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v10/conv2/batchnorm2/moving_mean/read
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v11/conv6/batchnorm6/beta
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v12/Relu_grad/ReluGrad
+0	196.0	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv11/batchnorm11/AssignMovingAvg_1/sub_1
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_5_grad/mul
+0	0.0625	GPU_0_bfc
+tower_0/v/gradients/AddN_65
+0	0.0625	GPU_0_bfc
+v/cg/resnet_v13/conv12/batchnorm12/beta
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v111/conv37/batchnorm37/beta
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v19/conv31/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	49.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v114/conv47/conv2d/kernel/ApplyGradientDescent
+0	4.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v13/conv12/batchnorm12/gamma/ApplyGradientDescent
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v113/conv46/batchnorm46/beta/read
+0	0.0078125	GPU_0_bfc
+tower_0/v/cg/resnet_v112/conv41/batchnorm41/AssignMovingAvg_1/mul
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v15/conv18/batchnorm18/beta
+0	0.00048828125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv46/batchnorm46/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	24.5	GPU_0_bfc
+1	0.0078125	GPU_0_bfc
+2	0.0078125	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_11
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v11/conv5/batchnorm5/AssignMovingAvg/sub_1
+0	0.000244140625	GPU_0_bfc
+learning_rate/Cast_1
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v111/conv38/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	12.25	GPU_0_bfc
+v/cg/resnet_v115/conv52/batchnorm52/beta/read
+0	0.0078125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv25/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	0.5	GPU_0_bfc
+v/cg/resnet_v110/conv35/batchnorm35/moving_mean/read
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v10/conv2/batchnorm2/beta/read
+0	0.000244140625	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_42
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v112/conv40/batchnorm40/moving_variance/read
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v110/conv36/batchnorm36/beta
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v111/conv39/batchnorm39/moving_mean
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv2/batchnorm2/AssignMovingAvg_1
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v111/conv38/batchnorm38/AssignMovingAvg/mul
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v19/conv32/batchnorm32/beta/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v19/conv33/batchnorm33/AssignMovingAvg
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv27/batchnorm27/FusedBatchNormV3
+0	49.0	GPU_0_bfc
+1	0.005859375	GPU_0_bfc
+2	0.00390625	GPU_0_bfc
+3	0.00390625	GPU_0_bfc
+4	0.00390625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v115/conv52/batchnorm52/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	24.5078125	GPU_0_bfc
+1	0.0078125	GPU_0_bfc
+2	0.0078125	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_53_grad/mul
+0	7.8203125	GPU_0_bfc
+v/cg/resnet_v114/conv47/batchnorm47/moving_mean/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv45/batchnorm45/AssignMovingAvg_1
+0	0.001953125	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_10
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v110/conv34/Relu_grad/ReluGrad
+0	13.000732421875	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv44/batchnorm44/AssignMovingAvg/sub_1
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v15/conv18/batchnorm18/AssignMovingAvg_1/mul
+0	0.00048828125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_9_grad/mul
+0	0.140625	GPU_0_bfc
+tower_0/v/cg/resnet_v16/conv23/batchnorm23/AssignMovingAvg_1/mul
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v114/conv48/batchnorm48/moving_mean
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v112/conv40/conv2d/Conv2D
+0	12.25	GPU_0_bfc
+tower_0/v/cg/resnet_v15/conv18/Relu
+0	24.5	GPU_0_bfc
+learning_rate/PiecewiseConstant/case/cond/cond/Switch_1
+1	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v115/conv51/Relu_grad/ReluGrad
+0	6.125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv13/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	0.5625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v113/conv45/batchnorm45/beta/ApplyGradientDescent
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v110/conv34/batchnorm34/AssignMovingAvg_1/sub_1
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v114/Relu
+0	24.5	GPU_0_bfc
+tower_0/v/cg/resnet_v15/Relu
+0	98.0	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_49
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v16/conv21/batchnorm21/beta
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v111/conv37/batchnorm37/moving_variance
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v114/conv47/conv2d/kernel
+0	4.0	GPU_0_bfc
+v/cg/resnet_v10/conv4/batchnorm4/gamma
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/mpool0/MaxPool_grad/MaxPoolGrad
+0	196.0	GPU_0_bfc
+v/cg/resnet_v113/conv43/batchnorm43/beta
+0	0.0078125	GPU_0_bfc
+v/cg/affine0/biases/read
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v110/conv34/batchnorm34/AssignMovingAvg_1
+0	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v10/conv4/batchnorm4/beta/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v17/conv26/batchnorm26/moving_mean
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v14/conv17/batchnorm17/AssignMovingAvg_1
+0	0.001953125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v12/conv10/batchnorm10/beta/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv25/batchnorm25/FusedBatchNormV3
+0	12.25	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.0009765625	GPU_0_bfc
+4	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v115/conv50/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	24.5	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v11/Relu_grad/ReluGrad
+0	196.0	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv4/batchnorm4/AssignMovingAvg/mul
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv27/batchnorm27/AssignMovingAvg/sub_1
+0	0.005859375	GPU_0_bfc
+tower_0/v/cg/resnet_v114/conv48/batchnorm48/AssignMovingAvg
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v19/conv32/batchnorm32/gamma/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv12/Relu
+0	24.5	GPU_0_bfc
+tower_0/v/cg/resnet_v14/conv16/batchnorm16/FusedBatchNormV3
+0	24.501953125	GPU_0_bfc
+1	0.00048828125	GPU_0_bfc
+2	0.00048828125	GPU_0_bfc
+3	0.00048828125	GPU_0_bfc
+4	0.00048828125	GPU_0_bfc
+v/cg/resnet_v13/conv11/batchnorm11/moving_mean/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv12/batchnorm12/FusedBatchNormV3
+0	24.5	GPU_0_bfc
+1	0.00048828125	GPU_0_bfc
+2	0.00048828125	GPU_0_bfc
+3	0.00048828125	GPU_0_bfc
+4	0.00048828125	GPU_0_bfc
+tower_0/v/gradients/AddN_70
+0	0.035888671875	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_18
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v114/conv47/batchnorm47/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	9.0	GPU_0_bfc
+1	0.001953125	GPU_0_bfc
+2	0.001953125	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v19/conv33/batchnorm33/AssignMovingAvg/mul
+0	0.005859375	GPU_0_bfc
+v/cg/resnet_v15/conv19/batchnorm19/moving_mean/read
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv25/batchnorm25/AssignMovingAvg/sub_1
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v15/conv19/batchnorm19/beta/read
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v115/conv52/batchnorm52/moving_variance
+0	0.0078125	GPU_0_bfc
+v/cg/resnet_v15/conv19/batchnorm19/moving_mean
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v14/conv16/batchnorm16/AssignMovingAvg_1
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv27/batchnorm27/AssignMovingAvg_1/mul
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v110/conv35/conv2d/Conv2D
+0	12.25	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v112/conv42/batchnorm42/gamma/ApplyGradientDescent
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v19/conv33/conv2d/Conv2D
+0	49.0	GPU_0_bfc
+v/cg/resnet_v13/conv14/conv2d/kernel/read
+0	0.25	GPU_0_bfc
+v/cg/resnet_v17/conv24/batchnorm24/gamma
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv13/batchnorm13/AssignMovingAvg/mul
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v14/conv17/batchnorm17/moving_variance/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv4/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	49.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v12/conv10/batchnorm10/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	196.0	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/affine0/xw_plus_b/MatMul_grad/MatMul_1
+0	7.8203125	GPU_0_bfc
+v/cg/resnet_v17/conv26/batchnorm26/moving_mean/read
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v14/conv15/batchnorm15/moving_mean
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v15/conv19/batchnorm19/moving_variance/read
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v115/conv50/batchnorm50/AssignMovingAvg_1
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v18/conv28/batchnorm28/gamma
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v14/conv17/conv2d/kernel
+0	0.25	GPU_0_bfc
+tower_0/v/cg/resnet_v12/conv10/batchnorm10/AssignMovingAvg
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v14/conv17/batchnorm17/moving_mean/read
+0	0.001953125	GPU_0_bfc
+learning_rate/mul
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v114/conv47/batchnorm47/AssignMovingAvg/sub_1
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv26/batchnorm26/AssignMovingAvg_1
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv14/batchnorm14/AssignMovingAvg_1
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v18/conv28/conv2d/Conv2D
+0	12.25	GPU_0_bfc
+v/cg/resnet_v14/conv17/batchnorm17/beta/read
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v15/conv18/batchnorm18/moving_variance/read
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v16/conv21/batchnorm21/AssignMovingAvg_1
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v15/conv20/batchnorm20/moving_variance
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v11/conv6/Relu
+0	49.0	GPU_0_bfc
+v/cg/resnet_v13/conv12/batchnorm12/moving_mean
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v114/conv48/batchnorm48/FusedBatchNormV3
+0	6.125	GPU_0_bfc
+1	0.001953125	GPU_0_bfc
+2	0.001953125	GPU_0_bfc
+3	0.001953125	GPU_0_bfc
+4	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v16/conv22/batchnorm22/AssignMovingAvg
+0	0.00048828125	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_46
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v15/conv19/conv2d/Conv2D
+0	24.5	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_43_grad/mul
+0	8.0	GPU_0_bfc
+tower_0/v/cg/resnet_v11/conv7/batchnorm7/AssignMovingAvg_1/sub_1
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v111/conv38/Relu
+0	12.25	GPU_0_bfc
+tower_0/v/cg/resnet_v111/conv38/conv2d/Conv2D
+0	12.25	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v18/conv28/conv2d/kernel/ApplyGradientDescent
+0	1.0	GPU_0_bfc
+tower_0/v/cg/resnet_v114/conv47/batchnorm47/AssignMovingAvg_1/sub_1
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v16/conv23/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	24.5	GPU_0_bfc
+v/cg/resnet_v114/conv47/batchnorm47/moving_variance/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv25/batchnorm25/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	12.25	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v19/conv32/batchnorm32/AssignMovingAvg_1/sub_1
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v18/conv28/batchnorm28/AssignMovingAvg_1
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v114/conv48/conv2d/Conv2D
+0	6.125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/conv0/batchnorm0/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	245.0	GPU_0_bfc
+1	0.000244140625	GPU_0_bfc
+2	0.000244140625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v15/conv20/batchnorm20/AssignMovingAvg/mul
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v112/conv42/conv2d/kernel
+0	1.0	GPU_0_bfc
+v/cg/resnet_v17/conv27/conv2d/kernel
+0	1.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v12/conv8/batchnorm8/gamma/ApplyGradientDescent
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v10/conv1/conv2d/kernel/read
+0	0.0625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/xentropy/xentropy_grad/ExpandDims
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v17/conv27/batchnorm27/gamma
+0	0.00390625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_20_grad/mul
+0	0.25	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_4
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv45/batchnorm45/AssignMovingAvg
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v17/conv25/conv2d/kernel/read
+0	0.5	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_41
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v14/conv16/batchnorm16/beta
+0	0.00048828125	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_45
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v111/conv39/batchnorm39/moving_mean/read
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv26/batchnorm26/AssignMovingAvg/sub_1
+0	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v18/conv29/conv2d/kernel/ApplyGradientDescent
+0	2.25	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v110/conv34/batchnorm34/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	12.25	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+v/cg/resnet_v115/conv50/batchnorm50/beta
+0	0.001953125	GPU_0_bfc
+learning_rate/Const_8
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v114/conv49/batchnorm49/gamma
+0	0.0078125	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv1/batchnorm1/AssignMovingAvg_1/sub_1
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v15/conv20/batchnorm20/AssignMovingAvg_1/sub_1
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv43/batchnorm43/FusedBatchNormV3
+0	24.5	GPU_0_bfc
+1	0.0078125	GPU_0_bfc
+2	0.0078125	GPU_0_bfc
+3	0.0078125	GPU_0_bfc
+4	0.0078125	GPU_0_bfc
+v/cg/resnet_v15/conv19/batchnorm19/beta
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v10/conv1/batchnorm1/moving_mean/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v16/conv22/batchnorm22/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	24.5	GPU_0_bfc
+1	0.000732421875	GPU_0_bfc
+2	0.00048828125	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+v/cg/resnet_v14/conv16/batchnorm16/moving_variance/read
+0	0.00048828125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v12/conv9/Relu_grad/ReluGrad
+0	49.0	GPU_0_bfc
+tower_0/v/cg/resnet_v110/conv35/batchnorm35/AssignMovingAvg_1
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v15/conv20/batchnorm20/beta
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v12/conv9/batchnorm9/moving_mean/read
+0	0.000244140625	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_17
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v12/conv8/batchnorm8/beta/read
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/AddN_23
+0	1.0	GPU_0_bfc
+tower_0/v/cg/resnet_v14/conv16/batchnorm16/AssignMovingAvg_1/sub_1
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v16/conv22/batchnorm22/moving_mean/read
+0	0.00048828125	GPU_0_bfc
+tower_0/v/gradients/AddN_50
+0	98.0	GPU_0_bfc
+tower_0/v/cg/resnet_v18/conv28/Relu
+0	12.25	GPU_0_bfc
+tower_0/v/cg/resnet_v15/conv19/batchnorm19/AssignMovingAvg_1/mul
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v115/conv52/conv2d/kernel
+0	4.0	GPU_0_bfc
+v/cg/resnet_v113/conv45/batchnorm45/gamma/read
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v12/conv10/batchnorm10/gamma/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v115/conv51/conv2d/Conv2D
+0	6.125	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv11/batchnorm11/FusedBatchNormV3
+0	98.0	GPU_0_bfc
+1	0.001953125	GPU_0_bfc
+2	0.001953125	GPU_0_bfc
+3	0.001953125	GPU_0_bfc
+4	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv24/batchnorm24/FusedBatchNormV3
+0	49.0	GPU_0_bfc
+1	0.00390625	GPU_0_bfc
+2	0.00390625	GPU_0_bfc
+3	0.00390625	GPU_0_bfc
+4	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v115/conv52/batchnorm52/AssignMovingAvg
+0	0.0078125	GPU_0_bfc
+v/cg/resnet_v10/conv1/batchnorm1/moving_variance
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv4/batchnorm4/AssignMovingAvg
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv3/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	49.0	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_39
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v13/conv11/batchnorm11/moving_mean
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v11/conv5/Relu
+0	49.0	GPU_0_bfc
+v/cg/resnet_v14/conv17/batchnorm17/moving_variance
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v10/conv4/conv2d/kernel
+0	0.0625	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv25/conv2d/Conv2D
+0	12.25	GPU_0_bfc
+tower_0/v/cg/resnet_v15/conv19/batchnorm19/AssignMovingAvg
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v112/conv42/batchnorm42/AssignMovingAvg/mul
+0	0.005859375	GPU_0_bfc
+v/cg/resnet_v10/conv2/batchnorm2/moving_variance/read
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv44/batchnorm44/AssignMovingAvg_1/mul
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v17/conv27/batchnorm27/moving_variance/read
+0	0.00390625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v115/conv52/batchnorm52/beta/ApplyGradientDescent
+0	0.0078125	GPU_0_bfc
+v/cg/resnet_v114/conv47/batchnorm47/gamma/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v111/conv38/batchnorm38/AssignMovingAvg_1/sub_1
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v110/conv35/batchnorm35/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	12.25	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+v/cg/resnet_v12/conv8/batchnorm8/moving_mean
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v114/conv48/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	9.00048828125	GPU_0_bfc
+v/cg/resnet_v17/conv26/batchnorm26/gamma/read
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v115/conv50/conv2d/kernel
+0	4.0	GPU_0_bfc
+v/cg/resnet_v12/conv9/batchnorm9/moving_mean
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv1/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	0.0625	GPU_0_bfc
+v/cg/resnet_v112/conv41/batchnorm41/moving_variance
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v112/conv41/batchnorm41/beta
+0	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v11/conv5/conv2d/kernel/ApplyGradientDescent
+0	0.0625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v14/conv17/batchnorm17/gamma/ApplyGradientDescent
+0	0.001953125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v111/conv38/conv2d/kernel/ApplyGradientDescent
+0	2.25	GPU_0_bfc
+tower_0/v/gradients/AddN_30
+0	1.0	GPU_0_bfc
+v/cg/resnet_v13/conv14/batchnorm14/moving_variance
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v16/conv23/batchnorm23/AssignMovingAvg_1
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/conv0/Relu
+0	196.0	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv25/batchnorm25/AssignMovingAvg/mul
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v12/conv10/batchnorm10/beta
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v112/conv42/batchnorm42/AssignMovingAvg_1/sub_1
+0	0.00390625	GPU_0_bfc
+learning_rate/PiecewiseConstant/Greater_3
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v112/conv40/batchnorm40/gamma/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv46/batchnorm46/AssignMovingAvg_1/mul
+0	0.0078125	GPU_0_bfc
+tower_0/v/cg/resnet_v110/conv34/batchnorm34/AssignMovingAvg
+0	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v16/conv22/conv2d/kernel/ApplyGradientDescent
+0	0.5625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v114/conv48/Relu_grad/ReluGrad
+0	9.00048828125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v112/Relu_grad/ReluGrad
+0	49.0	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_51
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v16/conv22/batchnorm22/gamma
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v19/conv32/batchnorm32/AssignMovingAvg
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v114/conv49/batchnorm49/beta
+0	0.0078125	GPU_0_bfc
+tower_0/v/cg/resnet_v110/conv35/batchnorm35/AssignMovingAvg/sub_1
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gpu_cached_inputs
+0	36.75	GPU_0_bfc
+v/cg/resnet_v19/conv32/batchnorm32/moving_variance/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_33
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v13/Relu
+0	98.0	GPU_0_bfc
+v/cg/resnet_v110/conv34/batchnorm34/gamma
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v113/conv46/batchnorm46/gamma
+0	0.0078125	GPU_0_bfc
+tower_0/v/cg/resnet_v111/conv38/batchnorm38/AssignMovingAvg_1
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v114/conv49/batchnorm49/AssignMovingAvg
+0	0.0078125	GPU_0_bfc
+v/cg/resnet_v12/conv8/conv2d/kernel
+0	0.0625	GPU_0_bfc
+v/cg/resnet_v114/conv48/batchnorm48/beta/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv45/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	9.00048828125	GPU_0_bfc
+v/cg/resnet_v112/conv40/batchnorm40/beta
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_1_grad/mul
+0	0.0625	GPU_0_bfc
+v/cg/resnet_v114/conv48/batchnorm48/gamma
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v111/conv39/batchnorm39/AssignMovingAvg_1/mul
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v15/conv18/batchnorm18/AssignMovingAvg_1/sub_1
+0	0.00048828125	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_15
+0	0.000244140625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v13/conv13/batchnorm13/beta/ApplyGradientDescent
+0	0.00048828125	GPU_0_bfc
+tower_0/v/gradients/AddN_61
+0	0.06298828125	GPU_0_bfc
+v/cg/resnet_v113/conv43/conv2d/kernel/read
+0	8.0	GPU_0_bfc
+tower_0/v/gradients/AddN_22
+0	1.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v18/conv29/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	14.0009765625	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_16
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v112/conv41/batchnorm41/beta/read
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v13/conv13/batchnorm13/moving_mean/read
+0	0.00048828125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v13/conv11/batchnorm11/gamma/ApplyGradientDescent
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/AddN_18
+0	1.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv12/Relu_grad/ReluGrad
+0	24.5	GPU_0_bfc
+tower_0/v/cg/resnet_v15/conv19/batchnorm19/AssignMovingAvg/sub_1
+0	0.00048828125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v16/conv21/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	0.25	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv46/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	9.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v110/add
+0	49.0	GPU_0_bfc
+tower_0/v/cg/resnet_v15/conv18/batchnorm18/AssignMovingAvg/sub_1
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v16/conv22/batchnorm22/gamma/read
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v112/conv41/batchnorm41/gamma
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv26/batchnorm26/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	14.0009765625	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v12/conv10/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	49.0	GPU_0_bfc
+v/cg/resnet_v18/conv30/batchnorm30/beta/read
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v11/conv5/batchnorm5/AssignMovingAvg
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv11/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	196.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v16/conv22/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	1.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/Relu_grad/ReluGrad
+0	196.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv2/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	0.015625	GPU_0_bfc
+tower_0/v/cg/resnet_v16/conv21/batchnorm21/AssignMovingAvg
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v115/conv52/conv2d/Conv2D
+0	24.5	GPU_0_bfc
+v/cg/resnet_v10/conv4/batchnorm4/beta
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v15/conv18/batchnorm18/gamma/read
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v112/conv40/batchnorm40/beta/read
+0	0.0009765625	GPU_0_bfc
+learning_rate/Cast_4
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v113/conv43/batchnorm43/moving_variance
+0	0.0078125	GPU_0_bfc
+tower_0/v/cg/resnet_v111/conv38/batchnorm38/FusedBatchNormV3
+0	12.25	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.0009765625	GPU_0_bfc
+4	0.0009765625	GPU_0_bfc
+v/cg/resnet_v113/conv44/batchnorm44/beta
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v18/conv30/conv2d/kernel
+0	1.0	GPU_0_bfc
+v/cg/resnet_v111/conv37/conv2d/kernel
+0	1.0	GPU_0_bfc
+v/cg/resnet_v13/conv11/batchnorm11/gamma/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/AddN_42
+0	98.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v19/conv31/conv2d/kernel/ApplyGradientDescent
+0	1.0	GPU_0_bfc
+v/cg/resnet_v19/conv33/conv2d/kernel/read
+0	1.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v18/conv28/batchnorm28/gamma/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_26
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v114/conv48/batchnorm48/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	6.125	GPU_0_bfc
+1	0.001953125	GPU_0_bfc
+2	0.001953125	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+v/cg/resnet_v18/conv29/conv2d/kernel
+0	2.25	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v12/conv9/batchnorm9/beta/ApplyGradientDescent
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v10/conv2/batchnorm2/moving_variance
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv13/Relu_grad/ReluGrad
+0	24.5	GPU_0_bfc
+tower_0/v/cg/resnet_v112/conv42/conv2d/Conv2D
+0	49.0	GPU_0_bfc
+v/cg/resnet_v115/conv52/batchnorm52/gamma
+0	0.0078125	GPU_0_bfc
+tower_0/v/gradients/AddN_1
+0	7.8203125	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_22
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v113/conv46/batchnorm46/moving_variance/read
+0	0.0078125	GPU_0_bfc
+tower_0/v/cg/resnet_v15/conv19/batchnorm19/AssignMovingAvg/mul
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/conv0/batchnorm0/AssignMovingAvg/mul
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_26_grad/mul
+0	2.25	GPU_0_bfc
+v/cg/resnet_v18/conv30/batchnorm30/beta
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v18/add
+0	49.0	GPU_0_bfc
+v/cg/resnet_v114/conv49/batchnorm49/moving_mean
+0	0.0078125	GPU_0_bfc
+tower_0/v/cg/resnet_v12/conv9/batchnorm9/AssignMovingAvg_1
+0	0.000244140625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v11/conv7/conv2d/kernel/ApplyGradientDescent
+0	0.0625	GPU_0_bfc
+tower_0/v/cg/resnet_v12/conv8/batchnorm8/AssignMovingAvg
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/conv0/batchnorm0/AssignMovingAvg
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv26/conv2d/Conv2D
+0	12.25	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v111/conv37/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	1.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv11/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	0.5	GPU_0_bfc
+tower_0/v/gradients/AddN_5
+0	4.00048828125	GPU_0_bfc
+v/cg/resnet_v115/conv51/batchnorm51/gamma
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v10/conv2/conv2d/kernel/read
+0	0.015625	GPU_0_bfc
+tower_0/v/cg/resnet_v19/Relu
+0	49.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v19/conv31/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	1.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v110/conv36/conv2d/kernel/ApplyGradientDescent
+0	1.0	GPU_0_bfc
+tower_0/v/cg/conv0/conv2d/Conv2D
+0	196.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v11/conv5/batchnorm5/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	49.0	GPU_0_bfc
+1	0.000244140625	GPU_0_bfc
+2	0.000244140625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v19/conv33/batchnorm33/AssignMovingAvg_1
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v113/conv46/conv2d/kernel
+0	4.0	GPU_0_bfc
+v/cg/resnet_v16/conv21/batchnorm21/moving_variance/read
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v110/conv36/batchnorm36/gamma
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v115/conv52/batchnorm52/moving_mean
+0	0.0078125	GPU_0_bfc
+tower_0/v/cg/resnet_v112/conv40/batchnorm40/AssignMovingAvg
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v113/conv45/conv2d/kernel
+0	9.0	GPU_0_bfc
+tower_0/v/cg/resnet_v115/conv50/batchnorm50/AssignMovingAvg/mul
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v16/conv21/batchnorm21/moving_variance
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v11/conv6/batchnorm6/gamma/read
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v12/conv9/batchnorm9/beta
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv13/batchnorm13/AssignMovingAvg/sub_1
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v111/conv39/batchnorm39/AssignMovingAvg/sub_1
+0	0.005859375	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv46/batchnorm46/AssignMovingAvg/sub_1
+0	0.0078125	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv2/conv2d/Conv2D
+0	49.0	GPU_0_bfc
+v/cg/resnet_v13/conv13/batchnorm13/moving_mean
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v13/conv11/conv2d/kernel
+0	0.5	GPU_0_bfc
+v/cg/resnet_v114/conv48/batchnorm48/moving_mean/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/AddN_51
+0	0.25	GPU_0_bfc
+tower_0/v/cg/resnet_v16/conv21/batchnorm21/AssignMovingAvg_1/sub_1
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v17/conv25/batchnorm25/moving_mean
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v114/conv48/conv2d/kernel
+0	9.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v19/conv32/batchnorm32/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	12.25	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v114/Relu_grad/ReluGrad
+0	24.5	GPU_0_bfc
+tower_0/v/gradients/AddN_52
+0	0.5	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v10/conv2/batchnorm2/gamma/ApplyGradientDescent
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v13/conv13/batchnorm13/beta/read
+0	0.00048828125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_41_grad/mul
+0	2.25	GPU_0_bfc
+v/cg/resnet_v115/conv50/conv2d/kernel/read
+0	4.0	GPU_0_bfc
+v/cg/resnet_v16/conv21/batchnorm21/gamma/read
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v18/conv28/batchnorm28/moving_variance/read
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v10/conv3/batchnorm3/beta
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv45/Relu_grad/ReluGrad
+0	9.00048828125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v15/conv18/batchnorm18/beta/ApplyGradientDescent
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v10/conv4/batchnorm4/moving_variance
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v19/conv33/batchnorm33/FusedBatchNormV3
+0	49.0	GPU_0_bfc
+1	0.005859375	GPU_0_bfc
+2	0.00390625	GPU_0_bfc
+3	0.00390625	GPU_0_bfc
+4	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v110/conv34/batchnorm34/AssignMovingAvg/mul
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v115/conv52/batchnorm52/moving_variance/read
+0	0.0078125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v110/conv36/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	1.0	GPU_0_bfc
+v/cg/resnet_v114/conv49/batchnorm49/gamma/read
+0	0.0078125	GPU_0_bfc
+v/cg/resnet_v17/conv27/batchnorm27/moving_variance
+0	0.00390625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v114/conv47/batchnorm47/beta/ApplyGradientDescent
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v111/conv39/batchnorm39/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	49.00390625	GPU_0_bfc
+1	0.004150390625	GPU_0_bfc
+2	0.005859375	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/AddN_57
+0	0.0625	GPU_0_bfc
+learning_rate/PiecewiseConstant/LessEqual_1
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v14/conv15/batchnorm15/moving_variance
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v14/conv17/conv2d/kernel/read
+0	0.25	GPU_0_bfc
+v/cg/resnet_v18/conv30/batchnorm30/moving_mean
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v111/conv38/conv2d/kernel
+0	2.25	GPU_0_bfc
+learning_rate/PiecewiseConstant/and_1
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v19/conv32/batchnorm32/AssignMovingAvg/mul
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v111/conv39/batchnorm39/moving_variance/read
+0	0.00390625	GPU_0_bfc
+tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/xentropy/xentropy
+0	0.000244140625	GPU_0_bfc
+1	0.244384765625	GPU_0_bfc
+average_loss/Mean/input
+0	0.000244140625	GPU_0_bfc
+v/cg/conv0/conv2d/kernel/read
+0	0.035888671875	GPU_0_bfc
+v/cg/conv0/batchnorm0/moving_variance
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v10/conv1/batchnorm1/gamma/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/conv0/batchnorm0/FusedBatchNormV3
+0	196.0	GPU_0_bfc
+1	0.000244140625	GPU_0_bfc
+2	0.000244140625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv4/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	0.0625	GPU_0_bfc
+v/cg/resnet_v12/conv8/conv2d/kernel/read
+0	0.0625	GPU_0_bfc
+tower_0/v/cg/resnet_v115/conv50/Relu
+0	6.125	GPU_0_bfc
+tower_0/v/cg/resnet_v15/conv18/batchnorm18/AssignMovingAvg/mul
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v19/conv31/batchnorm31/AssignMovingAvg_1/sub_1
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v14/conv15/batchnorm15/gamma/read
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v18/conv29/batchnorm29/AssignMovingAvg_1/mul
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v112/conv41/batchnorm41/moving_mean
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv24/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	2.25048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v12/conv9/batchnorm9/AssignMovingAvg/mul
+0	0.000244140625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v113/conv46/batchnorm46/gamma/ApplyGradientDescent
+0	0.0078125	GPU_0_bfc
+v/cg/resnet_v11/conv5/batchnorm5/moving_variance
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/AddN_31
+0	1.0	GPU_0_bfc
+tower_0/v/cg/resnet_v12/Relu
+0	196.0	GPU_0_bfc
+tower_0/v/cg/resnet_v14/conv17/batchnorm17/AssignMovingAvg_1/sub_1
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v114/conv47/batchnorm47/beta/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v111/conv38/Relu_grad/ReluGrad
+0	12.25	GPU_0_bfc
+v/cg/resnet_v115/conv50/batchnorm50/moving_variance/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v16/conv23/batchnorm23/FusedBatchNormV3
+0	98.0	GPU_0_bfc
+1	0.001953125	GPU_0_bfc
+2	0.001953125	GPU_0_bfc
+3	0.001953125	GPU_0_bfc
+4	0.001953125	GPU_0_bfc
+v/cg/resnet_v18/conv28/batchnorm28/moving_mean
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v17/conv24/batchnorm24/moving_variance/read
+0	0.00390625	GPU_0_bfc
+tower_0/v/gradients/AddN_68
+0	49.0	GPU_0_bfc
+tower_0/v/cg/resnet_v11/conv5/batchnorm5/FusedBatchNormV3
+0	49.0	GPU_0_bfc
+1	0.000244140625	GPU_0_bfc
+2	0.000244140625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+v/cg/resnet_v110/conv34/batchnorm34/gamma/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v11/conv5/Relu_grad/ReluGrad
+0	49.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv25/Relu_grad/ReluGrad
+0	12.25	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v19/conv31/batchnorm31/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	12.25	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+v/cg/affine0/weights
+0	7.8203125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v15/conv19/batchnorm19/gamma/ApplyGradientDescent
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v13/conv12/batchnorm12/gamma/read
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/conv0/Pad
+0	38.7451171875	GPU_0_bfc
+v/cg/resnet_v13/conv13/batchnorm13/beta
+0	0.00048828125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv11/batchnorm11/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	98.001953125	GPU_0_bfc
+1	0.001953125	GPU_0_bfc
+2	0.00244140625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/AddN_48
+0	0.25	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v111/conv39/batchnorm39/gamma/ApplyGradientDescent
+0	0.00390625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v10/conv3/batchnorm3/gamma/ApplyGradientDescent
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v19/conv32/batchnorm32/gamma
+0	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v14/conv16/batchnorm16/beta/ApplyGradientDescent
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv44/conv2d/Conv2D
+0	6.125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv3/Relu_grad/ReluGrad
+0	49.0	GPU_0_bfc
+tower_0/v/cg/resnet_v112/conv40/batchnorm40/FusedBatchNormV3
+0	12.25	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.0009765625	GPU_0_bfc
+4	0.0009765625	GPU_0_bfc
+v/cg/resnet_v114/conv48/batchnorm48/gamma/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv45/batchnorm45/AssignMovingAvg_1/sub_1
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v112/conv40/batchnorm40/moving_mean
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v19/conv31/batchnorm31/AssignMovingAvg_1
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v115/conv51/batchnorm51/moving_variance
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/AddN_11
+0	4.00048828125	GPU_0_bfc
+v/cg/resnet_v115/conv52/batchnorm52/beta
+0	0.0078125	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv2/batchnorm2/AssignMovingAvg_1/mul
+0	0.000244140625	GPU_0_bfc
+learning_rate/Const_7
+0	0.000244140625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v15/conv20/conv2d/kernel/ApplyGradientDescent
+0	0.25	GPU_0_bfc
+v/cg/resnet_v11/conv5/batchnorm5/moving_mean
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v11/conv5/conv2d/kernel/read
+0	0.0625	GPU_0_bfc
+learning_rate/PiecewiseConstant/Greater_2
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_48_grad/mul
+0	9.0	GPU_0_bfc
+tower_0/v/gradients/AddN_55
+0	196.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v16/conv21/batchnorm21/beta/ApplyGradientDescent
+0	0.00048828125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_13_grad/mul
+0	0.5625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv2/Relu_grad/ReluGrad
+0	49.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v110/conv34/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	49.0	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv45/batchnorm45/FusedBatchNormV3
+0	6.125	GPU_0_bfc
+1	0.001953125	GPU_0_bfc
+2	0.001953125	GPU_0_bfc
+3	0.001953125	GPU_0_bfc
+4	0.001953125	GPU_0_bfc
+v/cg/resnet_v18/conv28/batchnorm28/moving_mean/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v15/conv19/batchnorm19/AssignMovingAvg_1
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v110/conv34/batchnorm34/moving_variance
+0	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v110/conv34/batchnorm34/gamma/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v16/conv21/batchnorm21/AssignMovingAvg/mul
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v15/conv20/batchnorm20/beta/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v11/conv7/batchnorm7/AssignMovingAvg/sub_1
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v113/conv45/conv2d/kernel/read
+0	9.0	GPU_0_bfc
+v/cg/resnet_v13/conv12/batchnorm12/moving_variance/read
+0	0.00048828125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v14/conv16/conv2d/kernel/ApplyGradientDescent
+0	0.5625	GPU_0_bfc
+v/cg/resnet_v19/conv31/conv2d/kernel
+0	1.0	GPU_0_bfc
+tower_0/v/cg/resnet_v19/conv33/batchnorm33/AssignMovingAvg/sub_1
+0	0.005859375	GPU_0_bfc
+tower_0/v/cg/resnet_v14/conv15/batchnorm15/AssignMovingAvg/sub_1
+0	0.00048828125	GPU_0_bfc
+tower_0/v/gradients/AddN_43
+0	0.25	GPU_0_bfc
+v/cg/resnet_v17/conv26/batchnorm26/moving_variance
+0	0.0009765625	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_12
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v11/conv7/batchnorm7/gamma/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv3/batchnorm3/AssignMovingAvg_1
+0	0.000244140625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v113/conv44/batchnorm44/gamma/ApplyGradientDescent
+0	0.001953125	GPU_0_bfc
+learning_rate/Less/y
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v16/conv23/batchnorm23/beta/read
+0	0.001953125	GPU_0_bfc
+learning_rate/PiecewiseConstant/Greater_1
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/AddN_38
+0	98.0	GPU_0_bfc
+tower_0/v/cg/resnet_v16/conv22/Relu
+0	24.5	GPU_0_bfc
+v/cg/resnet_v111/conv38/batchnorm38/moving_variance
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v14/conv17/batchnorm17/gamma
+0	0.001953125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v10/conv2/batchnorm2/beta/ApplyGradientDescent
+0	0.000244140625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v12/conv8/batchnorm8/beta/ApplyGradientDescent
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v110/conv35/batchnorm35/AssignMovingAvg_1/sub_1
+0	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v110/conv34/conv2d/kernel/ApplyGradientDescent
+0	1.0	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_19
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_7_grad/mul
+0	0.0625	GPU_0_bfc
+v/cg/resnet_v12/conv10/batchnorm10/moving_mean
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v18/conv30/batchnorm30/moving_mean/read
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v112/conv42/batchnorm42/beta
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v14/conv17/batchnorm17/AssignMovingAvg/sub_1
+0	0.001953125	GPU_0_bfc
+learning_rate/PiecewiseConstant/and
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v113/conv44/batchnorm44/moving_mean
+0	0.001953125	GPU_0_bfc
+v/cg/affine0/weights/read
+0	7.8203125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/spatial_mean0_grad/Tile
+0	24.5	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v112/conv41/conv2d/kernel/ApplyGradientDescent
+0	2.25	GPU_0_bfc
+tower_0/v/gradients/AddN_9
+0	4.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v14/conv17/batchnorm17/AssignMovingAvg/mul
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v112/conv42/batchnorm42/beta/read
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v112/conv41/batchnorm41/gamma/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v16/conv21/batchnorm21/FusedBatchNormV3
+0	24.5	GPU_0_bfc
+1	0.00048828125	GPU_0_bfc
+2	0.00048828125	GPU_0_bfc
+3	0.00048828125	GPU_0_bfc
+4	0.00048828125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v19/conv33/batchnorm33/beta/ApplyGradientDescent
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v111/conv37/batchnorm37/beta/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v114/conv48/Relu
+0	6.125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v115/conv52/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	6.125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v15/conv19/Relu_grad/ReluGrad
+0	24.5	GPU_0_bfc
+v/cg/resnet_v10/conv4/batchnorm4/moving_variance/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v111/add
+0	49.0	GPU_0_bfc
+tower_0/v/cg/resnet_v14/conv15/batchnorm15/AssignMovingAvg_1
+0	0.00048828125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v18/conv30/batchnorm30/beta/ApplyGradientDescent
+0	0.00390625	GPU_0_bfc
+v/cg/conv0/batchnorm0/moving_variance/read
+0	0.000244140625	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_31
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v12/conv10/batchnorm10/FusedBatchNormV3
+0	196.0	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.0009765625	GPU_0_bfc
+4	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v15/conv18/batchnorm18/FusedBatchNormV3
+0	24.5	GPU_0_bfc
+1	0.00048828125	GPU_0_bfc
+2	0.00048828125	GPU_0_bfc
+3	0.00048828125	GPU_0_bfc
+4	0.00048828125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v11/conv7/batchnorm7/gamma/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v112/conv42/batchnorm42/FusedBatchNormV3
+0	49.0	GPU_0_bfc
+1	0.005859375	GPU_0_bfc
+2	0.00390625	GPU_0_bfc
+3	0.00390625	GPU_0_bfc
+4	0.00390625	GPU_0_bfc
+v/cg/resnet_v112/conv40/batchnorm40/moving_mean/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v112/conv41/batchnorm41/AssignMovingAvg/mul
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv13/batchnorm13/AssignMovingAvg_1/sub_1
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v16/conv23/batchnorm23/AssignMovingAvg_1/sub_1
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v15/conv20/conv2d/kernel/read
+0	0.25	GPU_0_bfc
+tower_0/v/cg/resnet_v114/conv49/batchnorm49/AssignMovingAvg_1
+0	0.0078125	GPU_0_bfc
+v/cg/resnet_v110/conv35/batchnorm35/moving_variance/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v115/conv52/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	7.81298828125	GPU_0_bfc
+v/cg/resnet_v115/conv51/batchnorm51/beta
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/AddN_58
+0	0.25	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v14/Relu_grad/ReluGrad
+0	98.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_15_grad/mul
+0	0.25	GPU_0_bfc
+v/cg/resnet_v15/conv20/batchnorm20/moving_variance/read
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v15/conv20/batchnorm20/gamma/read
+0	0.001953125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v114/conv49/conv2d/kernel/ApplyGradientDescent
+0	4.0	GPU_0_bfc
+v/cg/resnet_v111/conv39/batchnorm39/gamma/read
+0	0.00390625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v19/conv33/batchnorm33/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	49.00390625	GPU_0_bfc
+1	0.004150390625	GPU_0_bfc
+2	0.005859375	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+learning_rate/Const_5
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v18/conv30/batchnorm30/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	49.0078125	GPU_0_bfc
+1	0.00439453125	GPU_0_bfc
+2	0.00390625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v15/conv20/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	0.25	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v112/conv42/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	12.25	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v11/conv6/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	49.0	GPU_0_bfc
+v/cg/resnet_v13/conv13/batchnorm13/moving_variance
+0	0.00048828125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/conv0/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	0.035888671875	GPU_0_bfc
+tower_0/v/cg/resnet_v19/conv31/conv2d/Conv2D
+0	12.25	GPU_0_bfc
+v/cg/resnet_v114/conv48/conv2d/kernel/read
+0	9.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v15/conv20/batchnorm20/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	98.001953125	GPU_0_bfc
+1	0.001953125	GPU_0_bfc
+2	0.001953125	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+v/cg/resnet_v18/conv30/batchnorm30/moving_variance
+0	0.00390625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v16/conv21/Relu_grad/ReluGrad
+0	24.5	GPU_0_bfc
+v/cg/resnet_v110/conv35/conv2d/kernel/read
+0	2.25	GPU_0_bfc
+tower_0/v/gradients/AddN_4
+0	24.5	GPU_0_bfc
+tower_0/v/cg/resnet_v14/conv17/batchnorm17/AssignMovingAvg_1/mul
+0	0.001953125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v113/conv44/batchnorm44/beta/ApplyGradientDescent
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v111/conv37/batchnorm37/moving_variance/read
+0	0.0009765625	GPU_0_bfc
+learning_rate/truediv
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v16/conv22/batchnorm22/AssignMovingAvg_1/mul
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v17/conv25/batchnorm25/beta
+0	0.0009765625	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_25
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v16/conv22/batchnorm22/AssignMovingAvg_1/sub_1
+0	0.00048828125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v14/conv15/Relu_grad/ReluGrad
+0	24.501953125	GPU_0_bfc
+tower_0/v/cg/resnet_v19/conv31/batchnorm31/AssignMovingAvg
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v115/conv52/batchnorm52/AssignMovingAvg/sub_1
+0	0.0078125	GPU_0_bfc
+v/cg/resnet_v110/conv34/batchnorm34/moving_variance/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v112/conv40/Relu_grad/ReluGrad
+0	12.25	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/affine0/xw_plus_b_grad/BiasAddGrad
+0	0.00390625	GPU_0_bfc
+tower_0/v/add
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v12/conv10/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	0.0625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v14/conv16/Relu_grad/ReluGrad
+0	24.5	GPU_0_bfc
+tower_0/v/cg/resnet_v16/conv22/batchnorm22/AssignMovingAvg/mul
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv12/batchnorm12/AssignMovingAvg_1/mul
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v115/conv50/batchnorm50/gamma
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v18/conv29/batchnorm29/moving_variance
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv14/conv2d/Conv2D
+0	98.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v15/conv20/batchnorm20/gamma/ApplyGradientDescent
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v19/conv33/batchnorm33/gamma/read
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v110/conv34/batchnorm34/beta/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv46/batchnorm46/FusedBatchNormV3
+0	24.5	GPU_0_bfc
+1	0.0078125	GPU_0_bfc
+2	0.0078125	GPU_0_bfc
+3	0.0078125	GPU_0_bfc
+4	0.0078125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v110/conv36/batchnorm36/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	49.00390625	GPU_0_bfc
+1	0.004150390625	GPU_0_bfc
+2	0.005859375	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v12/conv8/batchnorm8/AssignMovingAvg_1/sub_1
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v11/add
+0	196.0	GPU_0_bfc
+v/cg/resnet_v111/conv39/conv2d/kernel/read
+0	1.0	GPU_0_bfc
+tower_0/v/cg/resnet_v112/conv40/batchnorm40/AssignMovingAvg/mul
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v12/conv9/conv2d/kernel/read
+0	0.140625	GPU_0_bfc
+tower_0/v/cg/resnet_v110/conv35/batchnorm35/FusedBatchNormV3
+0	12.25	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.0009765625	GPU_0_bfc
+4	0.0009765625	GPU_0_bfc
+v/cg/resnet_v113/conv43/conv2d/kernel
+0	8.0	GPU_0_bfc
+v/cg/resnet_v14/conv17/batchnorm17/gamma/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv43/batchnorm43/AssignMovingAvg/sub_1
+0	0.0078125	GPU_0_bfc
+tower_0/v/cg/resnet_v15/conv19/batchnorm19/AssignMovingAvg_1/sub_1
+0	0.00048828125	GPU_0_bfc
+tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/Sum
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v111/conv37/batchnorm37/gamma
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v110/conv36/batchnorm36/AssignMovingAvg/mul
+0	0.005859375	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v19/conv31/Relu_grad/ReluGrad
+0	14.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v18/conv29/batchnorm29/beta/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/AddN_17
+0	49.0	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv25/Relu
+0	12.25	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv11/batchnorm11/AssignMovingAvg/sub_1
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v15/conv19/batchnorm19/gamma/read
+0	0.00048828125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v115/conv51/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	9.0	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_21
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v14/conv16/batchnorm16/moving_mean
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v112/conv42/batchnorm42/moving_mean/read
+0	0.00390625	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_3
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v112/conv40/batchnorm40/AssignMovingAvg_1/mul
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv4/batchnorm4/AssignMovingAvg/sub_1
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v11/conv7/batchnorm7/moving_mean
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv26/batchnorm26/AssignMovingAvg_1/mul
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v16/add
+0	98.0	GPU_0_bfc
+v/cg/resnet_v15/conv18/batchnorm18/moving_mean
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v14/conv17/conv2d/Conv2D
+0	98.0	GPU_0_bfc
+tower_0/v/gradients/AddN_62
+0	0.25	GPU_0_bfc
+tower_0/v/cg/resnet_v112/conv42/batchnorm42/AssignMovingAvg/sub_1
+0	0.005859375	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_29_grad/mul
+0	2.25	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v14/conv17/batchnorm17/beta/ApplyGradientDescent
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v11/conv6/conv2d/kernel/read
+0	0.140625	GPU_0_bfc
+v/cg/resnet_v10/conv3/conv2d/kernel
+0	0.140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_44_grad/mul
+0	2.0	GPU_0_bfc
+v/cg/resnet_v111/conv38/batchnorm38/moving_variance/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v110/conv36/batchnorm36/FusedBatchNormV3
+0	49.0	GPU_0_bfc
+1	0.005859375	GPU_0_bfc
+2	0.00390625	GPU_0_bfc
+3	0.00390625	GPU_0_bfc
+4	0.00390625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_23_grad/mul
+0	0.25	GPU_0_bfc
+v/cg/resnet_v17/conv25/batchnorm25/gamma
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv14/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	0.25	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv14/batchnorm14/AssignMovingAvg_1/mul
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v11/conv7/batchnorm7/gamma
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v11/conv6/batchnorm6/AssignMovingAvg/sub_1
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv14/batchnorm14/AssignMovingAvg_1/sub_1
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv12/batchnorm12/AssignMovingAvg/mul
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v11/conv6/batchnorm6/gamma
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v113/conv44/batchnorm44/gamma
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v112/conv40/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	49.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v15/conv19/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	0.5625	GPU_0_bfc
+tower_0/v/cg/resnet_v19/conv31/batchnorm31/FusedBatchNormV3
+0	12.25	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.0009765625	GPU_0_bfc
+4	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v12/conv8/batchnorm8/AssignMovingAvg/mul
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v11/conv7/batchnorm7/FusedBatchNormV3
+0	196.0	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.0009765625	GPU_0_bfc
+4	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v15/conv19/batchnorm19/FusedBatchNormV3
+0	24.5	GPU_0_bfc
+1	0.00048828125	GPU_0_bfc
+2	0.00048828125	GPU_0_bfc
+3	0.00048828125	GPU_0_bfc
+4	0.00048828125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v114/conv48/batchnorm48/beta/ApplyGradientDescent
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v17/conv26/batchnorm26/gamma
+0	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v111/conv39/batchnorm39/beta/ApplyGradientDescent
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv27/batchnorm27/AssignMovingAvg_1
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v14/conv16/batchnorm16/moving_mean/read
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v17/conv25/batchnorm25/moving_variance
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v114/conv47/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	24.5	GPU_0_bfc
+v/cg/resnet_v18/conv30/batchnorm30/gamma/read
+0	0.00390625	GPU_0_bfc
+tower_0/v/gradients/AddN_7
+0	9.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v110/conv35/batchnorm35/AssignMovingAvg_1/mul
+0	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v10/conv1/batchnorm1/beta/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv2/batchnorm2/AssignMovingAvg/sub_1
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v114/conv49/batchnorm49/AssignMovingAvg/sub
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v115/conv51/batchnorm51/AssignMovingAvg
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv45/batchnorm45/AssignMovingAvg/sub_1
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v115/conv51/batchnorm51/gamma/read
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v19/conv33/batchnorm33/moving_variance
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv11/conv2d/Conv2D
+0	98.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv27/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	1.0	GPU_0_bfc
+tower_0/v/cg/resnet_v19/conv31/Relu
+0	12.25	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv1/batchnorm1/AssignMovingAvg_1
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v14/conv16/batchnorm16/beta/read
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v112/conv41/batchnorm41/AssignMovingAvg
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v111/conv37/conv2d/kernel/read
+0	1.0	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv45/batchnorm45/AssignMovingAvg/mul
+0	0.001953125	GPU_0_bfc
+tower_0/v/mul/x
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v18/conv29/batchnorm29/moving_variance/read
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v113/conv43/batchnorm43/moving_mean
+0	0.0078125	GPU_0_bfc
+v/cg/resnet_v10/conv4/conv2d/kernel/read
+0	0.0625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v10/conv1/conv2d/kernel/ApplyGradientDescent
+0	0.0625	GPU_0_bfc
+v/cg/resnet_v19/conv33/batchnorm33/moving_variance/read
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v11/conv6/batchnorm6/AssignMovingAvg/mul
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v113/conv45/batchnorm45/moving_mean
+0	0.001953125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v114/conv49/batchnorm49/beta/ApplyGradientDescent
+0	0.0078125	GPU_0_bfc
+v/cg/resnet_v16/conv22/conv2d/kernel
+0	0.5625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v111/conv39/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	1.0	GPU_0_bfc
+tower_0/v/cg/resnet_v114/conv47/batchnorm47/AssignMovingAvg/mul
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_22_grad/mul
+0	0.5625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v18/conv28/batchnorm28/beta/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v15/conv18/batchnorm18/moving_mean/read
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v11/conv6/batchnorm6/AssignMovingAvg_1/sub_1
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/AddN_54
+0	0.5625	GPU_0_bfc
+tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/Mul
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv12/batchnorm12/AssignMovingAvg_1
+0	0.00048828125	GPU_0_bfc
+learning_rate/PiecewiseConstant/LessEqual_2
+0	0.000244140625	GPU_0_bfc
+tower_0/v/transpose
+0	36.75	GPU_0_bfc
+v/cg/resnet_v18/conv30/conv2d/kernel/read
+0	1.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_49_grad/mul
+0	4.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/Relu_grad/ReluGrad
+0	49.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v19/conv33/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	12.25	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v11/conv6/Relu_grad/ReluGrad
+0	49.0	GPU_0_bfc
+v/cg/resnet_v19/conv32/conv2d/kernel
+0	2.25	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v18/conv29/batchnorm29/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	12.25390625	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v114/conv48/conv2d/kernel/ApplyGradientDescent
+0	9.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v19/conv33/batchnorm33/gamma/ApplyGradientDescent
+0	0.00390625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v114/conv47/batchnorm47/gamma/ApplyGradientDescent
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v16/conv21/batchnorm21/AssignMovingAvg_1/mul
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv24/conv2d/Conv2D
+0	49.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v18/conv29/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	2.25048828125	GPU_0_bfc
+v/cg/resnet_v11/conv6/batchnorm6/moving_variance
+0	0.000244140625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v13/conv12/conv2d/kernel/ApplyGradientDescent
+0	0.125	GPU_0_bfc
+v/cg/resnet_v113/conv43/batchnorm43/beta/read
+0	0.0078125	GPU_0_bfc
+v/cg/conv0/batchnorm0/beta
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv24/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	98.0	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv24/batchnorm24/AssignMovingAvg_1/mul
+0	0.00390625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v115/conv50/batchnorm50/beta/ApplyGradientDescent
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v112/conv42/batchnorm42/gamma
+0	0.00390625	GPU_0_bfc
+v/cg/conv0/batchnorm0/gamma
+0	0.000244140625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v115/conv52/conv2d/kernel/ApplyGradientDescent
+0	4.0	GPU_0_bfc
+v/cg/resnet_v19/conv33/batchnorm33/beta/read
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/affine0/xw_plus_b/MatMul
+0	0.244384765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_38_grad/mul
+0	2.25	GPU_0_bfc
+tower_0/v/resnet50_synthetic_labels
+0	0.000244140625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v16/conv21/batchnorm21/gamma/ApplyGradientDescent
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v12/conv9/batchnorm9/AssignMovingAvg_1/sub_1
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv44/Relu
+0	6.125	GPU_0_bfc
+v/cg/resnet_v12/conv9/batchnorm9/beta/read
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v14/conv15/batchnorm15/AssignMovingAvg/mul
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v16/conv22/batchnorm22/moving_variance/read
+0	0.00048828125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v14/conv15/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	0.25	GPU_0_bfc
+v/cg/resnet_v110/conv35/batchnorm35/beta
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v10/conv3/batchnorm3/moving_mean/read
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_18_grad/mul
+0	0.25	GPU_0_bfc
+v/cg/resnet_v112/conv42/batchnorm42/moving_mean
+0	0.00390625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v110/conv35/batchnorm35/gamma/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_52_grad/mul
+0	4.0	GPU_0_bfc
+tower_0/v/cg/resnet_v12/add
+0	196.0	GPU_0_bfc
+tower_0/v/cg/resnet_v17/add
+0	49.0	GPU_0_bfc
+tower_0/v/cg/resnet_v114/conv49/conv2d/Conv2D
+0	24.5	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_12_grad/mul
+0	0.125	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv43/batchnorm43/AssignMovingAvg
+0	0.0078125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv14/batchnorm14/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	98.0	GPU_0_bfc
+1	0.001953125	GPU_0_bfc
+2	0.001953125	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v15/conv19/Relu
+0	24.5	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_8
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v113/conv45/batchnorm45/moving_variance
+0	0.001953125	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_6
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v115/conv50/batchnorm50/AssignMovingAvg_1/mul
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v112/conv40/batchnorm40/AssignMovingAvg_1/sub_1
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v19/conv31/batchnorm31/moving_mean
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v113/conv45/batchnorm45/moving_variance/read
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v112/conv40/batchnorm40/gamma
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v13/conv14/batchnorm14/moving_mean
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v114/conv47/Relu
+0	6.125	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv3/batchnorm3/AssignMovingAvg/sub_1
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v113/conv43/batchnorm43/moving_mean/read
+0	0.0078125	GPU_0_bfc
+v/cg/resnet_v16/conv23/batchnorm23/moving_variance
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv25/batchnorm25/AssignMovingAvg_1/sub_1
+0	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v13/conv14/conv2d/kernel/ApplyGradientDescent
+0	0.25	GPU_0_bfc
+v/cg/resnet_v12/conv9/batchnorm9/gamma
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v12/conv9/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	0.25	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv43/batchnorm43/AssignMovingAvg/mul
+0	0.0078125	GPU_0_bfc
+v/cg/resnet_v15/conv20/batchnorm20/gamma
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_4_grad/mul
+0	0.0625	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv2/Relu
+0	49.0	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv13/batchnorm13/FusedBatchNormV3
+0	24.5	GPU_0_bfc
+1	0.00048828125	GPU_0_bfc
+2	0.00048828125	GPU_0_bfc
+3	0.00048828125	GPU_0_bfc
+4	0.00048828125	GPU_0_bfc
+v/cg/resnet_v110/conv35/batchnorm35/gamma
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v15/conv19/conv2d/kernel/read
+0	0.5625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v14/conv17/batchnorm17/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	98.00390625	GPU_0_bfc
+1	0.001953125	GPU_0_bfc
+2	0.00244140625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v115/conv50/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	4.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v16/conv21/Relu
+0	24.5	GPU_0_bfc
+v/cg/resnet_v14/conv15/batchnorm15/moving_variance/read
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v111/conv38/batchnorm38/moving_mean
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v10/conv1/batchnorm1/beta/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v111/Relu
+0	49.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v115/conv52/batchnorm52/gamma/ApplyGradientDescent
+0	0.0078125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_2_grad/mul
+0	0.015625	GPU_0_bfc
+learning_rate/PiecewiseConstant/and_2
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v112/conv42/batchnorm42/gamma/read
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/mpool0/MaxPool
+0	49.0	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv43/conv2d/Conv2D
+0	24.5	GPU_0_bfc
+tower_0/v/cg/resnet_v11/conv7/conv2d/Conv2D
+0	196.0	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv25/batchnorm25/AssignMovingAvg
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v111/conv37/batchnorm37/moving_mean
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v11/conv6/batchnorm6/AssignMovingAvg_1
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v13/add
+0	98.0	GPU_0_bfc
+v/cg/resnet_v10/conv3/batchnorm3/gamma/read
+0	0.000244140625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v13/conv13/batchnorm13/gamma/ApplyGradientDescent
+0	0.00048828125	GPU_0_bfc
+learning_rate/cond/Switch_2
+1	0.000244140625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v111/conv38/batchnorm38/beta/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v16/conv22/batchnorm22/gamma/ApplyGradientDescent
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v12/conv10/batchnorm10/moving_variance/read
+0	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/affine0/weights/ApplyGradientDescent
+0	7.8203125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv26/Relu_grad/ReluGrad
+0	12.25	GPU_0_bfc
+v/cg/resnet_v12/conv10/batchnorm10/beta/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v15/conv20/batchnorm20/AssignMovingAvg/sub_1
+0	0.001953125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v112/conv40/batchnorm40/gamma/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v12/conv10/conv2d/kernel
+0	0.0625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v18/conv30/conv2d/kernel/ApplyGradientDescent
+0	1.0	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_35
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v115/conv52/batchnorm52/FusedBatchNormV3
+0	24.5	GPU_0_bfc
+1	0.0078125	GPU_0_bfc
+2	0.0078125	GPU_0_bfc
+3	0.0078125	GPU_0_bfc
+4	0.0078125	GPU_0_bfc
+tower_0/v/cg/resnet_v115/Relu
+0	24.5	GPU_0_bfc
+tower_0/v/cg/resnet_v19/conv32/batchnorm32/AssignMovingAvg_1/mul
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv43/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	9.0	GPU_0_bfc
+v/cg/resnet_v19/conv33/batchnorm33/moving_mean/read
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v14/Relu
+0	98.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv44/batchnorm44/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	7.82080078125	GPU_0_bfc
+1	0.001953125	GPU_0_bfc
+2	0.001953125	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+v/cg/resnet_v18/conv30/batchnorm30/gamma
+0	0.00390625	GPU_0_bfc
+learning_rate/PiecewiseConstant/case/cond/cond/cond/cond/cond/Switch_1
+1	0.000244140625	GPU_0_bfc
+v/cg/resnet_v11/conv7/batchnorm7/moving_mean/read
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v11/conv5/batchnorm5/moving_mean/read
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v14/conv16/batchnorm16/AssignMovingAvg/mul
+0	0.00048828125	GPU_0_bfc
+tower_0/v/gradients/AddN_69
+0	0.015625	GPU_0_bfc
+v/cg/resnet_v110/conv35/batchnorm35/beta/read
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v19/conv33/batchnorm33/gamma
+0	0.00390625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_35_grad/mul
+0	2.25	GPU_0_bfc
+tower_0/v/cg/resnet_v14/add
+0	98.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v115/conv51/conv2d/kernel/ApplyGradientDescent
+0	9.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v112/conv41/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	12.25	GPU_0_bfc
+tower_0/v/cg/resnet_v18/conv30/batchnorm30/AssignMovingAvg_1/sub_1
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v113/conv43/batchnorm43/gamma/read
+0	0.0078125	GPU_0_bfc
+tower_0/v/cg/resnet_v115/conv51/batchnorm51/AssignMovingAvg_1
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv3/conv2d/Conv2D
+0	49.0	GPU_0_bfc
+v/cg/resnet_v113/conv44/conv2d/kernel/read
+0	2.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v14/conv16/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	24.501953125	GPU_0_bfc
+v/cg/resnet_v17/conv25/batchnorm25/beta/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v110/conv35/Relu
+0	12.25	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v18/conv30/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	12.25	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v11/conv7/batchnorm7/beta/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v12/conv8/batchnorm8/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	49.0	GPU_0_bfc
+1	0.000244140625	GPU_0_bfc
+2	0.000244140625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v12/conv8/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	0.06298828125	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv2/batchnorm2/FusedBatchNormV3
+0	49.0	GPU_0_bfc
+1	0.000244140625	GPU_0_bfc
+2	0.000244140625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v114/conv49/batchnorm49/gamma/ApplyGradientDescent
+0	0.0078125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v113/conv46/batchnorm46/beta/ApplyGradientDescent
+0	0.0078125	GPU_0_bfc
+v/cg/resnet_v13/conv12/batchnorm12/beta/read
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v112/conv42/batchnorm42/moving_variance
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v18/conv29/batchnorm29/AssignMovingAvg_1
+0	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v113/conv43/batchnorm43/beta/ApplyGradientDescent
+0	0.0078125	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv3/Relu
+0	49.0	GPU_0_bfc
+v/cg/resnet_v115/conv50/batchnorm50/beta/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v14/conv16/batchnorm16/AssignMovingAvg_1/mul
+0	0.00048828125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v110/conv36/batchnorm36/beta/ApplyGradientDescent
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v14/conv16/batchnorm16/AssignMovingAvg
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v110/conv36/batchnorm36/AssignMovingAvg_1
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v15/conv18/batchnorm18/AssignMovingAvg
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v14/conv15/batchnorm15/gamma
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v14/conv15/batchnorm15/AssignMovingAvg
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv1/conv2d/Conv2D
+0	196.0	GPU_0_bfc
+v/cg/resnet_v115/conv52/conv2d/kernel/read
+0	4.0	GPU_0_bfc
+v/cg/resnet_v15/conv19/batchnorm19/gamma
+0	0.00048828125	GPU_0_bfc
+tower_0/v/gradients/AddN_33
+0	49.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_16_grad/mul
+0	0.5625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v14/conv16/batchnorm16/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	24.5	GPU_0_bfc
+1	0.000732421875	GPU_0_bfc
+2	0.00048828125	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v18/conv30/batchnorm30/FusedBatchNormV3
+0	49.0	GPU_0_bfc
+1	0.00390625	GPU_0_bfc
+2	0.00390625	GPU_0_bfc
+3	0.00390625	GPU_0_bfc
+4	0.00390625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v114/conv47/Relu_grad/ReluGrad
+0	7.82080078125	GPU_0_bfc
+tower_0/v/cg/resnet_v12/conv8/batchnorm8/AssignMovingAvg/sub_1
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v115/conv51/conv2d/kernel/read
+0	9.0	GPU_0_bfc
+tower_0/v/cg/resnet_v12/conv9/Relu
+0	49.0	GPU_0_bfc
+v/cg/resnet_v10/conv2/batchnorm2/gamma
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v18/conv28/batchnorm28/FusedBatchNormV3
+0	12.25	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.0009765625	GPU_0_bfc
+4	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_17_grad/mul
+0	0.25	GPU_0_bfc
+v/cg/resnet_v10/conv1/batchnorm1/moving_mean
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v13/conv11/batchnorm11/gamma
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_36_grad/mul
+0	1.0	GPU_0_bfc
+tower_0/v/cg/resnet_v11/conv7/batchnorm7/AssignMovingAvg
+0	0.0009765625	GPU_0_bfc
+learning_rate/Cast_2
+0	0.000244140625	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_48
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v13/conv14/batchnorm14/moving_variance/read
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v10/conv1/batchnorm1/gamma
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v111/conv39/batchnorm39/gamma
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv43/batchnorm43/AssignMovingAvg_1/sub_1
+0	0.0078125	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv45/Relu
+0	6.125	GPU_0_bfc
+tower_0/v/cg/conv0/batchnorm0/AssignMovingAvg/sub_1
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v112/conv41/batchnorm41/AssignMovingAvg_1/sub_1
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v14/conv15/batchnorm15/FusedBatchNormV3
+0	24.5	GPU_0_bfc
+1	0.00048828125	GPU_0_bfc
+2	0.00048828125	GPU_0_bfc
+3	0.00048828125	GPU_0_bfc
+4	0.00048828125	GPU_0_bfc
+v/cg/resnet_v18/conv29/batchnorm29/beta
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/AddN_53
+0	0.25	GPU_0_bfc
+v/cg/resnet_v17/conv27/batchnorm27/beta/read
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v12/conv10/conv2d/kernel/read
+0	0.0625	GPU_0_bfc
+v/cg/resnet_v14/conv16/conv2d/kernel/read
+0	0.5625	GPU_0_bfc
+v/cg/resnet_v110/conv34/batchnorm34/moving_mean/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v112/conv41/batchnorm41/FusedBatchNormV3
+0	12.25	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.0009765625	GPU_0_bfc
+4	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v16/conv21/conv2d/kernel/ApplyGradientDescent
+0	0.25	GPU_0_bfc
+v/cg/resnet_v16/conv23/batchnorm23/moving_mean/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/AddN
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v111/conv39/batchnorm39/beta/read
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v16/conv23/conv2d/kernel
+0	0.25	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v15/conv18/batchnorm18/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	24.5	GPU_0_bfc
+1	0.000732421875	GPU_0_bfc
+2	0.00048828125	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv26/Relu
+0	12.25	GPU_0_bfc
+v/cg/resnet_v12/conv9/batchnorm9/moving_variance
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v111/conv38/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	4.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v12/conv10/conv2d/kernel/ApplyGradientDescent
+0	0.0625	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_52
+0	0.000244140625	GPU_0_bfc
+learning_rate/PiecewiseConstant/LessEqual_3
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v18/conv28/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	1.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v16/conv23/batchnorm23/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	98.001953125	GPU_0_bfc
+1	0.001953125	GPU_0_bfc
+2	0.001953125	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+v/cg/resnet_v13/conv12/batchnorm12/moving_mean/read
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v12/conv8/batchnorm8/moving_variance
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv13/conv2d/Conv2D
+0	24.5	GPU_0_bfc
+tower_0/v/cg/resnet_v12/conv8/batchnorm8/FusedBatchNormV3
+0	49.0	GPU_0_bfc
+1	0.000244140625	GPU_0_bfc
+2	0.000244140625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv46/batchnorm46/AssignMovingAvg/mul
+0	0.0078125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv13/batchnorm13/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	24.5	GPU_0_bfc
+1	0.000732421875	GPU_0_bfc
+2	0.00048828125	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v16/conv21/batchnorm21/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	24.5	GPU_0_bfc
+1	0.000732421875	GPU_0_bfc
+2	0.00048828125	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v15/conv18/Relu_grad/ReluGrad
+0	24.5	GPU_0_bfc
+v/cg/resnet_v113/conv44/conv2d/kernel
+0	2.0	GPU_0_bfc
+v/cg/resnet_v115/conv52/batchnorm52/moving_mean/read
+0	0.0078125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_14_grad/mul
+0	0.25	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v17/conv25/conv2d/kernel/ApplyGradientDescent
+0	0.5	GPU_0_bfc
+v/cg/resnet_v12/conv8/batchnorm8/moving_variance/read
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv12/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	0.125	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_13
+0	0.000244140625	GPU_0_bfc
+learning_rate/Cast_3
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v113/conv44/batchnorm44/gamma/read
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v12/conv8/batchnorm8/gamma
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v114/conv49/batchnorm49/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	24.5078125	GPU_0_bfc
+1	0.0078125	GPU_0_bfc
+2	0.0078125	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v112/conv42/batchnorm42/AssignMovingAvg_1/mul
+0	0.00390625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_grad/mul
+0	0.035888671875	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_37_grad/mul
+0	1.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v18/conv30/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	1.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v11/conv6/batchnorm6/gamma/ApplyGradientDescent
+0	0.000244140625	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_7
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv3/batchnorm3/AssignMovingAvg/mul
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v11/conv6/batchnorm6/beta/read
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v110/conv34/batchnorm34/AssignMovingAvg_1/mul
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v11/conv7/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	49.0	GPU_0_bfc
+tower_0/v/cg/resnet_v11/conv6/batchnorm6/AssignMovingAvg_1/mul
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v10/conv2/batchnorm2/gamma/read
+0	0.000244140625	GPU_0_bfc
+tower_0/v/l2_loss/AddN
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v10/conv1/conv2d/kernel
+0	0.0625	GPU_0_bfc
+v/cg/resnet_v19/conv31/batchnorm31/moving_variance/read
+0	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v17/conv27/batchnorm27/beta/ApplyGradientDescent
+0	0.00390625	GPU_0_bfc
+tower_0/v/gradients/AddN_3
+0	9.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v11/conv6/batchnorm6/beta/ApplyGradientDescent
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v12/conv9/batchnorm9/gamma/read
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v114/add
+0	24.5	GPU_0_bfc
+v/cg/resnet_v10/conv3/batchnorm3/gamma
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v115/conv50/Relu_grad/ReluGrad
+0	7.82080078125	GPU_0_bfc
+tower_0/v/cg/resnet_v114/conv48/batchnorm48/AssignMovingAvg/sub_1
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v14/conv17/batchnorm17/beta
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v19/conv32/Relu_grad/ReluGrad
+0	12.25	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv1/batchnorm1/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	196.0	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v12/conv10/batchnorm10/AssignMovingAvg_1
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v111/conv38/batchnorm38/AssignMovingAvg
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_27_grad/mul
+0	1.0	GPU_0_bfc
+tower_0/v/cg/resnet_v110/conv34/batchnorm34/AssignMovingAvg/sub_1
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/AddN_6
+0	4.00048828125	GPU_0_bfc
+v/cg/resnet_v110/conv35/batchnorm35/moving_variance
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v110/conv36/conv2d/kernel
+0	1.0	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv4/batchnorm4/FusedBatchNormV3
+0	196.0	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.0009765625	GPU_0_bfc
+4	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v113/conv45/batchnorm45/gamma/ApplyGradientDescent
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v114/conv47/conv2d/Conv2D
+0	6.125	GPU_0_bfc
+tower_0/v/gradients/AddN_37
+0	2.25048828125	GPU_0_bfc
+tower_0/v/gradients/AddN_63
+0	196.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv45/batchnorm45/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	6.125	GPU_0_bfc
+1	0.001953125	GPU_0_bfc
+2	0.001953125	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_46_grad/mul
+0	4.0	GPU_0_bfc
+tower_0/v/cg/resnet_v11/conv7/batchnorm7/AssignMovingAvg/mul
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v11/conv7/batchnorm7/moving_variance/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v111/conv38/batchnorm38/AssignMovingAvg_1/mul
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v10/conv2/conv2d/kernel
+0	0.015625	GPU_0_bfc
+tower_0/v/cg/resnet_v11/conv6/batchnorm6/AssignMovingAvg
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v17/conv24/batchnorm24/moving_mean/read
+0	0.00390625	GPU_0_bfc
+tower_0/v/gradients/AddN_59
+0	196.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v11/conv5/batchnorm5/beta/ApplyGradientDescent
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v18/conv29/batchnorm29/beta/read
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v18/conv28/batchnorm28/beta/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v14/conv16/batchnorm16/AssignMovingAvg/sub_1
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v17/conv26/conv2d/kernel/read
+0	2.25	GPU_0_bfc
+v/cg/resnet_v115/conv50/batchnorm50/moving_mean/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/xentropy/xentropy_grad/mul
+0	0.244384765625	GPU_0_bfc
+tower_0/v/cg/resnet_v15/conv18/batchnorm18/AssignMovingAvg_1
+0	0.00048828125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v19/conv33/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	1.0	GPU_0_bfc
+tower_0/v/cg/resnet_v18/conv28/batchnorm28/AssignMovingAvg/sub_1
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v110/conv34/conv2d/kernel
+0	1.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v111/conv37/batchnorm37/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	13.000732421875	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv1/batchnorm1/AssignMovingAvg/mul
+0	0.0009765625	GPU_0_bfc
+v/cg/conv0/batchnorm0/moving_mean
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv25/batchnorm25/AssignMovingAvg_1
+0	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v17/conv27/conv2d/kernel/ApplyGradientDescent
+0	1.0	GPU_0_bfc
+tower_0/v/cg/resnet_v19/conv33/batchnorm33/AssignMovingAvg_1/sub_1
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv13/batchnorm13/AssignMovingAvg_1/mul
+0	0.00048828125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv44/Relu_grad/ReluGrad
+0	9.00048828125	GPU_0_bfc
+v/cg/resnet_v114/conv49/batchnorm49/moving_variance
+0	0.0078125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv4/batchnorm4/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	196.0	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.00146484375	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_24
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/AddN_28
+0	2.25048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv2/batchnorm2/AssignMovingAvg/mul
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v11/conv5/batchnorm5/AssignMovingAvg_1/mul
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v18/conv30/batchnorm30/AssignMovingAvg_1
+0	0.00390625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v11/conv5/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	0.0625	GPU_0_bfc
+tower_0/v/cg/resnet_v12/conv9/batchnorm9/AssignMovingAvg/sub_1
+0	0.000244140625	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_28
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v19/conv33/batchnorm33/beta
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v10/conv2/batchnorm2/moving_mean
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v18/Relu
+0	49.0	GPU_0_bfc
+tower_0/v/cg/resnet_v112/conv41/conv2d/Conv2D
+0	12.25	GPU_0_bfc
+tower_0/v/gradients/AddN_26
+0	1.0	GPU_0_bfc
+v/cg/resnet_v13/conv11/conv2d/kernel/read
+0	0.5	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv43/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	49.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v14/conv17/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	0.25	GPU_0_bfc
+tower_0/v/cg/resnet_v18/conv29/conv2d/Conv2D
+0	12.25	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_45_grad/mul
+0	9.0	GPU_0_bfc
+v/cg/resnet_v19/conv32/batchnorm32/moving_variance
+0	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v18/conv29/batchnorm29/gamma/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v15/conv19/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	24.5	GPU_0_bfc
+tower_0/v/gradients/AddN_39
+0	0.5	GPU_0_bfc
+v/cg/resnet_v110/conv35/conv2d/kernel
+0	2.25	GPU_0_bfc
+v/cg/resnet_v19/conv32/batchnorm32/beta
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v14/conv15/conv2d/Conv2D
+0	24.5	GPU_0_bfc
+v/cg/resnet_v19/conv33/batchnorm33/moving_mean
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v11/conv7/batchnorm7/beta
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/conv0/batchnorm0/AssignMovingAvg_1
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v111/conv37/Relu
+0	12.25	GPU_0_bfc
+v/cg/resnet_v115/conv51/batchnorm51/moving_mean/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v11/conv5/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	196.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v114/conv48/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	7.82080078125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_32_grad/mul
+0	2.25	GPU_0_bfc
+v/cg/resnet_v15/conv18/batchnorm18/moving_variance
+0	0.00048828125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v13/conv12/batchnorm12/beta/ApplyGradientDescent
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v19/conv32/batchnorm32/AssignMovingAvg_1
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v110/conv34/conv2d/kernel/read
+0	1.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_8_grad/mul
+0	0.0625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/Relu_grad/ReluGrad
+0	24.5	GPU_0_bfc
+v/cg/resnet_v110/conv35/batchnorm35/gamma/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv2/batchnorm2/AssignMovingAvg_1/sub_1
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v115/conv51/batchnorm51/FusedBatchNormV3
+0	6.125	GPU_0_bfc
+1	0.001953125	GPU_0_bfc
+2	0.001953125	GPU_0_bfc
+3	0.001953125	GPU_0_bfc
+4	0.001953125	GPU_0_bfc
+v/cg/resnet_v19/conv31/batchnorm31/beta/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v115/conv50/batchnorm50/AssignMovingAvg
+0	0.001953125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v19/conv32/batchnorm32/gamma/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv24/batchnorm24/AssignMovingAvg/mul
+0	0.00390625	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_53
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv26/batchnorm26/AssignMovingAvg_1/sub_1
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v18/conv28/batchnorm28/AssignMovingAvg_1/mul
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v114/conv48/batchnorm48/AssignMovingAvg/mul
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/spatial_mean0_grad/Reshape
+0	0.5	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv26/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	12.25	GPU_0_bfc
+learning_rate/PiecewiseConstant/case/Cast
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv26/batchnorm26/AssignMovingAvg/mul
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v11/conv6/conv2d/kernel
+0	0.140625	GPU_0_bfc
+tower_0/v/cg/resnet_v110/conv35/batchnorm35/AssignMovingAvg
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v11/conv7/conv2d/kernel/read
+0	0.0625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv2/batchnorm2/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	69.47119140625	GPU_0_bfc
+1	0.000244140625	GPU_0_bfc
+2	0.000244140625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv27/batchnorm27/AssignMovingAvg
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v110/conv36/conv2d/kernel/read
+0	1.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v112/conv42/batchnorm42/beta/ApplyGradientDescent
+0	0.00390625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v19/conv32/conv2d/kernel/ApplyGradientDescent
+0	2.25	GPU_0_bfc
+tower_0/v/cg/resnet_v18/conv29/batchnorm29/FusedBatchNormV3
+0	12.25390625	GPU_0_bfc
+1	0.0009765625	GPU_0_bfc
+2	0.0009765625	GPU_0_bfc
+3	0.0009765625	GPU_0_bfc
+4	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v16/conv22/batchnorm22/beta/ApplyGradientDescent
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v14/conv17/batchnorm17/moving_mean
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/AddN_34
+0	1.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v112/conv42/conv2d/kernel/ApplyGradientDescent
+0	1.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/spatial_mean0_grad/truediv
+0	24.5	GPU_0_bfc
+v/cg/resnet_v112/conv41/conv2d/kernel/read
+0	2.25	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v15/conv20/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	24.5	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv26/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	2.25048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v114/conv49/batchnorm49/AssignMovingAvg_1/sub_1
+0	0.0078125	GPU_0_bfc
+v/cg/resnet_v17/conv27/batchnorm27/beta
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v15/conv20/conv2d/Conv2D
+0	98.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v111/conv37/conv2d/kernel/ApplyGradientDescent
+0	1.0	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv4/batchnorm4/AssignMovingAvg_1/mul
+0	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v115/conv51/batchnorm51/gamma/ApplyGradientDescent
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v11/conv7/batchnorm7/moving_variance
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v110/conv36/batchnorm36/beta/read
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v113/conv46/batchnorm46/moving_variance
+0	0.0078125	GPU_0_bfc
+tower_0/v/gradients/AddN_49
+0	0.5625	GPU_0_bfc
+tower_0/v/cg/resnet_v18/conv30/batchnorm30/AssignMovingAvg/mul
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v115/conv50/batchnorm50/gamma/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_5
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v11/conv6/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	0.25	GPU_0_bfc
+tower_0/v/cg/resnet_v110/conv36/batchnorm36/AssignMovingAvg
+0	0.00390625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v110/conv34/batchnorm34/beta/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v112/conv42/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	1.0	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_37
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v113/conv44/batchnorm44/beta/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v12/conv9/batchnorm9/AssignMovingAvg
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v111/conv39/batchnorm39/AssignMovingAvg
+0	0.00390625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v11/conv6/conv2d/kernel/ApplyGradientDescent
+0	0.140625	GPU_0_bfc
+tower_0/v/cg/resnet_v112/add
+0	49.0	GPU_0_bfc
+v/cg/resnet_v111/conv39/batchnorm39/moving_variance
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v113/conv44/batchnorm44/moving_variance
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v11/Relu
+0	196.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv45/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	9.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_25_grad/mul
+0	0.5	GPU_0_bfc
+v/cg/resnet_v11/conv6/batchnorm6/moving_mean
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v13/conv13/batchnorm13/gamma
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v111/conv37/conv2d/Conv2D
+0	12.25	GPU_0_bfc
+v/cg/resnet_v13/conv11/batchnorm11/beta/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/AddN_20
+0	4.0	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv14/batchnorm14/AssignMovingAvg
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v19/conv32/conv2d/kernel/read
+0	2.25	GPU_0_bfc
+v/cg/resnet_v10/conv4/batchnorm4/beta/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/AddN_46
+0	98.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_31_grad/mul
+0	1.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v11/conv6/batchnorm6/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	49.0	GPU_0_bfc
+1	0.000244140625	GPU_0_bfc
+2	0.000244140625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv11/batchnorm11/AssignMovingAvg/mul
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv3/batchnorm3/AssignMovingAvg_1/sub_1
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v111/conv39/batchnorm39/FusedBatchNormV3
+0	49.0	GPU_0_bfc
+1	0.005859375	GPU_0_bfc
+2	0.00390625	GPU_0_bfc
+3	0.00390625	GPU_0_bfc
+4	0.00390625	GPU_0_bfc
+v/cg/resnet_v115/conv50/batchnorm50/moving_variance
+0	0.001953125	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_32
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v115/conv51/batchnorm51/AssignMovingAvg_1/mul
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v18/conv29/batchnorm29/AssignMovingAvg/sub_1
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v19/conv32/batchnorm32/moving_mean/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v11/conv6/batchnorm6/FusedBatchNormV3
+0	49.0	GPU_0_bfc
+1	0.000244140625	GPU_0_bfc
+2	0.000244140625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v16/conv23/batchnorm23/gamma/ApplyGradientDescent
+0	0.001953125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v111/conv39/conv2d/kernel/ApplyGradientDescent
+0	1.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v15/conv19/batchnorm19/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	24.5	GPU_0_bfc
+1	0.000732421875	GPU_0_bfc
+2	0.00048828125	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+v/cg/resnet_v10/conv3/conv2d/kernel/read
+0	0.140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv27/batchnorm27/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	49.0	GPU_0_bfc
+1	0.00390625	GPU_0_bfc
+2	0.00390625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+v/cg/resnet_v115/conv51/batchnorm51/moving_mean
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v114/conv48/batchnorm48/AssignMovingAvg_1/sub_1
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v112/conv42/batchnorm42/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	49.00390625	GPU_0_bfc
+1	0.004150390625	GPU_0_bfc
+2	0.005859375	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+v/cg/resnet_v12/conv8/batchnorm8/gamma/read
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_42_grad/mul
+0	1.0	GPU_0_bfc
+v/cg/resnet_v15/conv18/batchnorm18/beta/read
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v10/conv4/batchnorm4/moving_mean/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv14/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	24.5	GPU_0_bfc
+tower_0/v/gradients/AddN_45
+0	0.5625	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_30
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv3/batchnorm3/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	49.0	GPU_0_bfc
+1	0.000244140625	GPU_0_bfc
+2	0.000244140625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v13/conv11/conv2d/kernel/ApplyGradientDescent
+0	0.5	GPU_0_bfc
+v/cg/resnet_v111/conv38/batchnorm38/gamma
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/AddN_66
+0	0.0625	GPU_0_bfc
+v/cg/resnet_v16/conv22/batchnorm22/moving_mean
+0	0.00048828125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v14/conv15/batchnorm15/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	24.5	GPU_0_bfc
+1	0.000732421875	GPU_0_bfc
+2	0.00048828125	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+v/cg/resnet_v114/conv49/batchnorm49/beta/read
+0	0.0078125	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv4/conv2d/Conv2D
+0	196.0	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv12/conv2d/Conv2D
+0	36.740478515625	GPU_0_bfc
+tower_0/v/gradients/AddN_40
+0	0.25	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_44
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv1/batchnorm1/AssignMovingAvg_1/mul
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v18/conv28/batchnorm28/beta
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v18/conv28/batchnorm28/AssignMovingAvg_1/sub_1
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v110/conv35/Relu_grad/ReluGrad
+0	12.25	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/Relu_grad/ReluGrad
+0	98.0	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v115/conv51/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	7.82080078125	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv24/batchnorm24/AssignMovingAvg
+0	0.00390625	GPU_0_bfc
+tower_0/v/gradients/AddN_41
+0	1.0	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv46/conv2d/Conv2D
+0	24.5	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv24/batchnorm24/AssignMovingAvg_1
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v16/conv23/batchnorm23/moving_mean
+0	0.001953125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v113/conv45/conv2d/kernel/ApplyGradientDescent
+0	9.0	GPU_0_bfc
+tower_0/v/gpu_cached_inputs/read
+0	36.75	GPU_0_bfc
+v/cg/resnet_v111/conv37/batchnorm37/gamma/read
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v14/conv16/batchnorm16/gamma/read
+0	0.00048828125	GPU_0_bfc
+tower_0/v/gradients/AddN_29
+0	49.0	GPU_0_bfc
+tower_0/v/cg/resnet_v12/conv9/batchnorm9/AssignMovingAvg_1/mul
+0	0.000244140625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v112/conv41/batchnorm41/beta/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v14/conv16/batchnorm16/gamma
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v12/conv9/batchnorm9/moving_variance/read
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v114/conv49/batchnorm49/AssignMovingAvg_1/mul
+0	0.0078125	GPU_0_bfc
+tower_0/v/cg/resnet_v110/conv36/batchnorm36/AssignMovingAvg_1/mul
+0	0.00390625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v113/conv44/conv2d/kernel/ApplyGradientDescent
+0	2.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v13/conv13/conv2d/kernel/ApplyGradientDescent
+0	0.5625	GPU_0_bfc
+tower_0/v/gradients/AddN_44
+0	0.25	GPU_0_bfc
+v/cg/resnet_v10/conv1/batchnorm1/moving_variance/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv14/batchnorm14/AssignMovingAvg/sub_1
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_39_grad/mul
+0	1.0	GPU_0_bfc
+tower_0/v/cg/resnet_v111/conv37/batchnorm37/AssignMovingAvg/sub_1
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv13/batchnorm13/AssignMovingAvg
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v16/conv21/batchnorm21/AssignMovingAvg/sub_1
+0	0.00048828125	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_54
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v115/conv51/batchnorm51/AssignMovingAvg_1/sub_1
+0	0.001953125	GPU_0_bfc
+learning_rate/cond/Switch_1
+1	0.000244140625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v10/conv4/conv2d/kernel/ApplyGradientDescent
+0	0.0625	GPU_0_bfc
+tower_0/v/cg/resnet_v11/conv6/conv2d/Conv2D
+0	49.0	GPU_0_bfc
+v/cg/resnet_v19/conv31/batchnorm31/beta
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v113/conv44/batchnorm44/moving_variance/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/AddN_14
+0	2.0	GPU_0_bfc
+tower_0/v/cg/resnet_v115/conv50/batchnorm50/FusedBatchNormV3
+0	6.125	GPU_0_bfc
+1	0.001953125	GPU_0_bfc
+2	0.001953125	GPU_0_bfc
+3	0.001953125	GPU_0_bfc
+4	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v112/conv40/Relu
+0	12.25	GPU_0_bfc
+v/cg/resnet_v17/conv26/conv2d/kernel
+0	2.25	GPU_0_bfc
+tower_0/v/cg/resnet_v11/conv5/batchnorm5/AssignMovingAvg_1/sub_1
+0	0.000244140625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v111/conv37/batchnorm37/gamma/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v16/Relu
+0	98.0	GPU_0_bfc
+v/cg/resnet_v14/conv15/conv2d/kernel
+0	0.25	GPU_0_bfc
+tower_0/v/gradients/AddN_60
+0	0.06298828125	GPU_0_bfc
+v/cg/resnet_v15/conv20/batchnorm20/moving_mean
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v10/conv4/batchnorm4/moving_mean
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v113/Relu
+0	24.5	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v12/conv9/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	49.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v16/conv23/conv2d/kernel/ApplyGradientDescent
+0	0.25	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v112/conv41/Relu_grad/ReluGrad
+0	12.25	GPU_0_bfc
+v/cg/conv0/conv2d/kernel
+0	0.035888671875	GPU_0_bfc
+tower_0/v/cg/resnet_v16/conv22/batchnorm22/AssignMovingAvg/sub_1
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v17/conv27/conv2d/kernel/read
+0	1.0	GPU_0_bfc
+tower_0/v/cg/resnet_v16/conv23/batchnorm23/AssignMovingAvg/mul
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v113/conv46/batchnorm46/moving_mean
+0	0.0078125	GPU_0_bfc
+tower_0/v/cg/resnet_v111/conv39/conv2d/Conv2D
+0	49.0	GPU_0_bfc
+tower_0/v/l2_loss/L2Loss_36
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v17/conv24/conv2d/kernel
+0	2.0	GPU_0_bfc
+tower_0/v/cg/resnet_v14/conv16/conv2d/Conv2D
+0	24.5	GPU_0_bfc
+v/cg/resnet_v15/conv18/batchnorm18/gamma
+0	0.00048828125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v110/conv35/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	2.251220703125	GPU_0_bfc
+tower_0/v/cg/resnet_v17/conv27/conv2d/Conv2D
+0	49.0	GPU_0_bfc
+v/cg/resnet_v110/conv36/batchnorm36/moving_variance/read
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v114/conv47/batchnorm47/moving_mean
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v13/conv13/batchnorm13/gamma/read
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v114/conv47/batchnorm47/moving_variance
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v115/conv50/batchnorm50/moving_mean
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v12/conv8/batchnorm8/AssignMovingAvg_1/mul
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v115/conv50/conv2d/Conv2D
+0	6.125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v16/conv23/batchnorm23/beta/ApplyGradientDescent
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v16/conv21/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	98.0	GPU_0_bfc
+v/cg/resnet_v17/conv24/batchnorm24/beta/read
+0	0.00390625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v115/conv50/batchnorm50/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	9.00048828125	GPU_0_bfc
+1	0.001953125	GPU_0_bfc
+2	0.001953125	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v15/conv20/batchnorm20/AssignMovingAvg
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v13/conv13/conv2d/kernel/read
+0	0.5625	GPU_0_bfc
+v/cg/resnet_v12/conv8/batchnorm8/beta
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_6_grad/mul
+0	0.140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v14/conv17/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	24.5	GPU_0_bfc
+v/cg/resnet_v12/conv9/conv2d/kernel
+0	0.140625	GPU_0_bfc
+v/cg/resnet_v18/conv29/batchnorm29/moving_mean/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v12/conv9/batchnorm9/FusedBatchNormV3
+0	49.0	GPU_0_bfc
+1	0.000244140625	GPU_0_bfc
+2	0.000244140625	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v14/conv17/batchnorm17/AssignMovingAvg
+0	0.001953125	GPU_0_bfc
+v/cg/resnet_v16/conv23/conv2d/kernel/read
+0	0.25	GPU_0_bfc
+v/cg/resnet_v15/conv19/conv2d/kernel
+0	0.5625	GPU_0_bfc
+tower_0/v/cg/resnet_v14/conv17/batchnorm17/FusedBatchNormV3
+0	98.0	GPU_0_bfc
+1	0.001953125	GPU_0_bfc
+2	0.001953125	GPU_0_bfc
+3	0.001953125	GPU_0_bfc
+4	0.001953125	GPU_0_bfc
+v/cg/resnet_v10/conv2/batchnorm2/beta
+0	0.000244140625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v17/conv25/batchnorm25/gamma/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv43/batchnorm43/AssignMovingAvg_1
+0	0.0078125	GPU_0_bfc
+v/cg/resnet_v113/conv43/batchnorm43/gamma
+0	0.0078125	GPU_0_bfc
+v/cg/resnet_v16/conv22/conv2d/kernel/read
+0	0.5625	GPU_0_bfc
+tower_0/v/cg/resnet_v14/conv15/Relu
+0	24.5	GPU_0_bfc
+tower_0/v/cg/resnet_v111/conv39/batchnorm39/AssignMovingAvg/mul
+0	0.005859375	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v15/conv18/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	0.25	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v15/conv19/batchnorm19/beta/ApplyGradientDescent
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v17/conv24/batchnorm24/moving_mean
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv11/batchnorm11/AssignMovingAvg_1
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v13/conv14/batchnorm14/AssignMovingAvg/mul
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v113/add
+0	24.5	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv2/batchnorm2/AssignMovingAvg
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v16/conv23/batchnorm23/moving_variance/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v15/Relu_grad/ReluGrad
+0	98.0	GPU_0_bfc
+learning_rate/PiecewiseConstant/case/cond/Switch_1
+1	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv12/batchnorm12/FusedBatchNormV3_grad/FusedBatchNormGradV3
+0	24.81591796875	GPU_0_bfc
+1	0.000732421875	GPU_0_bfc
+2	0.00048828125	GPU_0_bfc
+3	0.000244140625	GPU_0_bfc
+4	0.000244140625	GPU_0_bfc
+v/cg/resnet_v13/conv14/batchnorm14/beta
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v19/conv31/batchnorm31/AssignMovingAvg/sub_1
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v11/conv5/batchnorm5/AssignMovingAvg_1
+0	0.000244140625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v14/conv16/batchnorm16/gamma/ApplyGradientDescent
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v113/conv45/batchnorm45/gamma
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v110/conv36/batchnorm36/AssignMovingAvg/sub_1
+0	0.005859375	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v15/conv18/conv2d/kernel/ApplyGradientDescent
+0	0.25	GPU_0_bfc
+v/cg/resnet_v13/conv11/batchnorm11/beta
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v14/conv15/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	98.0	GPU_0_bfc
+v/cg/resnet_v10/conv3/batchnorm3/moving_variance
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v14/conv15/batchnorm15/beta
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v10/conv1/batchnorm1/beta
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv2/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	49.0	GPU_0_bfc
+tower_0/v/gradients/AddN_35
+0	2.25048828125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v12/conv8/conv2d/Conv2D_grad/Conv2DBackpropInput
+0	196.0	GPU_0_bfc
+v/cg/resnet_v114/conv49/batchnorm49/moving_mean/read
+0	0.0078125	GPU_0_bfc
+v/cg/resnet_v111/conv38/batchnorm38/beta/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/cg/resnet_v18/conv30/batchnorm30/AssignMovingAvg/sub_1
+0	0.00390625	GPU_0_bfc
+tower_0/v/cg/resnet_v11/conv5/conv2d/Conv2D
+0	49.0	GPU_0_bfc
+v/cg/resnet_v111/conv39/conv2d/kernel
+0	1.0	GPU_0_bfc
+v/cg/resnet_v113/conv44/batchnorm44/moving_mean/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v19/conv31/batchnorm31/AssignMovingAvg_1/mul
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v18/conv29/batchnorm29/gamma/read
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v111/conv38/batchnorm38/beta
+0	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v10/conv1/batchnorm1/gamma/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/AddN_16
+0	4.0	GPU_0_bfc
+tower_0/v/gradients/AddN_21
+0	49.0	GPU_0_bfc
+v/cg/resnet_v17/conv26/batchnorm26/beta
+0	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v17/conv24/batchnorm24/beta/ApplyGradientDescent
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v17/conv25/batchnorm25/moving_variance/read
+0	0.0009765625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv44/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	2.0	GPU_0_bfc
+v/cg/resnet_v14/conv15/batchnorm15/moving_mean/read
+0	0.00048828125	GPU_0_bfc
+tower_0/v/cg/resnet_v16/conv22/batchnorm22/AssignMovingAvg_1
+0	0.00048828125	GPU_0_bfc
+v/cg/resnet_v114/conv49/conv2d/kernel
+0	4.0	GPU_0_bfc
+learning_rate/PiecewiseConstant/case/cond/Merge
+0	0.000244140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v11/conv7/conv2d/Conv2D_grad/Conv2DBackpropFilter
+0	0.06298828125	GPU_0_bfc
+tower_0/v/gradients/AddN_15
+0	1.0	GPU_0_bfc
+tower_0/v/cg/resnet_v19/conv32/Relu
+0	12.25	GPU_0_bfc
+tower_0/v/cg/resnet_v10/conv3/batchnorm3/AssignMovingAvg_1/mul
+0	0.000244140625	GPU_0_bfc
+tower_0/v/cg/resnet_v112/conv41/batchnorm41/AssignMovingAvg/sub_1
+0	0.0009765625	GPU_0_bfc
+v/cg/resnet_v17/conv27/batchnorm27/gamma/read
+0	0.00390625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/cg/resnet_v18/conv28/Relu_grad/ReluGrad
+0	14.0009765625	GPU_0_bfc
+v/cg/resnet_v113/conv45/batchnorm45/beta
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/AddN_67
+0	0.140625	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_24_grad/mul
+0	2.0	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v15/conv20/batchnorm20/beta/ApplyGradientDescent
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v15/add
+0	98.0	GPU_0_bfc
+v/cg/resnet_v114/conv48/batchnorm48/moving_variance/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_40_grad/mul
+0	1.0	GPU_0_bfc
+v/cg/resnet_v19/conv31/batchnorm31/moving_variance
+0	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v12/conv9/batchnorm9/gamma/ApplyGradientDescent
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v115/conv51/batchnorm51/beta/read
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v113/conv44/batchnorm44/AssignMovingAvg_1
+0	0.001953125	GPU_0_bfc
+tower_0/v/cg/resnet_v115/conv50/batchnorm50/AssignMovingAvg/sub_1
+0	0.001953125	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v19/conv32/batchnorm32/beta/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v112/conv40/batchnorm40/beta/ApplyGradientDescent
+0	0.0009765625	GPU_0_bfc
+learning_rate/PiecewiseConstant/case/Assert/AssertGuard/Merge
+0	0.000244140625	GPU_0_bfc
+v/cg/resnet_v111/conv39/batchnorm39/beta
+0	0.00390625	GPU_0_bfc
+v/cg/resnet_v17/conv24/conv2d/kernel/read
+0	2.0	GPU_0_bfc
+learning_rate/PiecewiseConstant/case/Assert/AssertGuard/control_dependency
+0	0.000244140625	GPU_0_bfc

@@ -1,0 +1,137 @@
+[
+  {
+    "netname": "train_alexnet_512",
+    "peak_mem": "2.5397276878356934",
+    "temp_mem": "9999.519287109375",
+    "pers_mem": "537.8408203125",
+    "mem_alloc_num": "133",
+    "temp_alloc_num": "28",
+    "pers_alloc_num": "23"
+  },
+  {
+    "netname": "train_resnet50_64",
+    "peak_mem": "4.936375141143799",
+    "temp_mem": "8005.023681640625",
+    "pers_mem": "134.45703125",
+    "mem_alloc_num": "1239",
+    "temp_alloc_num": "212",
+    "pers_alloc_num": "285"
+  },
+  {
+    "netname": "train_resnet152_64",
+    "peak_mem": "10.520483493804932",
+    "temp_mem": "22705.155517578125",
+    "pers_mem": "266.95703125",
+    "mem_alloc_num": "3585",
+    "temp_alloc_num": "620",
+    "pers_alloc_num": "795"
+  },
+  {
+    "netname": "train_inception3_64",
+    "peak_mem": "5.705284833908081",
+    "temp_mem": "13150.261962890625",
+    "pers_mem": "156.493408203125",
+    "mem_alloc_num": "2258",
+    "temp_alloc_num": "385",
+    "pers_alloc_num": "395"
+  },
+  {
+    "netname": "train_inception4_64",
+    "peak_mem": "10.323280572891235 ",
+    "temp_mem": "22983.637939453125",
+    "pers_mem": "228.446044921875",
+    "mem_alloc_num": "3572",
+    "temp_alloc_num": "610",
+    "pers_alloc_num": "618"
+  },
+  {
+    "netname": "train_vgg16_64",
+    "peak_mem": "5.183178186416626",
+    "temp_mem": "26372.921142578125",
+    "pers_mem": "564.559326171875",
+    "mem_alloc_num": "279",
+    "temp_alloc_num": "67",
+    "pers_alloc_num": "39"
+  },
+  {
+    "netname": "eval_alexnet_512",
+    "peak_mem": "0.9957294464111328",
+    "temp_mem": "2462.06689453125",
+    "pers_mem": "537.837890625",
+    "mem_alloc_num": "33",
+    "temp_alloc_num": "7",
+    "pers_alloc_num": "18"
+  },
+  {
+    "netname": "train_vgg16_42",
+    "peak_mem": "3.5319318771362305",
+    "temp_mem": "18201.688232421875",
+    "pers_mem": "551.926513671875",
+    "mem_alloc_num": "279",
+    "temp_alloc_num": "67",
+    "pers_alloc_num": "39"
+  },
+  {
+    "netname": "train_alexnet_1436",
+    "peak_mem": "6.811501502990723",
+    "temp_mem": "26456.7255859375",
+    "pers_mem": "1082.729736328125",
+    "mem_alloc_num": "133",
+    "temp_alloc_num": "28",
+    "pers_alloc_num": "23"
+  },
+  {
+    "netname": "train_resnet50_86",
+    "peak_mem": "6.588897228240967",
+    "temp_mem": "9235.382080078125",
+    "pers_mem": "147.090087890625",
+    "mem_alloc_num": "1239",
+    "temp_alloc_num": "212",
+    "pers_alloc_num": "285"
+  },
+  {
+    "netname": "train_inception3_40",
+    "peak_mem": "3.599642038345337",
+    "temp_mem": "8946.031005859375",
+    "pers_mem": "131.938720703125",
+    "mem_alloc_num": "2256",
+    "temp_alloc_num": "385",
+    "pers_alloc_num": "395"
+  },
+  {
+    "netname": "train_inception3_158",
+    "peak_mem": "13.933996677398682",
+    "temp_mem": "32261.683837890625",
+    "pers_mem": "252.666748046875",
+    "mem_alloc_num": "2238",
+    "temp_alloc_num": "385",
+    "pers_alloc_num": "395"
+  },
+  {
+    "netname": "train_alexnet_3352",
+    "peak_mem": "11.134079933166504",
+    "temp_mem": "15692.354248046875",
+    "pers_mem": "2212.607421875",
+    "mem_alloc_num": "133",
+    "temp_alloc_num": "28",
+    "pers_alloc_num": "23"
+  },
+  {
+    "netname": "train_vgg16_224",
+    "peak_mem": "14.044491529464722",
+    "temp_mem": "38018.154296875",
+    "pers_mem": "656.43505859375",
+    "mem_alloc_num": "276",
+    "temp_alloc_num": "64",
+    "pers_alloc_num": "39"
+  },
+  {
+    "netname": "train_resnet50_186",
+    "peak_mem": "14.09343934059143",
+    "temp_mem": "20698.603515625",
+    "pers_mem": "204.51220703125",
+    "mem_alloc_num": "1239",
+    "temp_alloc_num": "212",
+    "pers_alloc_num": "285"
+  }
+]

@@ -1,0 +1,2231 @@
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v110/conv35/conv2d/Conv2D_grad/ShapeN-matshapes-0
+v/cg/resnet_v18/conv30/batchnorm30/gamma
+v/cg/resnet_v113/conv43/conv2d/kernel/read
+learning_rate/PiecewiseConstant/case/Assert/AssertGuard/Assert/Switch_1
+v/cg/resnet_v114/conv49/batchnorm49/gamma/read
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v115/conv50/batchnorm50/beta/ApplyGradientDescent
+tower_0/v/cg/resnet_v112/conv42/batchnorm42/AssignMovingAvg_1
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_30_grad/mul
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v10/conv1/batchnorm1/gamma/ApplyGradientDescent
+v/cg/resnet_v18/conv28/batchnorm28/moving_variance/read
+tower_0/v/cg/resnet_v110/conv35/batchnorm35/AssignMovingAvg/sub_1
+tower_0/v/cg/resnet_v112/add
+tower_0/v/gradients/AddN_12
+tower_0/v/cg/resnet_v115/conv51/batchnorm51/AssignMovingAvg/mul
+v/cg/resnet_v15/conv20/batchnorm20/gamma/read
+tower_0/v/cg/resnet_v15/conv19/batchnorm19/AssignMovingAvg
+tower_0/v/cg/resnet_v15/conv20/batchnorm20/AssignMovingAvg/mul
+tower_0/v/gradients/AddN_17
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v18/conv28/batchnorm28/beta/ApplyGradientDescent
+tower_0/v/cg/resnet_v112/conv40/batchnorm40/AssignMovingAvg/sub_1
+tower_0/v/cg/resnet_v114/conv48/batchnorm48/FusedBatchNormV3
+tower_0/v/gradients/tower_0/v/cg/resnet_v115/Relu_grad/ReluGrad
+v/cg/resnet_v14/conv16/batchnorm16/moving_variance/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/Relu_grad/ReluGrad
+tower_0/v/cg/resnet_v11/conv6/batchnorm6/AssignMovingAvg
+tower_0/v/cg/resnet_v113/conv43/batchnorm43/AssignMovingAvg
+v/cg/resnet_v115/conv51/batchnorm51/beta
+tower_0/v/l2_loss/L2Loss_9
+	1	0.000244140625	None
+tower_0/v/cg/resnet_v11/conv5/batchnorm5/AssignMovingAvg
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v13/conv11/conv2d/kernel/ApplyGradientDescent
+v/cg/resnet_v11/conv6/batchnorm6/gamma
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_9_grad/mul
+v/cg/resnet_v114/conv47/batchnorm47/beta
+v/cg/resnet_v114/conv48/batchnorm48/gamma
+tower_0/v/cg/resnet_v110/conv34/batchnorm34/AssignMovingAvg_1/mul
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v16/conv23/batchnorm23/gamma/ApplyGradientDescent
+v/cg/resnet_v112/conv40/conv2d/kernel
+tower_0/v/cg/resnet_v14/conv15/batchnorm15/FusedBatchNormV3
+tower_0/v/cg/resnet_v16/conv22/batchnorm22/AssignMovingAvg
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v19/conv32/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/cg/resnet_v114/conv48/batchnorm48/AssignMovingAvg_1
+tower_0/v/cg/resnet_v16/conv22/batchnorm22/FusedBatchNormV3
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v114/conv48/batchnorm48/beta/ApplyGradientDescent
+tower_0/v/cg/resnet_v17/conv27/batchnorm27/AssignMovingAvg/mul
+v/cg/conv0/conv2d/kernel/read
+v/cg/resnet_v113/conv46/batchnorm46/beta
+tower_0/v/gradients/tower_0/v/cg/resnet_v12/conv10/batchnorm10/FusedBatchNormV3_grad/FusedBatchNormGradV3
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v12/conv10/conv2d/Conv2D_grad/ShapeN-matshapes-1
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v112/conv41/conv2d/kernel/ApplyGradientDescent
+v/cg/resnet_v12/conv8/batchnorm8/beta/read
+v/cg/resnet_v11/conv6/batchnorm6/gamma/read
+v/cg/resnet_v10/conv2/batchnorm2/beta/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v110/conv35/batchnorm35/FusedBatchNormV3_grad/FusedBatchNormGradV3
+edge_659_learning_rate/PiecewiseConstant/and@@MemcpyDtoH
+v/cg/conv0/batchnorm0/gamma/read
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v15/conv18/batchnorm18/gamma/ApplyGradientDescent
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v14/conv15/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/cg/resnet_v115/conv51/batchnorm51/AssignMovingAvg
+tower_0/v/cg/resnet_v115/conv51/conv2d/Conv2D
+	1	9.0	None
+	2	72.0	None
+tower_0/v/cg/resnet_v13/conv14/batchnorm14/AssignMovingAvg_1/mul
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v16/conv23/conv2d/kernel/ApplyGradientDescent
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v13/conv13/batchnorm13/beta/ApplyGradientDescent
+v/cg/resnet_v112/conv40/conv2d/kernel/read
+tower_0/v/cg/resnet_v18/conv30/batchnorm30/AssignMovingAvg/mul
+v/cg/resnet_v13/conv12/conv2d/kernel
+v/cg/resnet_v19/conv33/batchnorm33/beta
+v/cg/resnet_v114/conv48/batchnorm48/moving_mean/read
+tower_0/v/l2_loss/L2Loss_5
+	1	0.000244140625	None
+v/cg/resnet_v19/conv31/batchnorm31/moving_variance/read
+v/cg/resnet_v16/conv23/batchnorm23/gamma
+v/cg/resnet_v112/conv42/batchnorm42/moving_variance
+tower_0/v/gradients/tower_0/v/cg/spatial_mean0_grad/truediv
+v/cg/resnet_v14/conv15/conv2d/kernel
+tower_0/v/cg/resnet_v17/conv26/Relu
+tower_0/v/l2_loss/L2Loss_48
+	1	0.0087890625	None
+tower_0/v/cg/resnet_v114/conv49/batchnorm49/AssignMovingAvg_1/sub_1
+v/cg/resnet_v10/conv2/batchnorm2/gamma
+v/cg/resnet_v114/conv48/conv2d/kernel/read
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v12/conv9/batchnorm9/beta/ApplyGradientDescent
+v/cg/resnet_v15/conv19/batchnorm19/moving_mean/read
+v/cg/resnet_v115/conv51/batchnorm51/moving_variance/read
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v18/conv28/conv2d/kernel/ApplyGradientDescent
+tower_0/v/gradients/AddN_4
+tower_0/v/cg/resnet_v110/conv35/batchnorm35/AssignMovingAvg
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v12/conv8/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/gradients/AddN_27
+tower_0/v/cg/resnet_v17/conv25/batchnorm25/AssignMovingAvg/mul
+tower_0/v/cg/resnet_v11/conv6/batchnorm6/FusedBatchNormV3
+tower_0/v/gradients/tower_0/v/cg/resnet_v111/conv37/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	1.0	None
+	2	0.00390625	None
+tower_0/v/cg/resnet_v13/conv12/batchnorm12/AssignMovingAvg_1/mul
+tower_0/v/cg/resnet_v19/conv31/batchnorm31/AssignMovingAvg_1
+v/cg/resnet_v19/conv32/conv2d/kernel/read
+tower_0/v/cg/resnet_v17/conv25/conv2d/Conv2D
+	1	0.5	None
+	2	0.001220703125	None
+tower_0/v/cg/resnet_v14/conv17/conv2d/Conv2D
+	1	0.25	None
+	2	0.004638671875	None
+tower_0/v/cg/resnet_v14/conv17/batchnorm17/FusedBatchNormV3
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv27/batchnorm27/FusedBatchNormV3_grad/FusedBatchNormGradV3
+tower_0/v/cg/resnet_v16/conv22/batchnorm22/AssignMovingAvg/mul
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v114/conv47/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/gradients/tower_0/v/cg/resnet_v115/conv50/conv2d/Conv2D_grad/Conv2DBackpropInput
+	1	4.00048828125	None
+	2	24.5	None
+	3	0.00390625	None
+v/cg/resnet_v11/conv7/conv2d/kernel
+v/cg/resnet_v10/conv3/batchnorm3/gamma
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v15/conv20/conv2d/kernel/ApplyGradientDescent
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v110/conv35/batchnorm35/beta/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv25/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	98.0	None
+	1	0.5	None
+	2	147.015625	None
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_1_grad/mul
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v18/conv30/batchnorm30/gamma/ApplyGradientDescent
+tower_0/v/cg/resnet_v14/conv17/batchnorm17/AssignMovingAvg/mul
+v/cg/resnet_v10/conv1/batchnorm1/moving_mean
+v/cg/resnet_v19/conv31/batchnorm31/moving_variance
+tower_0/v/cg/resnet_v14/conv15/batchnorm15/AssignMovingAvg_1/sub_1
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v16/conv21/batchnorm21/beta/ApplyGradientDescent
+tower_0/v/cg/resnet_v13/conv12/batchnorm12/AssignMovingAvg
+tower_0/v/cg/resnet_v15/conv18/batchnorm18/AssignMovingAvg/sub_1
+tower_0/v/cg/resnet_v111/conv39/batchnorm39/AssignMovingAvg_1/mul
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v13/conv12/conv2d/kernel/ApplyGradientDescent
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv44/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv14/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	32.00244140625	None
+	1	0.250244140625	None
+	2	24.5	None
+	3	0.006591796875	None
+learning_rate/PiecewiseConstant/case/cond/cond/cond/Switch/Switch
+tower_0/v/cg/resnet_v10/conv4/batchnorm4/AssignMovingAvg
+v/cg/resnet_v110/conv35/batchnorm35/moving_variance/read
+v/cg/resnet_v111/conv39/batchnorm39/gamma
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v18/conv30/conv2d/Conv2D_grad/ShapeN-matshapes-1
+v/cg/resnet_v17/conv25/batchnorm25/beta/read
+tower_0/v/mul
+append_apply_gradient_ops/GradientDescent/update_v/cg/affine0/weights/ApplyGradientDescent
+tower_0/v/cg/resnet_v16/conv23/batchnorm23/AssignMovingAvg_1
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv27/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	14.0009765625	None
+	1	1.000244140625	None
+	2	12.25	None
+	3	0.00439453125	None
+tower_0/v/cg/resnet_v19/conv32/batchnorm32/AssignMovingAvg_1/mul
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_31_grad/mul
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_44_grad/mul
+learning_rate/PiecewiseConstant/case/cond/cond/cond/cond/Switch/Switch
+tower_0/v/l2_loss/L2Loss_36
+	1	0.000244140625	None
+tower_0/v/cg/resnet_v14/conv15/batchnorm15/AssignMovingAvg/sub_1
+v/cg/resnet_v10/conv3/batchnorm3/gamma/read
+tower_0/v/cg/resnet_v112/conv41/Relu
+v/cg/resnet_v19/conv32/batchnorm32/beta/read
+learning_rate/PiecewiseConstant/LessEqual_1
+tower_0/v/gradients/AddN_19
+v/cg/resnet_v112/conv42/batchnorm42/moving_variance/read
+learning_rate/PiecewiseConstant/case/cond/cond/cond/cond/cond/Switch_1
+v/cg/resnet_v19/conv33/conv2d/kernel
+tower_0/v/cg/conv0/Pad
+v/cg/resnet_v15/conv19/conv2d/kernel/read
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv45/conv2d/Conv2D_grad/ShapeN-matshapes-0
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v112/conv42/batchnorm42/beta/ApplyGradientDescent
+tower_0/v/cg/resnet_v11/conv5/batchnorm5/FusedBatchNormV3
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v11/conv7/batchnorm7/gamma/ApplyGradientDescent
+tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/Const_1
+tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/Mul
+v/cg/resnet_v16/conv23/batchnorm23/beta/read
+tower_0/v/cg/resnet_v114/conv49/batchnorm49/AssignMovingAvg/mul
+tower_0/v/gradients/tower_0/v/cg/resnet_v11/conv7/conv2d/Conv2D_grad/Conv2DBackpropInput
+	1	0.0625	None
+	2	49.0	None
+	3	0.020263671875	None
+tower_0/v/cg/resnet_v10/conv4/conv2d/Conv2D
+	1	0.0625	None
+	2	0.01806640625	None
+edge_274_global_step/read@@MemcpyHtoD
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v12/conv9/conv2d/Conv2D_grad/ShapeN-matshapes-1
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v110/conv34/conv2d/Conv2D_grad/ShapeN-matshapes-1
+v/cg/resnet_v12/conv9/conv2d/kernel
+tower_0/v/cg/resnet_v111/conv37/Relu
+tower_0/v/gradients/tower_0/v/cg/resnet_v15/conv20/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	32.00244140625	None
+	1	0.250244140625	None
+	2	24.5	None
+	3	0.006591796875	None
+tower_0/v/gradients/AddN_35
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv14/batchnorm14/FusedBatchNormV3_grad/FusedBatchNormGradV3
+tower_0/v/cg/resnet_v112/conv42/conv2d/Conv2D
+	1	1.0	None
+	2	0.001220703125	None
+v/cg/resnet_v111/conv39/batchnorm39/moving_variance/read
+v/cg/resnet_v14/conv17/batchnorm17/moving_variance
+tower_0/v/cg/conv0/conv2d/Conv2D
+	1	0.035888671875	None
+	2	0.072021484375	None
+tower_0/v/l2_loss/L2Loss_27
+	1	0.000244140625	None
+tower_0/v/cg/resnet_v114/conv47/batchnorm47/AssignMovingAvg/mul
+v/cg/resnet_v110/conv34/batchnorm34/moving_variance/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v110/conv35/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	4.0	None
+	2	81.0	None
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_5_grad/mul
+tower_0/v/cg/resnet_v13/conv13/batchnorm13/AssignMovingAvg
+v/cg/resnet_v113/conv43/batchnorm43/beta/read
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_19_grad/mul
+v/cg/resnet_v11/conv5/conv2d/kernel
+tower_0/v/gradients/tower_0/v/cg/resnet_v110/conv35/Relu_grad/ReluGrad
+v/cg/resnet_v16/conv23/batchnorm23/moving_variance/read
+v/cg/resnet_v12/conv9/batchnorm9/moving_mean/read
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v112/conv40/batchnorm40/beta/ApplyGradientDescent
+learning_rate/cond/Switch_1
+v/cg/resnet_v14/conv16/batchnorm16/gamma/read
+v/cg/resnet_v11/conv6/batchnorm6/beta/read
+tower_0/v/cg/resnet_v19/conv31/batchnorm31/AssignMovingAvg_1/sub_1
+tower_0/v/cg/resnet_v115/conv51/batchnorm51/AssignMovingAvg_1
+tower_0/v/l2_loss/L2Loss_12
+	1	0.000244140625	None
+tower_0/v/gradients/AddN_59
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv25/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/gradients/AddN_22
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v113/conv45/conv2d/kernel/ApplyGradientDescent
+tower_0/v/cg/resnet_v19/conv33/batchnorm33/FusedBatchNormV3
+v/cg/resnet_v12/conv8/batchnorm8/moving_variance
+v/cg/resnet_v110/conv36/batchnorm36/gamma
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv26/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	2.25	None
+	2	122.5	None
+tower_0/v/cg/resnet_v15/conv19/Relu
+tower_0/v/cg/resnet_v19/conv31/batchnorm31/AssignMovingAvg
+v/cg/resnet_v15/conv19/conv2d/kernel
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v112/conv41/conv2d/Conv2D_grad/ShapeN-matshapes-1
+average_loss/Mean
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v12/conv8/conv2d/Conv2D_grad/ShapeN-matshapes-0
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v16/conv21/conv2d/kernel/ApplyGradientDescent
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv3/conv2d/Conv2D_grad/ShapeN-matshapes-1
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v110/conv34/batchnorm34/gamma/ApplyGradientDescent
+v/cg/resnet_v17/conv26/conv2d/kernel
+tower_0/v/transpose/perm
+v/cg/resnet_v16/conv22/conv2d/kernel
+tower_0/v/cg/resnet_v115/conv51/batchnorm51/AssignMovingAvg_1/mul
+tower_0/v/cg/resnet_v111/add
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv13/conv2d/Conv2D_grad/ShapeN-matshapes-1
+v/cg/resnet_v12/conv9/batchnorm9/gamma
+tower_0/v/cg/conv0/Relu
+tower_0/v/gradients/tower_0/v/cg/resnet_v115/conv50/batchnorm50/FusedBatchNormV3_grad/FusedBatchNormGradV3
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v115/conv50/batchnorm50/gamma/ApplyGradientDescent
+tower_0/v/cg/resnet_v19/conv32/conv2d/Conv2D
+	1	2.25	None
+	2	81.0	None
+learning_rate/Cast_3
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v12/conv9/conv2d/Conv2D_grad/ShapeN-matshapes-0
+v/cg/resnet_v110/conv34/batchnorm34/gamma
+tower_0/v/cg/resnet_v112/conv40/batchnorm40/AssignMovingAvg_1
+tower_0/v/cg/resnet_v14/conv17/batchnorm17/AssignMovingAvg_1
+v/cg/resnet_v113/conv46/batchnorm46/moving_mean
+tower_0/v/cg/resnet_v16/conv21/batchnorm21/FusedBatchNormV3
+tower_0/v/cg/resnet_v12/conv9/batchnorm9/AssignMovingAvg/sub_1
+tower_0/v/cg/resnet_v14/add
+tower_0/v/cg/resnet_v18/conv28/batchnorm28/FusedBatchNormV3
+v/cg/resnet_v14/conv17/batchnorm17/moving_mean
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv1/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	51.69189453125	None
+	1	0.0625	None
+	2	61.6650390625	None
+	3	0.020263671875	None
+train_ops_group
+learning_rate/PiecewiseConstant/Greater_2
+learning_rate/PiecewiseConstant/case/cond/cond/cond/cond/Switch_1
+tower_0/v/gradients/AddN_69
+v/cg/resnet_v12/conv10/batchnorm10/gamma/read
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_40_grad/mul
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv43/conv2d/Conv2D_grad/ShapeN-matshapes-1
+learning_rate/PiecewiseConstant/Greater_1
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_14_grad/mul
+v/cg/resnet_v113/conv43/batchnorm43/moving_mean/read
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v112/conv40/conv2d/Conv2D_grad/ShapeN-matshapes-1
+v/cg/resnet_v113/conv44/batchnorm44/gamma
+tower_0/v/gradients/tower_0/v/cg/affine0/xw_plus_b_grad/BiasAddGrad
+tower_0/v/cg/resnet_v114/conv47/batchnorm47/AssignMovingAvg_1
+tower_0/v/cg/resnet_v113/conv43/conv2d/Conv2D
+	1	8.0	None
+	2	0.00048828125	None
+tower_0/v/cg/resnet_v17/conv24/batchnorm24/AssignMovingAvg_1
+tower_0/v/cg/resnet_v16/conv23/batchnorm23/FusedBatchNormV3
+tower_0/v/cg/resnet_v115/conv52/batchnorm52/AssignMovingAvg
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv43/conv2d/Conv2D_grad/ShapeN-matshapes-0
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v17/conv27/conv2d/kernel/ApplyGradientDescent
+v/cg/resnet_v113/conv44/conv2d/kernel
+tower_0/v/cg/resnet_v12/conv9/batchnorm9/AssignMovingAvg
+v/cg/resnet_v10/conv3/batchnorm3/moving_mean/read
+v/cg/resnet_v16/conv22/batchnorm22/moving_mean/read
+learning_rate/PiecewiseConstant/case/cond/Switch_1
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v110/conv36/conv2d/Conv2D_grad/ShapeN-matshapes-1
+v/cg/conv0/batchnorm0/moving_mean/read
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv1/conv2d/Conv2D_grad/ShapeN-matshapes-0
+v/cg/resnet_v13/conv14/batchnorm14/moving_mean
+tower_0/v/gradients/tower_0/v/cg/mpool0/MaxPool_grad/MaxPoolGrad
+tower_0/v/cg/resnet_v13/conv11/batchnorm11/AssignMovingAvg
+v/cg/resnet_v18/conv29/batchnorm29/gamma/read
+v/cg/resnet_v10/conv1/batchnorm1/beta
+v/cg/resnet_v114/conv48/batchnorm48/moving_variance/read
+v/cg/resnet_v16/conv23/batchnorm23/moving_variance
+tower_0/v/cg/resnet_v115/conv51/batchnorm51/AssignMovingAvg_1/sub_1
+tower_0/v/cg/resnet_v111/conv37/batchnorm37/AssignMovingAvg
+v/cg/resnet_v12/conv10/batchnorm10/moving_variance
+tower_0/v/gradients/tower_0/v/cg/resnet_v112/conv41/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	12.25	None
+	1	4.0	None
+	2	18.000732421875	None
+	3	269.546875	None
+tower_0/v/cg/resnet_v110/conv34/batchnorm34/FusedBatchNormV3
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v11/conv6/batchnorm6/beta/ApplyGradientDescent
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv4/conv2d/Conv2D_grad/ShapeN-matshapes-1
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv26/conv2d/Conv2D_grad/ShapeN-matshapes-1
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v111/conv38/batchnorm38/gamma/ApplyGradientDescent
+tower_0/v/cg/resnet_v111/conv39/conv2d/Conv2D
+	1	1.0	None
+	2	0.001220703125	None
+tower_0/v/cg/resnet_v14/conv16/batchnorm16/AssignMovingAvg_1
+tower_0/v/cg/resnet_v10/conv3/batchnorm3/AssignMovingAvg/sub_1
+tower_0/v/cg/resnet_v11/conv5/batchnorm5/AssignMovingAvg/sub_1
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v110/conv36/batchnorm36/beta/ApplyGradientDescent
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v16/conv23/batchnorm23/beta/ApplyGradientDescent
+v/cg/resnet_v110/conv36/conv2d/kernel/read
+learning_rate/Less/y
+tower_0/v/cg/resnet_v10/conv3/batchnorm3/FusedBatchNormV3
+tower_0/v/cg/conv0/batchnorm0/FusedBatchNormV3
+v/cg/resnet_v12/conv10/conv2d/kernel
+tower_0/v/l2_loss/L2Loss_46
+	1	0.0087890625	None
+v/cg/resnet_v11/conv7/batchnorm7/moving_mean
+tower_0/v/cg/resnet_v113/conv45/batchnorm45/AssignMovingAvg_1/mul
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v12/conv10/batchnorm10/beta/ApplyGradientDescent
+v/cg/resnet_v113/conv46/conv2d/kernel/read
+tower_0/v/cg/resnet_v17/conv27/batchnorm27/AssignMovingAvg_1/sub_1
+tower_0/v/cg/resnet_v13/conv11/batchnorm11/AssignMovingAvg_1
+tower_0/v/cg/resnet_v113/conv45/Relu
+tower_0/v/cg/conv0/batchnorm0/AssignMovingAvg
+tower_0/v/gradients/AddN_32
+learning_rate/PiecewiseConstant/case/cond/Merge
+tower_0/v/cg/resnet_v12/conv10/batchnorm10/AssignMovingAvg_1/mul
+v/cg/resnet_v10/conv4/batchnorm4/moving_mean/read
+tower_0/v/cg/resnet_v111/conv37/batchnorm37/AssignMovingAvg/sub_1
+v/cg/resnet_v17/conv25/batchnorm25/beta
+v/cg/resnet_v113/conv45/batchnorm45/gamma
+learning_rate/PiecewiseConstant/and_1
+v/cg/resnet_v15/conv20/batchnorm20/moving_variance/read
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v115/conv51/conv2d/Conv2D_grad/ShapeN-matshapes-0
+v/cg/resnet_v12/conv10/conv2d/kernel/read
+tower_0/v/cg/resnet_v14/conv16/batchnorm16/AssignMovingAvg_1/mul
+tower_0/v/cg/resnet_v15/conv19/batchnorm19/AssignMovingAvg_1/sub_1
+tower_0/v/gradients/tower_0/v/cg/conv0/batchnorm0/FusedBatchNormV3_grad/FusedBatchNormGradV3
+tower_0/v/cg/resnet_v16/conv21/batchnorm21/AssignMovingAvg/sub_1
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv27/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/cg/resnet_v17/conv25/batchnorm25/AssignMovingAvg_1
+tower_0/v/cg/resnet_v113/conv45/batchnorm45/AssignMovingAvg/mul
+v/cg/resnet_v114/conv47/conv2d/kernel
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv11/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	0.5	None
+	2	0.00244140625	None
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v18/conv29/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/cg/resnet_v110/conv34/batchnorm34/AssignMovingAvg/sub_1
+tower_0/v/cg/resnet_v111/conv37/batchnorm37/AssignMovingAvg_1/mul
+tower_0/v/cg/resnet_v17/add
+tower_0/v/cg/resnet_v115/conv52/conv2d/Conv2D
+	1	4.0	None
+	2	0.00048828125	None
+v/cg/resnet_v115/conv50/batchnorm50/moving_variance/read
+v/cg/resnet_v14/conv15/batchnorm15/gamma/read
+tower_0/v/cg/conv0/batchnorm0/AssignMovingAvg_1
+tower_0/v/cg/resnet_v17/conv27/batchnorm27/AssignMovingAvg/sub_1
+tower_0/v/cg/resnet_v112/conv41/batchnorm41/AssignMovingAvg_1
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v15/conv20/batchnorm20/beta/ApplyGradientDescent
+v/cg/resnet_v15/conv20/batchnorm20/gamma
+edge_560_learning_rate/PiecewiseConstant/case/preds_c@@MemcpyDtoH
+tower_0/v/cg/resnet_v12/conv9/conv2d/Conv2D
+	1	0.140625	None
+	2	85.046875	None
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_54_grad/mul
+v/cg/resnet_v14/conv15/batchnorm15/beta
+v/cg/resnet_v13/conv14/batchnorm14/moving_mean/read
+v/cg/resnet_v114/conv49/conv2d/kernel/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v14/conv17/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	0.25	None
+	2	0.00244140625	None
+v/cg/resnet_v112/conv41/batchnorm41/gamma
+tower_0/v/cg/resnet_v17/conv25/batchnorm25/AssignMovingAvg_1/mul
+v/cg/resnet_v19/conv31/conv2d/kernel
+learning_rate/Const_5
+tower_0/v/l2_loss/L2Loss_19
+	1	0.000244140625	None
+tower_0/v/gradients/tower_0/v/cg/resnet_v112/conv41/Relu_grad/ReluGrad
+learning_rate/PiecewiseConstant/case/cond/cond/cond/Switch_1
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv45/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	9.00048828125	None
+	2	98.00390625	None
+tower_0/v/gradients/tower_0/v/cg/resnet_v15/conv19/Relu_grad/ReluGrad
+v/cg/resnet_v17/conv26/batchnorm26/gamma
+tower_0/v/gradients/AddN_24
+v/cg/resnet_v13/conv11/batchnorm11/moving_variance/read
+tower_0/v/cg/resnet_v19/conv31/batchnorm31/AssignMovingAvg_1/mul
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v111/conv39/conv2d/Conv2D_grad/ShapeN-matshapes-1
+v/cg/resnet_v110/conv36/batchnorm36/moving_variance/read
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v16/conv22/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/cg/resnet_v114/conv48/conv2d/Conv2D
+	1	9.0	None
+	2	72.0	None
+ConstantFoldingCtrl/learning_rate/PiecewiseConstant/case/Assert/AssertGuard/Switch_1
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v15/conv19/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv45/Relu_grad/ReluGrad
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_7_grad/mul
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_29_grad/mul
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v18/conv29/batchnorm29/gamma/ApplyGradientDescent
+tower_0/v/cg/resnet_v10/conv3/conv2d/Conv2D
+	1	0.140625	None
+	2	85.046875	None
+tower_0/v/cg/resnet_v17/conv25/batchnorm25/AssignMovingAvg/sub_1
+v/cg/resnet_v112/conv41/conv2d/kernel
+v/cg/resnet_v115/conv52/batchnorm52/moving_variance/read
+tower_0/v/gradients/tower_0/v/cg/spatial_mean0_grad/Tile/multiples
+tower_0/v/gradients/AddN_51
+tower_0/v/l2_loss/L2Loss_49
+	1	0.0087890625	None
+tower_0/v/cg/resnet_v15/conv20/batchnorm20/AssignMovingAvg/sub_1
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv4/batchnorm4/FusedBatchNormV3_grad/FusedBatchNormGradV3
+tower_0/v/resnet50_synthetic_labels/shape
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v115/conv51/conv2d/kernel/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_2_grad/mul
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v14/conv17/batchnorm17/beta/ApplyGradientDescent
+v/cg/resnet_v113/conv44/batchnorm44/moving_mean/read
+v/cg/resnet_v13/conv12/batchnorm12/moving_variance/read
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v112/conv41/conv2d/Conv2D_grad/ShapeN-matshapes-0
+v/cg/resnet_v10/conv1/batchnorm1/moving_mean/read
+tower_0/v/cg/resnet_v17/conv25/batchnorm25/AssignMovingAvg_1/sub_1
+tower_0/v/cg/resnet_v15/conv18/Relu
+learning_rate/PiecewiseConstant/case/cond/pred_id
+v/cg/resnet_v12/conv10/batchnorm10/gamma
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v19/conv32/batchnorm32/beta/ApplyGradientDescent
+v/cg/resnet_v13/conv13/batchnorm13/gamma
+tower_0/v/gradients/tower_0/v/cg/resnet_v115/conv51/batchnorm51/FusedBatchNormV3_grad/FusedBatchNormGradV3
+v/cg/resnet_v115/conv52/batchnorm52/moving_mean
+tower_0/v/gradients/AddN_67
+tower_0/v/cg/resnet_v15/conv19/batchnorm19/AssignMovingAvg_1
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v13/conv13/conv2d/kernel/ApplyGradientDescent
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v18/conv29/batchnorm29/beta/ApplyGradientDescent
+tower_0/v/cg/resnet_v112/conv41/batchnorm41/AssignMovingAvg/sub_1
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v14/conv17/batchnorm17/gamma/ApplyGradientDescent
+tower_0/v/cg/resnet_v12/conv8/batchnorm8/AssignMovingAvg_1/mul
+tower_0/v/l2_loss/L2Loss_24
+	1	0.0087890625	None
+v/cg/resnet_v13/conv12/batchnorm12/moving_mean
+v/cg/resnet_v17/conv25/batchnorm25/moving_mean/read
+tower_0/v/cg/resnet_v113/conv46/batchnorm46/AssignMovingAvg
+tower_0/v/gradients/AddN_1
+tower_0/v/cg/resnet_v115/conv52/batchnorm52/FusedBatchNormV3
+v/cg/resnet_v17/conv24/batchnorm24/beta/read
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v110/conv35/conv2d/kernel/ApplyGradientDescent
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv14/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/cg/resnet_v18/conv29/batchnorm29/AssignMovingAvg/mul
+v/cg/resnet_v115/conv52/batchnorm52/beta/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v16/conv22/Relu_grad/ReluGrad
+v/cg/resnet_v114/conv49/batchnorm49/gamma
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v13/conv12/batchnorm12/beta/ApplyGradientDescent
+tower_0/v/cg/resnet_v110/conv34/batchnorm34/AssignMovingAvg/mul
+tower_0/v/cg/resnet_v115/conv52/batchnorm52/AssignMovingAvg_1/sub_1
+v/cg/resnet_v14/conv15/batchnorm15/moving_mean/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v115/conv50/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	7.8203125	None
+	2	0.00390625	None
+v/cg/resnet_v11/conv5/batchnorm5/beta/read
+tower_0/v/cg/resnet_v113/conv45/batchnorm45/FusedBatchNormV3
+tower_0/v/cg/resnet_v112/conv42/batchnorm42/AssignMovingAvg
+tower_0/v/cg/resnet_v115/conv51/Relu
+tower_0/v/gradients/tower_0/v/cg/resnet_v16/conv21/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	0.3125	None
+	2	0.00439453125	None
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_4_grad/mul
+v/cg/resnet_v112/conv40/batchnorm40/moving_mean
+v/cg/resnet_v114/conv47/batchnorm47/gamma
+tower_0/v/l2_loss/L2Loss_15
+	1	0.000244140625	None
+tower_0/v/gradients/AddN_45
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v115/conv51/batchnorm51/gamma/ApplyGradientDescent
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v14/conv17/conv2d/Conv2D_grad/ShapeN-matshapes-0
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v113/conv44/conv2d/kernel/ApplyGradientDescent
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v15/conv18/batchnorm18/beta/ApplyGradientDescent
+tower_0/v/cg/resnet_v10/conv1/batchnorm1/FusedBatchNormV3
+tower_0/v/cg/resnet_v113/conv43/batchnorm43/AssignMovingAvg/sub_1
+tower_0/v/cg/resnet_v12/conv10/batchnorm10/AssignMovingAvg
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_21_grad/mul
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v111/conv37/conv2d/Conv2D_grad/ShapeN-matshapes-1
+learning_rate/PiecewiseConstant/case/cond/cond/Switch_1
+tower_0/v/cg/resnet_v18/conv30/batchnorm30/AssignMovingAvg
+v/cg/resnet_v15/conv18/batchnorm18/beta
+tower_0/v/gradients/AddN_68
+v/cg/resnet_v10/conv3/conv2d/kernel/read
+v/cg/resnet_v111/conv37/batchnorm37/gamma/read
+tower_0/v/cg/resnet_v18/conv28/Relu
+tower_0/v/cg/resnet_v11/conv7/batchnorm7/AssignMovingAvg_1
+tower_0/v/cg/resnet_v16/conv23/batchnorm23/AssignMovingAvg/mul
+tower_0/v/cg/resnet_v110/conv36/batchnorm36/AssignMovingAvg
+tower_0/v/cg/resnet_v11/conv6/batchnorm6/AssignMovingAvg_1/mul
+v/cg/resnet_v11/conv5/conv2d/kernel/read
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v19/conv31/batchnorm31/beta/ApplyGradientDescent
+tower_0/v/cg/resnet_v115/conv50/batchnorm50/AssignMovingAvg_1/mul
+tower_0/v/cg/conv0/batchnorm0/AssignMovingAvg_1/sub_1
+v/cg/resnet_v17/conv26/batchnorm26/beta/read
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v111/conv37/batchnorm37/gamma/ApplyGradientDescent
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv0/batchnorm0/gamma/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_42_grad/mul
+tower_0/v/gradients/tower_0/v/cg/resnet_v115/conv50/Relu_grad/ReluGrad
+tower_0/v/cg/resnet_v13/conv13/batchnorm13/AssignMovingAvg/mul
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_34_grad/mul
+v/cg/resnet_v11/conv6/conv2d/kernel/read
+tower_0/v/l2_loss/L2Loss_7
+	1	0.000244140625	None
+tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/value
+tower_0/v/gradients/tower_0/v/cg/resnet_v18/conv28/Relu_grad/ReluGrad
+tower_0/v/cg/resnet_v15/conv19/batchnorm19/FusedBatchNormV3
+tower_0/v/l2_loss/L2Loss_16
+	1	0.000244140625	None
+v/cg/resnet_v112/conv42/batchnorm42/gamma
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_22_grad/mul
+tower_0/v/cg/resnet_v14/conv15/batchnorm15/AssignMovingAvg/mul
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v17/conv24/batchnorm24/beta/ApplyGradientDescent
+tower_0/v/cg/resnet_v15/conv18/batchnorm18/AssignMovingAvg/mul
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_8_grad/mul
+v/cg/resnet_v115/conv50/conv2d/kernel
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v15/conv19/conv2d/kernel/ApplyGradientDescent
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v13/conv14/batchnorm14/gamma/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_6_grad/mul
+v/cg/resnet_v16/conv22/batchnorm22/moving_variance/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v15/conv18/Relu_grad/ReluGrad
+tower_0/v/cg/resnet_v19/add
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v11/conv5/conv2d/Conv2D_grad/ShapeN-matshapes-1
+v/cg/resnet_v113/conv45/batchnorm45/moving_mean/read
+v/cg/resnet_v17/conv25/conv2d/kernel
+v/cg/resnet_v111/conv39/batchnorm39/gamma/read
+v/cg/resnet_v19/conv32/batchnorm32/beta
+tower_0/v/l2_loss/L2Loss_25
+	1	0.000244140625	None
+tower_0/v/cg/resnet_v15/conv18/batchnorm18/AssignMovingAvg_1/mul
+v/cg/resnet_v14/conv17/batchnorm17/beta
+tower_0/v/gradients/tower_0/v/cg/resnet_v12/conv9/batchnorm9/FusedBatchNormV3_grad/FusedBatchNormGradV3
+v/cg/resnet_v112/conv40/batchnorm40/moving_variance/read
+v/cg/resnet_v14/conv17/batchnorm17/gamma/read
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv24/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/cg/resnet_v14/conv16/batchnorm16/AssignMovingAvg/sub_1
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v12/conv8/batchnorm8/gamma/ApplyGradientDescent
+v/cg/resnet_v110/conv36/batchnorm36/moving_mean/read
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v111/conv38/conv2d/kernel/ApplyGradientDescent
+learning_rate/Const_8
+v/cg/resnet_v111/conv37/batchnorm37/moving_variance
+tower_0/v/cg/resnet_v15/conv18/batchnorm18/AssignMovingAvg
+tower_0/v/cg/resnet_v16/conv23/batchnorm23/AssignMovingAvg/sub_1
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv2/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	0.015625	None
+	2	0.0029296875	None
+tower_0/v/gradients/tower_0/v/cg/resnet_v19/conv32/batchnorm32/FusedBatchNormV3_grad/FusedBatchNormGradV3
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv44/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	2.0	None
+	2	0.00439453125	None
+ConstantFolding/average_loss/Mean/input_const_axis
+v/cg/resnet_v115/conv52/conv2d/kernel
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v12/conv10/conv2d/kernel/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/resnet_v114/conv49/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	7.8203125	None
+	1	4.00048828125	None
+	2	9.00048828125	None
+	3	0.00390625	None
+tower_0/v/cg/resnet_v15/conv18/conv2d/Conv2D
+	1	0.25	None
+	2	0.004638671875	None
+tower_0/v/cg/resnet_v16/conv21/Relu
+tower_0/v/cg/resnet_v18/conv28/batchnorm28/AssignMovingAvg_1
+v/cg/resnet_v114/conv48/conv2d/kernel
+v/cg/resnet_v14/conv16/batchnorm16/moving_mean/read
+tower_0/v/gradients/AddN_3
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v113/conv46/batchnorm46/beta/ApplyGradientDescent
+tower_0/v/cg/resnet_v112/conv41/batchnorm41/AssignMovingAvg_1/mul
+v/cg/resnet_v11/conv5/batchnorm5/moving_mean/read
+v/cg/resnet_v13/conv11/conv2d/kernel/read
+v/cg/resnet_v113/conv45/conv2d/kernel
+v/cg/resnet_v114/conv47/conv2d/kernel/read
+v/cg/resnet_v17/conv25/batchnorm25/moving_variance
+tower_0/v/cg/resnet_v19/conv32/batchnorm32/AssignMovingAvg
+v/cg/resnet_v113/conv46/batchnorm46/gamma
+tower_0/v/l2_loss/L2Loss_39
+	1	0.000244140625	None
+tower_0/v/cg/resnet_v11/conv7/conv2d/Conv2D
+	1	0.0625	None
+	2	0.01806640625	None
+v/cg/resnet_v110/conv34/batchnorm34/moving_mean
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/Relu_grad/ReluGrad
+v/cg/resnet_v113/conv45/conv2d/kernel/read
+tower_0/v/l2_loss/AddN
+tower_0/v/gradients/tower_0/v/cg/resnet_v114/conv49/batchnorm49/FusedBatchNormV3_grad/FusedBatchNormGradV3
+tower_0/v/cg/resnet_v113/conv43/batchnorm43/AssignMovingAvg_1/sub_1
+tower_0/v/cg/spatial_mean0/reduction_indices
+v/cg/resnet_v14/conv15/batchnorm15/gamma
+tower_0/v/gradients/tower_0/v/cg/resnet_v12/conv8/Relu_grad/ReluGrad
+tower_0/v/cg/resnet_v114/conv48/batchnorm48/AssignMovingAvg_1/sub_1
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v11/conv6/batchnorm6/gamma/ApplyGradientDescent
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v113/conv43/conv2d/kernel/ApplyGradientDescent
+v/cg/resnet_v13/conv12/batchnorm12/gamma/read
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v16/conv22/conv2d/kernel/ApplyGradientDescent
+tower_0/v/l2_loss/L2Loss_10
+	1	0.000244140625	None
+tower_0/v/cg/resnet_v18/conv29/batchnorm29/AssignMovingAvg_1/mul
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v115/conv52/conv2d/kernel/ApplyGradientDescent
+tower_0/v/cg/resnet_v110/conv34/Relu
+tower_0/v/l2_loss/L2Loss_44
+	1	0.0087890625	None
+tower_0/v/cg/resnet_v19/conv31/batchnorm31/FusedBatchNormV3
+tower_0/v/gradients/tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/xentropy/xentropy_grad/mul
+v/cg/resnet_v13/conv12/batchnorm12/beta
+tower_0/v/cg/resnet_v14/conv16/batchnorm16/AssignMovingAvg/mul
+v/cg/resnet_v111/conv38/batchnorm38/moving_mean
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v110/conv35/conv2d/Conv2D_grad/ShapeN-matshapes-1
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v11/conv7/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/cg/resnet_v16/conv21/batchnorm21/AssignMovingAvg
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v11/conv7/batchnorm7/beta/ApplyGradientDescent
+tower_0/v/cg/resnet_v114/conv47/batchnorm47/AssignMovingAvg_1/sub_1
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v15/conv19/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/cg/resnet_v113/conv43/batchnorm43/AssignMovingAvg_1
+tower_0/v/cg/resnet_v115/Relu
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v18/conv29/conv2d/kernel/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv46/batchnorm46/FusedBatchNormV3_grad/FusedBatchNormGradV3
+v/cg/resnet_v18/conv30/batchnorm30/gamma/read
+v/cg/resnet_v12/conv8/batchnorm8/moving_mean
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv4/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	51.69189453125	None
+	1	0.0625	None
+	2	49.0	None
+	3	0.020263671875	None
+v/cg/resnet_v111/conv38/batchnorm38/gamma
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v112/conv42/conv2d/Conv2D_grad/ShapeN-matshapes-1
+v/cg/resnet_v19/conv32/batchnorm32/moving_variance/read
+v/cg/resnet_v112/conv40/batchnorm40/beta/read
+v/cg/resnet_v14/conv17/conv2d/kernel
+tower_0/v/gradients/tower_0/v/cg/resnet_v14/Relu_grad/ReluGrad
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v10/conv4/batchnorm4/beta/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_38_grad/mul
+tower_0/v/cg/resnet_v18/conv29/batchnorm29/AssignMovingAvg
+tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/Sum
+tower_0/v/l2_loss/L2Loss_23
+	1	0.000244140625	None
+tower_0/v/cg/resnet_v10/conv2/batchnorm2/AssignMovingAvg/sub_1
+tower_0/v/cg/resnet_v14/conv16/batchnorm16/FusedBatchNormV3
+v/cg/conv0/batchnorm0/moving_variance/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v18/conv28/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	1.0	None
+	2	0.00439453125	None
+v/cg/resnet_v12/conv9/batchnorm9/moving_variance
+tower_0/v/gradients/tower_0/v/cg/resnet_v114/conv47/Relu_grad/ReluGrad
+v/cg/resnet_v18/conv30/conv2d/kernel
+tower_0/v/cg/resnet_v115/conv50/batchnorm50/AssignMovingAvg/mul
+tower_0/v/gradients/AddN_55
+tower_0/v/cg/resnet_v113/conv45/batchnorm45/AssignMovingAvg_1/sub_1
+tower_0/v/cg/resnet_v17/conv26/batchnorm26/FusedBatchNormV3
+v/cg/resnet_v19/conv32/batchnorm32/gamma
+v/cg/resnet_v115/conv51/batchnorm51/moving_variance
+v/cg/resnet_v18/conv28/batchnorm28/moving_variance
+tower_0/v/cg/resnet_v114/conv48/batchnorm48/AssignMovingAvg/mul
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/spatial_mean0_grad/truediv_recip
+tower_0/v/cg/resnet_v110/conv35/batchnorm35/AssignMovingAvg_1/mul
+v/cg/resnet_v112/conv41/batchnorm41/moving_variance
+v/cg/resnet_v17/conv27/batchnorm27/gamma/read
+v/cg/resnet_v18/conv29/batchnorm29/beta/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v110/conv36/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	1.0	None
+	2	0.00244140625	None
+v/cg/resnet_v112/conv40/batchnorm40/beta
+tower_0/v/cg/resnet_v12/conv10/batchnorm10/AssignMovingAvg_1/sub_1
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v10/conv4/conv2d/kernel/ApplyGradientDescent
+v/cg/resnet_v15/conv18/conv2d/kernel/read
+learning_rate/PiecewiseConstant/LessEqual_3
+v/cg/resnet_v110/conv34/batchnorm34/moving_mean/read
+tower_0/v/cg/resnet_v15/conv20/batchnorm20/FusedBatchNormV3
+tower_0/v/gradients/tower_0/v/cg/resnet_v115/conv52/batchnorm52/FusedBatchNormV3_grad/FusedBatchNormGradV3
+main_fetch_group
+v/cg/resnet_v11/conv7/batchnorm7/gamma
+tower_0/v/gradients/tower_0/v/cg/resnet_v19/conv32/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	2.25	None
+	2	81.0	None
+tower_0/v/cg/resnet_v14/conv15/batchnorm15/AssignMovingAvg_1/mul
+v/cg/resnet_v16/conv21/conv2d/kernel/read
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv0/batchnorm0/beta/ApplyGradientDescent
+tower_0/v/gradients/AddN_54
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_41_grad/mul
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv3/Relu_grad/ReluGrad
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv14/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/cg/resnet_v19/conv32/batchnorm32/AssignMovingAvg_1
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_43_grad/mul
+tower_0/v/cg/resnet_v11/conv6/batchnorm6/AssignMovingAvg/mul
+tower_0/v/gradients/AddN_15
+tower_0/v/cg/resnet_v11/conv6/batchnorm6/AssignMovingAvg_1/sub_1
+tower_0/v/cg/resnet_v110/conv36/conv2d/Conv2D
+	1	1.0	None
+	2	0.001220703125	None
+v/cg/resnet_v11/conv6/batchnorm6/moving_variance
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v12/conv10/conv2d/Conv2D_grad/ShapeN-matshapes-0
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v18/conv30/batchnorm30/beta/ApplyGradientDescent
+tower_0/v/cg/resnet_v113/conv45/batchnorm45/AssignMovingAvg_1
+v/cg/resnet_v19/conv31/batchnorm31/moving_mean
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v16/conv21/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/l2_loss/L2Loss_52
+	1	0.0087890625	None
+v/cg/resnet_v10/conv3/batchnorm3/moving_mean
+tower_0/v/l2_loss/L2Loss_37
+	1	0.000244140625	None
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v18/conv28/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/gradients/AddN_63
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v16/conv21/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/gradients/tower_0/v/cg/spatial_mean0_grad/Reshape
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v113/conv46/conv2d/kernel/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/resnet_v16/conv22/batchnorm22/FusedBatchNormV3_grad/FusedBatchNormGradV3
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v115/conv50/conv2d/kernel/ApplyGradientDescent
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv46/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/l2_loss/L2Loss_32
+	1	0.0087890625	None
+tower_0/v/cg/resnet_v114/conv49/batchnorm49/AssignMovingAvg/sub_1
+tower_0/v/cg/resnet_v110/conv35/conv2d/Conv2D
+	1	2.25	None
+	2	81.0	None
+tower_0/v/gradients/tower_0/v/cg/resnet_v110/conv34/batchnorm34/FusedBatchNormV3_grad/FusedBatchNormGradV3
+v/cg/resnet_v10/conv2/batchnorm2/moving_mean/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v11/conv5/Relu_grad/ReluGrad
+v/cg/resnet_v10/conv1/conv2d/kernel/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v12/conv9/Relu_grad/ReluGrad
+tower_0/v/gradients/tower_0/v/cg/resnet_v16/conv23/batchnorm23/FusedBatchNormV3_grad/FusedBatchNormGradV3
+tower_0/v/cg/resnet_v13/conv14/batchnorm14/AssignMovingAvg_1/sub_1
+v/cg/resnet_v18/conv28/conv2d/kernel/read
+tower_0/v/cg/resnet_v112/conv41/batchnorm41/FusedBatchNormV3
+learning_rate/PiecewiseConstant/case/num_true_conds
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v113/conv44/batchnorm44/beta/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_15_grad/mul
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v15/conv18/conv2d/Conv2D_grad/ShapeN-matshapes-0
+v/cg/resnet_v110/conv34/conv2d/kernel/read
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v16/conv23/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/gradients/tower_0/v/cg/resnet_v114/conv47/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	4.00048828125	None
+	2	0.00390625	None
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_13_grad/mul
+tower_0/v/cg/resnet_v112/conv40/conv2d/Conv2D
+	1	1.0	None
+	2	0.001953125	None
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv1/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv25/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	0.500244140625	None
+	2	0.00439453125	None
+tower_0/v/gradients/tower_0/v/cg/resnet_v14/conv17/batchnorm17/FusedBatchNormV3_grad/FusedBatchNormGradV3
+tower_0/v/gradients/tower_0/v/cg/resnet_v111/conv37/batchnorm37/FusedBatchNormV3_grad/FusedBatchNormGradV3
+tower_0/v/cg/resnet_v16/conv22/batchnorm22/AssignMovingAvg/sub_1
+tower_0/v/cg/resnet_v111/conv39/batchnorm39/AssignMovingAvg/mul
+tower_0/v/cg/resnet_v17/conv27/batchnorm27/AssignMovingAvg_1/mul
+learning_rate/PiecewiseConstant/Greater_3
+v/cg/affine0/biases
+tower_0/v/cg/resnet_v12/conv8/batchnorm8/AssignMovingAvg
+tower_0/v/gradients/tower_0/v/cg/resnet_v11/conv6/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	0.252197265625	None
+	2	0.00537109375	None
+v/cg/resnet_v114/conv47/batchnorm47/gamma/read
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v19/conv33/conv2d/kernel/ApplyGradientDescent
+tower_0/v/cg/resnet_v14/conv16/Relu
+tower_0/v/cg/resnet_v12/conv9/batchnorm9/AssignMovingAvg_1/sub_1
+tower_0/v/gradients/tower_0/v/cg/affine0/xw_plus_b/MatMul_grad/MatMul
+tower_0/v/gradients/tower_0/v/cg/resnet_v114/conv48/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	9.0	None
+	2	122.611572265625	None
+v/cg/resnet_v13/conv14/conv2d/kernel
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv4/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	0.123291015625	None
+	2	0.0029296875	None
+v/cg/resnet_v113/conv43/conv2d/kernel
+tower_0/v/l2_loss/L2Loss_18
+	1	0.000244140625	None
+tower_0/v/cg/resnet_v19/conv32/batchnorm32/AssignMovingAvg_1/sub_1
+tower_0/v/cg/resnet_v110/conv36/batchnorm36/FusedBatchNormV3
+tower_0/v/cg/resnet_v18/add
+tower_0/v/l2_loss/L2Loss_54
+tower_0/v/cg/resnet_v10/conv2/conv2d/Conv2D
+	1	0.015625	None
+	2	0.01806640625	None
+v/cg/resnet_v110/conv35/batchnorm35/moving_variance
+tower_0/v/gradients/tower_0/v/cg/resnet_v111/conv39/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	1.00048828125	None
+	2	0.00244140625	None
+tower_0/v/gradients/tower_0/v/cg/resnet_v19/Relu_grad/ReluGrad
+v/cg/resnet_v16/conv22/batchnorm22/moving_mean
+tower_0/v/cg/resnet_v14/conv16/conv2d/Conv2D
+	1	0.5625	None
+	2	112.5	None
+main_fetch_group/_564
+v/cg/resnet_v15/conv20/conv2d/kernel/read
+v/cg/resnet_v11/conv7/batchnorm7/beta
+tower_0/v/cg/resnet_v12/conv9/batchnorm9/FusedBatchNormV3
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v19/conv33/batchnorm33/gamma/ApplyGradientDescent
+learning_rate/PiecewiseConstant/case/cond/cond/cond/cond/cond/Switch/Switch
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_10_grad/mul
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v10/conv1/batchnorm1/beta/ApplyGradientDescent
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v15/conv18/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/gradients/tower_0/v/cg/resnet_v110/conv36/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	18.000732421875	None
+	1	1.0	None
+	2	12.25	None
+	3	0.00341796875	None
+tower_0/v/cg/resnet_v16/conv22/batchnorm22/AssignMovingAvg_1
+average_loss/Mean/_568
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v10/conv2/batchnorm2/gamma/ApplyGradientDescent
+tower_0/v/gradients/AddN_47
+tower_0/v/cg/resnet_v114/conv47/batchnorm47/AssignMovingAvg_1/mul
+learning_rate/PiecewiseConstant/and
+tower_0/v/gradients/AddN_25
+tower_0/v/cg/resnet_v114/conv48/batchnorm48/AssignMovingAvg/sub_1
+v/cg/resnet_v18/conv30/batchnorm30/moving_mean
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v14/conv16/batchnorm16/gamma/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/spatial_mean0_grad/Reshape/shape
+v/cg/resnet_v16/conv21/batchnorm21/moving_variance/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv2/Relu_grad/ReluGrad
+tower_0/v/gradients/AddN_49
+tower_0/v/cg/resnet_v10/conv4/batchnorm4/AssignMovingAvg_1
+v/cg/resnet_v111/conv38/batchnorm38/gamma/read
+v/cg/resnet_v111/conv38/conv2d/kernel
+v/cg/resnet_v19/conv31/conv2d/kernel/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v115/conv51/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	6.125	None
+	1	9.0	None
+	2	7.8203125	None
+	3	72.0	None
+tower_0/v/cg/resnet_v12/conv10/batchnorm10/AssignMovingAvg/sub_1
+v/cg/resnet_v18/conv30/batchnorm30/moving_variance/read
+tower_0/v/cg/resnet_v13/conv14/conv2d/Conv2D
+	1	0.25	None
+	2	0.004638671875	None
+tower_0/v/cg/resnet_v15/Relu
+v/cg/resnet_v17/conv27/batchnorm27/moving_variance
+tower_0/v/gradients/tower_0/v/cg/resnet_v18/conv29/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	2.25	None
+	2	81.0	None
+v/cg/resnet_v16/conv23/conv2d/kernel
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv2/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	56.39599609375	None
+	1	0.015625	None
+	2	49.0	None
+	3	0.020263671875	None
+v/cg/resnet_v18/conv28/batchnorm28/gamma
+tower_0/v/gradients/tower_0/v/cg/resnet_v115/conv51/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	9.0	None
+	2	72.0	None
+v/cg/resnet_v110/conv34/batchnorm34/gamma/read
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v111/conv39/batchnorm39/beta/ApplyGradientDescent
+tower_0/v/cg/resnet_v114/conv49/batchnorm49/Const
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v110/conv36/batchnorm36/gamma/ApplyGradientDescent
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v19/conv32/batchnorm32/gamma/ApplyGradientDescent
+v/cg/resnet_v10/conv4/conv2d/kernel
+tower_0/v/cg/resnet_v114/conv49/batchnorm49/AssignMovingAvg/sub
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v111/conv38/batchnorm38/beta/ApplyGradientDescent
+v/cg/resnet_v115/conv50/batchnorm50/beta
+tower_0/v/gradients/AddN_7
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv12/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	196.0	None
+	1	0.249755859375	None
+	2	245.0078125	None
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v11/conv7/conv2d/kernel/ApplyGradientDescent
+v/cg/resnet_v17/conv24/batchnorm24/moving_mean
+v/cg/resnet_v15/conv19/batchnorm19/beta
+tower_0/v/cg/resnet_v113/conv46/batchnorm46/FusedBatchNormV3
+tower_0/v/l2_loss/L2Loss_13
+	1	0.000244140625	None
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v15/conv20/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/cg/resnet_v12/conv8/batchnorm8/AssignMovingAvg/mul
+tower_0/v/gradients/tower_0/v/cg/resnet_v11/conv6/batchnorm6/FusedBatchNormV3_grad/FusedBatchNormGradV3
+learning_rate/Cast
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v10/conv1/conv2d/kernel/ApplyGradientDescent
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v19/conv31/batchnorm31/gamma/ApplyGradientDescent
+v/cg/resnet_v10/conv1/conv2d/kernel
+tower_0/v/gradients/AddN_57
+v/cg/resnet_v16/conv22/batchnorm22/moving_variance
+tower_0/v/cg/conv0/batchnorm0/AssignMovingAvg_1/mul
+v/cg/resnet_v17/conv27/conv2d/kernel
+tower_0/v/gradients/tower_0/v/cg/resnet_v112/conv42/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	18.000732421875	None
+	1	1.0	None
+	2	12.25	None
+	3	0.00341796875	None
+v/cg/resnet_v113/conv43/batchnorm43/moving_mean
+tower_0/v/gradients/tower_0/v/cg/resnet_v15/conv19/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	24.5	None
+	1	0.5625	None
+	2	32.00244140625	None
+	3	112.5	None
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v110/conv34/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/cg/resnet_v112/conv40/batchnorm40/AssignMovingAvg
+v/cg/resnet_v18/conv28/batchnorm28/gamma/read
+v/cg/resnet_v110/conv36/batchnorm36/beta/read
+v/cg/resnet_v14/conv16/conv2d/kernel
+tower_0/v/cg/resnet_v18/conv28/batchnorm28/AssignMovingAvg/mul
+tower_0/v/cg/resnet_v113/conv46/conv2d/Conv2D
+	1	4.0	None
+	2	0.00048828125	None
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v17/conv25/batchnorm25/gamma/ApplyGradientDescent
+tower_0/v/cg/resnet_v11/conv5/batchnorm5/AssignMovingAvg_1/sub_1
+v/cg/resnet_v17/conv27/batchnorm27/moving_variance/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v14/conv16/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	24.5	None
+	1	0.5625	None
+	2	32.00244140625	None
+	3	112.5	None
+tower_0/v/cg/resnet_v111/conv38/batchnorm38/AssignMovingAvg/mul
+v/cg/resnet_v111/conv37/batchnorm37/moving_variance/read
+v/cg/affine0/weights/read
+v/cg/resnet_v14/conv15/batchnorm15/moving_variance
+v/cg/resnet_v115/conv51/batchnorm51/gamma
+tower_0/v/gradients/tower_0/v/cg/resnet_v19/conv33/batchnorm33/FusedBatchNormV3_grad/FusedBatchNormGradV3
+tower_0/v/cg/resnet_v16/conv23/batchnorm23/AssignMovingAvg
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v11/conv6/conv2d/kernel/ApplyGradientDescent
+learning_rate/PiecewiseConstant/case/Assert/AssertGuard/control_dependency
+v/cg/resnet_v17/conv25/batchnorm25/moving_variance/read
+v/cg/resnet_v10/conv1/batchnorm1/gamma/read
+v/cg/resnet_v13/conv13/batchnorm13/moving_variance/read
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v15/conv18/conv2d/kernel/ApplyGradientDescent
+v/cg/resnet_v18/conv28/conv2d/kernel
+tower_0/v/gradients/AddN_39
+tower_0/v/cg/resnet_v112/conv42/batchnorm42/AssignMovingAvg_1/sub_1
+tower_0/v/cg/resnet_v19/conv33/batchnorm33/AssignMovingAvg/sub_1
+v/cg/resnet_v14/conv16/conv2d/kernel/read
+tower_0/v/l2_loss/L2Loss_40
+	1	0.000244140625	None
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_47_grad/mul
+tower_0/v/gradients/tower_0/v/cg/resnet_v12/Relu_grad/ReluGrad
+tower_0/v/cg/resnet_v19/Relu
+tower_0/v/cg/resnet_v12/conv8/batchnorm8/AssignMovingAvg_1
+v/cg/resnet_v10/conv3/conv2d/kernel
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v11/conv5/batchnorm5/gamma/ApplyGradientDescent
+tower_0/v/cg/resnet_v10/conv3/batchnorm3/AssignMovingAvg
+v/cg/resnet_v110/conv36/batchnorm36/beta
+v/cg/resnet_v18/conv30/batchnorm30/moving_variance
+v/cg/resnet_v17/conv27/conv2d/kernel/read
+v/cg/resnet_v115/conv50/batchnorm50/beta/read
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v11/conv5/batchnorm5/beta/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/resnet_v12/conv8/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	0.0625	None
+	2	0.0029296875	None
+tower_0/v/cg/resnet_v113/conv44/Relu
+tower_0/v/l2_loss/L2Loss_41
+	1	0.0087890625	None
+v/cg/resnet_v13/conv12/batchnorm12/beta/read
+tower_0/v/cg/resnet_v13/conv14/batchnorm14/AssignMovingAvg
+tower_0/v/gradients/tower_0/v/cg/resnet_v11/conv6/Relu_grad/ReluGrad
+learning_rate/PiecewiseConstant/case/Assert/AssertGuard/Switch
+tower_0/v/cg/resnet_v112/Relu
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv46/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/cg/resnet_v12/add
+v/cg/resnet_v114/conv48/batchnorm48/beta
+tower_0/v/cg/resnet_v112/conv42/batchnorm42/AssignMovingAvg/sub_1
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv14/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	0.25	None
+	2	0.00244140625	None
+tower_0/v/cg/resnet_v16/conv21/batchnorm21/AssignMovingAvg_1/sub_1
+tower_0/v/l2_loss/L2Loss_35
+	1	0.0087890625	None
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v13/conv14/batchnorm14/beta/ApplyGradientDescent
+v/cg/resnet_v10/conv2/batchnorm2/beta
+tower_0/v/gradients/AddN_37
+tower_0/v/gradients/AddN_16
+tower_0/v/cg/resnet_v17/conv24/batchnorm24/FusedBatchNormV3
+tower_0/v/cg/conv0/batchnorm0/AssignMovingAvg/mul
+tower_0/v/l2_loss/L2Loss_50
+	1	0.0087890625	None
+tower_0/v/cg/resnet_v112/conv40/batchnorm40/FusedBatchNormV3
+tower_0/v/l2_loss/L2Loss_17
+	1	0.000244140625	None
+learning_rate/Const_4
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv2/conv2d/Conv2D_grad/ShapeN-matshapes-1
+v/cg/resnet_v12/conv9/batchnorm9/beta
+tower_0/v/gradients/AddN_10
+tower_0/v/gradients/AddN_11
+tower_0/v/cg/resnet_v18/conv30/conv2d/Conv2D
+	1	1.0	None
+	2	0.001953125	None
+tower_0/v/gradients/tower_0/v/cg/resnet_v114/Relu_grad/ReluGrad
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v112/conv42/conv2d/kernel/ApplyGradientDescent
+v/cg/resnet_v19/conv32/batchnorm32/moving_variance
+tower_0/v/gradients/AddN_2
+tower_0/v/gradients/AddN_23
+tower_0/v/gradients/tower_0/v/cg/resnet_v11/conv7/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	0.0625	None
+	2	0.0029296875	None
+tower_0/v/gradients/tower_0/v/cg/resnet_v15/conv19/batchnorm19/FusedBatchNormV3_grad/FusedBatchNormGradV3
+v/cg/resnet_v110/conv34/batchnorm34/moving_variance
+v/cg/resnet_v14/conv16/batchnorm16/gamma
+tower_0/v/cg/resnet_v112/conv42/batchnorm42/AssignMovingAvg/mul
+v/cg/resnet_v18/conv30/conv2d/kernel/read
+tower_0/v/cg/resnet_v17/conv26/batchnorm26/AssignMovingAvg_1/mul
+tower_0/v/transpose
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv24/batchnorm24/FusedBatchNormV3_grad/FusedBatchNormGradV3
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v19/conv31/conv2d/Conv2D_grad/ShapeN-matshapes-1
+v/cg/resnet_v11/conv7/conv2d/kernel/read
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v17/conv27/batchnorm27/beta/ApplyGradientDescent
+tower_0/v/cg/resnet_v111/conv38/Relu
+v/cg/resnet_v11/conv6/batchnorm6/moving_mean/read
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v111/conv37/conv2d/kernel/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/resnet_v19/conv31/Relu_grad/ReluGrad
+learning_rate/PiecewiseConstant/case/cond/cond/Switch/Switch
+v/cg/resnet_v19/conv33/batchnorm33/moving_variance
+v/cg/resnet_v15/conv19/batchnorm19/beta/read
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v110/conv35/batchnorm35/gamma/ApplyGradientDescent
+tower_0/v/cg/resnet_v18/conv30/batchnorm30/AssignMovingAvg_1/mul
+tower_0/v/cg/resnet_v17/conv24/batchnorm24/AssignMovingAvg/sub_1
+v/cg/resnet_v111/conv39/conv2d/kernel
+v/cg/resnet_v14/conv16/batchnorm16/moving_mean
+tower_0/v/cg/resnet_v13/conv12/batchnorm12/AssignMovingAvg_1/sub_1
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv1/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	0.0625	None
+	2	0.0029296875	None
+v/cg/resnet_v111/conv38/batchnorm38/moving_variance/read
+tower_0/v/resnet50_synthetic_labels/max
+tower_0/v/cg/resnet_v13/conv12/Relu
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v112/conv42/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv12/Relu_grad/ReluGrad
+tower_0/v/gradients/tower_0/v/cg/resnet_v110/Relu_grad/ReluGrad
+v/cg/conv0/batchnorm0/beta
+tower_0/v/cg/resnet_v13/conv11/batchnorm11/FusedBatchNormV3
+tower_0/v/mul/x
+tower_0/v/cg/resnet_v110/conv35/batchnorm35/AssignMovingAvg_1
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v112/conv41/batchnorm41/beta/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/resnet_v112/conv41/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	4.000244140625	None
+	2	81.0	None
+v/cg/resnet_v10/conv2/batchnorm2/moving_variance/read
+tower_0/v/cg/resnet_v13/conv12/batchnorm12/AssignMovingAvg_1
+tower_0/v/l2_loss/L2Loss_47
+	1	0.0087890625	None
+tower_0/v/gradients/AddN_30
+tower_0/v/cg/resnet_v12/conv8/Relu
+tower_0/v/gradients/AddN_53
+edge_641_learning_rate/PiecewiseConstant/LessEqual@@MemcpyDtoH
+tower_0/v/cg/resnet_v19/conv33/batchnorm33/AssignMovingAvg_1/sub_1
+tower_0/v/l2_loss/L2Loss
+	1	0.000244140625	None
+tower_0/v/cg/resnet_v11/add
+v/cg/resnet_v11/conv5/batchnorm5/moving_variance
+tower_0/v/cg/resnet_v15/add
+v/cg/resnet_v111/conv37/conv2d/kernel
+tower_0/v/cg/resnet_v11/conv7/batchnorm7/AssignMovingAvg_1/mul
+tower_0/v/cg/resnet_v11/conv5/batchnorm5/AssignMovingAvg/mul
+v/cg/resnet_v112/conv42/batchnorm42/beta/read
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v13/conv14/conv2d/kernel/ApplyGradientDescent
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv27/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/cg/resnet_v18/conv29/Relu
+tower_0/v/cg/resnet_v112/conv41/conv2d/Conv2D
+	1	2.25	None
+	2	81.0	None
+learning_rate/Const_6
+tower_0/v/cg/resnet_v113/conv44/conv2d/Conv2D
+	1	2.0	None
+	2	0.00048828125	None
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v14/conv16/conv2d/kernel/ApplyGradientDescent
+v/cg/resnet_v11/conv6/batchnorm6/moving_variance/read
+edge_667_learning_rate/PiecewiseConstant/and_2@@MemcpyDtoH
+v/cg/resnet_v112/conv41/conv2d/kernel/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v14/conv15/Relu_grad/ReluGrad
+tower_0/v/gradients/AddN_34
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/Relu_grad/ReluGrad
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_grad/mul
+tower_0/v/cg/resnet_v18/conv29/batchnorm29/FusedBatchNormV3
+tower_0/v/cg/resnet_v113/conv44/batchnorm44/FusedBatchNormV3
+v/cg/resnet_v115/conv52/batchnorm52/gamma/read
+v/cg/resnet_v17/conv25/batchnorm25/gamma
+tower_0/v/cg/resnet_v17/conv26/batchnorm26/AssignMovingAvg_1
+tower_0/v/cg/resnet_v114/conv49/conv2d/Conv2D
+	1	4.0	None
+	2	0.00048828125	None
+tower_0/v/cg/resnet_v18/conv28/batchnorm28/AssignMovingAvg
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v17/conv26/batchnorm26/gamma/ApplyGradientDescent
+tower_0/v/cg/resnet_v10/conv1/batchnorm1/AssignMovingAvg/sub_1
+tower_0/v/cg/resnet_v19/conv31/Relu
+v/cg/resnet_v13/conv13/batchnorm13/beta/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v14/conv16/Relu_grad/ReluGrad
+learning_rate/PiecewiseConstant/case/LessEqual
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv25/Relu_grad/ReluGrad
+v/cg/resnet_v18/conv29/batchnorm29/gamma
+tower_0/v/cg/resnet_v110/conv35/batchnorm35/AssignMovingAvg/mul
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv13/batchnorm13/FusedBatchNormV3_grad/FusedBatchNormGradV3
+tower_0/v/cg/resnet_v14/conv16/batchnorm16/AssignMovingAvg
+tower_0/v/cg/resnet_v11/conv6/batchnorm6/AssignMovingAvg_1
+tower_0/v/cg/resnet_v17/conv26/batchnorm26/AssignMovingAvg
+v/cg/resnet_v113/conv44/batchnorm44/beta
+tower_0/v/cg/resnet_v13/conv11/batchnorm11/AssignMovingAvg_1/sub_1
+v/cg/resnet_v111/conv39/conv2d/kernel/read
+v/cg/resnet_v113/conv43/batchnorm43/gamma/read
+tower_0/v/cg/resnet_v11/conv7/batchnorm7/AssignMovingAvg/mul
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v17/conv27/batchnorm27/gamma/ApplyGradientDescent
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv25/conv2d/Conv2D_grad/ShapeN-matshapes-0
+v/cg/resnet_v110/conv34/conv2d/kernel
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v114/conv47/batchnorm47/gamma/ApplyGradientDescent
+tower_0/v/cg/resnet_v113/conv45/batchnorm45/AssignMovingAvg
+v/cg/resnet_v112/conv42/batchnorm42/moving_mean
+v/cg/resnet_v111/conv38/conv2d/kernel/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v14/conv15/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	0.25	None
+	2	0.00244140625	None
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v115/conv52/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv3/batchnorm3/FusedBatchNormV3_grad/FusedBatchNormGradV3
+tower_0/v/gradients/tower_0/v/cg/resnet_v114/conv48/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	6.125	None
+	1	9.00048828125	None
+	2	7.8203125	None
+	3	131.611572265625	None
+tower_0/v/gradients/AddN_21
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_32_grad/mul
+tower_0/v/cg/resnet_v17/conv27/conv2d/Conv2D
+	1	1.0	None
+	2	0.001220703125	None
+v/cg/conv0/batchnorm0/beta/read
+tower_0/v/cg/resnet_v19/conv33/batchnorm33/AssignMovingAvg_1
+v/cg/resnet_v115/conv50/conv2d/kernel/read
+v/cg/resnet_v11/conv5/batchnorm5/gamma
+v/cg/resnet_v12/conv10/batchnorm10/moving_mean
+v/cg/resnet_v14/conv15/conv2d/kernel/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v16/conv21/Relu_grad/ReluGrad
+tower_0/v/cg/resnet_v114/Relu
+v/cg/resnet_v11/conv7/batchnorm7/gamma/read
+tower_0/v/cg/resnet_v113/conv44/batchnorm44/AssignMovingAvg/mul
+tower_0/v/cg/resnet_v110/add
+v/cg/resnet_v18/conv29/batchnorm29/moving_mean/read
+learning_rate/PiecewiseConstant/case/preds_c
+tower_0/v/cg/resnet_v19/conv31/batchnorm31/AssignMovingAvg/mul
+v/cg/resnet_v17/conv24/batchnorm24/moving_mean/read
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v114/conv47/conv2d/Conv2D_grad/ShapeN-matshapes-0
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v113/conv43/batchnorm43/beta/ApplyGradientDescent
+tower_0/v/cg/resnet_v17/conv27/batchnorm27/AssignMovingAvg_1
+tower_0/v/cg/resnet_v13/conv11/batchnorm11/AssignMovingAvg/mul
+tower_0/v/gradients/AddN_48
+v/cg/resnet_v13/conv14/batchnorm14/gamma
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v11/conv5/conv2d/kernel/ApplyGradientDescent
+tower_0/v/cg/resnet_v14/conv17/batchnorm17/AssignMovingAvg
+tower_0/v/l2_loss/L2Loss_14
+	1	0.000244140625	None
+v/cg/resnet_v114/conv48/batchnorm48/moving_variance
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_18_grad/mul
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v19/conv31/conv2d/kernel/ApplyGradientDescent
+tower_0/v/cg/resnet_v110/conv34/conv2d/Conv2D
+	1	1.0	None
+	2	0.001953125	None
+tower_0/v/cg/resnet_v19/conv33/batchnorm33/AssignMovingAvg
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v113/conv45/batchnorm45/beta/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_48_grad/mul
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v14/conv16/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/cg/resnet_v114/conv49/batchnorm49/FusedBatchNormV3
+tower_0/v/gradients/AddN_46
+tower_0/v/cg/resnet_v10/conv4/batchnorm4/FusedBatchNormV3
+tower_0/v/cg/resnet_v19/conv32/batchnorm32/AssignMovingAvg/mul
+tower_0/v/gradients/AddN_8
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_35_grad/mul
+tower_0/v/cg/resnet_v112/conv40/batchnorm40/AssignMovingAvg_1/mul
+v/cg/resnet_v13/conv11/batchnorm11/gamma
+tower_0/v/cg/resnet_v13/conv14/batchnorm14/AssignMovingAvg_1
+tower_0/v/gradients/tower_0/v/cg/resnet_v112/conv40/conv2d/Conv2D_grad/Conv2DBackpropInput
+	1	1.00048828125	None
+	2	49.0	None
+	3	0.00390625	None
+tower_0/v/gradients/tower_0/v/cg/resnet_v115/conv52/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	7.8125	None
+	1	4.0	None
+	2	6.125	None
+	3	0.00390625	None
+tower_0/v/gradients/tower_0/v/cg/resnet_v111/Relu_grad/ReluGrad
+average_loss/Mean/input
+tower_0/v/gradients/tower_0/v/cg/resnet_v111/conv38/batchnorm38/FusedBatchNormV3_grad/FusedBatchNormGradV3
+tower_0/v/l2_loss/L2Loss_28
+	1	0.000244140625	None
+v/cg/resnet_v15/conv19/batchnorm19/moving_variance/read
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v11/conv5/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/gradients/tower_0/v/cg/resnet_v19/conv31/conv2d/Conv2D_grad/Conv2DBackpropInput
+	1	1.0	None
+	2	49.0	None
+	3	0.00439453125	None
+tower_0/v/gradients/tower_0/v/cg/resnet_v18/conv28/batchnorm28/FusedBatchNormV3_grad/FusedBatchNormGradV3
+v/cg/resnet_v16/conv21/batchnorm21/gamma
+tower_0/v/cg/resnet_v115/conv50/batchnorm50/AssignMovingAvg_1
+v/cg/resnet_v19/conv31/batchnorm31/beta/read
+v/cg/resnet_v115/conv52/batchnorm52/gamma
+tower_0/v/gradients/tower_0/v/cg/resnet_v11/conv5/batchnorm5/FusedBatchNormV3_grad/FusedBatchNormGradV3
+v/cg/resnet_v13/conv11/batchnorm11/moving_mean
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v111/conv37/batchnorm37/beta/ApplyGradientDescent
+tower_0/v/gradients/AddN_58
+tower_0/v/gradients/tower_0/v/cg/resnet_v112/conv41/batchnorm41/FusedBatchNormV3_grad/FusedBatchNormGradV3
+v/cg/resnet_v16/conv22/batchnorm22/gamma/read
+v/cg/resnet_v16/conv21/batchnorm21/moving_mean/read
+tower_0/v/cg/resnet_v10/conv3/batchnorm3/AssignMovingAvg_1
+v/cg/resnet_v14/conv17/batchnorm17/beta/read
+v/cg/resnet_v15/conv20/conv2d/kernel
+tower_0/v/cg/resnet_v111/conv38/batchnorm38/AssignMovingAvg
+v/cg/resnet_v19/conv32/batchnorm32/gamma/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv13/conv2d/Conv2D_grad/Conv2DBackpropInput
+	1	0.5625	None
+	2	24.5	None
+	3	147.005859375	None
+tower_0/v/cg/resnet_v13/conv13/batchnorm13/AssignMovingAvg_1
+tower_0/v/gradients/tower_0/v/cg/resnet_v19/conv33/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	24.00146484375	None
+	1	1.0	None
+	2	12.25	None
+	3	0.00341796875	None
+v/cg/resnet_v19/conv31/batchnorm31/gamma/read
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v111/conv39/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/cg/resnet_v114/conv47/conv2d/Conv2D
+	1	4.0	None
+	2	0.00048828125	None
+v/cg/resnet_v114/conv49/batchnorm49/moving_variance
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv3/conv2d/Conv2D_grad/ShapeN-matshapes-0
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v17/conv26/batchnorm26/beta/ApplyGradientDescent
+v/cg/resnet_v13/conv12/batchnorm12/gamma
+v/cg/resnet_v112/conv41/batchnorm41/beta/read
+v/cg/resnet_v10/conv2/conv2d/kernel/read
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_33_grad/mul
+tower_0/v/cg/resnet_v110/conv35/Relu
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v12/conv9/conv2d/kernel/ApplyGradientDescent
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv12/conv2d/Conv2D_grad/ShapeN-matshapes-1
+v/cg/resnet_v10/conv2/batchnorm2/gamma/read
+v/cg/resnet_v111/conv39/batchnorm39/beta
+tower_0/v/cg/resnet_v114/conv47/batchnorm47/FusedBatchNormV3
+learning_rate/PiecewiseConstant/LessEqual
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v17/conv25/batchnorm25/beta/ApplyGradientDescent
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v18/conv28/batchnorm28/gamma/ApplyGradientDescent
+learning_rate/truediv
+tower_0/v/add
+v/cg/resnet_v17/conv24/batchnorm24/gamma
+tower_0/v/cg/resnet_v10/conv2/batchnorm2/AssignMovingAvg_1/sub_1
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_11_grad/mul
+tower_0/v/cg/resnet_v114/conv47/batchnorm47/AssignMovingAvg/sub_1
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_45_grad/mul
+v/cg/resnet_v16/conv21/batchnorm21/gamma/read
+v/cg/resnet_v13/conv11/batchnorm11/gamma/read
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v17/conv24/batchnorm24/gamma/ApplyGradientDescent
+v/cg/resnet_v17/conv24/conv2d/kernel/read
+v/cg/resnet_v10/conv3/batchnorm3/moving_variance/read
+v/cg/resnet_v15/conv18/batchnorm18/gamma/read
+v/cg/resnet_v16/conv21/batchnorm21/moving_mean
+tower_0/v/cg/resnet_v10/conv4/batchnorm4/AssignMovingAvg_1/mul
+tower_0/v/gradients/AddN_66
+v/cg/resnet_v18/conv29/batchnorm29/moving_variance/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/Relu_grad/ReluGrad
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v112/conv40/conv2d/kernel/ApplyGradientDescent
+tower_0/v/gradients/AddN_56
+v/cg/resnet_v113/conv46/batchnorm46/moving_variance
+v/cg/resnet_v113/conv44/batchnorm44/moving_mean
+tower_0/v/cg/resnet_v114/conv49/batchnorm49/AssignMovingAvg_1
+tower_0/v/cg/resnet_v112/conv41/batchnorm41/AssignMovingAvg_1/sub_1
+v/cg/resnet_v115/conv52/batchnorm52/moving_variance
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv13/Relu_grad/ReluGrad
+v/cg/resnet_v13/conv14/conv2d/kernel/read
+tower_0/v/cg/resnet_v15/conv20/batchnorm20/AssignMovingAvg_1/mul
+tower_0/v/cg/resnet_v113/conv44/batchnorm44/AssignMovingAvg/sub_1
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v110/conv34/batchnorm34/beta/ApplyGradientDescent
+v/cg/resnet_v110/conv35/batchnorm35/moving_mean/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv26/batchnorm26/FusedBatchNormV3_grad/FusedBatchNormGradV3
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v113/conv43/batchnorm43/gamma/ApplyGradientDescent
+v/cg/resnet_v112/conv42/conv2d/kernel
+v/cg/resnet_v110/conv35/conv2d/kernel
+v/cg/resnet_v18/conv29/conv2d/kernel/read
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv0/conv2d/Conv2D_grad/ShapeN-matshapes-1
+v/cg/resnet_v16/conv21/batchnorm21/beta
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv2/conv2d/Conv2D_grad/ShapeN-matshapes-0
+v/cg/resnet_v17/conv27/batchnorm27/gamma
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v115/conv51/batchnorm51/beta/ApplyGradientDescent
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v19/conv32/conv2d/Conv2D_grad/ShapeN-matshapes-1
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv4/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/cg/resnet_v111/conv37/conv2d/Conv2D
+	1	1.0	None
+	2	0.001953125	None
+tower_0/v/cg/resnet_v19/conv31/conv2d/Conv2D
+	1	1.0	None
+	2	0.001953125	None
+tower_0/v/cg/resnet_v113/conv44/batchnorm44/AssignMovingAvg_1
+tower_0/v/cg/resnet_v115/conv52/batchnorm52/AssignMovingAvg/mul
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v114/conv47/conv2d/kernel/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/resnet_v18/conv30/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	12.25	None
+	1	1.0	None
+	2	19.75244140625	None
+	3	0.00341796875	None
+tower_0/v/gradients/AddN_5
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v13/conv11/batchnorm11/gamma/ApplyGradientDescent
+tower_0/v/l2_loss/L2Loss_26
+	1	0.0087890625	None
+tower_0/v/cg/resnet_v110/conv36/batchnorm36/AssignMovingAvg/sub_1
+tower_0/v/cg/resnet_v11/conv7/batchnorm7/AssignMovingAvg
+v/cg/resnet_v17/conv24/batchnorm24/moving_variance/read
+tower_0/v/cg/resnet_v110/conv36/batchnorm36/AssignMovingAvg/mul
+v/cg/resnet_v111/conv38/batchnorm38/beta/read
+tower_0/v/cg/resnet_v11/conv6/conv2d/Conv2D
+	1	0.140625	None
+	2	85.046875	None
+v/cg/resnet_v110/conv34/batchnorm34/beta
+tower_0/v/cg/resnet_v18/conv29/conv2d/Conv2D
+	1	2.25	None
+	2	81.0	None
+tower_0/v/cg/resnet_v13/conv14/batchnorm14/FusedBatchNormV3
+tower_0/v/cg/resnet_v14/conv17/batchnorm17/AssignMovingAvg_1/mul
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v18/conv30/conv2d/kernel/ApplyGradientDescent
+v/cg/resnet_v11/conv7/batchnorm7/moving_variance/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v15/conv19/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	0.75048828125	None
+	2	112.5	None
+tower_0/v/gradients/tower_0/v/cg/resnet_v112/conv40/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	1.0	None
+	2	0.00390625	None
+tower_0/v/cg/resnet_v11/conv6/batchnorm6/AssignMovingAvg/sub_1
+tower_0/v/cg/resnet_v10/conv1/batchnorm1/AssignMovingAvg
+v/cg/resnet_v10/conv3/batchnorm3/beta/read
+v/cg/resnet_v111/conv37/batchnorm37/beta
+tower_0/v/cg/resnet_v19/conv33/conv2d/Conv2D
+	1	1.0	None
+	2	0.001220703125	None
+tower_0/v/cg/resnet_v17/conv25/batchnorm25/AssignMovingAvg
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v114/conv48/conv2d/Conv2D_grad/ShapeN-matshapes-0
+v/cg/resnet_v17/conv26/batchnorm26/moving_variance/read
+tower_0/v/gradients/AddN_44
+tower_0/v/cg/resnet_v13/conv12/batchnorm12/AssignMovingAvg/sub_1
+tower_0/v/l2_loss/L2Loss_22
+	1	0.000244140625	None
+edge_526_learning_rate/Less@@MemcpyDtoH
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v14/conv15/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/gradients/tower_0/v/cg/resnet_v110/conv34/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	1.0	None
+	2	0.00390625	None
+tower_0/v/cg/resnet_v17/conv26/batchnorm26/AssignMovingAvg/sub_1
+tower_0/v/cg/resnet_v113/conv43/batchnorm43/FusedBatchNormV3
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv2/batchnorm2/FusedBatchNormV3_grad/FusedBatchNormGradV3
+v/cg/resnet_v15/conv18/batchnorm18/moving_variance/read
+v/cg/resnet_v114/conv49/batchnorm49/moving_mean
+tower_0/v/cg/resnet_v18/conv30/batchnorm30/AssignMovingAvg_1
+tower_0/v/cg/resnet_v18/conv30/batchnorm30/AssignMovingAvg_1/sub_1
+tower_0/v/cg/resnet_v18/conv29/batchnorm29/AssignMovingAvg_1
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v114/conv49/conv2d/kernel/ApplyGradientDescent
+append_apply_gradient_ops/GradientDescent
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v112/conv40/conv2d/Conv2D_grad/ShapeN-matshapes-0
+v/cg/resnet_v13/conv14/batchnorm14/moving_variance
+tower_0/v/gradients/tower_0/v/cg/resnet_v11/conv6/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	49.0	None
+	1	0.250244140625	None
+	2	51.629150390625	None
+	3	85.046875	None
+v/cg/resnet_v18/conv29/conv2d/kernel
+v/cg/resnet_v18/conv28/batchnorm28/moving_mean
+tower_0/v/gradients/AddN_38
+v/cg/resnet_v13/conv11/conv2d/kernel
+tower_0/v/cg/affine0/xw_plus_b
+v/cg/resnet_v112/conv41/batchnorm41/gamma/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v19/conv31/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	1.0	None
+	2	0.00439453125	None
+v/cg/resnet_v10/conv4/batchnorm4/beta
+v/cg/resnet_v111/conv37/batchnorm37/gamma
+tower_0/v/cg/resnet_v11/conv6/Relu
+tower_0/v/gradients/tower_0/v/cg/resnet_v19/conv31/batchnorm31/FusedBatchNormV3_grad/FusedBatchNormGradV3
+v/cg/resnet_v114/conv49/batchnorm49/moving_variance/read
+tower_0/v/cg/resnet_v112/conv41/batchnorm41/AssignMovingAvg/mul
+tower_0/v/cg/resnet_v114/conv49/batchnorm49/AssignMovingAvg_1/mul
+v/cg/resnet_v14/conv15/batchnorm15/moving_mean
+tower_0/v/cg/resnet_v15/conv19/batchnorm19/AssignMovingAvg/mul
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv24/conv2d/Conv2D_grad/Conv2DBackpropInput
+	1	2.0	None
+	2	98.0	None
+tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/xentropy/xentropy
+tower_0/v/cg/resnet_v16/conv23/conv2d/Conv2D
+	1	0.25	None
+	2	0.004638671875	None
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv0/conv2d/kernel/ApplyGradientDescent
+tower_0/v/cg/resnet_v16/add
+tower_0/v/cg/resnet_v16/conv23/batchnorm23/AssignMovingAvg_1/sub_1
+tower_0/v/resnet50_synthetic_labels
+v/cg/resnet_v15/conv20/batchnorm20/moving_mean/read
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v13/conv11/batchnorm11/beta/ApplyGradientDescent
+tower_0/v/cg/resnet_v18/conv28/conv2d/Conv2D
+	1	1.0	None
+	2	0.001953125	None
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v111/conv38/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/gradients/tower_0/v/cg/resnet_v16/conv23/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	32.00244140625	None
+	1	0.25	None
+	2	24.5	None
+	3	0.006591796875	None
+tower_0/v/cg/resnet_v16/conv21/batchnorm21/AssignMovingAvg/mul
+v/cg/resnet_v113/conv45/batchnorm45/moving_mean
+tower_0/v/cg/resnet_v13/conv11/batchnorm11/AssignMovingAvg_1/mul
+tower_0/v/cg/resnet_v113/conv45/batchnorm45/AssignMovingAvg/sub_1
+v/cg/resnet_v14/conv17/batchnorm17/moving_variance/read
+tower_0/v/cg/resnet_v17/conv24/batchnorm24/AssignMovingAvg/mul
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v17/conv26/conv2d/kernel/ApplyGradientDescent
+tower_0/v/gradients/AddN_31
+tower_0/v/cg/resnet_v13/conv13/batchnorm13/AssignMovingAvg_1/mul
+tower_0/v/cg/resnet_v110/conv36/batchnorm36/AssignMovingAvg_1/mul
+v/cg/resnet_v115/conv52/conv2d/kernel/read
+v/cg/resnet_v13/conv12/batchnorm12/moving_variance
+tower_0/v/cg/resnet_v115/conv50/Relu
+tower_0/v/l2_loss/L2Loss_29
+	1	0.0087890625	None
+tower_0/v/gradients/tower_0/v/cg/resnet_v12/conv8/batchnorm8/FusedBatchNormV3_grad/FusedBatchNormGradV3
+learning_rate/mul
+tower_0/v/gradients/tower_0/v/cg/resnet_v16/conv22/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	1.000244140625	None
+	2	112.5	None
+tower_0/v/l2_loss/L2Loss_2
+tower_0/v/gradients/tower_0/v/cg/resnet_v112/conv40/batchnorm40/FusedBatchNormV3_grad/FusedBatchNormGradV3
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v14/conv15/conv2d/kernel/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/resnet_v112/conv42/batchnorm42/FusedBatchNormV3_grad/FusedBatchNormGradV3
+v/cg/resnet_v12/conv8/batchnorm8/moving_mean/read
+v/cg/resnet_v12/conv9/conv2d/kernel/read
+v/cg/resnet_v111/conv39/batchnorm39/moving_mean/read
+v/cg/resnet_v17/conv27/batchnorm27/moving_mean/read
+learning_rate/Less
+tower_0/v/l2_loss/L2Loss_11
+	1	0.000244140625	None
+tower_0/v/cg/resnet_v15/conv20/batchnorm20/AssignMovingAvg
+v/cg/resnet_v112/conv41/batchnorm41/moving_variance/read
+v/cg/resnet_v115/conv51/conv2d/kernel/read
+tower_0/v/cg/resnet_v111/conv38/batchnorm38/FusedBatchNormV3
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_3_grad/mul
+tower_0/v/cg/resnet_v113/conv46/batchnorm46/AssignMovingAvg/mul
+tower_0/v/cg/resnet_v12/conv8/batchnorm8/FusedBatchNormV3
+v/cg/resnet_v114/conv49/batchnorm49/moving_mean/read
+tower_0/v/cg/resnet_v15/conv18/batchnorm18/AssignMovingAvg_1
+v/cg/resnet_v110/conv35/batchnorm35/beta/read
+tower_0/v/cg/resnet_v12/Relu
+tower_0/v/gradients/tower_0/v/cg/resnet_v14/conv15/batchnorm15/FusedBatchNormV3_grad/FusedBatchNormGradV3
+tower_0/v/cg/resnet_v113/conv45/conv2d/Conv2D
+	1	9.0	None
+	2	72.0	None
+v/cg/resnet_v13/conv11/batchnorm11/moving_variance
+tower_0/v/cg/resnet_v112/conv40/batchnorm40/AssignMovingAvg/mul
+learning_rate/PiecewiseConstant/Greater
+tower_0/v/cg/resnet_v17/conv24/batchnorm24/AssignMovingAvg_1/sub_1
+tower_0/v/gradients/tower_0/v/cg/conv0/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	0.035888671875	None
+	2	0.0341796875	None
+tower_0/v/gradients/tower_0/v/cg/resnet_v114/conv49/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	7.8203125	None
+	2	0.00390625	None
+tower_0/v/cg/resnet_v115/conv50/batchnorm50/FusedBatchNormV3
+tower_0/v/cg/resnet_v110/conv36/batchnorm36/AssignMovingAvg_1/sub_1
+v/cg/resnet_v115/conv50/batchnorm50/moving_variance
+tower_0/v/cg/resnet_v113/conv46/batchnorm46/AssignMovingAvg_1/mul
+learning_rate/Cast_1
+v/cg/conv0/conv2d/kernel
+v/cg/resnet_v113/conv44/conv2d/kernel/read
+v/cg/resnet_v16/conv21/batchnorm21/moving_variance
+v/cg/resnet_v10/conv4/conv2d/kernel/read
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_52_grad/mul
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv45/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	7.8203125	None
+	1	9.00048828125	None
+	2	8.000244140625	None
+	3	98.00390625	None
+v/cg/resnet_v13/conv14/batchnorm14/beta/read
+tower_0/v/cg/resnet_v10/conv2/batchnorm2/FusedBatchNormV3
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v13/conv12/batchnorm12/gamma/ApplyGradientDescent
+tower_0/v/cg/resnet_v17/conv26/batchnorm26/AssignMovingAvg_1/sub_1
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v13/conv13/batchnorm13/gamma/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv45/batchnorm45/FusedBatchNormV3_grad/FusedBatchNormGradV3
+v/cg/resnet_v111/conv38/batchnorm38/moving_mean/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v14/conv16/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	1.00048828125	None
+	2	112.5	None
+tower_0/v/cg/resnet_v10/conv2/batchnorm2/AssignMovingAvg/mul
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv26/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/cg/resnet_v110/conv34/batchnorm34/AssignMovingAvg_1/sub_1
+tower_0/v/gradients/tower_0/v/cg/resnet_v15/conv20/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	0.25	None
+	2	0.00244140625	None
+v/cg/resnet_v15/conv18/batchnorm18/moving_mean
+v/cg/resnet_v12/conv9/batchnorm9/moving_mean
+v/cg/resnet_v10/conv4/batchnorm4/moving_variance
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v14/conv17/conv2d/kernel/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_37_grad/mul
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v113/conv46/batchnorm46/gamma/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/resnet_v115/conv51/Relu_grad/ReluGrad
+v/cg/resnet_v13/conv13/batchnorm13/moving_mean/read
+tower_0/v/gradients/AddN_64
+tower_0/v/gradients/AddN_40
+tower_0/v/l2_loss/L2Loss_1
+	1	0.000244140625	None
+v/cg/resnet_v16/conv22/conv2d/kernel/read
+v/cg/resnet_v13/conv13/conv2d/kernel
+tower_0/v/cg/resnet_v10/conv2/batchnorm2/AssignMovingAvg
+v/cg/resnet_v115/conv50/batchnorm50/gamma
+v/cg/resnet_v13/conv14/batchnorm14/gamma/read
+tower_0/v/l2_loss/L2Loss_3
+	1	0.000244140625	None
+v/cg/resnet_v11/conv7/batchnorm7/moving_variance
+v/cg/resnet_v113/conv44/batchnorm44/moving_variance
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v114/conv48/batchnorm48/gamma/ApplyGradientDescent
+tower_0/v/cg/resnet_v10/conv2/batchnorm2/AssignMovingAvg_1/mul
+tower_0/v/cg/resnet_v16/conv22/batchnorm22/AssignMovingAvg_1/mul
+v/cg/resnet_v15/conv18/conv2d/kernel
+tower_0/v/gradients/tower_0/v/cg/resnet_v111/conv39/batchnorm39/FusedBatchNormV3_grad/FusedBatchNormGradV3
+tower_0/v/cg/resnet_v113/conv44/batchnorm44/AssignMovingAvg_1/mul
+v/cg/resnet_v110/conv36/batchnorm36/moving_mean
+append_apply_gradient_ops/GradientDescent/update_v/cg/affine0/biases/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/resnet_v19/conv32/conv2d/Conv2D_grad/Conv2DBackpropInput
+	1	2.25	None
+	2	12.25	None
+	3	182.25	None
+tower_0/v/cg/resnet_v110/Relu
+v/cg/resnet_v115/conv51/conv2d/kernel
+tower_0/v/cg/resnet_v16/Relu
+v/cg/resnet_v14/conv17/batchnorm17/moving_mean/read
+tower_0/v/gradients/AddN_14
+v/cg/resnet_v11/conv7/batchnorm7/moving_mean/read
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v11/conv6/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/gradients/tower_0/v/cg/resnet_v115/conv52/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	4.0	None
+	2	0.00390625	None
+v/cg/resnet_v14/conv15/batchnorm15/moving_variance/read
+tower_0/v/l2_loss/L2Loss_4
+	1	0.000244140625	None
+tower_0/v/cg/resnet_v111/conv39/batchnorm39/AssignMovingAvg/sub_1
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v15/conv20/conv2d/Conv2D_grad/ShapeN-matshapes-0
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v111/conv39/batchnorm39/gamma/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv46/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	7.8203125	None
+	1	4.00048828125	None
+	2	9.00048828125	None
+	3	0.00390625	None
+v/cg/resnet_v15/conv19/batchnorm19/gamma/read
+tower_0/v/l2_loss/L2Loss_34
+	1	0.000244140625	None
+v/cg/resnet_v13/conv12/batchnorm12/moving_mean/read
+tower_0/v/cg/resnet_v13/conv11/batchnorm11/AssignMovingAvg/sub_1
+v/cg/resnet_v114/conv49/batchnorm49/beta
+tower_0/v/cg/resnet_v15/conv18/batchnorm18/FusedBatchNormV3
+v/cg/resnet_v17/conv26/conv2d/kernel/read
+v/cg/resnet_v114/conv49/batchnorm49/beta/read
+tower_0/v/cg/resnet_v111/conv38/batchnorm38/AssignMovingAvg_1
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v11/conv6/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/cg/resnet_v10/conv3/batchnorm3/AssignMovingAvg_1/sub_1
+tower_0/v/cg/spatial_mean0
+tower_0/v/cg/resnet_v10/conv2/batchnorm2/AssignMovingAvg_1
+v/cg/resnet_v17/conv26/batchnorm26/gamma/read
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v115/conv50/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/cg/resnet_v19/conv33/batchnorm33/AssignMovingAvg/mul
+tower_0/v/cg/resnet_v112/conv42/batchnorm42/FusedBatchNormV3
+v/cg/resnet_v11/conv5/batchnorm5/moving_mean
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_25_grad/mul
+tower_0/v/cg/resnet_v18/conv28/batchnorm28/AssignMovingAvg_1/sub_1
+v/cg/resnet_v111/conv39/batchnorm39/moving_variance
+tower_0/v/gradients/tower_0/v/cg/conv0/Relu_grad/ReluGrad
+tower_0/v/cg/affine0/xw_plus_b/MatMul
+tower_0/v/cg/resnet_v13/conv13/conv2d/Conv2D
+	1	0.5625	None
+	2	112.5	None
+tower_0/v/l2_loss/L2Loss_53
+	1	0.0087890625	None
+v/cg/resnet_v111/conv37/batchnorm37/moving_mean
+v/cg/resnet_v16/conv21/conv2d/kernel
+tower_0/v/cg/resnet_v10/Relu
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v12/conv8/conv2d/kernel/ApplyGradientDescent
+tower_0/v/l2_loss/L2Loss_8
+	1	0.000244140625	None
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_49_grad/mul
+v/cg/resnet_v12/conv10/batchnorm10/beta
+v/cg/resnet_v19/conv32/batchnorm32/moving_mean
+tower_0/v/gradients/AddN_41
+tower_0/v/gradients/tower_0/v/cg/resnet_v110/conv34/conv2d/Conv2D_grad/Conv2DBackpropInput
+	1	1.0	None
+	2	49.0	None
+	3	0.00390625	None
+tower_0/v/cg/resnet_v10/conv3/batchnorm3/AssignMovingAvg_1/mul
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v15/conv20/batchnorm20/gamma/ApplyGradientDescent
+tower_0/v/cg/resnet_v110/conv34/batchnorm34/AssignMovingAvg
+tower_0/v/cg/resnet_v18/Relu
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv26/Relu_grad/ReluGrad
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv44/conv2d/Conv2D_grad/ShapeN-matshapes-0
+v/cg/resnet_v113/conv45/batchnorm45/moving_variance/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v111/conv37/conv2d/Conv2D_grad/Conv2DBackpropInput
+	1	1.00048828125	None
+	2	49.0	None
+	3	0.00390625	None
+tower_0/v/cg/resnet_v15/conv20/batchnorm20/AssignMovingAvg_1
+tower_0/v/gradients/tower_0/v/cg/resnet_v112/conv42/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	1.0	None
+	2	0.00244140625	None
+tower_0/v/cg/resnet_v18/conv28/batchnorm28/AssignMovingAvg_1/mul
+v/cg/resnet_v114/conv47/batchnorm47/beta/read
+tower_0/v/cg/resnet_v113/conv46/batchnorm46/AssignMovingAvg_1/sub_1
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v115/conv52/batchnorm52/beta/ApplyGradientDescent
+tower_0/v/cg/resnet_v18/conv30/batchnorm30/FusedBatchNormV3
+v/cg/resnet_v17/conv26/batchnorm26/moving_variance
+v/cg/resnet_v17/conv25/conv2d/kernel/read
+tower_0/v/cg/resnet_v10/conv1/batchnorm1/AssignMovingAvg/mul
+v/cg/resnet_v16/conv22/batchnorm22/beta/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv46/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	4.00048828125	None
+	2	0.00390625	None
+tower_0/v/gradients/tower_0/v/cg/resnet_v111/conv38/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	12.25	None
+	1	2.25	None
+	2	18.000732421875	None
+	3	182.25	None
+tower_0/v/cg/resnet_v114/conv47/batchnorm47/AssignMovingAvg
+v/cg/resnet_v110/conv35/batchnorm35/moving_mean
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v14/conv15/batchnorm15/gamma/ApplyGradientDescent
+tower_0/v/l2_loss/L2Loss_42
+	1	0.000244140625	None
+v/cg/resnet_v112/conv42/batchnorm42/moving_mean/read
+v/cg/resnet_v113/conv46/batchnorm46/beta/read
+tower_0/v/gradients/AddN_65
+tower_0/v/cg/resnet_v13/conv12/batchnorm12/AssignMovingAvg/mul
+tower_0/v/gradients/tower_0/v/cg/resnet_v12/conv9/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	0.252197265625	None
+	2	0.00537109375	None
+v/cg/resnet_v114/conv48/batchnorm48/gamma/read
+v/cg/resnet_v112/conv40/batchnorm40/gamma
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv11/batchnorm11/FusedBatchNormV3_grad/FusedBatchNormGradV3
+tower_0/v/cg/resnet_v111/conv39/batchnorm39/FusedBatchNormV3
+tower_0/v/cg/resnet_v115/conv50/batchnorm50/AssignMovingAvg_1/sub_1
+tower_0/v/cg/resnet_v15/conv19/conv2d/Conv2D
+	1	0.5625	None
+	2	112.5	None
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v113/conv45/batchnorm45/gamma/ApplyGradientDescent
+tower_0/v/l2_loss/L2Loss_31
+	1	0.000244140625	None
+tower_0/v/cg/resnet_v113/conv43/batchnorm43/AssignMovingAvg/mul
+v/cg/resnet_v112/conv42/conv2d/kernel/read
+v/cg/resnet_v17/conv27/batchnorm27/beta/read
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v112/conv42/batchnorm42/gamma/ApplyGradientDescent
+v/cg/resnet_v112/conv41/batchnorm41/moving_mean
+v/cg/resnet_v12/conv10/batchnorm10/beta/read
+v/cg/resnet_v111/conv39/batchnorm39/beta/read
+tower_0/v/cg/resnet_v115/conv50/batchnorm50/AssignMovingAvg
+tower_0/v/cg/resnet_v17/conv25/Relu
+tower_0/v/cg/resnet_v18/conv29/batchnorm29/AssignMovingAvg_1/sub_1
+v/cg/resnet_v19/conv33/batchnorm33/moving_variance/read
+v/cg/resnet_v15/conv19/batchnorm19/moving_variance
+tower_0/v/cg/resnet_v12/conv8/batchnorm8/AssignMovingAvg_1/sub_1
+tower_0/v/cg/resnet_v113/add
+v/cg/resnet_v15/conv19/batchnorm19/gamma
+v/cg/resnet_v17/conv24/batchnorm24/moving_variance
+v/cg/conv0/batchnorm0/moving_variance
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_36_grad/mul
+v/cg/resnet_v115/conv52/batchnorm52/beta
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v115/conv52/batchnorm52/gamma/ApplyGradientDescent
+tower_0/v/cg/resnet_v111/conv38/batchnorm38/AssignMovingAvg/sub_1
+v/cg/resnet_v111/conv38/batchnorm38/moving_variance
+v/cg/resnet_v112/conv42/batchnorm42/beta
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v19/conv32/conv2d/kernel/ApplyGradientDescent
+v/cg/resnet_v18/conv28/batchnorm28/moving_mean/read
+tower_0/v/cg/resnet_v13/conv13/batchnorm13/FusedBatchNormV3
+tower_0/v/gradients/tower_0/v/cg/resnet_v19/conv33/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	1.0	None
+	2	0.00244140625	None
+tower_0/v/cg/resnet_v11/Relu
+tower_0/v/gradients/tower_0/v/cg/resnet_v15/conv18/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	0.25	None
+	2	0.00390625	None
+learning_rate/PiecewiseConstant/and_2
+edge_544_learning_rate/PiecewiseConstant/case/Cast@@MemcpyDtoH
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v12/conv9/batchnorm9/gamma/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/resnet_v114/conv48/batchnorm48/FusedBatchNormV3_grad/FusedBatchNormGradV3
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv12/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/cg/resnet_v111/Relu
+tower_0/v/cg/resnet_v17/Relu
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v10/conv2/batchnorm2/beta/ApplyGradientDescent
+v/cg/resnet_v17/conv26/batchnorm26/beta
+v/cg/resnet_v110/conv36/conv2d/kernel
+tower_0/v/cg/resnet_v14/Relu
+tower_0/v/cg/resnet_v111/conv37/batchnorm37/FusedBatchNormV3
+v/cg/resnet_v11/conv5/batchnorm5/beta
+v/cg/resnet_v112/conv40/batchnorm40/moving_variance
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v111/conv37/conv2d/Conv2D_grad/ShapeN-matshapes-0
+v/cg/resnet_v16/conv23/batchnorm23/gamma/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v112/Relu_grad/ReluGrad
+tower_0/v/cg/resnet_v114/conv48/batchnorm48/AssignMovingAvg_1/mul
+v/cg/resnet_v10/conv1/batchnorm1/moving_variance/read
+tower_0/v/cg/resnet_v12/conv8/batchnorm8/AssignMovingAvg/sub_1
+tower_0/v/gradients/tower_0/v/cg/resnet_v111/conv38/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	4.0	None
+	2	81.0	None
+tower_0/v/cg/resnet_v15/conv20/batchnorm20/AssignMovingAvg_1/sub_1
+tower_0/v/cg/resnet_v113/conv44/batchnorm44/AssignMovingAvg_1/sub_1
+tower_0/v/gradients/tower_0/v/cg/resnet_v15/Relu_grad/ReluGrad
+v/cg/resnet_v11/conv6/batchnorm6/moving_mean
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v114/conv48/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/gradients/tower_0/v/cg/resnet_v11/conv5/conv2d/Conv2D_grad/Conv2DBackpropInput
+	1	0.0625	None
+	2	196.0	None
+	3	0.020263671875	None
+tower_0/v/cg/resnet_v14/conv16/batchnorm16/AssignMovingAvg_1/sub_1
+v/cg/resnet_v114/conv47/batchnorm47/moving_mean
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v115/conv50/conv2d/Conv2D_grad/ShapeN-matshapes-1
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v113/conv44/batchnorm44/gamma/ApplyGradientDescent
+train_ops_group/NoOp_1
+tower_0/v/cg/resnet_v111/conv37/batchnorm37/AssignMovingAvg_1/sub_1
+tower_0/v/cg/resnet_v11/conv7/batchnorm7/FusedBatchNormV3
+tower_0/v/cg/resnet_v13/conv13/Relu
+tower_0/v/gradients/AddN_28
+v/cg/conv0/batchnorm0/gamma
+tower_0/v/gradients/tower_0/v/cg/affine0/xw_plus_b/MatMul_grad/MatMul_1
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v16/conv22/batchnorm22/beta/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/resnet_v16/conv21/conv2d/Conv2D_grad/Conv2DBackpropInput
+	1	0.25	None
+	2	98.0	None
+	3	0.006591796875	None
+v/cg/resnet_v11/conv7/batchnorm7/beta/read
+v/cg/resnet_v18/conv28/batchnorm28/beta/read
+v/cg/resnet_v15/conv18/batchnorm18/beta/read
+v/cg/resnet_v17/conv27/batchnorm27/beta
+tower_0/v/cg/resnet_v110/conv35/batchnorm35/FusedBatchNormV3
+v/cg/resnet_v10/conv3/batchnorm3/moving_variance
+v/cg/resnet_v17/conv27/batchnorm27/moving_mean
+tower_0/v/cg/resnet_v13/conv11/conv2d/Conv2D
+	1	0.5	None
+	2	0.004638671875	None
+tower_0/v/cg/resnet_v16/conv21/conv2d/Conv2D
+	1	0.25	None
+	2	0.004638671875	None
+v/cg/resnet_v114/conv48/batchnorm48/beta/read
+v/cg/resnet_v114/conv49/conv2d/kernel
+tower_0/v/gradients/tower_0/v/cg/resnet_v14/conv15/conv2d/Conv2D_grad/Conv2DBackpropInput
+	1	0.250244140625	None
+	2	98.0	None
+	3	0.006591796875	None
+tower_0/v/gradients/AddN_43
+tower_0/v/gradients/tower_0/v/cg/resnet_v12/conv9/conv2d/Conv2D_grad/Conv2DBackpropInput
+	1	0.250244140625	None
+	2	49.0	None
+	3	85.046875	None
+tower_0/v/l2_loss/L2Loss_45
+	1	0.0087890625	None
+tower_0/v/cg/resnet_v18/conv30/batchnorm30/AssignMovingAvg/sub_1
+v/cg/resnet_v112/conv41/batchnorm41/moving_mean/read
+v/cg/resnet_v13/conv14/batchnorm14/moving_variance/read
+tower_0/v/cg/resnet_v16/conv21/batchnorm21/AssignMovingAvg_1
+tower_0/v/cg/resnet_v113/conv44/batchnorm44/AssignMovingAvg
+tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/num_present
+v/cg/resnet_v10/conv3/batchnorm3/beta
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_27_grad/mul
+_SOURCE
+tower_0/v/gradients/tower_0/v/cg/resnet_v18/conv29/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	14.0009765625	None
+	1	2.25	None
+	2	19.75244140625	None
+	3	182.25	None
+v/cg/resnet_v114/conv47/batchnorm47/moving_mean/read
+tower_0/v/cg/resnet_v115/conv50/batchnorm50/AssignMovingAvg/sub_1
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v115/conv52/conv2d/Conv2D_grad/ShapeN-matshapes-1
+v/cg/resnet_v114/conv47/batchnorm47/moving_variance
+tower_0/v/gradients/tower_0/v/cg/resnet_v114/conv47/batchnorm47/FusedBatchNormV3_grad/FusedBatchNormGradV3
+v/cg/resnet_v115/conv51/batchnorm51/beta/read
+tower_0/v/cg/resnet_v11/conv5/batchnorm5/AssignMovingAvg_1
+tower_0/v/cg/resnet_v17/conv24/conv2d/Conv2D
+	1	2.0	None
+	2	0.001220703125	None
+tower_0/v/cg/resnet_v13/add
+tower_0/v/gradients/tower_0/v/cg/resnet_v11/conv7/batchnorm7/FusedBatchNormV3_grad/FusedBatchNormGradV3
+tower_0/v/cg/resnet_v10/conv4/batchnorm4/AssignMovingAvg/mul
+v/cg/resnet_v16/conv22/batchnorm22/beta
+v/cg/resnet_v18/conv29/batchnorm29/moving_variance
+tower_0/v/cg/resnet_v17/conv27/batchnorm27/AssignMovingAvg
+v/cg/resnet_v19/conv33/batchnorm33/moving_mean/read
+v/cg/resnet_v12/conv10/batchnorm10/moving_variance/read
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v12/conv10/batchnorm10/gamma/ApplyGradientDescent
+tower_0/v/cg/resnet_v111/conv37/batchnorm37/AssignMovingAvg_1
+tower_0/v/cg/resnet_v17/conv26/conv2d/Conv2D
+	1	2.25	None
+	2	81.0	None
+learning_rate/PiecewiseConstant/case/n_true_conds
+tower_0/v/cg/resnet_v113/conv43/batchnorm43/AssignMovingAvg_1/mul
+tower_0/v/cg/conv0/Pad/paddings
+tower_0/v/l2_loss/L2Loss_51
+	1	0.0087890625	None
+v/cg/resnet_v15/conv20/batchnorm20/beta/read
+tower_0/v/cg/resnet_v17/conv24/batchnorm24/AssignMovingAvg
+v/cg/resnet_v14/conv16/batchnorm16/moving_variance
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_17_grad/mul
+tower_0/v/cg/resnet_v11/conv7/batchnorm7/AssignMovingAvg/sub_1
+tower_0/v/gradients/tower_0/v/cg/resnet_v14/conv17/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	32.00244140625	None
+	1	0.250244140625	None
+	2	24.5	None
+	3	0.006591796875	None
+v/cg/resnet_v113/conv44/batchnorm44/gamma/read
+v/cg/resnet_v16/conv21/batchnorm21/beta/read
+v/cg/resnet_v13/conv13/batchnorm13/beta
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v19/conv33/batchnorm33/beta/ApplyGradientDescent
+tower_0/v/l2_loss/L2Loss_6
+	1	0.000244140625	None
+tower_0/v/gradients/tower_0/v/cg/resnet_v111/conv38/Relu_grad/ReluGrad
+tower_0/v/l2_loss/L2Loss_21
+	1	0.000244140625	None
+tower_0/v/cg/resnet_v115/add
+v/cg/resnet_v19/conv32/batchnorm32/moving_mean/read
+v/cg/resnet_v18/conv29/batchnorm29/beta
+v/cg/resnet_v13/conv11/batchnorm11/beta/read
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv11/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/cg/resnet_v17/conv24/batchnorm24/AssignMovingAvg_1/mul
+tower_0/v/cg/resnet_v111/conv37/batchnorm37/AssignMovingAvg/mul
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv13/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/cg/conv0/batchnorm0/AssignMovingAvg/sub_1
+v/cg/resnet_v13/conv11/batchnorm11/moving_mean/read
+tower_0/v/gradients/AddN_26
+tower_0/v/cg/resnet_v14/conv15/batchnorm15/AssignMovingAvg_1
+tower_0/v/gradients/tower_0/v/cg/resnet_v18/conv29/batchnorm29/FusedBatchNormV3_grad/FusedBatchNormGradV3
+learning_rate/cond/Merge
+v/cg/resnet_v113/conv45/batchnorm45/beta/read
+v/cg/resnet_v19/conv33/batchnorm33/beta/read
+tower_0/v/gradients/AddN_62
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv24/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	2.25	None
+	2	0.00244140625	None
+v/cg/resnet_v12/conv8/batchnorm8/gamma
+v/cg/resnet_v19/conv33/batchnorm33/moving_mean
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_46_grad/mul
+tower_0/v/gradients/tower_0/v/cg/resnet_v16/conv22/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	24.5	None
+	1	0.75048828125	None
+	2	32.00244140625	None
+	3	112.5	None
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_24_grad/mul
+v/cg/resnet_v111/conv39/batchnorm39/moving_mean
+v/cg/resnet_v112/conv40/batchnorm40/moving_mean/read
+tower_0/v/cg/resnet_v15/conv19/batchnorm19/AssignMovingAvg/sub_1
+tower_0/v/cg/resnet_v110/conv36/batchnorm36/AssignMovingAvg_1
+v/cg/resnet_v16/conv23/batchnorm23/moving_mean/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv12/batchnorm12/FusedBatchNormV3_grad/FusedBatchNormGradV3
+tower_0/v/cg/resnet_v12/conv9/batchnorm9/AssignMovingAvg_1/mul
+tower_0/v/cg/resnet_v18/conv28/batchnorm28/AssignMovingAvg/sub_1
+v/cg/resnet_v17/conv24/batchnorm24/gamma/read
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv45/conv2d/Conv2D_grad/ShapeN-matshapes-1
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v18/conv30/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv26/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	12.25	None
+	1	2.25	None
+	2	19.75244140625	None
+	3	182.25	None
+v/cg/resnet_v10/conv1/batchnorm1/beta/read
+tower_0/v/gradients/AddN_18
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v114/conv49/conv2d/Conv2D_grad/ShapeN-matshapes-1
+v/cg/resnet_v13/conv13/batchnorm13/moving_mean
+v/cg/resnet_v15/conv20/batchnorm20/moving_mean
+tower_0/v/cg/resnet_v111/conv38/conv2d/Conv2D
+	1	2.25	None
+	2	81.0	None
+gpu_compute_stage_ops_group
+v/cg/resnet_v113/conv45/batchnorm45/moving_variance
+tower_0/v/gradients/tower_0/v/cg/resnet_v110/conv34/Relu_grad/ReluGrad
+tower_0/v/gpu_cached_inputs
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_23_grad/mul
+tower_0/v/cg/resnet_v111/conv38/batchnorm38/AssignMovingAvg_1/mul
+tower_0/v/gradients/tower_0/v/cg/resnet_v114/conv47/conv2d/Conv2D_grad/Conv2DBackpropInput
+	1	4.000244140625	None
+	2	24.5	None
+	3	0.00390625	None
+tower_0/v/cg/resnet_v15/conv18/batchnorm18/AssignMovingAvg_1/sub_1
+v/cg/resnet_v15/conv20/batchnorm20/moving_variance
+v/cg/resnet_v15/conv20/batchnorm20/beta
+tower_0/v/cg/resnet_v13/conv13/batchnorm13/AssignMovingAvg_1/sub_1
+v/cg/resnet_v18/conv30/batchnorm30/beta/read
+tower_0/v/cg/resnet_v13/conv13/batchnorm13/AssignMovingAvg/sub_1
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v17/conv24/conv2d/kernel/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/resnet_v110/conv36/batchnorm36/FusedBatchNormV3_grad/FusedBatchNormGradV3
+tower_0/v/gradients/tower_0/v/cg/resnet_v19/conv32/Relu_grad/ReluGrad
+v/cg/resnet_v15/conv18/batchnorm18/gamma
+tower_0/v/l2_loss/L2Loss_20
+	1	0.000244140625	None
+learning_rate/PiecewiseConstant/LessEqual_2
+v/cg/resnet_v12/conv9/batchnorm9/moving_variance/read
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v111/conv39/conv2d/kernel/ApplyGradientDescent
+v/cg/resnet_v19/conv31/batchnorm31/gamma
+tower_0/v/cg/resnet_v112/conv42/batchnorm42/AssignMovingAvg_1/mul
+tower_0/v/gradients/AddN_42
+tower_0/v/gradients/tower_0/v/cg/resnet_v111/conv37/Relu_grad/ReluGrad
+v/cg/resnet_v14/conv17/conv2d/kernel/read
+v/cg/resnet_v12/conv8/conv2d/kernel
+tower_0/v/cg/resnet_v115/conv52/batchnorm52/AssignMovingAvg_1/mul
+v/cg/resnet_v13/conv14/batchnorm14/beta
+tower_0/v/cg/resnet_v114/conv48/batchnorm48/AssignMovingAvg
+v/cg/resnet_v114/conv47/batchnorm47/moving_variance/read
+v/cg/resnet_v18/conv29/batchnorm29/moving_mean
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v16/conv22/batchnorm22/gamma/ApplyGradientDescent
+v/cg/affine0/weights
+tower_0/v/gpu_cached_inputs/read
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v12/conv8/batchnorm8/beta/ApplyGradientDescent
+v/cg/resnet_v15/conv19/batchnorm19/moving_mean
+v/cg/resnet_v113/conv43/batchnorm43/moving_variance/read
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v110/conv36/conv2d/kernel/ApplyGradientDescent
+tower_0/v/gradients/AddN_9
+v/cg/resnet_v110/conv35/batchnorm35/gamma
+tower_0/v/cg/resnet_v114/add
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v10/conv3/batchnorm3/gamma/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/resnet_v16/Relu_grad/ReluGrad
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v16/conv21/batchnorm21/gamma/ApplyGradientDescent
+v/cg/resnet_v17/conv24/batchnorm24/beta
+learning_rate/PiecewiseConstant/case/Cast
+v/cg/resnet_v19/conv31/batchnorm31/beta
+tower_0/v/cg/resnet_v111/conv39/batchnorm39/AssignMovingAvg
+tower_0/v/gradients/AddN
+tower_0/v/gradients/tower_0/v/cg/resnet_v15/conv18/batchnorm18/FusedBatchNormV3_grad/FusedBatchNormGradV3
+v/cg/resnet_v115/conv51/batchnorm51/moving_mean
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv44/Relu_grad/ReluGrad
+tower_0/v/cg/resnet_v13/conv12/conv2d/Conv2D
+	1	0.125	None
+	2	0.004638671875	None
+tower_0/v/cg/resnet_v111/conv39/batchnorm39/AssignMovingAvg_1/sub_1
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv25/batchnorm25/FusedBatchNormV3_grad/FusedBatchNormGradV3
+tower_0/v/cg/resnet_v18/conv29/batchnorm29/AssignMovingAvg/sub_1
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v14/conv16/conv2d/Conv2D_grad/ShapeN-matshapes-0
+v/cg/resnet_v19/conv32/conv2d/kernel
+tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv27/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	1.00048828125	None
+	2	0.00439453125	None
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv44/conv2d/Conv2D_grad/Conv2DBackpropInput
+	1	2.0	None
+	2	49.0	None
+v/cg/resnet_v113/conv44/batchnorm44/beta/read
+learning_rate/Cast_2
+tower_0/v/cg/resnet_v16/conv21/batchnorm21/AssignMovingAvg_1/mul
+v/cg/resnet_v13/conv13/batchnorm13/gamma/read
+v/cg/resnet_v12/conv8/conv2d/kernel/read
+v/cg/resnet_v112/conv42/batchnorm42/gamma/read
+tower_0/v/cg/resnet_v112/conv41/batchnorm41/AssignMovingAvg
+v/cg/resnet_v19/conv33/batchnorm33/gamma
+tower_0/v/cg/resnet_v115/conv50/conv2d/Conv2D
+	1	4.0	None
+	2	0.00048828125	None
+v/cg/resnet_v113/conv43/batchnorm43/gamma
+tower_0/v/cg/resnet_v10/conv1/batchnorm1/AssignMovingAvg_1
+tower_0/v/l2_loss/L2Loss_33
+	1	0.000244140625	None
+tower_0/v/cg/resnet_v114/conv47/Relu
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_28_grad/mul
+tower_0/v/gradients/tower_0/v/cg/resnet_v15/conv18/conv2d/Conv2D_grad/Conv2DBackpropInput
+	1	0.250244140625	None
+	2	98.0	None
+	3	0.006591796875	None
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v114/conv49/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_16_grad/mul
+tower_0/v/cg/resnet_v14/conv15/batchnorm15/AssignMovingAvg
+v/cg/resnet_v113/conv46/batchnorm46/gamma/read
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v15/conv19/batchnorm19/beta/ApplyGradientDescent
+v/cg/resnet_v114/conv48/batchnorm48/moving_mean
+v/cg/resnet_v113/conv44/batchnorm44/moving_variance/read
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv11/conv2d/Conv2D_grad/ShapeN-matshapes-0
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v15/conv19/batchnorm19/gamma/ApplyGradientDescent
+v/cg/resnet_v10/conv1/batchnorm1/moving_variance
+tower_0/v/gradients/tower_0/v/cg/resnet_v11/Relu_grad/ReluGrad
+tower_0/v/cg/resnet_v19/conv32/batchnorm32/FusedBatchNormV3
+v/cg/resnet_v18/conv28/batchnorm28/beta
+tower_0/v/gradients/AddN_36
+v/cg/resnet_v14/conv17/batchnorm17/gamma
+v/cg/resnet_v14/conv16/batchnorm16/beta
+tower_0/v/gradients/tower_0/v/cg/resnet_v18/Relu_grad/ReluGrad
+tower_0/v/gradients/tower_0/v/cg/resnet_v15/conv20/batchnorm20/FusedBatchNormV3_grad/FusedBatchNormGradV3
+tower_0/v/cg/resnet_v10/add
+tower_0/v/gradients/AddN_29
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v10/conv3/conv2d/kernel/ApplyGradientDescent
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v18/conv28/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/cg/resnet_v12/conv10/batchnorm10/FusedBatchNormV3
+tower_0/v/gradients/AddN_70
+tower_0/v/gradients/AddN_6
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv3/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	0.140625	None
+	2	0.00537109375	None
+v/cg/resnet_v113/conv43/batchnorm43/beta
+tower_0/v/cg/resnet_v13/conv14/batchnorm14/AssignMovingAvg/mul
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_20_grad/mul
+v/cg/resnet_v110/conv35/conv2d/kernel/read
+v/cg/resnet_v11/conv6/batchnorm6/beta
+edge_663_learning_rate/PiecewiseConstant/and_1@@MemcpyDtoH
+tower_0/v/cg/resnet_v10/conv4/batchnorm4/AssignMovingAvg_1/sub_1
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v114/conv48/conv2d/kernel/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv43/conv2d/Conv2D_grad/Conv2DBackpropInput
+	1	9.00048828125	None
+	2	49.0	None
+tower_0/v/cg/resnet_v112/conv40/Relu
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v16/conv22/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/cg/resnet_v13/Relu
+tower_0/v/gradients/AddN_13
+v/cg/resnet_v10/conv2/conv2d/kernel
+tower_0/v/cg/resnet_v113/conv46/batchnorm46/AssignMovingAvg_1
+tower_0/v/gradients/tower_0/v/cg/resnet_v18/conv30/batchnorm30/FusedBatchNormV3_grad/FusedBatchNormGradV3
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v14/conv15/batchnorm15/beta/ApplyGradientDescent
+tower_0/v/cg/resnet_v16/conv22/batchnorm22/AssignMovingAvg_1/sub_1
+tower_0/v/gradients/tower_0/v/cg/resnet_v12/conv10/conv2d/Conv2D_grad/Conv2DBackpropInput
+	1	0.123046875	None
+	2	49.0	None
+	3	0.020263671875	None
+tower_0/v/cg/resnet_v10/conv1/conv2d/Conv2D
+	1	0.0625	None
+	2	0.01806640625	None
+v/cg/resnet_v115/conv50/batchnorm50/gamma/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v18/conv29/Relu_grad/ReluGrad
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v17/conv25/conv2d/kernel/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/resnet_v18/conv28/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	49.00390625	None
+	1	1.000244140625	None
+	2	49.0	None
+	3	0.00439453125	None
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_39_grad/mul
+tower_0/v/cg/resnet_v16/conv22/Relu
+tower_0/v/cg/resnet_v11/conv5/conv2d/Conv2D
+	1	0.0625	None
+	2	0.01806640625	None
+v/cg/resnet_v13/conv13/batchnorm13/moving_variance
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv3/conv2d/Conv2D_grad/Conv2DBackpropInput
+	1	0.140625	None
+	2	49.0	None
+	3	98.0	None
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv43/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	9.00048828125	None
+	2	0.00390625	None
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v110/conv36/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_50_grad/mul
+v/cg/resnet_v111/conv37/batchnorm37/beta/read
+v/cg/resnet_v19/conv33/conv2d/kernel/read
+v/cg/resnet_v113/conv46/batchnorm46/moving_variance/read
+tower_0/v/cg/resnet_v12/conv9/batchnorm9/AssignMovingAvg/mul
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv11/conv2d/Conv2D_grad/Conv2DBackpropInput
+	1	0.5625	None
+	2	196.0	None
+tower_0/v/cg/resnet_v115/conv51/batchnorm51/FusedBatchNormV3
+tower_0/v/l2_loss/L2Loss_38
+	1	0.0087890625	None
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv43/batchnorm43/FusedBatchNormV3_grad/FusedBatchNormGradV3
+tower_0/v/cg/resnet_v13/conv12/batchnorm12/FusedBatchNormV3
+tower_0/v/cg/resnet_v115/conv51/batchnorm51/AssignMovingAvg/sub_1
+tower_0/v/cg/mpool0/MaxPool
+tower_0/v/gradients/tower_0/v/cg/resnet_v12/conv8/conv2d/Conv2D_grad/Conv2DBackpropInput
+	1	0.0625	None
+	2	196.0	None
+	3	0.020263671875	None
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v19/conv31/conv2d/Conv2D_grad/ShapeN-matshapes-0
+v/cg/resnet_v10/conv4/batchnorm4/gamma
+v/cg/resnet_v17/conv25/batchnorm25/gamma/read
+tower_0/v/gradients/tower_0/v/cg/spatial_mean0_grad/Tile
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_53_grad/mul
+v/cg/resnet_v110/conv35/batchnorm35/gamma/read
+tower_0/v/cg/resnet_v19/conv33/batchnorm33/AssignMovingAvg_1/mul
+v/cg/resnet_v11/conv6/conv2d/kernel
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v10/conv4/batchnorm4/gamma/ApplyGradientDescent
+v/cg/resnet_v113/conv45/batchnorm45/gamma/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v14/conv16/batchnorm16/FusedBatchNormV3_grad/FusedBatchNormGradV3
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v19/conv33/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/gradients/AddN_50
+tower_0/v/cg/resnet_v16/conv23/batchnorm23/AssignMovingAvg_1/mul
+tower_0/v/gradients/AddN_20
+v/cg/affine0/biases/read
+v/cg/resnet_v16/conv23/conv2d/kernel/read
+tower_0/v/cg/resnet_v11/conv5/Relu
+tower_0/v/gradients/tower_0/v/cg/resnet_v110/conv35/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	12.25	None
+	1	2.25	None
+	2	24.00146484375	None
+	3	182.25	None
+v/cg/resnet_v17/conv26/batchnorm26/moving_mean
+v/cg/resnet_v111/conv37/batchnorm37/moving_mean/read
+v/cg/resnet_v15/conv18/batchnorm18/moving_variance
+v/cg/resnet_v110/conv36/batchnorm36/moving_variance
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_12_grad/mul
+tower_0/v/cg/resnet_v115/conv52/batchnorm52/AssignMovingAvg/sub_1
+tower_0/v/gradients/tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/xentropy/xentropy_grad/ExpandDims
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v112/conv41/batchnorm41/gamma/ApplyGradientDescent
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v10/conv3/batchnorm3/beta/ApplyGradientDescent
+v/cg/resnet_v18/conv30/batchnorm30/beta
+v/cg/resnet_v10/conv2/batchnorm2/moving_variance
+tower_0/v/gradients/AddN_52
+tower_0/v/cg/resnet_v10/conv3/batchnorm3/AssignMovingAvg/mul
+tower_0/v/cg/resnet_v114/conv48/Relu
+v/cg/resnet_v10/conv4/batchnorm4/moving_variance/read
+learning_rate/PiecewiseConstant/case/Assert/AssertGuard/Merge
+v/cg/resnet_v111/conv38/batchnorm38/beta
+v/cg/resnet_v113/conv46/conv2d/kernel
+v/cg/resnet_v15/conv18/batchnorm18/moving_mean/read
+v/cg/resnet_v10/conv1/batchnorm1/gamma
+tower_0/v/cg/resnet_v113/conv46/batchnorm46/AssignMovingAvg/sub_1
+tower_0/v/cg/resnet_v13/conv14/batchnorm14/AssignMovingAvg/sub_1
+tower_0/v/cg/resnet_v112/conv40/batchnorm40/AssignMovingAvg_1/sub_1
+tower_0/v/cg/resnet_v110/conv35/batchnorm35/AssignMovingAvg_1/sub_1
+v/cg/resnet_v12/conv8/batchnorm8/beta
+tower_0/v/gradients/tower_0/v/cg/resnet_v113/conv44/batchnorm44/FusedBatchNormV3_grad/FusedBatchNormGradV3
+tower_0/v/cg/resnet_v10/conv2/Relu
+v/cg/resnet_v14/conv16/batchnorm16/beta/read
+v/cg/resnet_v16/conv23/batchnorm23/moving_mean
+v/cg/resnet_v113/conv45/batchnorm45/beta
+v/cg/resnet_v115/conv51/batchnorm51/moving_mean/read
+v/cg/resnet_v110/conv34/batchnorm34/beta/read
+v/cg/resnet_v112/conv41/batchnorm41/beta
+tower_0/v/gradients/tower_0/v/cg/resnet_v18/conv30/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	1.0	None
+	2	0.00244140625	None
+tower_0/v/cg/resnet_v111/conv39/batchnorm39/AssignMovingAvg_1
+v/cg/resnet_v12/conv10/batchnorm10/moving_mean/read
+edge_655_learning_rate/PiecewiseConstant/Greater@@MemcpyDtoH
+tower_0/v/cg/resnet_v11/conv5/batchnorm5/AssignMovingAvg_1/mul
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v18/conv29/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/cg/resnet_v114/conv49/batchnorm49/AssignMovingAvg
+tower_0/v/l2_loss/L2Loss_43
+	1	0.0087890625	None
+v/cg/resnet_v12/conv8/batchnorm8/gamma/read
+tower_0/v/cg/resnet_v12/conv10/batchnorm10/AssignMovingAvg_1
+tower_0/v/gradients/tower_0/v/cg/resnet_v111/conv39/conv2d/Conv2D_grad/Conv2DBackpropInput
+	0	18.000732421875	None
+	1	1.000244140625	None
+	2	12.25	None
+	3	0.00341796875	None
+v/cg/resnet_v113/conv46/batchnorm46/moving_mean/read
+v/cg/resnet_v18/conv30/batchnorm30/moving_mean/read
+v/cg/resnet_v19/conv31/batchnorm31/moving_mean/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v11/conv5/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	0.0625	None
+	2	0.0029296875	None
+tower_0/v/cg/resnet_v10/conv4/batchnorm4/AssignMovingAvg/sub_1
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v14/conv16/batchnorm16/beta/ApplyGradientDescent
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v19/conv33/conv2d/Conv2D_grad/ShapeN-matshapes-0
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_26_grad/mul
+tower_0/v/cg/resnet_v10/conv1/batchnorm1/AssignMovingAvg_1/sub_1
+v/cg/resnet_v113/conv43/batchnorm43/moving_variance
+v/cg/resnet_v115/conv51/batchnorm51/gamma/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv12/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	0.125	None
+	2	0.00244140625	None
+learning_rate/Const_7
+v/cg/resnet_v115/conv50/batchnorm50/moving_mean
+tower_0/v/cg/resnet_v19/conv32/batchnorm32/AssignMovingAvg/sub_1
+tower_0/v/cg/resnet_v17/conv26/batchnorm26/AssignMovingAvg/mul
+v/cg/resnet_v10/conv2/batchnorm2/moving_mean
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v110/conv34/conv2d/kernel/ApplyGradientDescent
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v115/conv51/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/gradients/tower_0/v/cg/resnet_v16/conv23/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	0.250244140625	None
+	2	0.00244140625	None
+tower_0/v/gradients/tower_0/v/cg/resnet_v10/conv1/batchnorm1/FusedBatchNormV3_grad/FusedBatchNormGradV3
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v112/conv40/batchnorm40/gamma/ApplyGradientDescent
+v/cg/resnet_v17/conv25/batchnorm25/moving_mean
+tower_0/v/cg/resnet_v12/conv8/conv2d/Conv2D
+	1	0.0625	None
+	2	0.01806640625	None
+tower_0/v/cg/resnet_v113/Relu
+v/cg/resnet_v17/conv26/batchnorm26/moving_mean/read
+v/cg/resnet_v13/conv11/batchnorm11/beta
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v10/conv2/conv2d/kernel/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/resnet_v114/conv48/Relu_grad/ReluGrad
+learning_rate/Cast_4
+v/cg/resnet_v110/conv36/batchnorm36/gamma/read
+tower_0/v/cg/resnet_v15/conv19/batchnorm19/AssignMovingAvg_1/mul
+tower_0/v/cg/resnet_v14/conv17/batchnorm17/AssignMovingAvg/sub_1
+v/cg/resnet_v17/conv24/conv2d/kernel
+tower_0/v/gradients/tower_0/v/cg/resnet_v16/conv21/batchnorm21/FusedBatchNormV3_grad/FusedBatchNormGradV3
+tower_0/v/cg/resnet_v12/conv9/Relu
+tower_0/v/cg/resnet_v17/conv27/batchnorm27/FusedBatchNormV3
+v/cg/resnet_v12/conv9/batchnorm9/gamma/read
+tower_0/v/l2_loss/L2Loss_30
+	1	0.000244140625	None
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v11/conv7/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/cg/resnet_v19/conv31/batchnorm31/AssignMovingAvg/sub_1
+v/cg/resnet_v13/conv13/conv2d/kernel/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v12/conv10/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	0.0625	None
+	2	0.0029296875	None
+v/cg/resnet_v11/conv5/batchnorm5/gamma/read
+tower_0/v/gradients/tower_0/v/cg/resnet_v13/conv13/conv2d/Conv2D_grad/Conv2DBackpropFilter
+	1	1.00048828125	None
+	2	147.005859375	None
+v/cg/resnet_v110/conv35/batchnorm35/beta
+v/cg/resnet_v12/conv9/batchnorm9/beta/read
+tower_0/v/gradients/AddN_60
+tower_0/v/cg/resnet_v111/conv38/batchnorm38/AssignMovingAvg_1/sub_1
+tower_0/v/cg/resnet_v115/conv52/batchnorm52/AssignMovingAvg_1
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v17/conv24/conv2d/Conv2D_grad/ShapeN-matshapes-1
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v14/conv17/conv2d/Conv2D_grad/ShapeN-matshapes-1
+v/cg/resnet_v115/conv50/batchnorm50/moving_mean/read
+v/cg/resnet_v16/conv23/batchnorm23/beta
+tower_0/v/gradients/tower_0/v/cg/resnet_v112/conv40/Relu_grad/ReluGrad
+tower_0/v/resnet50_synthetic_labels/min
+tower_0/v/cg/resnet_v11/conv7/batchnorm7/AssignMovingAvg_1/sub_1
+tower_0/v/cg/resnet_v14/conv15/Relu
+learning_rate/cond/Switch_2
+tower_0/v/cg/resnet_v110/conv34/batchnorm34/AssignMovingAvg_1
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v114/conv47/batchnorm47/beta/ApplyGradientDescent
+v/cg/resnet_v112/conv40/batchnorm40/gamma/read
+tower_0/v/cg/resnet_v14/conv15/conv2d/Conv2D
+	1	0.25	None
+	2	0.004638671875	None
+tower_0/v/cg/resnet_v12/conv10/batchnorm10/AssignMovingAvg/mul
+v/cg/resnet_v10/conv4/batchnorm4/moving_mean
+v/cg/resnet_v14/conv15/batchnorm15/beta/read
+v/cg/resnet_v111/conv37/conv2d/kernel/read
+v/cg/resnet_v19/conv33/batchnorm33/gamma/read
+v/cg/resnet_v12/conv8/batchnorm8/moving_variance/read
+v/cg/resnet_v16/conv22/batchnorm22/gamma
+v/cg/resnet_v11/conv5/batchnorm5/moving_variance/read
+tower_0/v/gradients/AddN_33
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v111/conv38/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/cg/resnet_v19/conv32/Relu
+tower_0/v/cg/resnet_v14/conv17/batchnorm17/AssignMovingAvg_1/sub_1
+tower_0/v/cg/resnet_v12/conv9/batchnorm9/AssignMovingAvg_1
+tower_0/v/cg/resnet_v16/conv22/conv2d/Conv2D
+	1	0.5625	None
+	2	112.5	None
+v/cg/resnet_v10/conv4/batchnorm4/beta/read
+tower_0/v/cg/resnet_v10/conv1/batchnorm1/AssignMovingAvg_1/mul
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/resnet_v16/conv23/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_51_grad/mul
+tower_0/v/cg/resnet_v12/conv10/conv2d/Conv2D
+	1	0.0625	None
+	2	0.01806640625	None
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v114/conv49/batchnorm49/beta/ApplyGradientDescent
+v/cg/conv0/batchnorm0/moving_mean
+tower_0/v/gradients/AddN_61
+tower_0/v/cg/resnet_v10/conv3/Relu
+v/cg/resnet_v10/conv4/batchnorm4/gamma/read
+append_apply_gradient_ops/GradientDescent/update_v/cg/resnet_v114/conv49/batchnorm49/gamma/ApplyGradientDescent
+tower_0/v/cg/resnet_v17/conv25/batchnorm25/FusedBatchNormV3
+tower_0/v/cg/resnet_v15/conv20/conv2d/Conv2D
+	1	0.25	None
+	2	0.004638671875	None
+v/cg/resnet_v13/conv12/conv2d/kernel/read
+v/cg/resnet_v115/conv52/batchnorm52/moving_mean/read
