@@ -15,7 +15,6 @@ Options:
 
 from __future__ import print_function
 
-from deprecated import deprecated
 from docopt import docopt
 import collections
 import json
@@ -235,7 +234,7 @@ def get_alloc_infos(net,
     elif device_name.startswith('_stream#'):
       pass
     else:
-      # process gpu_0: contain nodestat.output
+      # process gpu_0: contain nodestat.output (cpu time)
       g.InitNodeScheduleTime(dev_stat.node_stats)
       # _dump_one_step(nodestats=dev_stat.node_stats, cfg=cfg, draw=False)
       # _debug_mem_per_node(nodestats=dev_stat.node_stats, cfg=cfg)
@@ -429,8 +428,7 @@ def _dump_one_step(nodestats, cfg, draw=False):
                 y=y,
                 fig_dir=cfg.figure_dir)
 
-
-@deprecated
+# deprecated no use
 def _get_alloc(device_name, nodestats, dumpfile=False):
   allocs_info = []
   temp_mem = []
@@ -666,7 +664,7 @@ def _plot_alloc_msteps(**kwargs):
   _plot_alloc(title=cfg.uname, x=x, y=y, fig_dir=cfg.figure_dir, gpu_time=gpu_time)
 
 
-@deprecated
+# deprecated no use
 def _plot_cdf_error(title, labels, **kwargs):
   mem_cdf_f = '{}/{}_mem_CDF.pdf'.format(figure_dir, title)
   # if not _overwrite and os.path.exists(mem_cdf_f):

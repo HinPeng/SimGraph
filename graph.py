@@ -159,7 +159,8 @@ class Node(object):
       slot = i.slot
 
       ad = i.tensor_description.allocation_description
-      alloc_bytes = float(ad.allocated_bytes) / (1<<20)  ## MB
+      # alloc_bytes = float(ad.allocated_bytes) / (1<<20)  ## MB
+      alloc_bytes = int(ad.allocated_bytes)  ## bytes
       allocator_name = ad.allocator_name
       if allocator_name.lower() != 'gpu_0_bfc':
         continue
@@ -178,7 +179,8 @@ class Node(object):
         continue
       for alloc_rd in mem.allocation_records:
         alloc_micros = alloc_rd.alloc_micros
-        alloc_bytes = alloc_rd.alloc_bytes / (1<<20)
+        # alloc_bytes = alloc_rd.alloc_bytes / (1<<20)
+        alloc_bytes = alloc_rd.alloc_bytes
         # if alloc_bytes < 0:
         #   continue
         self.allocs.append((alloc_micros, alloc_bytes))
@@ -510,8 +512,8 @@ class Graph():
       # left allocations are temporary allocation
       if len(alloc_sizes) != 0:
         # logging.debug('Node [{}] has {} temporary allocations'.format(node.name, len(alloc_sizes)))
-        for alloc_size in alloc_sizes:
-          t = Tensor(node_name=node.name, alloc_bytes=alloc_size, is_temp=True)
+        for i, alloc_size in enumerate(alloc_sizes):
+          t = Tensor(node_name=node.name, slot='t{}'.format(i), alloc_bytes=alloc_size, is_temp=True)
           node.temp_allocs.append(t)
 
 
@@ -557,7 +559,7 @@ class Graph():
     #       logging.error('Tensor [{}] last access node is None!'.format(output.name))
     #       continue
 
-  def CalculatePeakMem(self):
+  def CalculatePeakMem(self, log_alloc_trace=False):
     '''
     Estimate each tensor's allocation time and deallocation time from node.cpu_start_time and node.cpu_end_time.
     And calculate peak memory using this estimated allocations information.
@@ -569,31 +571,36 @@ class Graph():
         if output.is_pers:
           pers_mem += output.size
         elif output.is_alloc:
-          allocations.append((node.cpu_start_time, output.size))
+          allocations.append((node.cpu_start_time, output.name, output.size))
           try:
             assert output.last_access
           except AssertionError:
             logging.error('Tensor [{}, {}] ({}, ) last access is None'.format(output.name, output.size, node.cpu_start_time))
             exit(1)
-          allocations.append((output.last_access.cpu_end_time, -output.size))
+          allocations.append((output.last_access.cpu_end_time, output.name, -output.size))
           # logging.debug('Tensor[{}] ({}, {})'.format(output.name, node.cpu_start_time, output.last_access.cpu_end_time))
         else:
           pass
 
       for t in node.temp_allocs:
-        allocations.append((node.cpu_start_time, t.size))
-        allocations.append((node.cpu_end_time, -t.size))
+        allocations.append((node.cpu_start_time, t.name, t.size))
+        allocations.append((node.cpu_end_time, t.name, -t.size))
 
     logging.info('Persistent memory: {}'.format(pers_mem))
     allocations.sort(key=lambda x : x[0])
+    if log_alloc_trace:
+      with open(self.cfg.out_dir+'/alloc_trace.log', 'w') as fout:
+        for micros, name, bytes in allocations:
+          fout.write('{} {} {}\n'.format(micros, name, bytes))
+          
     peak_mem = 0.0
     curr_mem = 0.0
-    for _, bytes in allocations:
-      curr_mem += bytes / (1<<10)
+    for _, _, bytes in allocations:
+      curr_mem += bytes / (1<<20)  # in MB
       if curr_mem > peak_mem:
         peak_mem = curr_mem
     
-    logging.info('Total allocations number: {}, calculate peak memory: {}, {} (w/ persistent memory)'.format(len(allocations), peak_mem, peak_mem+pers_mem/(1<<10)))
+    logging.info('Total allocations number: {}, calculate peak memory: {} MB, {} MB (w/ persistent memory)'.format(len(allocations), peak_mem, peak_mem+pers_mem/(1<<10)))
 
 
   def AccurateMemUsage(self):
@@ -609,11 +616,11 @@ class Graph():
     curr_mem = 0
     peak_mem = 0
     for _, alloc_bytes in allocations:
-      curr_mem += alloc_bytes / (1<<10)
+      curr_mem += alloc_bytes / (1<<20)  # in MB
       if curr_mem > peak_mem:
         peak_mem = curr_mem
 
-    logging.info('Total allocations: {}, Accurate peak memory: {} GB'.format(len(allocations), peak_mem))
+    logging.info('Total allocations: {}, Accurate peak memory: {} MB'.format(len(allocations), peak_mem))
 
 
   def InitSharedTensors(self):
@@ -755,8 +762,8 @@ class Graph():
           # alloc_bytes = float(tmp[1].strip())
           temp = line.split('\t')
           alloc_micros = int(temp[0])
-          alloc_bytes = float(temp[1].strip())
-          # alloc_bytes = float(line[1:])
+          # alloc_bytes = float(temp[1].strip())
+          alloc_bytes = int(temp[1].strip())
           assert curr_node
           curr_node.allocs.append((alloc_micros, alloc_bytes))
         else:
@@ -768,7 +775,8 @@ class Graph():
         if line[0].isdigit():
           tmp = line.split('\t')
           slot = int(tmp[0])
-          alloc_bytes = float(tmp[1])
+          # alloc_bytes = float(tmp[1])
+          alloc_bytes = int(tmp[1])
           allocator_name = tmp[2]
           
           assert curr_node
