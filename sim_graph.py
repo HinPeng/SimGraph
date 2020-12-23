@@ -95,12 +95,16 @@ class SimGraph(object):
     self.graph.AccurateMemUsage()
     # self.graph.GetMemUsage()
 
-  def SimDuplicatedJobsSchedule(self, duplicated_num):
+  def LogAlloc(self, filename=None):
+    return self.graph.LogAlloc(filename=filename)
+
+  def SimDuplicatedJobsSchedule(self, duplicated_num=1):
     self.graph.nodes = OrderedDict(sorted(self.graph.nodes.items(), key=lambda x: x[1]))
     prev_node_cpu_end_time = self.graph.nodes['_SOURCE'].cpu_start_time
 
     duplicated_nodes = OrderedDict()
 
+    prefix = 'dup{}/'.format(duplicated_num)
     for node in self.graph.nodes.values():
       if node.cpu_start_time == -1:
         continue
@@ -109,17 +113,19 @@ class SimGraph(object):
       node.cpu_end_time = node.cpu_start_time + node.cpu_exec_time
       prev_node_cpu_end_time = node.cpu_end_time
 
-      for i in range(duplicated_num):
-        prefix = 'dup{}/'.format(i)
-        dup_node = copy.deepcopy(node)
-        dup_node.name = prefix + node.name
-        dup_node.cpu_start_time = prev_node_cpu_end_time + dup_node.schedule_time
-        dup_node.cpu_end_time = dup_node.cpu_start_time + dup_node.cpu_exec_time
-        prev_node_cpu_end_time = dup_node.cpu_end_time
-        # self.graph.nodes[dup_node.name] = dup_node
-        duplicated_nodes[dup_node.name] = dup_node
+      
+      dup_node = copy.deepcopy(node)
+      dup_node.name = prefix + node.name
+      dup_node.cpu_start_time = prev_node_cpu_end_time + dup_node.schedule_time
+      dup_node.cpu_end_time = dup_node.cpu_start_time + dup_node.cpu_exec_time
+      prev_node_cpu_end_time = dup_node.cpu_end_time
+
+      dup_node.UpdateTensorName()
+      duplicated_nodes[dup_node.name] = dup_node
 
     for name, node in duplicated_nodes.items():
+      # logging.debug('Add [{}, ({}, {})]'.format(name, node.cpu_start_time, node.cpu_end_time))
+      node.UpdateTensorLastAccess(prefix, duplicated_nodes)
       self.graph.nodes[name] = node
 
     self.graph.CalculatePeakMem()
@@ -140,6 +146,8 @@ def main():
 
   sg = SimGraph(cfg)
   sg.SimDuplicatedJobsSchedule(1)
+  filename = cfg.out_dir+'/'+cfg.uname+'_dup2_alloc_trace.log'
+  sg.LogAlloc(filename)
 
 if __name__ == "__main__":
   main()

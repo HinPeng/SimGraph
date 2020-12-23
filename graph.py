@@ -202,6 +202,29 @@ class Node(object):
     
     return alloc_num
 
+  def UpdateTensorName(self):
+    for output in self.outputs:
+      output.node_name = self.name
+      
+    for temp_alloc in self.temp_allocs:
+      temp_alloc.node_name = self.name
+
+  def UpdateTensorLastAccess(self, prefix, nodes_map):
+    for output in self.outputs:
+      if output.last_access is not None:
+        if output.last_access.name.startswith('dup1'):
+          # already change to duplicated node
+          continue
+        new_last_access_node_name = prefix + output.last_access.name
+        try:
+          assert nodes_map.__contains__(new_last_access_node_name)
+        except AssertionError:
+          logging.error('Can not find duplicated node: {}'.format(new_last_access_node_name))
+          exit(1)
+        new_last_access_node = nodes_map[new_last_access_node_name]
+        output.last_access = new_last_access_node
+        # logging.debug('Change Tensor [{}] last access to Node [{}]'.format(output.name, new_last_access_node_name))
+
 
 class AllocInfo(object):
   def __init__(self, tensor_name, alloc_time, alloc_bytes):
@@ -574,7 +597,7 @@ class Graph():
         t_node.deallocs.append(t_tensor)
         assert t_tensor.is_alloc
         t_tensor.last_access = t_node
-        logging.debug('Tensor [{}, {}] find t_node {}'.format(t_tensor.name, t_tensor.size, t_node.name))
+        # logging.debug('Tensor [{}, {}] find t_node {}'.format(t_tensor.name, t_tensor.size, t_node.name))
         del outputs_info[id_]
 
     # debug log
@@ -593,39 +616,40 @@ class Graph():
     Estimate each tensor's allocation time and deallocation time from node.cpu_start_time and node.cpu_end_time.
     And calculate peak memory using this estimated allocations information.
     '''
-    allocations = []
+    self.allocations = []
     pers_mem = 0.0
     for node in self.nodes.values():
       for output in node.outputs:
         if output.is_pers:
           pers_mem += output.size
         elif output.is_alloc:
-          allocations.append((node.cpu_start_time, output.name, output.size))
+          self.allocations.append((node.cpu_start_time, output.name, output.size))
+          # logging.debug('[Tensor {}, Size {}, Alloc time {}]'.format(output.name, output.size, node.cpu_start_time))
           try:
             assert output.last_access
           except AssertionError:
             logging.error('Tensor [{}, {}] ({}, ) last access is None'.format(output.name, output.size, node.cpu_start_time))
             exit(1)
-          allocations.append((output.last_access.cpu_end_time, output.name, -output.size))
-          # logging.debug('Tensor[{}] ({}, {})'.format(output.name, node.cpu_start_time, output.last_access.cpu_end_time))
+          self.allocations.append((output.last_access.cpu_end_time, output.name, -output.size))
+          # logging.debug('[Tensor {}, Dealloc time ({}, {}), Dealloc node: {}'.format(output.name, node.cpu_start_time, output.last_access.cpu_end_time, output.last_access.name))
         else:
           pass
 
       for t in node.temp_allocs:
-        allocations.append((node.cpu_start_time, t.name, t.size))
-        allocations.append((node.cpu_end_time, t.name, -t.size))
+        self.allocations.append((node.cpu_start_time, t.name, t.size))
+        self.allocations.append((node.cpu_end_time, t.name, -t.size))
 
-    logging.info('Persistent memory: {} bytes'.format(pers_mem))
-    allocations.sort(key=lambda x : x[0])
+    # logging.info('Persistent memory: {} bytes'.format(pers_mem))
+    self.allocations.sort(key=lambda x : x[0])
     if log_alloc_trace:
       with open(self.cfg.out_dir+'/alloc_trace.log', 'w') as fout:
-        for micros, name, bytes in allocations:
+        for micros, name, bytes in self.allocations:
           fout.write('{} {} {}\n'.format(micros, name, bytes))
           
     peak_mem = 0.0
     peak_mem_micros = 0.0
     curr_mem = 0.0
-    for micros, tensor_name, bytes in allocations:
+    for micros, tensor_name, bytes in self.allocations:
       curr_mem += bytes / (1<<20)  # in MB
       if curr_mem > peak_mem:
         peak_mem = curr_mem
@@ -634,8 +658,15 @@ class Graph():
     
     all_start_micros = self.nodes['_SOURCE'].cpu_start_time
     total_schedule_time = list(self.nodes.values())[-1].cpu_end_time - all_start_micros
-    logging.info('Total allocations number: {}, calculate peak memory: {} MB, {} MB (w/ persistent memory)'.format(len(allocations), peak_mem, peak_mem+pers_mem/(1<<20)))
+    logging.info('Total allocations number: {}, calculate peak memory: {} MB, {} MB (w/ persistent memory)'.format(len(self.allocations), peak_mem, peak_mem+pers_mem/(1<<20)))
     logging.info('Peak memory tensor: {}, Peak memory micros {}/{}'.format(self.peak_mem_tensor_name, peak_mem_micros-all_start_micros, total_schedule_time))
+
+  def LogAlloc(self, filename=None):
+    if filename is None:
+      filename = self.cfg.out_dir+self.cfg.uname+'_alloc_trace.log'
+    with open(filename, 'w') as fout:
+      for micros, name, bytes in self.allocations:
+        fout.write('{} {} {}\n'.format(micros, name, bytes))
 
 
   def AccurateMemUsage(self):
