@@ -2,6 +2,8 @@
 import os
 import copy
 
+from collections import OrderedDict
+
 import logger
 import logging
 
@@ -68,10 +70,12 @@ class Node(object):
   __slots__ = [
     'name',
     'cpu_start_time',
+    'cpu_exec_time',
     'cpu_end_time',
     'gpu_start_time',
     'exec_time',
     'gpu_end_time',
+    'schedule_time',
     'inputs',
     'outputs',
     'temp_allocs',
@@ -87,10 +91,12 @@ class Node(object):
     # time can not be initialized in constructor as there could be multiple
     # records for a single-node
     self.cpu_start_time = -1 # the schedule time in CPU
+    self.cpu_exec_time = -1
     self.cpu_end_time = -1
     self.gpu_start_time = -1
     self.exec_time = -1
     self.gpu_end_time = -1
+    self.schedule_time = -1 # self.cpu_start_time - prev_node.cpu_end_time
     self.inputs = dict()   # record input tensors, avoid repeated input tensors
     self.outputs = []      # only includes the outputs of node, not allocations
     self.temp_allocs = []  # temporary allocations
@@ -101,8 +107,14 @@ class Node(object):
     for f, v in kwargs.items():
       setattr(self, f, v)
 
+  def __eq__(self, other):
+    return self.cpu_start_time == other.cpu_start_time
+
+  def __gt__(self, other):
+    return self.cpu_start_time > other.cpu_start_time
+
   def __str__(self):
-    return '{}\t{}\t{}\t{}\t{}'.format(self.name, self.cpu_start_time, self.cpu_end_time, self.gpu_start_time, self.exec_time)
+    return '{}\t{}\t{}\t{}\t{}\t{}'.format(self.name, self.cpu_start_time, self.cpu_end_time, self.schedule_time, self.gpu_start_time, self.exec_time)
 
   def AddInput(self, t):
     if self.inputs.__contains__(t.name):
@@ -128,6 +140,7 @@ class Node(object):
 
   def InitCPUTime(self, node_stat):
     self.cpu_start_time = node_stat.all_start_micros
+    self.cpu_exec_time = node_stat.all_end_rel_micros
     self.cpu_end_time = self.cpu_start_time + node_stat.all_end_rel_micros
 
   def InitTime(self, node_stat):
@@ -217,10 +230,12 @@ class AllocInfo(object):
 
 class Graph():
   def __init__(self, cfg):
-    self.nodes = dict()       # record node time from stream_all, init for each step
-    # self.nodes1 = dict()    # record node outputs from gpu_0  for debug now, merge into one in next
+    # self.nodes = dict()       # record node time from stream_all, init for each step
+    self.nodes = OrderedDict()
     self.tensors = dict()     # tensors that are the outputs of nodes, shoule not change across iterations
     self.pers_tensors = dict()
+
+    self.peak_mem_tensor_name = None
 
     self.temp_allocs = []     # temporary allocations, maybe not different across iterations
     self.allocations = []     # record (de)allocations in running
@@ -290,6 +305,20 @@ class Graph():
 
     # logging.info('[InitNodeOutputs] Total allocated memory: {}'.format(total_alloc_mem))
 
+  def InitNodeScheduleTime(self):
+    self.nodes = OrderedDict(sorted(self.nodes.items(), key=lambda x: x[1]))
+    assert self.nodes.__contains__('_SOURCE')
+    prev_node_cpu_end_time = self.nodes['_SOURCE'].cpu_start_time
+
+    for node in self.nodes.values():
+      if node.cpu_start_time == -1:
+        continue
+      node.schedule_time = node.cpu_start_time - prev_node_cpu_end_time
+      prev_node_cpu_end_time = node.cpu_end_time
+
+    with open('{}/{}{}'.format(self.cfg.out_dir, self.cfg.uname+'_'+str(self.cfg.step_id), '_node_time.log'), 'w') as fout:
+      for node in self.nodes.values():
+        fout.write('{}\n'.format(str(node)))
 
   def InitNodeInputs(self):
     innodes_file = '{}/{}'.format(self.cfg.out_dir, '2_innodes.txt')
@@ -586,7 +615,7 @@ class Graph():
         allocations.append((node.cpu_start_time, t.name, t.size))
         allocations.append((node.cpu_end_time, t.name, -t.size))
 
-    logging.info('Persistent memory: {}'.format(pers_mem))
+    logging.info('Persistent memory: {} bytes'.format(pers_mem))
     allocations.sort(key=lambda x : x[0])
     if log_alloc_trace:
       with open(self.cfg.out_dir+'/alloc_trace.log', 'w') as fout:
@@ -594,13 +623,19 @@ class Graph():
           fout.write('{} {} {}\n'.format(micros, name, bytes))
           
     peak_mem = 0.0
+    peak_mem_micros = 0.0
     curr_mem = 0.0
-    for _, _, bytes in allocations:
+    for micros, tensor_name, bytes in allocations:
       curr_mem += bytes / (1<<20)  # in MB
       if curr_mem > peak_mem:
         peak_mem = curr_mem
+        peak_mem_micros = micros
+        self.peak_mem_tensor_name = tensor_name
     
-    logging.info('Total allocations number: {}, calculate peak memory: {} MB, {} MB (w/ persistent memory)'.format(len(allocations), peak_mem, peak_mem+pers_mem/(1<<10)))
+    all_start_micros = self.nodes['_SOURCE'].cpu_start_time
+    total_schedule_time = list(self.nodes.values())[-1].cpu_end_time - all_start_micros
+    logging.info('Total allocations number: {}, calculate peak memory: {} MB, {} MB (w/ persistent memory)'.format(len(allocations), peak_mem, peak_mem+pers_mem/(1<<20)))
+    logging.info('Peak memory tensor: {}, Peak memory micros {}/{}'.format(self.peak_mem_tensor_name, peak_mem_micros-all_start_micros, total_schedule_time))
 
 
   def AccurateMemUsage(self):
@@ -739,15 +774,17 @@ class Graph():
     logging.debug('Init Node allocs from: {}'.format(node_allocs_f))
     logging.debug('Init Node outputs from: {}'.format(node_outputs_f))
 
-    # Init node gpu time
+    # Init node time
     with open(node_time_f) as fin:
       for line in fin:
         temp = line.split('\t')
         node = self.GetOrCreateNode(node_name=temp[0])
         node.cpu_start_time = int(temp[1])
         node.cpu_end_time = int(temp[2])
-        node.gpu_start_time = int(temp[3])
-        node.exec_time = int(temp[4])
+        node.cpu_exec_time = node.cpu_end_time - node.cpu_start_time
+        node.schedule_time = int(temp[3])
+        node.gpu_start_time = int(temp[4])
+        node.exec_time = int(temp[5])
         node.gpu_end_time = node.gpu_start_time+node.exec_time
 
       logging.info('Total Nodes: {}'.format(len(self.nodes)))
@@ -823,6 +860,7 @@ class Graph():
 
   def DumpToFile(self):
     logging.info('Dump info to file...')
+    self.nodes = OrderedDict(sorted(self.nodes.items(), key=lambda x: x[1]))
     with open('{}/{}{}'.format(self.cfg.out_dir, self.cfg.uname+'_'+str(self.cfg.step_id), '_node_time.log'), 'w') as fout:
       for node in self.nodes.values():
         fout.write('{}\n'.format(node))

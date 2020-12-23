@@ -1,9 +1,11 @@
 from __future__ import print_function
 
+import copy
 import os
 import logger
 import logging
 
+from collections import OrderedDict
 from graph import Graph
 
 class Config(object):
@@ -92,93 +94,37 @@ class SimGraph(object):
     self.graph.CalculatePeakMem()
     self.graph.AccurateMemUsage()
     # self.graph.GetMemUsage()
-    
 
-  # no use
-  # def InitTensorAlloc(self):
-  #   class AllocInfo(object):
-  #     def __init__(self, tensor_name, alloc_time, alloc_bytes):
-  #       self.tensor_name = tensor_name
-  #       self.time = alloc_time
-  #       self.bytes = alloc_bytes
+  def SimDuplicatedJobsSchedule(self, duplicated_num):
+    self.graph.nodes = OrderedDict(sorted(self.graph.nodes.items(), key=lambda x: x[1]))
+    prev_node_cpu_end_time = self.graph.nodes['_SOURCE'].cpu_start_time
 
-  #     def __eq__(self, other):
-  #       return self.time == other.time and self.bytes == other.bytes and self.tensor_name == other.tensor_name
+    duplicated_nodes = OrderedDict()
 
-  #     def __gt__(self, other):
-  #       if self.time > other.time:
-  #         return True
-  #       elif self.time == other.time:
-  #         if self.bytes < other.bytes:
-  #           return True
-  #         elif self.bytes == other.bytes:
-  #           return self.tensor_name > other.tensor_name
-  #         else:
-  #           return False
-  #       else:
-  #         return False
-
-  #     def __str__(self):
-  #       return '{}\t{}\t{}'.format(self.tensor_name, self.time, self.bytes)
-  #   # init each tensor's deallocation postion (which node)
-  #   for t in self.graph.tensors.values():
-  #     if t.is_pers:
-  #       continue
-  #     if not t.is_alloc:
-  #       assert t.shared_tensor != None
-  #       continue
-
-  #     node = self.graph.GetNode(t.node_name)
-  #     t.alloc_time = node.start_time
-  #     dealloc_time = node.end_time
+    for node in self.graph.nodes.values():
+      if node.cpu_start_time == -1:
+        continue
       
-        
-  #     for i, t_out_node in enumerate(t.out_nodes):
-  #       if t_out_node.end_time > dealloc_time:
-  #         dealloc_time = t_out_node.end_time
-          
-  #     t.dealloc_time = dealloc_time
-  #     # if dealloc_index != -1:
-  #     #   t.out_nodes[dealloc_index].deallocs[t.name] = t
-  #     # else:
-  #     #   node.deallocs[t.name] = t
-  #     self.allocations.append(AllocInfo(t.name, t.alloc_time, t.size))
-  #     self.allocations.append(AllocInfo(t.name, t.dealloc_time, -t.size))
+      node.cpu_start_time = prev_node_cpu_end_time + node.schedule_time
+      node.cpu_end_time = node.cpu_start_time + node.cpu_exec_time
+      prev_node_cpu_end_time = node.cpu_end_time
 
-  #   # ordered_tensors = sorted(list(self.graph.tensors.values()), key=lambda x: x.name)
-  #   # with open('./tensor_outnodes.log', 'w') as fout:
-  #   #   for t in ordered_tensors:
-  #   #     fout.write('{}:{}\n'.format(t.name, len(t.out_nodes)))
+      for i in range(duplicated_num):
+        prefix = 'dup{}/'.format(i)
+        dup_node = copy.deepcopy(node)
+        dup_node.name = prefix + node.name
+        dup_node.cpu_start_time = prev_node_cpu_end_time + dup_node.schedule_time
+        dup_node.cpu_end_time = dup_node.cpu_start_time + dup_node.cpu_exec_time
+        prev_node_cpu_end_time = dup_node.cpu_end_time
+        # self.graph.nodes[dup_node.name] = dup_node
+        duplicated_nodes[dup_node.name] = dup_node
 
-  #   for node in self.nodes:
-  #     for i, t in enumerate(node.temp_allocs):
-  #       temp_name = node.name+':t'+str(i)
-  #       self.allocations.append(AllocInfo(temp_name, node.start_time, t.size))
-  #       self.allocations.append(AllocInfo(temp_name, node.end_time, -t.size))
+    for name, node in duplicated_nodes.items():
+      self.graph.nodes[name] = node
 
-  #   self.allocations.sort()
-
-  #   # debug
-  #   with open('./alloc.log', 'w') as fout:
-  #     for alloc in self.allocations:
-  #       fout.write('{}\n'.format(str(alloc)))
-
-  # def __call__(self):
-  #   peak_mem = 0
-  #   curr_mem = 0
-
-  #   # self.allocations = []
-  #   # with open('./alloc-node22.log') as fin:
-  #   #   for line in fin:
-  #   #     tmp = line.split('\t')
-  #   #     self.allocations.append((int(tmp[0]), float(tmp[1])))
-
-  #   for alloc in self.allocations:
-  #     curr_mem += float(alloc.bytes) / (1<<10)
-  #     if curr_mem > peak_mem:
-  #       peak_mem = curr_mem
-
-  #   logging.info('Peak memory is {} MB'.format(peak_mem))
+    self.graph.CalculatePeakMem()
+    
+    
 
 def main():
   models = {
@@ -193,6 +139,7 @@ def main():
   cfg = Config(net_name=model, bs=models[model], step_id=10, run_prefix=run_prefix)
 
   sg = SimGraph(cfg)
+  sg.SimDuplicatedJobsSchedule(1)
 
 if __name__ == "__main__":
   main()
