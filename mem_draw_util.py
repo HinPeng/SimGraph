@@ -235,7 +235,7 @@ def get_alloc_infos(net,
       pass
     else:
       # process gpu_0: contain nodestat.output (cpu time)
-      g.InitNodeScheduleTime(dev_stat.node_stats)
+      g.InitNodeCPUTime(dev_stat.node_stats)
       # _dump_one_step(nodestats=dev_stat.node_stats, cfg=cfg, draw=False)
       # _debug_mem_per_node(nodestats=dev_stat.node_stats, cfg=cfg)
       # these two files are only necessary to be initialized once

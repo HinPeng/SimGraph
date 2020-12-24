@@ -289,6 +289,7 @@ class Graph():
       node = self.GetOrCreateNode(node_name)
       node.InitCPUTime(node_stat)
 
+    self.InitNodeScheduleTime()
     logging.info('Total nodes (cpu): {}'.format(len(self.nodes)))
 
   def InitNodeTime(self, nodestats):
@@ -339,9 +340,9 @@ class Graph():
       node.schedule_time = node.cpu_start_time - prev_node_cpu_end_time
       prev_node_cpu_end_time = node.cpu_end_time
 
-    with open('{}/{}{}'.format(self.cfg.out_dir, self.cfg.uname+'_'+str(self.cfg.step_id), '_node_time.log'), 'w') as fout:
-      for node in self.nodes.values():
-        fout.write('{}\n'.format(str(node)))
+    # with open('{}/{}{}'.format(self.cfg.out_dir, self.cfg.uname+'_'+str(self.cfg.step_id), '_node_time.log'), 'w') as fout:
+    #   for node in self.nodes.values():
+    #     fout.write('{}\n'.format(str(node)))
 
   def InitNodeInputs(self):
     innodes_file = '{}/{}'.format(self.cfg.out_dir, '2_innodes.txt')
