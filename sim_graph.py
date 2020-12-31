@@ -92,6 +92,7 @@ class SimGraph(object):
     self.graph = Graph(self._cfg)
     self.graph.InitFromFile()
     self.graph.CalculatePeakMem()
+    # self.graph.LogAlloc()
     self.graph.AccurateMemUsage()
     # self.graph.GetMemUsage()
 
@@ -135,19 +136,29 @@ class SimGraph(object):
 def main():
   models = {
     'resnet50': 64,
+    'resnet152': 64,
     'alexnet': 512,
     'vgg16': 64,
     'inception3': 64,
+    'inception4': 64,
+    'Bert': 32,
+    'Tacotron': 32,
+    'deepspeech2': 32,
   }
-  model='resnet50'
+  
   run_prefix = 'train'
+  # model='Tacotron'
+  # step_id = 30
 
-  cfg = Config(net_name=model, bs=models[model], step_id=10, run_prefix=run_prefix)
+  model='resnet50'
+  step_id = 10
+
+  cfg = Config(net_name=model, bs=models[model], step_id=step_id, run_prefix=run_prefix)
 
   sg = SimGraph(cfg)
-  sg.SimDuplicatedJobsSchedule(1)
-  filename = cfg.out_dir+'/'+cfg.uname+'_dup2_alloc_trace.log'
-  sg.LogAlloc(filename)
+  # sg.SimDuplicatedJobsSchedule(1)
+  # filename = cfg.out_dir+'/'+cfg.uname+'_dup2_alloc_trace.log'
+  # sg.LogAlloc(filename)
 
 if __name__ == "__main__":
   main()

@@ -1,6 +1,7 @@
 
 import os
 import copy
+import numpy as np
 
 from collections import OrderedDict
 
@@ -185,6 +186,33 @@ class Node(object):
       self.outputs.append(t)
       tensors[t.name] = t
 
+  def ProcessOutputs(self):
+    slots = np.array([int(t.slot) for t in self.outputs])
+    d = dict(zip(*np.unique(slots, return_counts=True)))
+    renumber = False
+    for v in d.values():
+      if v > 1:
+        renumber = True 
+        # logging.debug("Node [{}] Slots: {}".format(self.name, d))
+        break
+
+    if renumber:
+      repeated_indices = dict()
+      for k in d.keys():
+        repeated_indices[k] = 0
+
+      for output in self.outputs:
+        temp = output.name.split(':')[-1].strip()
+        assert len(temp) == 1
+        slot = int(temp)
+        curr_index = repeated_indices[slot]
+        new_slot = '{}{}'.format(slot, curr_index)
+        output.slot = new_slot
+        repeated_indices[slot] += 1
+    
+    return renumber
+      
+
   def InitAllocations(self, node_stat):
     alloc_num = 0
     for mem in node_stat.memory:
@@ -328,6 +356,23 @@ class Graph():
     #   total_alloc_mem += t.alloc_bytes
 
     # logging.info('[InitNodeOutputs] Total allocated memory: {}'.format(total_alloc_mem))
+
+  def ProcessOutputs(self):
+    renumber = False
+    for node in self.nodes.values():
+      res = node.ProcessOutputs()
+      if res:
+        renumber = True
+
+    if renumber:
+      logging.info("Renumber Node outputs")
+      with open('{}/{}{}'.format(self.cfg.out_dir, self.cfg.uname, '_node_outputs_renumber.log'), 'w') as fout:
+        for node in self.nodes.values():
+          if len(node.outputs) == 0:
+            continue
+          fout.write('{}\n'.format(node.name))
+          for t in node.outputs:
+            fout.write('{}\n'.format(str(t).strip()))
 
   def InitNodeScheduleTime(self):
     self.nodes = OrderedDict(sorted(self.nodes.items(), key=lambda x: x[1]))
@@ -531,6 +576,20 @@ class Graph():
           return l_index
         else:
           return r_index
+
+    def FindOutputBytes(bytes, outputs):
+      id_ = -1
+      for i in range(len(outputs)-1, -1, -1):
+        if outputs[i][1] == abs(bytes):
+          id_ = i
+          break
+
+      if id_ == -1:
+        return -1
+      else:
+        res = outputs[id_][0]
+        del outputs[id_]
+        return res
         
 
     ordered_nodes_time = [(node.name, node.cpu_start_time, node.cpu_end_time) for node in self.nodes.values()]
@@ -539,16 +598,28 @@ class Graph():
       alloc_num = len(node.allocs)
       if alloc_num == 0:
         continue
-      assert alloc_num % 2 == 0
+      try:
+        assert alloc_num % 2 == 0
+      except AssertionError:
+        logging.error("Node [{}] allocation number is not even number! Alloc : {}".format(node.name, node.allocs))
+        # exit(1)
+        continue
 
     
-      outputs_info = [(i, t.size) for i, t in enumerate(node.outputs)]
-      alloc_info = node.allocs[:int(alloc_num/2)]
+      # outputs_info = [(i, t.size) for i, t in enumerate(node.outputs)]
+      outputs_info = []
+      # not all allocation is listed before deallocation
+      alloc_info = []
+      dealloc_info = []
+      for micros, bytes in node.allocs:
+        if bytes > 0:
+          alloc_info.append((micros, bytes))
+        else:
+          dealloc_info.append((micros, bytes))
       alloc_sizes = [x for _, x in alloc_info]
-      dealloc_info = node.allocs[int(alloc_num/2):]
 
-      # to ensure which tensor own the underlying memory
-      for output in node.outputs:
+      # to identify which tensor own the underlying memory
+      for oi, output in enumerate(node.outputs):
         try:
           i = alloc_sizes.index(output.size)
         except ValueError:
@@ -561,45 +632,89 @@ class Graph():
           continue
         del alloc_sizes[i]
         output.is_alloc = True
+        outputs_info.append((oi, output.size))
+        # logging.debug("Tensor [{}] alloc is True".format(output.name))
 
-      # left allocations are temporary allocation
-      if len(alloc_sizes) != 0:
-        # logging.debug('Node [{}] has {} temporary allocations'.format(node.name, len(alloc_sizes)))
-        for i, alloc_size in enumerate(alloc_sizes):
-          t = Tensor(node_name=node.name, slot='t{}'.format(i), alloc_bytes=alloc_size, is_temp=True)
-          node.temp_allocs.append(t)
-
-
+      temp_alloc_index = 1
+      temp_weird_alloc_index = 1
       for micros, bytes in dealloc_info:
-        # whether it's a temp mem (DOUBLE-CHECK: a normal tensor is generated at this node and release at this node?)
-        if node.cpu_start_time < micros <= node.cpu_end_time and abs(bytes) in alloc_sizes:
-          # is a temp deallocation
-          continue
+        # find corresponding tensor first
+        output_index = FindOutputBytes(bytes, outputs_info)
+        # logging.debug("Find output_index: {} for dealloc: {} at Node {}".format(output_index, bytes, node.name))
+        if output_index == -1:
+          # is a temporary allocation (NOTE: but may not be released immediately at this node)
+          if node.cpu_start_time < micros <= node.cpu_end_time:
+            t_tensor = Tensor(node_name=node.name, slot='t{}'.format(temp_alloc_index), alloc_bytes=abs(bytes), is_temp=True)
+            temp_alloc_index += 1
+          else:
+            t_tensor = Tensor(node_name=node.name, slot='w{}'.format(temp_weird_alloc_index), alloc_bytes=abs(bytes), is_temp=True)
+            temp_weird_alloc_index += 1
+          node.temp_allocs.append(t_tensor)
+          self.tensors[t_tensor.name] = t_tensor
+            # logging.debug("Find a weird temporary allocation: {}".format(t_tensor.name))
+        else:
+          t_tensor = node.outputs[output_index]
+          # logging.debug("Find {}".format(t_tensor.name))
 
-        # find the dealloc time is in which node's scheduling (cpu)
-        index = BinarySearch(ordered_nodes_time, 0, len(ordered_nodes_time)-1, micros)
-        # logging.debug('Find {} for [{}]\'s dealloc: {}, {}'.format(index, node.name, micros, bytes))
-        if index == -1:
-          logging.error('Can not find which node will release tensor in Node [{}], size: [{}], deallocated in {}'.format(node.name, bytes, micros))
-          exit(1)
-        t_node = self.nodes[ordered_nodes_time[index][0]]
+        t_node = None  # at which node, this allocation will be released
+        if node.cpu_start_time < micros <= node.cpu_end_time:
+          t_node = node
+        else:
+          index = BinarySearch(ordered_nodes_time, 0, len(ordered_nodes_time)-1, micros)
+          if index == -1:
+            logging.error('Can not find which node will release tensor in Node [{}], size: [{}], deallocated in {}'.format(node.name, bytes, micros))
+            exit(1)
+          t_node = self.nodes[ordered_nodes_time[index][0]]
 
-        # find the corresponding alloc info in outputs
-        id_ = -1
-        for i in range(len(outputs_info)-1, -1, -1):
-          if outputs_info[i][1] == abs(bytes):
-            id_ = i
-            break
-        if id_ == -1:
-          logging.error('Can not find the corresponding output tensor: Node [{}] Dealloc size {}, outputs_info: {}'.format(node.name, bytes, str(outputs_info)))
-
-        output_index = outputs_info[id_][0]
-        t_tensor = node.outputs[output_index]
-        t_node.deallocs.append(t_tensor)
-        assert t_tensor.is_alloc
         t_tensor.last_access = t_node
-        # logging.debug('Tensor [{}, {}] find t_node {}'.format(t_tensor.name, t_tensor.size, t_node.name))
-        del outputs_info[id_]
+        logging.debug('Tensor [{}, {}] find t_node {}'.format(t_tensor.name, t_tensor.size, t_node.name))
+
+      # has_temp = len(alloc_sizes)
+      # # left allocations are temporary allocation
+      # # TODO(px): the left may not be temp allocations (in deepspeech2 and tacotron)
+      # if len(alloc_sizes) != 0:
+      #   # logging.debug('Node [{}] has {} temporary allocations'.format(node.name, len(alloc_sizes)))
+      #   for i, alloc_size in enumerate(alloc_sizes):
+      #     t = Tensor(node_name=node.name, slot='t{}'.format(i), alloc_bytes=alloc_size, is_temp=True)
+      #     node.temp_allocs.append(t)
+
+
+      # for micros, bytes in dealloc_info:
+      #   t_node = None
+      #   # whether it's a temp mem (DOUBLE-CHECK: a normal tensor is generated at this node and release at this node?)
+      #   if node.cpu_start_time < micros <= node.cpu_end_time and abs(bytes) in alloc_sizes:
+      #     if has_temp:
+      #       # is a temp deallocation
+      #       has_temp -= 1
+      #       continue
+      #     else:
+      #       t_node = node
+
+      #   if t_node is None:
+      #     # find the dealloc time is in which node's scheduling (cpu)
+      #     index = BinarySearch(ordered_nodes_time, 0, len(ordered_nodes_time)-1, micros)
+      #     # logging.debug('Find {} for [{}]\'s dealloc: {}, {}'.format(index, node.name, micros, bytes))
+      #     if index == -1:
+      #       logging.error('Can not find which node will release tensor in Node [{}], size: [{}], deallocated in {}'.format(node.name, bytes, micros))
+      #       exit(1)
+      #     t_node = self.nodes[ordered_nodes_time[index][0]]
+
+      #   # find the corresponding alloc info in outputs
+      #   id_ = -1
+      #   for i in range(len(outputs_info)-1, -1, -1):
+      #     if outputs_info[i][1] == abs(bytes):
+      #       id_ = i
+      #       break
+      #   if id_ == -1:
+      #     logging.error('Can not find the corresponding output tensor: Node [{}] Dealloc size {}, outputs_info: {}'.format(node.name, bytes, str(outputs_info)))
+
+      #   output_index = outputs_info[id_][0]
+      #   t_tensor = node.outputs[output_index]
+      #   t_node.deallocs.append(t_tensor)
+      #   assert t_tensor.is_alloc
+      #   t_tensor.last_access = t_node
+      #   # logging.debug('Tensor [{}, {}] find t_node {}'.format(t_tensor.name, t_tensor.size, t_node.name))
+      #   del outputs_info[id_]
 
     # debug log
     # for node in self.nodes.values():
@@ -618,12 +733,10 @@ class Graph():
     And calculate peak memory using this estimated allocations information.
     '''
     self.allocations = []
-    pers_mem = 0.0
+
     for node in self.nodes.values():
       for output in node.outputs:
-        if output.is_pers:
-          pers_mem += output.size
-        elif output.is_alloc:
+        if output.is_alloc:
           self.allocations.append((node.cpu_start_time, output.name, output.size))
           # logging.debug('[Tensor {}, Size {}, Alloc time {}]'.format(output.name, output.size, node.cpu_start_time))
           try:
@@ -637,10 +750,12 @@ class Graph():
           pass
 
       for t in node.temp_allocs:
+        assert t.last_access
         self.allocations.append((node.cpu_start_time, t.name, t.size))
-        self.allocations.append((node.cpu_end_time, t.name, -t.size))
+        self.allocations.append((t.last_access.cpu_end_time, t.name, -t.size))
+        # self.allocations.append((node.cpu_start_time, t.name, t.size))
+        # self.allocations.append((node.cpu_end_time, t.name, -t.size))
 
-    # logging.info('Persistent memory: {} bytes'.format(pers_mem))
     self.allocations.sort(key=lambda x : x[0])
     if log_alloc_trace:
       with open(self.cfg.out_dir+'/alloc_trace.log', 'w') as fout:
@@ -659,12 +774,12 @@ class Graph():
     
     all_start_micros = self.nodes['_SOURCE'].cpu_start_time
     total_schedule_time = list(self.nodes.values())[-1].cpu_end_time - all_start_micros
-    logging.info('Total allocations number: {}, calculate peak memory: {} MB, {} MB (w/ persistent memory)'.format(len(self.allocations), peak_mem, peak_mem+pers_mem/(1<<20)))
+    logging.info('Total allocations number: {}, calculate peak memory: {} MB'.format(len(self.allocations), peak_mem))
     logging.info('Peak memory tensor: {}, Peak memory micros {}/{}'.format(self.peak_mem_tensor_name, peak_mem_micros-all_start_micros, total_schedule_time))
 
   def LogAlloc(self, filename=None):
     if filename is None:
-      filename = self.cfg.out_dir+self.cfg.uname+'_alloc_trace.log'
+      filename = self.cfg.out_dir+'/'+self.cfg.uname+'_alloc_trace.log'
     with open(filename, 'w') as fout:
       for micros, name, bytes in self.allocations:
         fout.write('{} {} {}\n'.format(micros, name, bytes))
@@ -797,7 +912,11 @@ class Graph():
       node_time_f = '{}/{}{}'.format(self.cfg.out_dir, self.cfg.uname+'_'+str(self.cfg.step_id), '_node_time.log')
       node_allocs_f = '{}/{}{}'.format(self.cfg.out_dir, self.cfg.uname+'_'+str(self.cfg.step_id), '_node_allocs.log')
 
-    node_outputs_f = '{}/{}{}'.format(self.cfg.out_dir, self.cfg.uname, '_node_outputs.log')
+    renumber_outputs_f = '{}/{}{}'.format(self.cfg.out_dir, self.cfg.uname, '_node_outputs_renumber.log')
+    if os.path.exists(renumber_outputs_f):
+      node_outputs_f = renumber_outputs_f
+    else:
+      node_outputs_f = '{}/{}{}'.format(self.cfg.out_dir, self.cfg.uname, '_node_outputs.log')
     assert os.path.exists(node_time_f)
     assert os.path.exists(node_allocs_f)
     assert os.path.exists(node_outputs_f)
@@ -843,25 +962,74 @@ class Graph():
       for line in fin:
         if line[0].isdigit():
           tmp = line.split('\t')
-          slot = int(tmp[0])
+          slot = tmp[0]
           # alloc_bytes = float(tmp[1])
           alloc_bytes = int(tmp[1])
           allocator_name = tmp[2]
           
           assert curr_node
           t = Tensor(node_name=curr_node.name, slot=slot,
-                    alloc_bytes=alloc_bytes, allocator_name=allocator_name)
+                     alloc_bytes=alloc_bytes, allocator_name=allocator_name)
           curr_node.AddOutput(t)
           self.tensors[t.name] = t
         else:
           curr_node = self.GetOrCreateNode(line.strip())
 
       logging.info('Total tensors: {}'.format(len(self.tensors)))
+
+    tensors_dealloc_f = '{}/{}{}'.format(self.cfg.out_dir, self.cfg.uname, '_tensors_dealloc.log')
+    if os.path.exists(tensors_dealloc_f):
+      with open(tensors_dealloc_f) as fin:
+        curr_node = None
+        for line in fin:
+          if line[0] == '\t':
+            assert curr_node
+            tmp = line[1:].strip().split('\t')
+            slot = tmp[1]
+            last_access_name = tmp[2]
+            try:
+              assert self.nodes.__contains__(last_access_name)
+            except AssertionError:
+              logging.error("Can not find last_access node name: {}".format(line))
+              exit(1)
+            if tmp[0] == 'normal':
+              tensor_name = '{}:{}'.format(curr_node.name, slot)
+              assert self.tensors.__contains__(tensor_name)
+              t = self.tensors[tensor_name]
+              t.is_alloc = True
+              
+              t.last_access = self.nodes[last_access_name]
+            elif tmp[0] == 'temp':
+              assert slot[0] == 't' or slot[0] == 'w'
+              tensor_name = '{}:{}'.format(curr_node.name, slot)
+              assert not self.tensors.__contains__(tensor_name)
+              t = Tensor(node_name=node.name, slot=slot, alloc_bytes=int(tmp[3]), is_temp=True)
+              t.last_access = self.nodes[last_access_name]
+              curr_node.temp_allocs.append(t)
+              self.tensors[t.name] = t
+            else:
+              logging.error("Error line: {}".format(line))
+              exit(1)
+
+          else:
+            node_name = line.strip()
+            assert self.nodes.__contains__(node_name)
+            curr_node = self.nodes[node_name]
+    else:
+      self.DetermineTensorDealloc()
+      with open(tensors_dealloc_f, 'w') as fout:
+        for node in self.nodes.values():
+          fout.write('{}\n'.format(node.name))
+          for output in node.outputs:
+            if output.is_alloc:
+              fout.write('\tnormal\t{}\t{}\n'.format(output.slot, output.last_access.name))
+          for t in node.temp_allocs:
+            fout.write('\ttemp\t{}\t{}\t{}\n'.format(t.slot, t.last_access.name, t.size))
         
     # self.InitNodeInputs()
     # self.InitTempAndPersTensors()
     # self.InitSharedTensors()
-    self.DetermineTensorDealloc()
+    # self.ProcessOutputs()
 
 
   # for debug

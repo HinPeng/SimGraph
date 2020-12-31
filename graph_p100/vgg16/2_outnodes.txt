@@ -1,0 +1,392 @@
+_SOURCE	tower_0/v/gradients/tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/xentropy/xentropy_grad/ExpandDims	v/cg/conv10/biases	tower_0/v/cg/dropout0/dropout/dropout/rate	v/cg/affine2/weights	v/cg/affine2/biases	tower_0/v/gpu_cached_inputs	v/cg/conv2/biases	v/cg/conv5/biases	v/cg/conv6/biases	v/cg/conv3/conv2d/kernel	v/cg/conv7/conv2d/kernel	v/cg/conv0/conv2d/kernel	v/cg/conv1/conv2d/kernel	v/cg/conv6/conv2d/kernel	v/cg/conv7/biases	tower_0/v/vgg16_synthetic_labels/shape	v/cg/conv1/biases	v/cg/conv4/conv2d/kernel	v/cg/conv8/conv2d/kernel	v/cg/conv11/biases	tower_0/v/transpose/perm	v/cg/conv3/biases	v/cg/conv4/biases	v/cg/conv8/biases	v/cg/conv12/conv2d/kernel	_SINK	tower_0/v/vgg16_synthetic_labels/min	tower_0/v/gradients/tower_0/v/cg/Reshape_grad/Shape	v/cg/conv5/conv2d/kernel	v/cg/conv9/conv2d/kernel	v/cg/conv12/biases	tower_0/v/cg/dropout0/dropout/dropout/truediv	learning_rate_tensor/input	tower_0/v/vgg16_synthetic_labels/max	v/cg/conv0/biases	v/cg/conv11/conv2d/kernel	_SINK	tower_0/v/cg/Reshape/shape	v/cg/affine1/weights	tower_0/v/mul/x	v/cg/conv2/conv2d/kernel	v/cg/conv9/biases	v/cg/affine0/weights	v/cg/affine1/biases	tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/num_present	tower_0/v/cg/dropout0/dropout/dropout/Shape	average_loss/range	v/cg/conv10/conv2d/kernel	v/cg/affine0/biases	gpu_compute_stage_ops_group	
+_SINK	
+tower_0/v/gpu_cached_inputs	tower_0/v/gpu_cached_inputs/read	
+tower_0/v/vgg16_synthetic_labels/shape	tower_0/v/vgg16_synthetic_labels	
+tower_0/v/vgg16_synthetic_labels/min	tower_0/v/vgg16_synthetic_labels	
+tower_0/v/vgg16_synthetic_labels/max	tower_0/v/vgg16_synthetic_labels	
+tower_0/v/transpose/perm	tower_0/v/transpose	
+v/cg/conv0/conv2d/kernel	v/cg/conv0/conv2d/kernel/read	append_apply_gradient_ops/GradientDescent/update_v/cg/conv0/conv2d/kernel/ApplyGradientDescent	
+v/cg/conv0/biases	v/cg/conv0/biases/read	append_apply_gradient_ops/GradientDescent/update_v/cg/conv0/biases/ApplyGradientDescent	
+v/cg/conv1/conv2d/kernel	v/cg/conv1/conv2d/kernel/read	append_apply_gradient_ops/GradientDescent/update_v/cg/conv1/conv2d/kernel/ApplyGradientDescent	
+v/cg/conv1/biases	v/cg/conv1/biases/read	append_apply_gradient_ops/GradientDescent/update_v/cg/conv1/biases/ApplyGradientDescent	
+tower_0/v/gradients/tower_0/v/cg/Reshape_grad/Shape	tower_0/v/gradients/tower_0/v/cg/Reshape_grad/Reshape	
+v/cg/conv2/conv2d/kernel	v/cg/conv2/conv2d/kernel/read	append_apply_gradient_ops/GradientDescent/update_v/cg/conv2/conv2d/kernel/ApplyGradientDescent	
+v/cg/conv2/biases	v/cg/conv2/biases/read	append_apply_gradient_ops/GradientDescent/update_v/cg/conv2/biases/ApplyGradientDescent	
+v/cg/conv3/conv2d/kernel	v/cg/conv3/conv2d/kernel/read	append_apply_gradient_ops/GradientDescent/update_v/cg/conv3/conv2d/kernel/ApplyGradientDescent	
+v/cg/conv3/biases	v/cg/conv3/biases/read	append_apply_gradient_ops/GradientDescent/update_v/cg/conv3/biases/ApplyGradientDescent	
+v/cg/conv4/conv2d/kernel	v/cg/conv4/conv2d/kernel/read	append_apply_gradient_ops/GradientDescent/update_v/cg/conv4/conv2d/kernel/ApplyGradientDescent	
+v/cg/conv4/biases	v/cg/conv4/biases/read	append_apply_gradient_ops/GradientDescent/update_v/cg/conv4/biases/ApplyGradientDescent	
+v/cg/conv5/conv2d/kernel	v/cg/conv5/conv2d/kernel/read	append_apply_gradient_ops/GradientDescent/update_v/cg/conv5/conv2d/kernel/ApplyGradientDescent	
+v/cg/conv5/biases	v/cg/conv5/biases/read	append_apply_gradient_ops/GradientDescent/update_v/cg/conv5/biases/ApplyGradientDescent	
+v/cg/conv6/conv2d/kernel	v/cg/conv6/conv2d/kernel/read	append_apply_gradient_ops/GradientDescent/update_v/cg/conv6/conv2d/kernel/ApplyGradientDescent	
+v/cg/conv6/biases	v/cg/conv6/biases/read	append_apply_gradient_ops/GradientDescent/update_v/cg/conv6/biases/ApplyGradientDescent	
+v/cg/conv7/conv2d/kernel	v/cg/conv7/conv2d/kernel/read	append_apply_gradient_ops/GradientDescent/update_v/cg/conv7/conv2d/kernel/ApplyGradientDescent	
+v/cg/conv7/biases	v/cg/conv7/biases/read	append_apply_gradient_ops/GradientDescent/update_v/cg/conv7/biases/ApplyGradientDescent	
+v/cg/conv8/conv2d/kernel	v/cg/conv8/conv2d/kernel/read	append_apply_gradient_ops/GradientDescent/update_v/cg/conv8/conv2d/kernel/ApplyGradientDescent	
+v/cg/conv8/biases	v/cg/conv8/biases/read	append_apply_gradient_ops/GradientDescent/update_v/cg/conv8/biases/ApplyGradientDescent	
+v/cg/conv9/conv2d/kernel	v/cg/conv9/conv2d/kernel/read	append_apply_gradient_ops/GradientDescent/update_v/cg/conv9/conv2d/kernel/ApplyGradientDescent	
+v/cg/conv9/biases	v/cg/conv9/biases/read	append_apply_gradient_ops/GradientDescent/update_v/cg/conv9/biases/ApplyGradientDescent	
+v/cg/conv10/conv2d/kernel	v/cg/conv10/conv2d/kernel/read	append_apply_gradient_ops/GradientDescent/update_v/cg/conv10/conv2d/kernel/ApplyGradientDescent	
+v/cg/conv10/biases	v/cg/conv10/biases/read	append_apply_gradient_ops/GradientDescent/update_v/cg/conv10/biases/ApplyGradientDescent	
+v/cg/conv11/conv2d/kernel	v/cg/conv11/conv2d/kernel/read	append_apply_gradient_ops/GradientDescent/update_v/cg/conv11/conv2d/kernel/ApplyGradientDescent	
+v/cg/conv11/biases	v/cg/conv11/biases/read	append_apply_gradient_ops/GradientDescent/update_v/cg/conv11/biases/ApplyGradientDescent	
+v/cg/conv12/conv2d/kernel	v/cg/conv12/conv2d/kernel/read	append_apply_gradient_ops/GradientDescent/update_v/cg/conv12/conv2d/kernel/ApplyGradientDescent	
+v/cg/conv12/biases	v/cg/conv12/biases/read	append_apply_gradient_ops/GradientDescent/update_v/cg/conv12/biases/ApplyGradientDescent	
+tower_0/v/cg/Reshape/shape	tower_0/v/cg/Reshape	
+v/cg/affine0/weights	v/cg/affine0/weights/read	append_apply_gradient_ops/GradientDescent/update_v/cg/affine0/weights/ApplyGradientDescent	
+v/cg/affine0/biases	v/cg/affine0/biases/read	append_apply_gradient_ops/GradientDescent/update_v/cg/affine0/biases/ApplyGradientDescent	
+tower_0/v/cg/dropout0/dropout/dropout/rate	tower_0/v/cg/dropout0/dropout/dropout/GreaterEqual	tower_0/v/cg/dropout0_1/dropout/dropout/GreaterEqual	
+tower_0/v/cg/dropout0/dropout/dropout/Shape	tower_0/v/cg/dropout0/dropout/dropout/random_uniform/RandomUniform	tower_0/v/cg/dropout0_1/dropout/dropout/random_uniform/RandomUniform	
+tower_0/v/cg/dropout0/dropout/dropout/truediv	tower_0/v/cg/dropout0/dropout/dropout/mul	tower_0/v/cg/dropout0_1/dropout/dropout/mul	tower_0/v/gradients/tower_0/v/cg/dropout0_1/dropout/dropout/mul_1_grad/Mul	tower_0/v/gradients/tower_0/v/cg/dropout0/dropout/dropout/mul_1_grad/Mul	
+v/cg/affine1/weights	v/cg/affine1/weights/read	append_apply_gradient_ops/GradientDescent/update_v/cg/affine1/weights/ApplyGradientDescent	
+v/cg/affine1/biases	v/cg/affine1/biases/read	append_apply_gradient_ops/GradientDescent/update_v/cg/affine1/biases/ApplyGradientDescent	
+gpu_compute_stage_ops_group	_SINK	
+v/cg/affine2/weights	v/cg/affine2/weights/read	append_apply_gradient_ops/GradientDescent/update_v/cg/affine2/weights/ApplyGradientDescent	
+average_loss/range	tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/Sum	average_loss/Mean	
+v/cg/affine2/biases	v/cg/affine2/biases/read	append_apply_gradient_ops/GradientDescent/update_v/cg/affine2/biases/ApplyGradientDescent	
+learning_rate_tensor/input	append_apply_gradient_ops/GradientDescent/update_v/cg/affine0/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/affine0/weights/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/conv5/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/conv12/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/conv12/conv2d/kernel/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/conv11/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/conv3/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/conv11/conv2d/kernel/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/conv10/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/conv10/conv2d/kernel/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/conv9/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/conv0/conv2d/kernel/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/conv9/conv2d/kernel/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/conv8/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/conv8/conv2d/kernel/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/conv7/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/conv7/conv2d/kernel/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/conv3/conv2d/kernel/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/conv6/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/affine1/weights/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/conv1/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/conv0/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/conv2/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/affine1/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/conv1/conv2d/kernel/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/conv2/conv2d/kernel/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/conv6/conv2d/kernel/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/affine2/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/conv5/conv2d/kernel/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/affine2/weights/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/conv4/conv2d/kernel/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent/update_v/cg/conv4/biases/ApplyGradientDescent	
+tower_0/v/mul/x	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_27_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_1_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_5_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_4_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_9_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_13_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_15_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_17_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_18_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_20_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_22_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_21_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_16_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_19_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_10_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_23_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_2_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_6_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_7_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_24_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_12_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_14_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_3_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_8_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_11_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_28_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_30_grad/mul	tower_0/v/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_25_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_29_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_31_grad/mul	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_26_grad/mul	
+tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/num_present	tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/value	
+tower_0/v/gradients/tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/xentropy/xentropy_grad/ExpandDims	tower_0/v/gradients/tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/xentropy/xentropy_grad/mul	
+tower_0/v/gpu_cached_inputs/read	tower_0/v/transpose	
+tower_0/v/vgg16_synthetic_labels	tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/xentropy/xentropy	
+v/cg/conv0/conv2d/kernel/read	tower_0/v/l2_loss/L2Loss	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_grad/mul	tower_0/v/cg/conv0/conv2d/Conv2D	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv0/conv2d/Conv2D_grad/ShapeN-matshapes-1	
+v/cg/conv0/biases/read	tower_0/v/l2_loss/L2Loss_1	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_1_grad/mul	tower_0/v/cg/conv0/BiasAdd	
+v/cg/conv1/conv2d/kernel/read	tower_0/v/l2_loss/L2Loss_2	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_2_grad/mul	tower_0/v/cg/conv1/conv2d/Conv2D	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv1/conv2d/Conv2D_grad/ShapeN-matshapes-0	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv1/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv1/conv2d/Conv2D_grad/Conv2DBackpropInput	
+v/cg/conv1/biases/read	tower_0/v/l2_loss/L2Loss_3	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_3_grad/mul	tower_0/v/cg/conv1/BiasAdd	
+v/cg/conv2/conv2d/kernel/read	tower_0/v/l2_loss/L2Loss_4	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_4_grad/mul	tower_0/v/cg/conv2/conv2d/Conv2D	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv2/conv2d/Conv2D_grad/ShapeN-matshapes-0	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv2/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv2/conv2d/Conv2D_grad/Conv2DBackpropInput	
+v/cg/conv2/biases/read	tower_0/v/l2_loss/L2Loss_5	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_5_grad/mul	tower_0/v/cg/conv2/BiasAdd	
+v/cg/conv3/conv2d/kernel/read	tower_0/v/l2_loss/L2Loss_6	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_6_grad/mul	tower_0/v/cg/conv3/conv2d/Conv2D	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv3/conv2d/Conv2D_grad/ShapeN-matshapes-0	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv3/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv3/conv2d/Conv2D_grad/Conv2DBackpropInput	
+v/cg/conv3/biases/read	tower_0/v/l2_loss/L2Loss_7	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_7_grad/mul	tower_0/v/cg/conv3/BiasAdd	
+v/cg/conv4/conv2d/kernel/read	tower_0/v/l2_loss/L2Loss_8	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_8_grad/mul	tower_0/v/cg/conv4/conv2d/Conv2D	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv4/conv2d/Conv2D_grad/ShapeN-matshapes-0	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv4/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv4/conv2d/Conv2D_grad/Conv2DBackpropInput	
+v/cg/conv4/biases/read	tower_0/v/l2_loss/L2Loss_9	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_9_grad/mul	tower_0/v/cg/conv4/BiasAdd	
+v/cg/conv5/conv2d/kernel/read	tower_0/v/l2_loss/L2Loss_10	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_10_grad/mul	tower_0/v/cg/conv5/conv2d/Conv2D	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv5/conv2d/Conv2D_grad/ShapeN-matshapes-0	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv5/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv5/conv2d/Conv2D_grad/Conv2DBackpropInput	
+v/cg/conv5/biases/read	tower_0/v/l2_loss/L2Loss_11	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_11_grad/mul	tower_0/v/cg/conv5/BiasAdd	
+v/cg/conv6/conv2d/kernel/read	tower_0/v/l2_loss/L2Loss_12	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_12_grad/mul	tower_0/v/cg/conv6/conv2d/Conv2D	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv6/conv2d/Conv2D_grad/ShapeN-matshapes-0	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv6/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv6/conv2d/Conv2D_grad/Conv2DBackpropInput	
+v/cg/conv6/biases/read	tower_0/v/l2_loss/L2Loss_13	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_13_grad/mul	tower_0/v/cg/conv6/BiasAdd	
+v/cg/conv7/conv2d/kernel/read	tower_0/v/l2_loss/L2Loss_14	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_14_grad/mul	tower_0/v/cg/conv7/conv2d/Conv2D	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv7/conv2d/Conv2D_grad/ShapeN-matshapes-0	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv7/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv7/conv2d/Conv2D_grad/Conv2DBackpropInput	
+v/cg/conv7/biases/read	tower_0/v/l2_loss/L2Loss_15	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_15_grad/mul	tower_0/v/cg/conv7/BiasAdd	
+v/cg/conv8/conv2d/kernel/read	tower_0/v/l2_loss/L2Loss_16	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_16_grad/mul	tower_0/v/cg/conv8/conv2d/Conv2D	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv8/conv2d/Conv2D_grad/ShapeN-matshapes-0	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv8/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv8/conv2d/Conv2D_grad/Conv2DBackpropInput	
+v/cg/conv8/biases/read	tower_0/v/l2_loss/L2Loss_17	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_17_grad/mul	tower_0/v/cg/conv8/BiasAdd	
+v/cg/conv9/conv2d/kernel/read	tower_0/v/l2_loss/L2Loss_18	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_18_grad/mul	tower_0/v/cg/conv9/conv2d/Conv2D	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv9/conv2d/Conv2D_grad/ShapeN-matshapes-0	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv9/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv9/conv2d/Conv2D_grad/Conv2DBackpropInput	
+v/cg/conv9/biases/read	tower_0/v/l2_loss/L2Loss_19	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_19_grad/mul	tower_0/v/cg/conv9/BiasAdd	
+v/cg/conv10/conv2d/kernel/read	tower_0/v/l2_loss/L2Loss_20	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_20_grad/mul	tower_0/v/cg/conv10/conv2d/Conv2D	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv10/conv2d/Conv2D_grad/ShapeN-matshapes-0	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv10/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv10/conv2d/Conv2D_grad/Conv2DBackpropInput	
+v/cg/conv10/biases/read	tower_0/v/l2_loss/L2Loss_21	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_21_grad/mul	tower_0/v/cg/conv10/BiasAdd	
+v/cg/conv11/conv2d/kernel/read	tower_0/v/l2_loss/L2Loss_22	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_22_grad/mul	tower_0/v/cg/conv11/conv2d/Conv2D	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv11/conv2d/Conv2D_grad/ShapeN-matshapes-0	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv11/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv11/conv2d/Conv2D_grad/Conv2DBackpropInput	
+v/cg/conv11/biases/read	tower_0/v/l2_loss/L2Loss_23	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_23_grad/mul	tower_0/v/cg/conv11/BiasAdd	
+v/cg/conv12/conv2d/kernel/read	tower_0/v/l2_loss/L2Loss_24	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_24_grad/mul	tower_0/v/cg/conv12/conv2d/Conv2D	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv12/conv2d/Conv2D_grad/ShapeN-matshapes-0	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv12/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv12/conv2d/Conv2D_grad/Conv2DBackpropInput	
+v/cg/conv12/biases/read	tower_0/v/l2_loss/L2Loss_25	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_25_grad/mul	tower_0/v/cg/conv12/BiasAdd	
+v/cg/affine0/weights/read	tower_0/v/l2_loss/L2Loss_26	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_26_grad/mul	tower_0/v/cg/affine0/xw_plus_b/MatMul	tower_0/v/gradients/tower_0/v/cg/affine0/xw_plus_b/MatMul_grad/MatMul	
+v/cg/affine0/biases/read	tower_0/v/l2_loss/L2Loss_27	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_27_grad/mul	tower_0/v/cg/affine0/xw_plus_b	
+tower_0/v/cg/dropout0/dropout/dropout/random_uniform/RandomUniform	tower_0/v/cg/dropout0/dropout/dropout/random_uniform/mul	
+tower_0/v/cg/dropout0_1/dropout/dropout/random_uniform/RandomUniform	tower_0/v/cg/dropout0_1/dropout/dropout/random_uniform/mul	
+v/cg/affine1/weights/read	tower_0/v/l2_loss/L2Loss_28	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_28_grad/mul	tower_0/v/cg/affine1/xw_plus_b/MatMul	tower_0/v/gradients/tower_0/v/cg/affine1/xw_plus_b/MatMul_grad/MatMul	
+v/cg/affine1/biases/read	tower_0/v/l2_loss/L2Loss_29	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_29_grad/mul	tower_0/v/cg/affine1/xw_plus_b	
+v/cg/affine2/weights/read	tower_0/v/l2_loss/L2Loss_30	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_30_grad/mul	tower_0/v/cg/affine2/xw_plus_b/MatMul	tower_0/v/gradients/tower_0/v/cg/affine2/xw_plus_b/MatMul_grad/MatMul	
+v/cg/affine2/biases/read	tower_0/v/l2_loss/L2Loss_31	tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_31_grad/mul	tower_0/v/cg/affine2/xw_plus_b	
+tower_0/v/transpose	tower_0/v/cg/conv0/conv2d/Conv2D	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv0/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv0/conv2d/Conv2D_grad/Conv2DBackpropFilter	
+tower_0/v/l2_loss/L2Loss	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_grad/mul	tower_0/v/gradients/AddN_31	
+tower_0/v/l2_loss/L2Loss_1	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_1_grad/mul	tower_0/v/gradients/AddN_30	
+tower_0/v/l2_loss/L2Loss_2	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_2_grad/mul	tower_0/v/gradients/AddN_29	
+tower_0/v/l2_loss/L2Loss_3	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_3_grad/mul	tower_0/v/gradients/AddN_28	
+tower_0/v/l2_loss/L2Loss_4	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_4_grad/mul	tower_0/v/gradients/AddN_27	
+tower_0/v/l2_loss/L2Loss_5	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_5_grad/mul	tower_0/v/gradients/AddN_26	
+tower_0/v/l2_loss/L2Loss_6	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_6_grad/mul	tower_0/v/gradients/AddN_25	
+tower_0/v/l2_loss/L2Loss_7	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_7_grad/mul	tower_0/v/gradients/AddN_24	
+tower_0/v/l2_loss/L2Loss_8	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_8_grad/mul	tower_0/v/gradients/AddN_23	
+tower_0/v/l2_loss/L2Loss_9	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_9_grad/mul	tower_0/v/gradients/AddN_22	
+tower_0/v/l2_loss/L2Loss_10	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_10_grad/mul	tower_0/v/gradients/AddN_21	
+tower_0/v/l2_loss/L2Loss_11	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_11_grad/mul	tower_0/v/gradients/AddN_20	
+tower_0/v/l2_loss/L2Loss_12	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_12_grad/mul	tower_0/v/gradients/AddN_19	
+tower_0/v/l2_loss/L2Loss_13	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_13_grad/mul	tower_0/v/gradients/AddN_18	
+tower_0/v/l2_loss/L2Loss_14	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_14_grad/mul	tower_0/v/gradients/AddN_17	
+tower_0/v/l2_loss/L2Loss_15	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_15_grad/mul	tower_0/v/gradients/AddN_16	
+tower_0/v/l2_loss/L2Loss_16	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_16_grad/mul	tower_0/v/gradients/AddN_15	
+tower_0/v/l2_loss/L2Loss_17	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_17_grad/mul	tower_0/v/gradients/AddN_14	
+tower_0/v/l2_loss/L2Loss_18	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_18_grad/mul	tower_0/v/gradients/AddN_13	
+tower_0/v/l2_loss/L2Loss_19	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_19_grad/mul	tower_0/v/gradients/AddN_12	
+tower_0/v/l2_loss/L2Loss_20	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_20_grad/mul	tower_0/v/gradients/AddN_11	
+tower_0/v/l2_loss/L2Loss_21	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_21_grad/mul	tower_0/v/gradients/AddN_10	
+tower_0/v/l2_loss/L2Loss_22	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_22_grad/mul	tower_0/v/gradients/AddN_9	
+tower_0/v/l2_loss/L2Loss_23	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_23_grad/mul	tower_0/v/gradients/AddN_8	
+tower_0/v/l2_loss/L2Loss_24	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_24_grad/mul	tower_0/v/gradients/AddN_7	
+tower_0/v/l2_loss/L2Loss_25	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_25_grad/mul	tower_0/v/gradients/AddN_6	
+tower_0/v/l2_loss/L2Loss_26	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_26_grad/mul	tower_0/v/gradients/AddN_5	
+tower_0/v/l2_loss/L2Loss_27	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_27_grad/mul	tower_0/v/gradients/AddN_4	
+tower_0/v/cg/dropout0/dropout/dropout/random_uniform/mul	tower_0/v/cg/dropout0/dropout/dropout/GreaterEqual	
+tower_0/v/cg/dropout0_1/dropout/dropout/random_uniform/mul	tower_0/v/cg/dropout0_1/dropout/dropout/GreaterEqual	
+tower_0/v/l2_loss/L2Loss_28	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_28_grad/mul	tower_0/v/gradients/AddN_3	
+tower_0/v/l2_loss/L2Loss_29	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_29_grad/mul	tower_0/v/gradients/AddN_2	
+tower_0/v/l2_loss/L2Loss_30	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_30_grad/mul	tower_0/v/gradients/AddN_1	
+tower_0/v/l2_loss/L2Loss_31	tower_0/v/l2_loss/AddN	
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_31_grad/mul	tower_0/v/gradients/AddN	
+tower_0/v/cg/conv0/conv2d/Conv2D	tower_0/v/cg/conv0/BiasAdd	
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv0/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv0/conv2d/Conv2D_grad/Conv2DBackpropFilter	
+tower_0/v/cg/dropout0/dropout/dropout/GreaterEqual	tower_0/v/cg/dropout0/dropout/dropout/Cast	
+tower_0/v/cg/dropout0_1/dropout/dropout/GreaterEqual	tower_0/v/cg/dropout0_1/dropout/dropout/Cast	
+tower_0/v/l2_loss/AddN	tower_0/v/mul	
+tower_0/v/cg/conv0/BiasAdd	tower_0/v/cg/conv0/Relu	
+tower_0/v/cg/dropout0/dropout/dropout/Cast	tower_0/v/cg/dropout0/dropout/dropout/mul	tower_0/v/gradients/tower_0/v/cg/dropout0/dropout/dropout/mul_grad/Mul	
+tower_0/v/cg/dropout0_1/dropout/dropout/Cast	tower_0/v/cg/dropout0_1/dropout/dropout/mul	tower_0/v/gradients/tower_0/v/cg/dropout0_1/dropout/dropout/mul_grad/Mul	
+tower_0/v/mul	tower_0/v/add	
+tower_0/v/cg/conv0/Relu	tower_0/v/cg/conv1/conv2d/Conv2D	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv1/conv2d/Conv2D_grad/ShapeN-matshapes-0	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv1/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv1/conv2d/Conv2D_grad/Conv2DBackpropFilter	tower_0/v/gradients/tower_0/v/cg/conv0/Relu_grad/ReluGrad	
+tower_0/v/cg/dropout0/dropout/dropout/mul	tower_0/v/cg/dropout0/dropout/dropout/mul_1	
+tower_0/v/cg/dropout0_1/dropout/dropout/mul	tower_0/v/cg/dropout0_1/dropout/dropout/mul_1	
+tower_0/v/cg/conv1/conv2d/Conv2D	tower_0/v/cg/conv1/BiasAdd	
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv1/conv2d/Conv2D_grad/ShapeN-matshapes-0	tower_0/v/gradients/tower_0/v/cg/conv1/conv2d/Conv2D_grad/Conv2DBackpropInput	
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv1/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv1/conv2d/Conv2D_grad/Conv2DBackpropFilter	
+tower_0/v/cg/conv1/BiasAdd	tower_0/v/cg/conv1/Relu	
+tower_0/v/cg/conv1/Relu	tower_0/v/cg/mpool0/MaxPool	tower_0/v/gradients/tower_0/v/cg/mpool0/MaxPool_grad/MaxPoolGrad	tower_0/v/gradients/tower_0/v/cg/conv1/Relu_grad/ReluGrad	
+tower_0/v/cg/mpool0/MaxPool	tower_0/v/cg/conv2/conv2d/Conv2D	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv2/conv2d/Conv2D_grad/ShapeN-matshapes-0	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv2/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv2/conv2d/Conv2D_grad/Conv2DBackpropFilter	tower_0/v/gradients/tower_0/v/cg/mpool0/MaxPool_grad/MaxPoolGrad	
+tower_0/v/cg/conv2/conv2d/Conv2D	tower_0/v/cg/conv2/BiasAdd	
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv2/conv2d/Conv2D_grad/ShapeN-matshapes-0	tower_0/v/gradients/tower_0/v/cg/conv2/conv2d/Conv2D_grad/Conv2DBackpropInput	
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv2/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv2/conv2d/Conv2D_grad/Conv2DBackpropFilter	
+tower_0/v/cg/conv2/BiasAdd	tower_0/v/cg/conv2/Relu	
+tower_0/v/cg/conv2/Relu	tower_0/v/cg/conv3/conv2d/Conv2D	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv3/conv2d/Conv2D_grad/ShapeN-matshapes-0	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv3/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv3/conv2d/Conv2D_grad/Conv2DBackpropFilter	tower_0/v/gradients/tower_0/v/cg/conv2/Relu_grad/ReluGrad	
+tower_0/v/cg/conv3/conv2d/Conv2D	tower_0/v/cg/conv3/BiasAdd	
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv3/conv2d/Conv2D_grad/ShapeN-matshapes-0	tower_0/v/gradients/tower_0/v/cg/conv3/conv2d/Conv2D_grad/Conv2DBackpropInput	
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv3/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv3/conv2d/Conv2D_grad/Conv2DBackpropFilter	
+tower_0/v/cg/conv3/BiasAdd	tower_0/v/cg/conv3/Relu	
+tower_0/v/cg/conv3/Relu	tower_0/v/cg/mpool1/MaxPool	tower_0/v/gradients/tower_0/v/cg/mpool1/MaxPool_grad/MaxPoolGrad	tower_0/v/gradients/tower_0/v/cg/conv3/Relu_grad/ReluGrad	
+tower_0/v/cg/mpool1/MaxPool	tower_0/v/cg/conv4/conv2d/Conv2D	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv4/conv2d/Conv2D_grad/ShapeN-matshapes-0	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv4/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv4/conv2d/Conv2D_grad/Conv2DBackpropFilter	tower_0/v/gradients/tower_0/v/cg/mpool1/MaxPool_grad/MaxPoolGrad	
+tower_0/v/cg/conv4/conv2d/Conv2D	tower_0/v/cg/conv4/BiasAdd	
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv4/conv2d/Conv2D_grad/ShapeN-matshapes-0	tower_0/v/gradients/tower_0/v/cg/conv4/conv2d/Conv2D_grad/Conv2DBackpropInput	
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv4/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv4/conv2d/Conv2D_grad/Conv2DBackpropFilter	
+tower_0/v/cg/conv4/BiasAdd	tower_0/v/cg/conv4/Relu	
+tower_0/v/cg/conv4/Relu	tower_0/v/cg/conv5/conv2d/Conv2D	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv5/conv2d/Conv2D_grad/ShapeN-matshapes-0	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv5/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv5/conv2d/Conv2D_grad/Conv2DBackpropFilter	tower_0/v/gradients/tower_0/v/cg/conv4/Relu_grad/ReluGrad	
+tower_0/v/cg/conv5/conv2d/Conv2D	tower_0/v/cg/conv5/BiasAdd	
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv5/conv2d/Conv2D_grad/ShapeN-matshapes-0	tower_0/v/gradients/tower_0/v/cg/conv5/conv2d/Conv2D_grad/Conv2DBackpropInput	
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv5/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv5/conv2d/Conv2D_grad/Conv2DBackpropFilter	
+tower_0/v/cg/conv5/BiasAdd	tower_0/v/cg/conv5/Relu	
+tower_0/v/cg/conv5/Relu	tower_0/v/cg/conv6/conv2d/Conv2D	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv6/conv2d/Conv2D_grad/ShapeN-matshapes-0	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv6/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv6/conv2d/Conv2D_grad/Conv2DBackpropFilter	tower_0/v/gradients/tower_0/v/cg/conv5/Relu_grad/ReluGrad	
+tower_0/v/cg/conv6/conv2d/Conv2D	tower_0/v/cg/conv6/BiasAdd	
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv6/conv2d/Conv2D_grad/ShapeN-matshapes-0	tower_0/v/gradients/tower_0/v/cg/conv6/conv2d/Conv2D_grad/Conv2DBackpropInput	
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv6/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv6/conv2d/Conv2D_grad/Conv2DBackpropFilter	
+tower_0/v/cg/conv6/BiasAdd	tower_0/v/cg/conv6/Relu	
+tower_0/v/cg/conv6/Relu	tower_0/v/cg/mpool2/MaxPool	tower_0/v/gradients/tower_0/v/cg/mpool2/MaxPool_grad/MaxPoolGrad	tower_0/v/gradients/tower_0/v/cg/conv6/Relu_grad/ReluGrad	
+tower_0/v/cg/mpool2/MaxPool	tower_0/v/cg/conv7/conv2d/Conv2D	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv7/conv2d/Conv2D_grad/ShapeN-matshapes-0	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv7/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv7/conv2d/Conv2D_grad/Conv2DBackpropFilter	tower_0/v/gradients/tower_0/v/cg/mpool2/MaxPool_grad/MaxPoolGrad	
+tower_0/v/cg/conv7/conv2d/Conv2D	tower_0/v/cg/conv7/BiasAdd	
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv7/conv2d/Conv2D_grad/ShapeN-matshapes-0	tower_0/v/gradients/tower_0/v/cg/conv7/conv2d/Conv2D_grad/Conv2DBackpropInput	
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv7/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv7/conv2d/Conv2D_grad/Conv2DBackpropFilter	
+tower_0/v/cg/conv7/BiasAdd	tower_0/v/cg/conv7/Relu	
+tower_0/v/cg/conv7/Relu	tower_0/v/cg/conv8/conv2d/Conv2D	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv8/conv2d/Conv2D_grad/ShapeN-matshapes-0	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv8/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv8/conv2d/Conv2D_grad/Conv2DBackpropFilter	tower_0/v/gradients/tower_0/v/cg/conv7/Relu_grad/ReluGrad	
+tower_0/v/cg/conv8/conv2d/Conv2D	tower_0/v/cg/conv8/BiasAdd	
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv8/conv2d/Conv2D_grad/ShapeN-matshapes-0	tower_0/v/gradients/tower_0/v/cg/conv8/conv2d/Conv2D_grad/Conv2DBackpropInput	
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv8/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv8/conv2d/Conv2D_grad/Conv2DBackpropFilter	
+tower_0/v/cg/conv8/BiasAdd	tower_0/v/cg/conv8/Relu	
+tower_0/v/cg/conv8/Relu	tower_0/v/cg/conv9/conv2d/Conv2D	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv9/conv2d/Conv2D_grad/ShapeN-matshapes-0	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv9/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv9/conv2d/Conv2D_grad/Conv2DBackpropFilter	tower_0/v/gradients/tower_0/v/cg/conv8/Relu_grad/ReluGrad	
+tower_0/v/cg/conv9/conv2d/Conv2D	tower_0/v/cg/conv9/BiasAdd	
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv9/conv2d/Conv2D_grad/ShapeN-matshapes-0	tower_0/v/gradients/tower_0/v/cg/conv9/conv2d/Conv2D_grad/Conv2DBackpropInput	
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv9/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv9/conv2d/Conv2D_grad/Conv2DBackpropFilter	
+tower_0/v/cg/conv9/BiasAdd	tower_0/v/cg/conv9/Relu	
+tower_0/v/cg/conv9/Relu	tower_0/v/cg/mpool3/MaxPool	tower_0/v/gradients/tower_0/v/cg/mpool3/MaxPool_grad/MaxPoolGrad	tower_0/v/gradients/tower_0/v/cg/conv9/Relu_grad/ReluGrad	
+tower_0/v/cg/mpool3/MaxPool	tower_0/v/cg/conv10/conv2d/Conv2D	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv10/conv2d/Conv2D_grad/ShapeN-matshapes-0	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv10/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv10/conv2d/Conv2D_grad/Conv2DBackpropFilter	tower_0/v/gradients/tower_0/v/cg/mpool3/MaxPool_grad/MaxPoolGrad	
+tower_0/v/cg/conv10/conv2d/Conv2D	tower_0/v/cg/conv10/BiasAdd	
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv10/conv2d/Conv2D_grad/ShapeN-matshapes-0	tower_0/v/gradients/tower_0/v/cg/conv10/conv2d/Conv2D_grad/Conv2DBackpropInput	
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv10/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv10/conv2d/Conv2D_grad/Conv2DBackpropFilter	
+tower_0/v/cg/conv10/BiasAdd	tower_0/v/cg/conv10/Relu	
+tower_0/v/cg/conv10/Relu	tower_0/v/cg/conv11/conv2d/Conv2D	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv11/conv2d/Conv2D_grad/ShapeN-matshapes-0	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv11/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv11/conv2d/Conv2D_grad/Conv2DBackpropFilter	tower_0/v/gradients/tower_0/v/cg/conv10/Relu_grad/ReluGrad	
+tower_0/v/cg/conv11/conv2d/Conv2D	tower_0/v/cg/conv11/BiasAdd	
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv11/conv2d/Conv2D_grad/ShapeN-matshapes-0	tower_0/v/gradients/tower_0/v/cg/conv11/conv2d/Conv2D_grad/Conv2DBackpropInput	
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv11/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv11/conv2d/Conv2D_grad/Conv2DBackpropFilter	
+tower_0/v/cg/conv11/BiasAdd	tower_0/v/cg/conv11/Relu	
+tower_0/v/cg/conv11/Relu	tower_0/v/cg/conv12/conv2d/Conv2D	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv12/conv2d/Conv2D_grad/ShapeN-matshapes-0	ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv12/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv12/conv2d/Conv2D_grad/Conv2DBackpropFilter	tower_0/v/gradients/tower_0/v/cg/conv11/Relu_grad/ReluGrad	
+tower_0/v/cg/conv12/conv2d/Conv2D	tower_0/v/cg/conv12/BiasAdd	
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv12/conv2d/Conv2D_grad/ShapeN-matshapes-0	tower_0/v/gradients/tower_0/v/cg/conv12/conv2d/Conv2D_grad/Conv2DBackpropInput	
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv12/conv2d/Conv2D_grad/ShapeN-matshapes-1	tower_0/v/gradients/tower_0/v/cg/conv12/conv2d/Conv2D_grad/Conv2DBackpropFilter	
+tower_0/v/cg/conv12/BiasAdd	tower_0/v/cg/conv12/Relu	
+tower_0/v/cg/conv12/Relu	tower_0/v/cg/mpool4/MaxPool	tower_0/v/gradients/tower_0/v/cg/mpool4/MaxPool_grad/MaxPoolGrad	tower_0/v/gradients/tower_0/v/cg/conv12/Relu_grad/ReluGrad	
+tower_0/v/cg/mpool4/MaxPool	tower_0/v/cg/Reshape	tower_0/v/gradients/tower_0/v/cg/mpool4/MaxPool_grad/MaxPoolGrad	
+tower_0/v/cg/Reshape	tower_0/v/cg/affine0/xw_plus_b/MatMul	tower_0/v/gradients/tower_0/v/cg/affine0/xw_plus_b/MatMul_grad/MatMul_1	
+tower_0/v/cg/affine0/xw_plus_b/MatMul	tower_0/v/cg/affine0/xw_plus_b	
+tower_0/v/cg/affine0/xw_plus_b	tower_0/v/cg/affine0/affine0	
+tower_0/v/cg/affine0/affine0	tower_0/v/cg/dropout0/dropout/dropout/mul_1	tower_0/v/gradients/tower_0/v/cg/affine0/affine0_grad/ReluGrad	
+tower_0/v/cg/dropout0/dropout/dropout/mul_1	tower_0/v/cg/affine1/xw_plus_b/MatMul	tower_0/v/gradients/tower_0/v/cg/affine1/xw_plus_b/MatMul_grad/MatMul_1	
+tower_0/v/cg/affine1/xw_plus_b/MatMul	tower_0/v/cg/affine1/xw_plus_b	
+tower_0/v/cg/affine1/xw_plus_b	tower_0/v/cg/affine1/affine1	
+tower_0/v/cg/affine1/affine1	tower_0/v/cg/dropout0_1/dropout/dropout/mul_1	tower_0/v/gradients/tower_0/v/cg/affine1/affine1_grad/ReluGrad	
+tower_0/v/cg/dropout0_1/dropout/dropout/mul_1	tower_0/v/cg/affine2/xw_plus_b/MatMul	tower_0/v/gradients/tower_0/v/cg/affine2/xw_plus_b/MatMul_grad/MatMul_1	
+tower_0/v/cg/affine2/xw_plus_b/MatMul	tower_0/v/cg/affine2/xw_plus_b	
+tower_0/v/cg/affine2/xw_plus_b	tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/xentropy/xentropy	
+tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/xentropy/xentropy	tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/Mul	tower_0/v/gradients/tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/xentropy/xentropy_grad/mul	
+tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/Mul	tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/Sum	
+tower_0/v/gradients/tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/xentropy/xentropy_grad/mul	tower_0/v/gradients/tower_0/v/cg/affine2/xw_plus_b_grad/BiasAddGrad	tower_0/v/gradients/tower_0/v/cg/affine2/xw_plus_b/MatMul_grad/MatMul	tower_0/v/gradients/tower_0/v/cg/affine2/xw_plus_b/MatMul_grad/MatMul_1	
+tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/Sum	tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/value	
+tower_0/v/gradients/tower_0/v/cg/affine2/xw_plus_b_grad/BiasAddGrad	tower_0/v/gradients/AddN	
+tower_0/v/gradients/tower_0/v/cg/affine2/xw_plus_b/MatMul_grad/MatMul	tower_0/v/gradients/tower_0/v/cg/dropout0_1/dropout/dropout/mul_1_grad/Mul	
+tower_0/v/gradients/tower_0/v/cg/affine2/xw_plus_b/MatMul_grad/MatMul_1	tower_0/v/gradients/AddN_1	
+tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/value	tower_0/v/add	
+tower_0/v/gradients/AddN	append_apply_gradient_ops/GradientDescent/update_v/cg/affine2/biases/ApplyGradientDescent	
+tower_0/v/gradients/tower_0/v/cg/dropout0_1/dropout/dropout/mul_1_grad/Mul	tower_0/v/gradients/tower_0/v/cg/dropout0_1/dropout/dropout/mul_grad/Mul	
+tower_0/v/gradients/AddN_1	append_apply_gradient_ops/GradientDescent/update_v/cg/affine2/weights/ApplyGradientDescent	
+tower_0/v/add	ConstantFolding/average_loss/Mean/input_const_axis	average_loss/Mean/input	
+append_apply_gradient_ops/GradientDescent/update_v/cg/affine2/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+tower_0/v/gradients/tower_0/v/cg/dropout0_1/dropout/dropout/mul_grad/Mul	tower_0/v/gradients/tower_0/v/cg/affine1/affine1_grad/ReluGrad	
+append_apply_gradient_ops/GradientDescent/update_v/cg/affine2/weights/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+ConstantFolding/average_loss/Mean/input_const_axis	average_loss/Mean/input	
+tower_0/v/gradients/tower_0/v/cg/affine1/affine1_grad/ReluGrad	tower_0/v/gradients/tower_0/v/cg/affine1/xw_plus_b_grad/BiasAddGrad	tower_0/v/gradients/tower_0/v/cg/affine1/xw_plus_b/MatMul_grad/MatMul	tower_0/v/gradients/tower_0/v/cg/affine1/xw_plus_b/MatMul_grad/MatMul_1	
+average_loss/Mean/input	average_loss/Mean	
+tower_0/v/gradients/tower_0/v/cg/affine1/xw_plus_b_grad/BiasAddGrad	tower_0/v/gradients/AddN_2	
+tower_0/v/gradients/tower_0/v/cg/affine1/xw_plus_b/MatMul_grad/MatMul	tower_0/v/gradients/tower_0/v/cg/dropout0/dropout/dropout/mul_1_grad/Mul	
+tower_0/v/gradients/tower_0/v/cg/affine1/xw_plus_b/MatMul_grad/MatMul_1	tower_0/v/gradients/AddN_3	
+average_loss/Mean	main_fetch_group	average_loss/Mean/_74	
+tower_0/v/gradients/AddN_2	append_apply_gradient_ops/GradientDescent/update_v/cg/affine1/biases/ApplyGradientDescent	
+tower_0/v/gradients/tower_0/v/cg/dropout0/dropout/dropout/mul_1_grad/Mul	tower_0/v/gradients/tower_0/v/cg/dropout0/dropout/dropout/mul_grad/Mul	
+tower_0/v/gradients/AddN_3	append_apply_gradient_ops/GradientDescent/update_v/cg/affine1/weights/ApplyGradientDescent	
+append_apply_gradient_ops/GradientDescent/update_v/cg/affine1/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+tower_0/v/gradients/tower_0/v/cg/dropout0/dropout/dropout/mul_grad/Mul	tower_0/v/gradients/tower_0/v/cg/affine0/affine0_grad/ReluGrad	
+append_apply_gradient_ops/GradientDescent/update_v/cg/affine1/weights/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+tower_0/v/gradients/tower_0/v/cg/affine0/affine0_grad/ReluGrad	tower_0/v/gradients/tower_0/v/cg/affine0/xw_plus_b_grad/BiasAddGrad	tower_0/v/gradients/tower_0/v/cg/affine0/xw_plus_b/MatMul_grad/MatMul	tower_0/v/gradients/tower_0/v/cg/affine0/xw_plus_b/MatMul_grad/MatMul_1	
+tower_0/v/gradients/tower_0/v/cg/affine0/xw_plus_b_grad/BiasAddGrad	tower_0/v/gradients/AddN_4	
+tower_0/v/gradients/tower_0/v/cg/affine0/xw_plus_b/MatMul_grad/MatMul	tower_0/v/gradients/tower_0/v/cg/Reshape_grad/Reshape	
+tower_0/v/gradients/tower_0/v/cg/affine0/xw_plus_b/MatMul_grad/MatMul_1	tower_0/v/gradients/AddN_5	
+tower_0/v/gradients/AddN_4	append_apply_gradient_ops/GradientDescent/update_v/cg/affine0/biases/ApplyGradientDescent	
+tower_0/v/gradients/tower_0/v/cg/Reshape_grad/Reshape	tower_0/v/gradients/tower_0/v/cg/mpool4/MaxPool_grad/MaxPoolGrad	
+tower_0/v/gradients/AddN_5	append_apply_gradient_ops/GradientDescent/update_v/cg/affine0/weights/ApplyGradientDescent	
+append_apply_gradient_ops/GradientDescent/update_v/cg/affine0/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+tower_0/v/gradients/tower_0/v/cg/mpool4/MaxPool_grad/MaxPoolGrad	tower_0/v/gradients/tower_0/v/cg/conv12/Relu_grad/ReluGrad	
+append_apply_gradient_ops/GradientDescent/update_v/cg/affine0/weights/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+tower_0/v/gradients/tower_0/v/cg/conv12/Relu_grad/ReluGrad	tower_0/v/gradients/tower_0/v/cg/conv12/BiasAdd_grad/BiasAddGrad	tower_0/v/gradients/tower_0/v/cg/conv12/conv2d/Conv2D_grad/Conv2DBackpropInput	tower_0/v/gradients/tower_0/v/cg/conv12/conv2d/Conv2D_grad/Conv2DBackpropFilter	
+tower_0/v/gradients/tower_0/v/cg/conv12/BiasAdd_grad/BiasAddGrad	tower_0/v/gradients/AddN_6	
+tower_0/v/gradients/tower_0/v/cg/conv12/conv2d/Conv2D_grad/Conv2DBackpropInput	tower_0/v/gradients/tower_0/v/cg/conv11/Relu_grad/ReluGrad	
+tower_0/v/gradients/tower_0/v/cg/conv12/conv2d/Conv2D_grad/Conv2DBackpropFilter	tower_0/v/gradients/AddN_7	
+tower_0/v/gradients/AddN_6	append_apply_gradient_ops/GradientDescent/update_v/cg/conv12/biases/ApplyGradientDescent	
+tower_0/v/gradients/tower_0/v/cg/conv11/Relu_grad/ReluGrad	tower_0/v/gradients/tower_0/v/cg/conv11/BiasAdd_grad/BiasAddGrad	tower_0/v/gradients/tower_0/v/cg/conv11/conv2d/Conv2D_grad/Conv2DBackpropInput	tower_0/v/gradients/tower_0/v/cg/conv11/conv2d/Conv2D_grad/Conv2DBackpropFilter	
+tower_0/v/gradients/AddN_7	append_apply_gradient_ops/GradientDescent/update_v/cg/conv12/conv2d/kernel/ApplyGradientDescent	
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv12/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+tower_0/v/gradients/tower_0/v/cg/conv11/BiasAdd_grad/BiasAddGrad	tower_0/v/gradients/AddN_8	
+tower_0/v/gradients/tower_0/v/cg/conv11/conv2d/Conv2D_grad/Conv2DBackpropInput	tower_0/v/gradients/tower_0/v/cg/conv10/Relu_grad/ReluGrad	
+tower_0/v/gradients/tower_0/v/cg/conv11/conv2d/Conv2D_grad/Conv2DBackpropFilter	tower_0/v/gradients/AddN_9	
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv12/conv2d/kernel/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+tower_0/v/gradients/AddN_8	append_apply_gradient_ops/GradientDescent/update_v/cg/conv11/biases/ApplyGradientDescent	
+tower_0/v/gradients/tower_0/v/cg/conv10/Relu_grad/ReluGrad	tower_0/v/gradients/tower_0/v/cg/conv10/BiasAdd_grad/BiasAddGrad	tower_0/v/gradients/tower_0/v/cg/conv10/conv2d/Conv2D_grad/Conv2DBackpropInput	tower_0/v/gradients/tower_0/v/cg/conv10/conv2d/Conv2D_grad/Conv2DBackpropFilter	
+tower_0/v/gradients/AddN_9	append_apply_gradient_ops/GradientDescent/update_v/cg/conv11/conv2d/kernel/ApplyGradientDescent	
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv11/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+tower_0/v/gradients/tower_0/v/cg/conv10/BiasAdd_grad/BiasAddGrad	tower_0/v/gradients/AddN_10	
+tower_0/v/gradients/tower_0/v/cg/conv10/conv2d/Conv2D_grad/Conv2DBackpropInput	tower_0/v/gradients/tower_0/v/cg/mpool3/MaxPool_grad/MaxPoolGrad	
+tower_0/v/gradients/tower_0/v/cg/conv10/conv2d/Conv2D_grad/Conv2DBackpropFilter	tower_0/v/gradients/AddN_11	
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv11/conv2d/kernel/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+tower_0/v/gradients/AddN_10	append_apply_gradient_ops/GradientDescent/update_v/cg/conv10/biases/ApplyGradientDescent	
+tower_0/v/gradients/tower_0/v/cg/mpool3/MaxPool_grad/MaxPoolGrad	tower_0/v/gradients/tower_0/v/cg/conv9/Relu_grad/ReluGrad	
+tower_0/v/gradients/AddN_11	append_apply_gradient_ops/GradientDescent/update_v/cg/conv10/conv2d/kernel/ApplyGradientDescent	
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv10/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+tower_0/v/gradients/tower_0/v/cg/conv9/Relu_grad/ReluGrad	tower_0/v/gradients/tower_0/v/cg/conv9/BiasAdd_grad/BiasAddGrad	tower_0/v/gradients/tower_0/v/cg/conv9/conv2d/Conv2D_grad/Conv2DBackpropInput	tower_0/v/gradients/tower_0/v/cg/conv9/conv2d/Conv2D_grad/Conv2DBackpropFilter	
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv10/conv2d/kernel/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+tower_0/v/gradients/tower_0/v/cg/conv9/BiasAdd_grad/BiasAddGrad	tower_0/v/gradients/AddN_12	
+tower_0/v/gradients/tower_0/v/cg/conv9/conv2d/Conv2D_grad/Conv2DBackpropInput	tower_0/v/gradients/tower_0/v/cg/conv8/Relu_grad/ReluGrad	
+tower_0/v/gradients/tower_0/v/cg/conv9/conv2d/Conv2D_grad/Conv2DBackpropFilter	tower_0/v/gradients/AddN_13	
+tower_0/v/gradients/AddN_12	append_apply_gradient_ops/GradientDescent/update_v/cg/conv9/biases/ApplyGradientDescent	
+tower_0/v/gradients/tower_0/v/cg/conv8/Relu_grad/ReluGrad	tower_0/v/gradients/tower_0/v/cg/conv8/BiasAdd_grad/BiasAddGrad	tower_0/v/gradients/tower_0/v/cg/conv8/conv2d/Conv2D_grad/Conv2DBackpropInput	tower_0/v/gradients/tower_0/v/cg/conv8/conv2d/Conv2D_grad/Conv2DBackpropFilter	
+tower_0/v/gradients/AddN_13	append_apply_gradient_ops/GradientDescent/update_v/cg/conv9/conv2d/kernel/ApplyGradientDescent	
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv9/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+tower_0/v/gradients/tower_0/v/cg/conv8/BiasAdd_grad/BiasAddGrad	tower_0/v/gradients/AddN_14	
+tower_0/v/gradients/tower_0/v/cg/conv8/conv2d/Conv2D_grad/Conv2DBackpropInput	tower_0/v/gradients/tower_0/v/cg/conv7/Relu_grad/ReluGrad	
+tower_0/v/gradients/tower_0/v/cg/conv8/conv2d/Conv2D_grad/Conv2DBackpropFilter	tower_0/v/gradients/AddN_15	
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv9/conv2d/kernel/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+tower_0/v/gradients/AddN_14	append_apply_gradient_ops/GradientDescent/update_v/cg/conv8/biases/ApplyGradientDescent	
+tower_0/v/gradients/tower_0/v/cg/conv7/Relu_grad/ReluGrad	tower_0/v/gradients/tower_0/v/cg/conv7/BiasAdd_grad/BiasAddGrad	tower_0/v/gradients/tower_0/v/cg/conv7/conv2d/Conv2D_grad/Conv2DBackpropInput	tower_0/v/gradients/tower_0/v/cg/conv7/conv2d/Conv2D_grad/Conv2DBackpropFilter	
+tower_0/v/gradients/AddN_15	append_apply_gradient_ops/GradientDescent/update_v/cg/conv8/conv2d/kernel/ApplyGradientDescent	
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv8/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+tower_0/v/gradients/tower_0/v/cg/conv7/BiasAdd_grad/BiasAddGrad	tower_0/v/gradients/AddN_16	
+tower_0/v/gradients/tower_0/v/cg/conv7/conv2d/Conv2D_grad/Conv2DBackpropInput	tower_0/v/gradients/tower_0/v/cg/mpool2/MaxPool_grad/MaxPoolGrad	
+tower_0/v/gradients/tower_0/v/cg/conv7/conv2d/Conv2D_grad/Conv2DBackpropFilter	tower_0/v/gradients/AddN_17	
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv8/conv2d/kernel/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+tower_0/v/gradients/AddN_16	append_apply_gradient_ops/GradientDescent/update_v/cg/conv7/biases/ApplyGradientDescent	
+tower_0/v/gradients/tower_0/v/cg/mpool2/MaxPool_grad/MaxPoolGrad	tower_0/v/gradients/tower_0/v/cg/conv6/Relu_grad/ReluGrad	
+tower_0/v/gradients/AddN_17	append_apply_gradient_ops/GradientDescent/update_v/cg/conv7/conv2d/kernel/ApplyGradientDescent	
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv7/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+tower_0/v/gradients/tower_0/v/cg/conv6/Relu_grad/ReluGrad	tower_0/v/gradients/tower_0/v/cg/conv6/BiasAdd_grad/BiasAddGrad	tower_0/v/gradients/tower_0/v/cg/conv6/conv2d/Conv2D_grad/Conv2DBackpropInput	tower_0/v/gradients/tower_0/v/cg/conv6/conv2d/Conv2D_grad/Conv2DBackpropFilter	
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv7/conv2d/kernel/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+tower_0/v/gradients/tower_0/v/cg/conv6/BiasAdd_grad/BiasAddGrad	tower_0/v/gradients/AddN_18	
+tower_0/v/gradients/tower_0/v/cg/conv6/conv2d/Conv2D_grad/Conv2DBackpropInput	tower_0/v/gradients/tower_0/v/cg/conv5/Relu_grad/ReluGrad	
+tower_0/v/gradients/tower_0/v/cg/conv6/conv2d/Conv2D_grad/Conv2DBackpropFilter	tower_0/v/gradients/AddN_19	
+tower_0/v/gradients/AddN_18	append_apply_gradient_ops/GradientDescent/update_v/cg/conv6/biases/ApplyGradientDescent	
+tower_0/v/gradients/tower_0/v/cg/conv5/Relu_grad/ReluGrad	tower_0/v/gradients/tower_0/v/cg/conv5/conv2d/Conv2D_grad/Conv2DBackpropFilter	tower_0/v/gradients/tower_0/v/cg/conv5/BiasAdd_grad/BiasAddGrad	tower_0/v/gradients/tower_0/v/cg/conv5/conv2d/Conv2D_grad/Conv2DBackpropInput	
+tower_0/v/gradients/AddN_19	append_apply_gradient_ops/GradientDescent/update_v/cg/conv6/conv2d/kernel/ApplyGradientDescent	
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv6/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+tower_0/v/gradients/tower_0/v/cg/conv5/conv2d/Conv2D_grad/Conv2DBackpropFilter	tower_0/v/gradients/AddN_21	
+tower_0/v/gradients/tower_0/v/cg/conv5/BiasAdd_grad/BiasAddGrad	tower_0/v/gradients/AddN_20	
+tower_0/v/gradients/tower_0/v/cg/conv5/conv2d/Conv2D_grad/Conv2DBackpropInput	tower_0/v/gradients/tower_0/v/cg/conv4/Relu_grad/ReluGrad	
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv6/conv2d/kernel/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+tower_0/v/gradients/AddN_21	append_apply_gradient_ops/GradientDescent/update_v/cg/conv5/conv2d/kernel/ApplyGradientDescent	
+tower_0/v/gradients/AddN_20	append_apply_gradient_ops/GradientDescent/update_v/cg/conv5/biases/ApplyGradientDescent	
+tower_0/v/gradients/tower_0/v/cg/conv4/Relu_grad/ReluGrad	tower_0/v/gradients/tower_0/v/cg/conv4/BiasAdd_grad/BiasAddGrad	tower_0/v/gradients/tower_0/v/cg/conv4/conv2d/Conv2D_grad/Conv2DBackpropInput	tower_0/v/gradients/tower_0/v/cg/conv4/conv2d/Conv2D_grad/Conv2DBackpropFilter	
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv5/conv2d/kernel/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv5/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+tower_0/v/gradients/tower_0/v/cg/conv4/BiasAdd_grad/BiasAddGrad	tower_0/v/gradients/AddN_22	
+tower_0/v/gradients/tower_0/v/cg/conv4/conv2d/Conv2D_grad/Conv2DBackpropInput	tower_0/v/gradients/tower_0/v/cg/mpool1/MaxPool_grad/MaxPoolGrad	
+tower_0/v/gradients/tower_0/v/cg/conv4/conv2d/Conv2D_grad/Conv2DBackpropFilter	tower_0/v/gradients/AddN_23	
+tower_0/v/gradients/AddN_22	append_apply_gradient_ops/GradientDescent/update_v/cg/conv4/biases/ApplyGradientDescent	
+tower_0/v/gradients/tower_0/v/cg/mpool1/MaxPool_grad/MaxPoolGrad	tower_0/v/gradients/tower_0/v/cg/conv3/Relu_grad/ReluGrad	
+tower_0/v/gradients/AddN_23	append_apply_gradient_ops/GradientDescent/update_v/cg/conv4/conv2d/kernel/ApplyGradientDescent	
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv4/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+tower_0/v/gradients/tower_0/v/cg/conv3/Relu_grad/ReluGrad	tower_0/v/gradients/tower_0/v/cg/conv3/BiasAdd_grad/BiasAddGrad	tower_0/v/gradients/tower_0/v/cg/conv3/conv2d/Conv2D_grad/Conv2DBackpropInput	tower_0/v/gradients/tower_0/v/cg/conv3/conv2d/Conv2D_grad/Conv2DBackpropFilter	
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv4/conv2d/kernel/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+tower_0/v/gradients/tower_0/v/cg/conv3/BiasAdd_grad/BiasAddGrad	tower_0/v/gradients/AddN_24	
+tower_0/v/gradients/tower_0/v/cg/conv3/conv2d/Conv2D_grad/Conv2DBackpropInput	tower_0/v/gradients/tower_0/v/cg/conv2/Relu_grad/ReluGrad	
+tower_0/v/gradients/tower_0/v/cg/conv3/conv2d/Conv2D_grad/Conv2DBackpropFilter	tower_0/v/gradients/AddN_25	
+tower_0/v/gradients/AddN_24	append_apply_gradient_ops/GradientDescent/update_v/cg/conv3/biases/ApplyGradientDescent	
+tower_0/v/gradients/tower_0/v/cg/conv2/Relu_grad/ReluGrad	tower_0/v/gradients/tower_0/v/cg/conv2/BiasAdd_grad/BiasAddGrad	tower_0/v/gradients/tower_0/v/cg/conv2/conv2d/Conv2D_grad/Conv2DBackpropInput	tower_0/v/gradients/tower_0/v/cg/conv2/conv2d/Conv2D_grad/Conv2DBackpropFilter	
+tower_0/v/gradients/AddN_25	append_apply_gradient_ops/GradientDescent/update_v/cg/conv3/conv2d/kernel/ApplyGradientDescent	
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv3/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+tower_0/v/gradients/tower_0/v/cg/conv2/BiasAdd_grad/BiasAddGrad	tower_0/v/gradients/AddN_26	
+tower_0/v/gradients/tower_0/v/cg/conv2/conv2d/Conv2D_grad/Conv2DBackpropInput	tower_0/v/gradients/tower_0/v/cg/mpool0/MaxPool_grad/MaxPoolGrad	
+tower_0/v/gradients/tower_0/v/cg/conv2/conv2d/Conv2D_grad/Conv2DBackpropFilter	tower_0/v/gradients/AddN_27	
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv3/conv2d/kernel/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+tower_0/v/gradients/AddN_26	append_apply_gradient_ops/GradientDescent/update_v/cg/conv2/biases/ApplyGradientDescent	
+tower_0/v/gradients/tower_0/v/cg/mpool0/MaxPool_grad/MaxPoolGrad	tower_0/v/gradients/tower_0/v/cg/conv1/Relu_grad/ReluGrad	
+tower_0/v/gradients/AddN_27	append_apply_gradient_ops/GradientDescent/update_v/cg/conv2/conv2d/kernel/ApplyGradientDescent	
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv2/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+tower_0/v/gradients/tower_0/v/cg/conv1/Relu_grad/ReluGrad	tower_0/v/gradients/tower_0/v/cg/conv1/BiasAdd_grad/BiasAddGrad	tower_0/v/gradients/tower_0/v/cg/conv1/conv2d/Conv2D_grad/Conv2DBackpropInput	tower_0/v/gradients/tower_0/v/cg/conv1/conv2d/Conv2D_grad/Conv2DBackpropFilter	
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv2/conv2d/kernel/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+tower_0/v/gradients/tower_0/v/cg/conv1/BiasAdd_grad/BiasAddGrad	tower_0/v/gradients/AddN_28	
+tower_0/v/gradients/tower_0/v/cg/conv1/conv2d/Conv2D_grad/Conv2DBackpropInput	tower_0/v/gradients/tower_0/v/cg/conv0/Relu_grad/ReluGrad	
+tower_0/v/gradients/tower_0/v/cg/conv1/conv2d/Conv2D_grad/Conv2DBackpropFilter	tower_0/v/gradients/AddN_29	
+tower_0/v/gradients/AddN_28	append_apply_gradient_ops/GradientDescent/update_v/cg/conv1/biases/ApplyGradientDescent	
+tower_0/v/gradients/tower_0/v/cg/conv0/Relu_grad/ReluGrad	tower_0/v/gradients/tower_0/v/cg/conv0/BiasAdd_grad/BiasAddGrad	tower_0/v/gradients/tower_0/v/cg/conv0/conv2d/Conv2D_grad/Conv2DBackpropFilter	
+tower_0/v/gradients/AddN_29	append_apply_gradient_ops/GradientDescent/update_v/cg/conv1/conv2d/kernel/ApplyGradientDescent	
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv1/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+tower_0/v/gradients/tower_0/v/cg/conv0/BiasAdd_grad/BiasAddGrad	tower_0/v/gradients/AddN_30	
+tower_0/v/gradients/tower_0/v/cg/conv0/conv2d/Conv2D_grad/Conv2DBackpropFilter	tower_0/v/gradients/AddN_31	
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv1/conv2d/kernel/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+tower_0/v/gradients/AddN_30	append_apply_gradient_ops/GradientDescent/update_v/cg/conv0/biases/ApplyGradientDescent	
+tower_0/v/gradients/AddN_31	append_apply_gradient_ops/GradientDescent/update_v/cg/conv0/conv2d/kernel/ApplyGradientDescent	
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv0/biases/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv0/conv2d/kernel/ApplyGradientDescent	append_apply_gradient_ops/GradientDescent	
+append_apply_gradient_ops/GradientDescent	train_ops_group	main_fetch_group	
+train_ops_group	_SINK	
+main_fetch_group	main_fetch_group/_70	
+main_fetch_group/_70	main_fetch_group/_71	
+main_fetch_group/_71	_SINK	
+average_loss/Mean/_74	_SINK	

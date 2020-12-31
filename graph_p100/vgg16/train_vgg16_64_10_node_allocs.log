@@ -1,0 +1,948 @@
+average_loss/Mean/_74
+_SOURCE
+v/cg/conv9/biases
+tower_0/v/cg/Reshape/shape
+v/cg/conv0/conv2d/kernel
+v/cg/conv4/conv2d/kernel
+v/cg/conv8/conv2d/kernel
+v/cg/conv10/conv2d/kernel
+v/cg/affine0/weights
+gpu_compute_stage_ops_group
+tower_0/v/vgg16_synthetic_labels/min
+tower_0/v/gradients/tower_0/v/cg/Reshape_grad/Shape
+v/cg/conv6/biases
+v/cg/conv10/biases
+v/cg/affine0/biases
+v/cg/affine2/weights
+tower_0/v/gradients/tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/xentropy/xentropy_grad/ExpandDims
+tower_0/v/gpu_cached_inputs
+v/cg/conv2/conv2d/kernel
+v/cg/conv5/conv2d/kernel
+v/cg/conv11/conv2d/kernel
+tower_0/v/cg/dropout0/dropout/dropout/rate
+average_loss/range
+v/cg/conv8/biases
+v/cg/conv11/biases
+v/cg/affine2/biases
+tower_0/v/vgg16_synthetic_labels/max
+tower_0/v/mul/x
+v/cg/affine1/biases
+v/cg/conv12/conv2d/kernel
+tower_0/v/cg/dropout0/dropout/dropout/Shape
+learning_rate_tensor/input
+v/cg/conv0/biases
+v/cg/conv12/biases
+tower_0/v/cg/dropout0/dropout/dropout/truediv
+v/cg/affine1/weights
+tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/num_present
+tower_0/v/vgg16_synthetic_labels/shape
+v/cg/conv4/biases
+v/cg/conv2/biases
+v/cg/conv5/biases
+v/cg/conv3/conv2d/kernel
+v/cg/conv6/conv2d/kernel
+tower_0/v/transpose/perm
+v/cg/conv3/biases
+v/cg/conv7/conv2d/kernel
+v/cg/conv9/conv2d/kernel
+v/cg/conv1/conv2d/kernel
+v/cg/conv1/biases
+v/cg/conv7/biases
+v/cg/conv9/biases/read
+v/cg/conv0/conv2d/kernel/read
+v/cg/conv4/conv2d/kernel/read
+v/cg/conv8/conv2d/kernel/read
+v/cg/conv10/conv2d/kernel/read
+v/cg/affine0/weights/read
+v/cg/conv6/biases/read
+v/cg/conv10/biases/read
+v/cg/affine0/biases/read
+v/cg/affine2/weights/read
+tower_0/v/gpu_cached_inputs/read
+v/cg/conv2/conv2d/kernel/read
+v/cg/conv5/conv2d/kernel/read
+v/cg/conv11/conv2d/kernel/read
+v/cg/conv8/biases/read
+v/cg/conv11/biases/read
+v/cg/affine2/biases/read
+v/cg/affine1/biases/read
+v/cg/conv12/conv2d/kernel/read
+tower_0/v/cg/dropout0/dropout/dropout/random_uniform/RandomUniform
+1608950444746719	1048576
+1608950444753877	-1048576
+tower_0/v/cg/dropout0_1/dropout/dropout/random_uniform/RandomUniform
+1608950444747040	1048576
+1608950444753953	-1048576
+v/cg/conv0/biases/read
+v/cg/conv12/biases/read
+v/cg/affine1/weights/read
+tower_0/v/vgg16_synthetic_labels
+1608950444747605	256
+1608950444765304	-256
+v/cg/conv4/biases/read
+v/cg/conv2/biases/read
+v/cg/conv5/biases/read
+v/cg/conv3/conv2d/kernel/read
+v/cg/conv6/conv2d/kernel/read
+v/cg/conv3/biases/read
+v/cg/conv7/conv2d/kernel/read
+v/cg/conv9/conv2d/kernel/read
+v/cg/conv1/conv2d/kernel/read
+v/cg/conv1/biases/read
+v/cg/conv7/biases/read
+tower_0/v/l2_loss/L2Loss_19
+1608950444747893	256
+1608950444754135	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_19_grad/mul
+1608950444747981	2048
+1608950444774921	-2048
+tower_0/v/l2_loss/L2Loss
+1608950444748054	256
+1608950444902184	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_grad/mul
+1608950444748129	6912
+1608950444792646	-6912
+tower_0/v/l2_loss/L2Loss_8
+1608950444748195	256
+1608950444748230	9216
+1608950444748321	-9216
+1608950444754150	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_8_grad/mul
+1608950444748406	1179648
+1608950444784545	-1179648
+tower_0/v/l2_loss/L2Loss_16
+1608950444748477	256
+1608950444748495	9216
+1608950444748576	-9216
+1608950444754132	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_16_grad/mul
+1608950444748604	9437184
+1608950444776646	-9437184
+tower_0/v/l2_loss/L2Loss_20
+1608950444748683	256
+1608950444748699	9216
+1608950444748784	-9216
+1608950444754137	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_20_grad/mul
+1608950444748810	9437184
+1608950444773694	-9437184
+tower_0/v/l2_loss/L2Loss_26
+1608950444748884	256
+1608950444748901	9216
+1608950444748974	-9216
+1608950444754141	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_26_grad/mul
+1608950444749008	411041792
+1608950444768879	-411041792
+tower_0/v/l2_loss/L2Loss_13
+1608950444749076	256
+1608950444754130	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_13_grad/mul
+1608950444749141	1024
+1608950444780011	-1024
+tower_0/v/l2_loss/L2Loss_21
+1608950444749202	256
+1608950444754137	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_21_grad/mul
+1608950444749259	2048
+1608950444773499	-2048
+tower_0/v/l2_loss/L2Loss_27
+1608950444749319	256
+1608950444754142	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_27_grad/mul
+1608950444749379	16384
+1608950444768777	-16384
+tower_0/v/l2_loss/L2Loss_30
+1608950444749435	256
+1608950444749451	9216
+1608950444749536	-9216
+1608950444754145	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_30_grad/mul
+1608950444749564	16400384
+1608950444766359	-16400384
+tower_0/v/transpose
+1608950444749648	38535168
+1608950444792286	-38535168
+tower_0/v/l2_loss/L2Loss_4
+1608950444749772	256
+1608950444749776	256
+1608950444749853	-256
+1608950444754147	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_4_grad/mul
+1608950444749889	294912
+1608950444790146	-294912
+tower_0/v/l2_loss/L2Loss_10
+1608950444749981	256
+1608950444750000	9216
+1608950444750087	-9216
+1608950444754127	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_10_grad/mul
+1608950444750141	2359296
+1608950444782198	-2359296
+tower_0/v/l2_loss/L2Loss_22
+1608950444750216	256
+1608950444750233	9216
+1608950444750306	-9216
+1608950444754138	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_22_grad/mul
+1608950444750338	9437184
+1608950444772251	-9437184
+tower_0/v/l2_loss/L2Loss_17
+1608950444750401	256
+1608950444754133	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_17_grad/mul
+1608950444750464	2048
+1608950444776457	-2048
+tower_0/v/l2_loss/L2Loss_23
+1608950444750525	256
+1608950444754139	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_23_grad/mul
+1608950444750579	2048
+1608950444772081	-2048
+tower_0/v/l2_loss/L2Loss_31
+1608950444750639	256
+1608950444754146	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_31_grad/mul
+1608950444750697	4096
+1608950444766165	-4096
+tower_0/v/l2_loss/L2Loss_29
+1608950444750760	256
+1608950444754144	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_29_grad/mul
+1608950444750817	16384
+1608950444767320	-16384
+tower_0/v/l2_loss/L2Loss_24
+1608950444750874	256
+1608950444750891	9216
+1608950444750960	-9216
+1608950444754139	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_24_grad/mul
+1608950444750994	9437184
+1608950444770928	-9437184
+tower_0/v/cg/dropout0/dropout/dropout/random_uniform/mul
+tower_0/v/cg/dropout0_1/dropout/dropout/random_uniform/mul
+tower_0/v/l2_loss/L2Loss_1
+1608950444751092	256
+1608950444754125	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_1_grad/mul
+1608950444751159	256
+1608950444792550	-256
+tower_0/v/l2_loss/L2Loss_25
+1608950444751226	256
+1608950444754140	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_25_grad/mul
+1608950444751290	2048
+1608950444770767	-2048
+tower_0/v/l2_loss/L2Loss_28
+1608950444751348	256
+1608950444751364	9216
+1608950444751443	-9216
+1608950444754143	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_28_grad/mul
+1608950444751479	67108864
+1608950444767509	-67108864
+tower_0/v/l2_loss/L2Loss_9
+1608950444751543	256
+1608950444754150	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_9_grad/mul
+1608950444751626	1024
+1608950444784251	-1024
+tower_0/v/l2_loss/L2Loss_5
+1608950444751696	256
+1608950444754147	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_5_grad/mul
+1608950444751749	512
+1608950444789853	-512
+tower_0/v/l2_loss/L2Loss_11
+1608950444751810	256
+1608950444754128	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_11_grad/mul
+1608950444751868	1024
+1608950444782300	-1024
+tower_0/v/l2_loss/L2Loss_6
+1608950444751951	256
+1608950444751954	256
+1608950444752027	-256
+1608950444754148	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_6_grad/mul
+1608950444752053	589824
+1608950444786170	-589824
+tower_0/v/l2_loss/L2Loss_12
+1608950444752137	256
+1608950444752155	9216
+1608950444752229	-9216
+1608950444754129	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_12_grad/mul
+1608950444752261	2359296
+1608950444780182	-2359296
+tower_0/v/l2_loss/L2Loss_7
+1608950444752341	256
+1608950444754149	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_7_grad/mul
+1608950444752424	512
+1608950444786002	-512
+tower_0/v/l2_loss/L2Loss_14
+1608950444752487	256
+1608950444752503	9216
+1608950444752583	-9216
+1608950444754130	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_14_grad/mul
+1608950444752613	4718592
+1608950444778038	-4718592
+tower_0/v/l2_loss/L2Loss_18
+1608950444752686	256
+1608950444752702	9216
+1608950444752787	-9216
+1608950444754133	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_18_grad/mul
+1608950444752814	9437184
+1608950444775135	-9437184
+tower_0/v/l2_loss/L2Loss_2
+1608950444752894	256
+1608950444752897	256
+1608950444752965	-256
+1608950444754136	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_2_grad/mul
+1608950444753008	147456
+1608950444791694	-147456
+tower_0/v/l2_loss/L2Loss_3
+1608950444753083	256
+1608950444754144	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_3_grad/mul
+1608950444753164	256
+1608950444791543	-256
+tower_0/v/l2_loss/L2Loss_15
+1608950444753223	256
+1608950444754131	-256
+tower_0/v/gradients/tower_0/v/l2_loss/L2Loss_15_grad/mul
+1608950444753286	2048
+1608950444777799	-2048
+tower_0/v/cg/conv0/conv2d/Conv2D
+1608950444753370	822083584
+1608950444753396	6912
+1608950444753557	301312
+1608950444753739	-301312
+1608950444753745	-6912
+1608950444791617	-822083584
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv0/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/cg/dropout0/dropout/dropout/GreaterEqual
+1608950444753805	262144
+1608950444754297	-262144
+tower_0/v/cg/dropout0_1/dropout/dropout/GreaterEqual
+1608950444753904	262144
+1608950444754372	-262144
+tower_0/v/l2_loss/AddN
+tower_0/v/cg/conv0/BiasAdd
+tower_0/v/cg/dropout0/dropout/dropout/Cast
+1608950444754247	1835008
+1608950444768683	-1835008
+tower_0/v/cg/dropout0_1/dropout/dropout/Cast
+1608950444754318	1048576
+1608950444767205	-1048576
+tower_0/v/mul
+tower_0/v/cg/conv0/Relu
+tower_0/v/cg/dropout0/dropout/dropout/mul
+1608950444754534	1048576
+1608950444767203	-1048576
+tower_0/v/cg/dropout0_1/dropout/dropout/mul
+1608950444754604	1048576
+1608950444765952	-1048576
+tower_0/v/cg/conv1/conv2d/Conv2D
+1608950444754680	822083584
+1608950444754687	262144
+1608950444754759	409856
+1608950444754970	-409856
+1608950444754974	-262144
+1608950444790385	-822083584
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv1/conv2d/Conv2D_grad/ShapeN-matshapes-0
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv1/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/cg/conv1/BiasAdd
+tower_0/v/cg/conv1/Relu
+tower_0/v/cg/mpool0/MaxPool
+1608950444755172	205520896
+1608950444790045	-205520896
+tower_0/v/cg/conv2/conv2d/Conv2D
+1608950444755312	411041792
+1608950444755319	294912
+1608950444755395	1388445696
+1608950444755616	-1388445696
+1608950444755621	-294912
+1608950444786092	-411041792
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv2/conv2d/Conv2D_grad/ShapeN-matshapes-0
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv2/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/cg/conv2/BiasAdd
+tower_0/v/cg/conv2/Relu
+tower_0/v/cg/conv3/conv2d/Conv2D
+1608950444755825	411041792
+1608950444755832	589824
+1608950444755910	1852047360
+1608950444756065	-1852047360
+1608950444756069	-589824
+1608950444784735	-411041792
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv3/conv2d/Conv2D_grad/ShapeN-matshapes-0
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv3/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/cg/conv3/BiasAdd
+tower_0/v/cg/conv3/Relu
+tower_0/v/cg/mpool1/MaxPool
+1608950444756264	102760448
+1608950444784471	-102760448
+tower_0/v/cg/conv4/conv2d/Conv2D
+1608950444756387	205520896
+1608950444756394	1179648
+1608950444756470	356564992
+1608950444757207	-356564992
+1608950444757212	-1179648
+1608950444782402	-205520896
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv4/conv2d/Conv2D_grad/ShapeN-matshapes-0
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv4/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/cg/conv4/BiasAdd
+tower_0/v/cg/conv4/Relu
+tower_0/v/cg/conv5/conv2d/Conv2D
+1608950444757430	205520896
+1608950444757437	2359296
+1608950444757522	570474496
+1608950444758132	-570474496
+1608950444758137	-2359296
+1608950444780083	-205520896
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv5/conv2d/Conv2D_grad/ShapeN-matshapes-0
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv5/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/cg/conv5/BiasAdd
+tower_0/v/cg/conv5/Relu
+tower_0/v/cg/conv6/conv2d/Conv2D
+1608950444758392	205520896
+1608950444758399	2359296
+1608950444758494	570474496
+1608950444759198	-570474496
+1608950444759202	-2359296
+1608950444778204	-205520896
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv6/conv2d/Conv2D_grad/ShapeN-matshapes-0
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv6/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/cg/conv6/BiasAdd
+tower_0/v/cg/conv6/Relu
+tower_0/v/cg/mpool2/MaxPool
+1608950444759440	51380224
+1608950444777955	-51380224
+tower_0/v/cg/conv7/conv2d/Conv2D
+1608950444759544	102760448
+1608950444759551	4718592
+1608950444759660	365690880
+1608950444759955	-365690880
+1608950444759960	-4718592
+1608950444776545	-102760448
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv7/conv2d/Conv2D_grad/ShapeN-matshapes-0
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv7/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/cg/conv7/BiasAdd
+tower_0/v/cg/conv7/Relu
+tower_0/v/cg/conv8/conv2d/Conv2D
+1608950444760216	102760448
+1608950444760224	9437184
+1608950444760321	500170752
+1608950444760564	-500170752
+1608950444760569	-9437184
+1608950444775018	-102760448
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv8/conv2d/Conv2D_grad/ShapeN-matshapes-0
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv8/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/cg/conv8/BiasAdd
+tower_0/v/cg/conv8/Relu
+tower_0/v/cg/conv9/conv2d/Conv2D
+1608950444760843	102760448
+1608950444760850	9437184
+1608950444760972	500170752
+1608950444761242	-500170752
+1608950444761246	-9437184
+1608950444773841	-102760448
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv9/conv2d/Conv2D_grad/ShapeN-matshapes-0
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv9/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/cg/conv9/BiasAdd
+tower_0/v/cg/conv9/Relu
+tower_0/v/cg/mpool3/MaxPool
+1608950444761452	25690112
+1608950444773604	-25690112
+tower_0/v/cg/conv10/conv2d/Conv2D
+1608950444761570	25690112
+1608950444761576	9437184
+1608950444761669	188743680
+1608950444761943	-188743680
+1608950444761947	-9437184
+1608950444772166	-25690112
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv10/conv2d/Conv2D_grad/ShapeN-matshapes-0
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv10/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/cg/conv10/BiasAdd
+tower_0/v/cg/conv10/Relu
+tower_0/v/cg/conv11/conv2d/Conv2D
+1608950444762161	25690112
+1608950444762167	9437184
+1608950444762258	188743680
+1608950444762494	-188743680
+1608950444762498	-9437184
+1608950444770847	-25690112
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv11/conv2d/Conv2D_grad/ShapeN-matshapes-0
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv11/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/cg/conv11/BiasAdd
+tower_0/v/cg/conv11/Relu
+tower_0/v/cg/conv12/conv2d/Conv2D
+1608950444762749	25690112
+1608950444762755	9437184
+1608950444762855	188743680
+1608950444763120	-188743680
+1608950444763124	-9437184
+1608950444769395	-25690112
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv12/conv2d/Conv2D_grad/ShapeN-matshapes-0
+ConstantFolding/tower_0/v/gradients/tower_0/v/cg/conv12/conv2d/Conv2D_grad/ShapeN-matshapes-1
+tower_0/v/cg/conv12/BiasAdd
+tower_0/v/cg/conv12/Relu
+tower_0/v/cg/mpool4/MaxPool
+1608950444763336	6422528
+1608950444769175	-6422528
+tower_0/v/cg/Reshape
+tower_0/v/cg/affine0/xw_plus_b/MatMul
+1608950444763501	1048576
+1608950444768310	-1048576
+tower_0/v/cg/affine0/xw_plus_b
+tower_0/v/cg/affine0/affine0
+tower_0/v/cg/dropout0/dropout/dropout/mul_1
+tower_0/v/cg/affine1/xw_plus_b/MatMul
+1608950444764193	1048576
+1608950444766815	-1048576
+tower_0/v/cg/affine1/xw_plus_b
+tower_0/v/cg/affine1/affine1
+tower_0/v/cg/dropout0_1/dropout/dropout/mul_1
+tower_0/v/cg/affine2/xw_plus_b/MatMul
+1608950444764569	262144
+1608950444765954	-262144
+tower_0/v/cg/affine2/xw_plus_b
+tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/xentropy/xentropy
+1608950444764747	256
+1608950444764761	256
+1608950444765291	-256
+1608950444765559	-256
+tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/Mul
+tower_0/v/gradients/tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/xentropy/xentropy_grad/mul
+tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/Sum
+1608950444765451	256
+1608950444766451	-256
+tower_0/v/gradients/tower_0/v/cg/affine2/xw_plus_b_grad/BiasAddGrad
+1608950444765579	4096
+1608950444766566	-4096
+tower_0/v/gradients/tower_0/v/cg/affine2/xw_plus_b/MatMul_grad/MatMul
+1608950444765734	1048576
+1608950444766639	-1048576
+tower_0/v/gradients/tower_0/v/cg/affine2/xw_plus_b/MatMul_grad/MatMul_1
+1608950444765869	16400384
+1608950444766701	-16400384
+tower_0/v/xentropy/sparse_softmax_cross_entropy_loss/value
+tower_0/v/gradients/AddN
+tower_0/v/gradients/tower_0/v/cg/dropout0_1/dropout/dropout/mul_1_grad/Mul
+tower_0/v/gradients/AddN_1
+tower_0/v/add
+append_apply_gradient_ops/GradientDescent/update_v/cg/affine2/biases/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/dropout0_1/dropout/dropout/mul_grad/Mul
+append_apply_gradient_ops/GradientDescent/update_v/cg/affine2/weights/ApplyGradientDescent
+ConstantFolding/average_loss/Mean/input_const_axis
+tower_0/v/gradients/tower_0/v/cg/affine1/affine1_grad/ReluGrad
+average_loss/Mean/input
+tower_0/v/gradients/tower_0/v/cg/affine1/xw_plus_b_grad/BiasAddGrad
+1608950444766872	16384
+1608950444768049	-16384
+tower_0/v/gradients/tower_0/v/cg/affine1/xw_plus_b/MatMul_grad/MatMul
+1608950444766996	1048576
+1608950444768134	-1048576
+tower_0/v/gradients/tower_0/v/cg/affine1/xw_plus_b/MatMul_grad/MatMul_1
+1608950444767108	67108864
+1608950444768222	-67108864
+average_loss/Mean
+tower_0/v/gradients/AddN_2
+tower_0/v/gradients/tower_0/v/cg/dropout0/dropout/dropout/mul_1_grad/Mul
+tower_0/v/gradients/AddN_3
+append_apply_gradient_ops/GradientDescent/update_v/cg/affine1/biases/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/dropout0/dropout/dropout/mul_grad/Mul
+append_apply_gradient_ops/GradientDescent/update_v/cg/affine1/weights/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/affine0/affine0_grad/ReluGrad
+tower_0/v/gradients/tower_0/v/cg/affine0/xw_plus_b_grad/BiasAddGrad
+1608950444768325	21248
+1608950444768984	-21248
+tower_0/v/gradients/tower_0/v/cg/affine0/xw_plus_b/MatMul_grad/MatMul
+1608950444768468	6422528
+1608950444769177	-6422528
+tower_0/v/gradients/tower_0/v/cg/affine0/xw_plus_b/MatMul_grad/MatMul_1
+1608950444768601	411041792
+1608950444769290	-411041792
+tower_0/v/gradients/AddN_4
+tower_0/v/gradients/tower_0/v/cg/Reshape_grad/Reshape
+tower_0/v/gradients/AddN_5
+append_apply_gradient_ops/GradientDescent/update_v/cg/affine0/biases/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/mpool4/MaxPool_grad/MaxPoolGrad
+1608950444769011	25690112
+1608950444770657	-25690112
+append_apply_gradient_ops/GradientDescent/update_v/cg/affine0/weights/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/conv12/Relu_grad/ReluGrad
+tower_0/v/gradients/tower_0/v/cg/conv12/BiasAdd_grad/BiasAddGrad
+1608950444769419	2048
+1608950444769438	41419264
+1608950444769567	-41419264
+1608950444771002	-2048
+tower_0/v/gradients/tower_0/v/cg/conv12/conv2d/Conv2D_grad/Conv2DBackpropInput
+1608950444769608	41419264
+1608950444769661	16417280
+1608950444769729	25690112
+1608950444769784	688914432
+1608950444770131	-41419264
+1608950444770135	-688914432
+1608950444770137	-16417280
+1608950444771904	-25690112
+tower_0/v/gradients/tower_0/v/cg/conv12/conv2d/Conv2D_grad/Conv2DBackpropFilter
+1608950444770179	16417280
+1608950444770213	9437184
+1608950444770264	188743680
+1608950444770640	-188743680
+1608950444770645	-9437184
+1608950444771991	-16417280
+tower_0/v/gradients/AddN_6
+tower_0/v/gradients/tower_0/v/cg/conv11/Relu_grad/ReluGrad
+tower_0/v/gradients/AddN_7
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv12/biases/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/conv11/BiasAdd_grad/BiasAddGrad
+1608950444771017	2048
+1608950444771043	25690112
+1608950444771167	-25690112
+1608950444772337	-2048
+tower_0/v/gradients/tower_0/v/cg/conv11/conv2d/Conv2D_grad/Conv2DBackpropInput
+1608950444771200	25690112
+1608950444771210	9458688
+1608950444771282	41421568
+1608950444771310	688914432
+1608950444771557	-25690112
+1608950444771560	-688914432
+1608950444771563	-9458688
+1608950444773323	-41421568
+tower_0/v/gradients/tower_0/v/cg/conv11/conv2d/Conv2D_grad/Conv2DBackpropFilter
+1608950444771598	9458688
+1608950444771610	9437184
+1608950444771637	188743680
+1608950444771888	-188743680
+1608950444771892	-9437184
+1608950444773429	-9458688
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv12/conv2d/kernel/ApplyGradientDescent
+tower_0/v/gradients/AddN_8
+tower_0/v/gradients/tower_0/v/cg/conv10/Relu_grad/ReluGrad
+tower_0/v/gradients/AddN_9
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv11/biases/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/conv10/BiasAdd_grad/BiasAddGrad
+1608950444772352	2304
+1608950444772390	25690112
+1608950444772523	-25690112
+1608950444773783	-2304
+tower_0/v/gradients/tower_0/v/cg/conv10/conv2d/Conv2D_grad/Conv2DBackpropInput
+1608950444772567	25690112
+1608950444772575	9437696
+1608950444772645	25690112
+1608950444772673	688914432
+1608950444772946	-25690112
+1608950444772949	-688914432
+1608950444772952	-9437696
+1608950444773607	-25690112
+tower_0/v/gradients/tower_0/v/cg/conv10/conv2d/Conv2D_grad/Conv2DBackpropFilter
+1608950444772988	9437696
+1608950444772998	16417280
+1608950444773023	188743680
+1608950444773308	-188743680
+1608950444773312	-16417280
+1608950444773924	-9437696
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv11/conv2d/kernel/ApplyGradientDescent
+tower_0/v/gradients/AddN_10
+tower_0/v/gradients/tower_0/v/cg/mpool3/MaxPool_grad/MaxPoolGrad
+1608950444773519	102760448
+1608950444774824	-102760448
+tower_0/v/gradients/AddN_11
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv10/biases/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/conv9/Relu_grad/ReluGrad
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv10/conv2d/kernel/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/conv9/BiasAdd_grad/BiasAddGrad
+1608950444773939	2048
+1608950444773959	102760448
+1608950444774063	-102760448
+1608950444775229	-2048
+tower_0/v/gradients/tower_0/v/cg/conv9/conv2d/Conv2D_grad/Conv2DBackpropInput
+1608950444774093	102760448
+1608950444774102	9437696
+1608950444774195	179831296
+1608950444774220	500170752
+1608950444774465	-102760448
+1608950444774468	-500170752
+1608950444774470	-9437696
+1608950444776232	-179831296
+tower_0/v/gradients/tower_0/v/cg/conv9/conv2d/Conv2D_grad/Conv2DBackpropFilter
+1608950444774504	9437696
+1608950444774514	9460992
+1608950444774539	500170752
+1608950444774809	-500170752
+1608950444774813	-9460992
+1608950444776353	-9437696
+tower_0/v/gradients/AddN_12
+tower_0/v/gradients/tower_0/v/cg/conv8/Relu_grad/ReluGrad
+tower_0/v/gradients/AddN_13
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv9/biases/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/conv8/BiasAdd_grad/BiasAddGrad
+1608950444775249	2048
+1608950444775267	102760448
+1608950444775349	-102760448
+1608950444776739	-2048
+tower_0/v/gradients/tower_0/v/cg/conv8/conv2d/Conv2D_grad/Conv2DBackpropInput
+1608950444775387	102760448
+1608950444775396	9437696
+1608950444775471	137888000
+1608950444775495	500170752
+1608950444775756	-102760448
+1608950444775760	-500170752
+1608950444775762	-9437696
+1608950444777619	-137888000
+tower_0/v/gradients/tower_0/v/cg/conv8/conv2d/Conv2D_grad/Conv2DBackpropFilter
+1608950444775795	9437696
+1608950444775805	9460992
+1608950444775830	500170752
+1608950444776217	-500170752
+1608950444776221	-9460992
+1608950444777707	-9437696
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv9/conv2d/kernel/ApplyGradientDescent
+tower_0/v/gradients/AddN_14
+tower_0/v/gradients/tower_0/v/cg/conv7/Relu_grad/ReluGrad
+tower_0/v/gradients/AddN_15
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv8/biases/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/conv7/BiasAdd_grad/BiasAddGrad
+1608950444776760	2048
+1608950444776778	112197888
+1608950444776901	-112197888
+1608950444778124	-2048
+tower_0/v/gradients/tower_0/v/cg/conv7/conv2d/Conv2D_grad/Conv2DBackpropInput
+1608950444776935	67111680
+1608950444776944	4718592
+1608950444777017	51380224
+1608950444777041	365690880
+1608950444777266	-67111680
+1608950444777269	-365690880
+1608950444777271	-4718592
+1608950444777957	-51380224
+tower_0/v/gradients/tower_0/v/cg/conv7/conv2d/Conv2D_grad/Conv2DBackpropFilter
+1608950444777307	4718592
+1608950444777317	4718592
+1608950444777343	365690880
+1608950444777604	-365690880
+1608950444777608	-4718592
+1608950444778277	-4718592
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv8/conv2d/kernel/ApplyGradientDescent
+tower_0/v/gradients/AddN_16
+tower_0/v/gradients/tower_0/v/cg/mpool2/MaxPool_grad/MaxPoolGrad
+1608950444777816	205520896
+1608950444779910	-205520896
+tower_0/v/gradients/AddN_17
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv7/biases/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/conv6/Relu_grad/ReluGrad
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv7/conv2d/kernel/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/conv6/BiasAdd_grad/BiasAddGrad
+1608950444778298	1024
+1608950444778316	205520896
+1608950444778330	256
+1608950444778411	-256
+1608950444778417	2048
+1608950444778508	-2048
+1608950444778511	-205520896
+1608950444780301	-1024
+tower_0/v/gradients/tower_0/v/cg/conv6/conv2d/Conv2D_grad/Conv2DBackpropInput
+1608950444778541	205520896
+1608950444778551	3145728
+1608950444778630	205520896
+1608950444778656	570474496
+1608950444779517	-205520896
+1608950444779521	-570474496
+1608950444779523	-3145728
+1608950444781987	-205520896
+tower_0/v/gradients/tower_0/v/cg/conv6/conv2d/Conv2D_grad/Conv2DBackpropFilter
+1608950444779565	3145728
+1608950444779577	2359296
+1608950444779604	934281216
+1608950444779894	-934281216
+1608950444779898	-2359296
+1608950444782103	-3145728
+tower_0/v/gradients/AddN_18
+tower_0/v/gradients/tower_0/v/cg/conv5/Relu_grad/ReluGrad
+tower_0/v/gradients/AddN_19
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv6/biases/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/conv5/conv2d/Conv2D_grad/Conv2DBackpropFilter
+1608950444780316	2359808
+1608950444780327	2359296
+1608950444780352	934281216
+1608950444780743	-934281216
+1608950444780748	-2359296
+1608950444782502	-2359808
+tower_0/v/gradients/tower_0/v/cg/conv5/BiasAdd_grad/BiasAddGrad
+1608950444780789	1024
+1608950444780809	205520896
+1608950444780821	256
+1608950444780889	-256
+1608950444780895	2048
+1608950444781000	-2048
+1608950444781003	-205520896
+1608950444782595	-1024
+tower_0/v/gradients/tower_0/v/cg/conv5/conv2d/Conv2D_grad/Conv2DBackpropInput
+1608950444781038	205520896
+1608950444781047	2359296
+1608950444781123	205520896
+1608950444781148	570474496
+1608950444781969	-205520896
+1608950444781973	-570474496
+1608950444781975	-2359296
+1608950444784165	-205520896
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv6/conv2d/kernel/ApplyGradientDescent
+tower_0/v/gradients/AddN_21
+tower_0/v/gradients/AddN_20
+tower_0/v/gradients/tower_0/v/cg/conv4/Relu_grad/ReluGrad
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv5/conv2d/kernel/ApplyGradientDescent
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv5/biases/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/conv4/BiasAdd_grad/BiasAddGrad
+1608950444782608	1536
+1608950444782627	205520896
+1608950444782639	256
+1608950444782688	-256
+1608950444782693	2304
+1608950444782804	-2304
+1608950444782806	-205520896
+1608950444784655	-1536
+tower_0/v/gradients/tower_0/v/cg/conv4/conv2d/Conv2D_grad/Conv2DBackpropInput
+1608950444782839	102760448
+1608950444782848	2099712
+1608950444782936	102760448
+1608950444782961	446337792
+1608950444783759	-102760448
+1608950444783763	-446337792
+1608950444783764	-2099712
+1608950444784474	-102760448
+tower_0/v/gradients/tower_0/v/cg/conv4/conv2d/Conv2D_grad/Conv2DBackpropFilter
+1608950444783800	2099712
+1608950444783811	1179648
+1608950444783839	698351616
+1608950444784149	-698351616
+1608950444784153	-1179648
+1608950444784835	-2099712
+tower_0/v/gradients/AddN_22
+tower_0/v/gradients/tower_0/v/cg/mpool1/MaxPool_grad/MaxPoolGrad
+1608950444784270	446337792
+1608950444785884	-446337792
+tower_0/v/gradients/AddN_23
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv4/biases/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/conv3/Relu_grad/ReluGrad
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv4/conv2d/kernel/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/conv3/BiasAdd_grad/BiasAddGrad
+1608950444784853	512
+1608950444784871	411041792
+1608950444784882	256
+1608950444784958	-256
+1608950444784963	1024
+1608950444785108	-1024
+1608950444785109	-411041792
+1608950444786239	-512
+tower_0/v/gradients/tower_0/v/cg/conv3/conv2d/Conv2D_grad/Conv2DBackpropInput
+1608950444785138	411041792
+1608950444785147	589824
+1608950444785207	411041792
+1608950444785234	1852047360
+1608950444785436	-411041792
+1608950444785439	-1852047360
+1608950444785441	-589824
+1608950444789667	-411041792
+tower_0/v/gradients/tower_0/v/cg/conv3/conv2d/Conv2D_grad/Conv2DBackpropFilter
+1608950444785514	589824
+1608950444785524	590080
+1608950444785549	1852047360
+1608950444785869	-1852047360
+1608950444785873	-590080
+1608950444789759	-589824
+tower_0/v/gradients/AddN_24
+tower_0/v/gradients/tower_0/v/cg/conv2/Relu_grad/ReluGrad
+tower_0/v/gradients/AddN_25
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv3/biases/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/conv2/BiasAdd_grad/BiasAddGrad
+1608950444786253	512
+1608950444786270	446927872
+1608950444786281	256
+1608950444786332	-256
+1608950444786337	1792
+1608950444786431	-1792
+1608950444786432	-446927872
+1608950444790284	-512
+tower_0/v/gradients/tower_0/v/cg/conv2/conv2d/Conv2D_grad/Conv2DBackpropInput
+1608950444786461	205520896
+1608950444786470	294912
+1608950444786540	241406976
+1608950444786565	142655488
+1608950444789246	-205520896
+1608950444789250	-142655488
+1608950444789252	-294912
+1608950444790046	-241406976
+tower_0/v/gradients/tower_0/v/cg/conv2/conv2d/Conv2D_grad/Conv2DBackpropFilter
+1608950444789290	294912
+1608950444789300	294912
+1608950444789326	1388445696
+1608950444789652	-1388445696
+1608950444789656	-294912
+1608950444790546	-294912
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv3/conv2d/kernel/ApplyGradientDescent
+tower_0/v/gradients/AddN_26
+tower_0/v/gradients/tower_0/v/cg/mpool0/MaxPool_grad/MaxPoolGrad
+1608950444789869	822083584
+1608950444791464	-822083584
+tower_0/v/gradients/AddN_27
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv2/biases/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/conv1/Relu_grad/ReluGrad
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv2/conv2d/kernel/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/conv1/BiasAdd_grad/BiasAddGrad
+1608950444790560	256
+1608950444790577	822083584
+1608950444790589	256
+1608950444790654	-256
+1608950444790660	512
+1608950444790739	-512
+1608950444790741	-822083584
+1608950444791763	-256
+tower_0/v/gradients/tower_0/v/cg/conv1/conv2d/Conv2D_grad/Conv2DBackpropInput
+1608950444790775	822083584
+1608950444790784	147456
+1608950444790858	822083584
+1608950444790882	409856
+1608950444791030	-822083584
+1608950444791034	-409856
+1608950444791035	-147456
+1608950444792288	-822083584
+tower_0/v/gradients/tower_0/v/cg/conv1/conv2d/Conv2D_grad/Conv2DBackpropFilter
+1608950444791069	147456
+1608950444791079	147456
+1608950444791104	15616
+1608950444791450	-15616
+1608950444791454	-147456
+1608950444792447	-147456
+tower_0/v/gradients/AddN_28
+tower_0/v/gradients/tower_0/v/cg/conv0/Relu_grad/ReluGrad
+tower_0/v/gradients/AddN_29
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv1/biases/ApplyGradientDescent
+tower_0/v/gradients/tower_0/v/cg/conv0/BiasAdd_grad/BiasAddGrad
+1608950444791784	256
+1608950444791804	822083584
+1608950444791815	256
+1608950444791873	-256
+1608950444791878	512
+1608950444791990	-512
+1608950444791992	-822083584
+1608950444792706	-256
+tower_0/v/gradients/tower_0/v/cg/conv0/conv2d/Conv2D_grad/Conv2DBackpropFilter
+1608950444792054	6912
+1608950444792065	6912
+1608950444792273	-6912
+1608950444792767	-6912
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv1/conv2d/kernel/ApplyGradientDescent
+tower_0/v/gradients/AddN_30
+tower_0/v/gradients/AddN_31
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv0/biases/ApplyGradientDescent
+append_apply_gradient_ops/GradientDescent/update_v/cg/conv0/conv2d/kernel/ApplyGradientDescent
+append_apply_gradient_ops/GradientDescent
+train_ops_group
+main_fetch_group
+main_fetch_group/_70

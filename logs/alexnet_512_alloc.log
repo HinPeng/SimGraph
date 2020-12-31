@@ -1,0 +1,20 @@
+2020-12-28 16:00:17.547719: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+Running main() from test_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BFCAllocatorTest
+[ RUN      ] BFCAllocatorTest.TraceSim
+2020-12-28 16:00:17.559477: I tensorflow/core/common_runtime/bfc_allocator_test.cc:70] Read Trace file success, total allocations: 133
+2020-12-28 16:00:17.776297: I tensorflow/core/common_runtime/bfc_allocator_test.cc:106] Limit:                 17179869184
+InUse:                           0
+MaxInUse:               2625051648
+NumAllocs:                     133
+MaxAllocSize:           1038876672
+
+Allocation range: [0x7f81c58ed010, 0x7f8271dc4f10], diff: 2890759936, Max addr allocation bytes: 1038876672
+[       OK ] BFCAllocatorTest.TraceSim (231 ms)
+[----------] 1 test from BFCAllocatorTest (231 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (232 ms total)
+[  PASSED  ] 1 test.
