@@ -61,6 +61,48 @@ class Tensor(object):
   def size(self):
     return self.alloc_bytes
 
+# class ShadowNode(object):
+#   __slots__ = [
+#     'iter_',
+#     'cpu_start_time',
+#     'cpu_exec_time',
+#     'cpu_end_time',
+#     'schedule_time',
+#     'temp_allocs',
+#     'allocs',
+#   ]
+
+#   def __init__(self, **kwargs):
+#     super(ShadowNode, self).__init__()  # Py2
+
+#     self.iter_ = -1  # next shadow node's iter will be initialized as iter+1
+#     self.cpu_start_time = -1
+#     self.cpu_exec_time = -1
+#     self.cpu_end_time = -1
+#     self.schedule_time = -1
+#     self.temp_allocs = []  # temporary allocations
+#     self.allocs = []       # allocation in this node (include outputs and temporary memory)
+
+#     for f, v in kwargs.items():
+#       setattr(self, f, v)
+
+#   def InitCPUTime(self, node_stat):
+#     self.cpu_start_time = node_stat.all_start_micros
+#     self.cpu_exec_time = node_stat.all_end_rel_micros
+#     self.cpu_end_time = self.cpu_start_time + node_stat.all_end_rel_micros
+
+#   def InitAllocations(self, node_stat):
+#     alloc_num = 0
+#     for mem in node_stat.memory:
+#       if mem.allocator_name.lower() != 'gpu_0_bfc':
+#         continue
+#       for alloc_rd in mem.allocation_records:
+#         alloc_micros = alloc_rd.alloc_micros
+#         alloc_bytes = alloc_rd.alloc_bytes
+#         self.allocs.append((alloc_micros, alloc_bytes))
+#         alloc_num += 1
+
+#     return alloc_num
 
 class Node(object):
   '''
@@ -70,6 +112,7 @@ class Node(object):
   '''
   __slots__ = [
     'name',
+    'iter_',  # a 'while-like' node can have multiple schedule records
     'cpu_start_time',
     'cpu_exec_time',
     'cpu_end_time',
@@ -89,6 +132,7 @@ class Node(object):
     super(Node, self).__init__()  # Py2
 
     self.name = None
+    self.iter_ = -1
     # time can not be initialized in constructor as there could be multiple
     # records for a single-node
     self.cpu_start_time = -1 # the schedule time in CPU
@@ -107,6 +151,9 @@ class Node(object):
 
     for f, v in kwargs.items():
       setattr(self, f, v)
+
+    if self.iter_ > 1:  # remain the main node (the first schedule) as convenience
+      self.name += '/iter{}'.format(self.iter_)
 
   def __eq__(self, other):
     return self.cpu_start_time == other.cpu_start_time
@@ -143,6 +190,26 @@ class Node(object):
     self.cpu_start_time = node_stat.all_start_micros
     self.cpu_exec_time = node_stat.all_end_rel_micros
     self.cpu_end_time = self.cpu_start_time + node_stat.all_end_rel_micros
+
+  def SetIter(self, it):
+    self.iter_ = it
+
+  # def InitShadowNodeCPUTime(self, node_stat):
+  #   if len(self.shadow_nodes) == 0:
+  #     last_shadow_node = ShadowNode(iter_=1, cpu_start_time=self.cpu_start_time,
+  #                                   cpu_exec_time=self.cpu_exec_time,
+  #                                   cpu_end_time=self.cpu_end_time,
+  #                                   schedule_time=self.schedule_time,
+  #                                   temp_allocs=self.temp_allocs,
+  #                                   allocs=self.allocs)
+  #     # self.shadow_nodes.append(last_shadow_node)
+  #     self.shadow_nodes[self.cpu_start_time] = last_shadow_node
+    
+  #   iter_ = self.shadow_nodes[-1].iter_ + 1
+  #   shadow_node = ShadowNode(iter_=iter_)
+  #   shadow_node.InitCPUTime(node_stat)
+  #   # self.shadow_nodes.append(shadow_node)
+  #   self.shadow_nodes[shadow_node.cpu_start_time] = shadow_node
 
   def InitTime(self, node_stat):
     all_start_micros = node_stat.all_start_micros
@@ -230,6 +297,12 @@ class Node(object):
     
     return alloc_num
 
+  # def InitShadownNodeAllocations(self, node_stat):
+  #   cpu_start_time = node_stat.all_start_micros
+  #   assert self.shadow_nodes.__contains__(cpu_start_time)
+
+  #   return self.shadow_nodes[cpu_start_time].InitAllocations(node_stat)
+
   def UpdateTensorName(self):
     for output in self.outputs:
       output.node_name = self.name
@@ -283,6 +356,7 @@ class Graph():
   def __init__(self, cfg):
     # self.nodes = dict()       # record node time from stream_all, init for each step
     self.nodes = OrderedDict()
+    self.shadow_nodes = OrderedDict()  # (node_name: last_iter)
     self.tensors = dict()     # tensors that are the outputs of nodes, shoule not change across iterations
     self.pers_tensors = dict()
 
@@ -314,8 +388,24 @@ class Graph():
   def InitNodeCPUTime(self, nodestats):
     for node_stat in nodestats:
       node_name = node_stat.node_name.split(':')[0]
-      node = self.GetOrCreateNode(node_name)
-      node.InitCPUTime(node_stat)
+      if self.GetNode(node_name) is not None:
+        # already schedule this node, it should be 'while-like' node
+        if not self.shadow_nodes.__contains__(node_name):
+          self.shadow_nodes[node_name] = OrderedDict()
+          # make last node as a shadow node
+          last_iter_node = self.GetNode(node_name)
+          last_iter_node.SetIter(1)
+          self.shadow_nodes[node_name][last_iter_node.cpu_start_time] = last_iter_node
+        curr_iter = len(self.shadow_nodes[node_name]) + 1
+        # node = self.GetNode(node_name)
+        node = Node(name=node_name, iter_=curr_iter)
+        node.InitCPUTime(node_stat)
+        assert not self.nodes.__contains__(node.name)
+        self.nodes[node.name] = node
+        self.shadow_nodes[node_name][node.cpu_start_time] = node
+      else:
+        node = self.GetOrCreateNode(node_name)
+        node.InitCPUTime(node_stat)
 
     self.InitNodeScheduleTime()
     logging.info('Total nodes (cpu): {}'.format(len(self.nodes)))
@@ -336,6 +426,9 @@ class Graph():
     total_alloc_num = 0
     for node_stat in nodestats:
       node = self.GetOrCreateNode(node_stat.node_name)
+      if node.iter_ != -1:
+        assert node.iter_ == 1  # find the main shadow node
+        node = self.shadow_nodes[node.name][node_stat.all_start_micros]
       alloc_num = node.InitAllocations(node_stat)
       total_alloc_num += alloc_num
 
@@ -346,6 +439,9 @@ class Graph():
     for node_stat in nodestats:
       # logging.info('InitNodeOutputs: {}'.format(node_stat.node_name))
       node = self.GetOrCreateNode(node_stat.node_name)
+      if node.iter_ != -1:
+        assert node.iter_ == 1  # find the main shadow node
+        node = self.shadow_nodes[node.name][node_stat.all_start_micros]
       node.InitOutputs(node_stat, self.tensors)
 
     logging.info('Total tensors: {}'.format(len(self.tensors)))
@@ -356,6 +452,15 @@ class Graph():
     #   total_alloc_mem += t.alloc_bytes
 
     # logging.info('[InitNodeOutputs] Total allocated memory: {}'.format(total_alloc_mem))
+
+  def CheckShadowNodes(self):
+    for main_node_name, shadow_nodes in self.shadow_nodes.items():
+      logging.debug('Loop Node [{}] has {} loops'.format(main_node_name, len(shadow_nodes)))
+      prev_start_time = -1
+      for node in shadow_nodes.values():
+        logging.debug('\t{}'.format(node.name))
+        assert node.cpu_start_time > prev_start_time
+        prev_start_time = node.cpu_start_time
 
   def ProcessOutputs(self):
     renumber = False
@@ -979,6 +1084,7 @@ class Graph():
 
     tensors_dealloc_f = '{}/{}{}'.format(self.cfg.out_dir, self.cfg.uname, '_tensors_dealloc.log')
     if os.path.exists(tensors_dealloc_f):
+      logging.info("Init Tensor Deallocation information from log")
       with open(tensors_dealloc_f) as fin:
         curr_node = None
         for line in fin:
@@ -999,11 +1105,12 @@ class Graph():
               t.is_alloc = True
               
               t.last_access = self.nodes[last_access_name]
+              logging.debug("Tensor [{}] last access is: {}".format(tensor_name, last_access_name))
             elif tmp[0] == 'temp':
               assert slot[0] == 't' or slot[0] == 'w'
               tensor_name = '{}:{}'.format(curr_node.name, slot)
               assert not self.tensors.__contains__(tensor_name)
-              t = Tensor(node_name=node.name, slot=slot, alloc_bytes=int(tmp[3]), is_temp=True)
+              t = Tensor(node_name=curr_node.name, slot=slot, alloc_bytes=int(tmp[3]), is_temp=True)
               t.last_access = self.nodes[last_access_name]
               curr_node.temp_allocs.append(t)
               self.tensors[t.name] = t
